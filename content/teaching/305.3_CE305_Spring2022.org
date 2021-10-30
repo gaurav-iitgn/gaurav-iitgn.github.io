@@ -1,0 +1,154 @@
+#+TITLE: CE 305: Steel Design - Spring 2022
+# #+OPTIONS: toc:nil
+
+* Basic Information
+|----------------+-------------------------------------------------------|
+| Class timings  | Monday 09:05-10:00, Tuesday and Thursday, 08:05-09:00 |
+| Class location | AB 3/205                                         |
+|----------------+-------------------------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)               |
+|----------------+-------------------------------------------------------|
+| TA             | TBD.                                                  |
+|----------------+-------------------------------------------------------|
+
+* Course objectives, syllabus, books, pre-requisites
+** Objective
+- To learn the basics of analysis and design of steel structures.
+	
+** After finishing this course, you will
+- know how to analyze structural steel components
+- know how to design structural steel members (members under tension, compression and bending)
+- understand the basic philosophy behind the limit state method of design of structures
+
+** Syllabus
+Design of tension members; Design of beams; Design of compression members; Analysis of eccentrically loaded columns; Design of beam-columns; Design of connections (riveted, bolted and welded); Single and built-up sections.
+
+** Text Books
+- Design of Steel Structures by N. Subramanian.
+- Structural Steel Design by McCormac and Csernak.
+
+** Relevant codes
+- IS 800:2007 (main design code)
+- IS 875 (specification of design loads)
+- IS 808:1989, 1732:1989, 1173:1978 (dimensions of hot rolled sections)
+- IS 2062:2011 (specifications of hot rolled structural steel)
+Codes can be downloaded free of charge from the BIS website: https://standardsbis.bsbedge.com/.
+- Please ensure that you have a copy of all of these codes BEFORE the first class.
+
+** Pre-requisites
+- CE 302 - Structural Analysis
+- Mechanics of Solids
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE305" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 305)
+
+** Cheating
+Cheating cases (assignments/codes/exams/project) will be awarded an F grade and will be reported to academic office. It is expected that this will never happen and everyone will uphold the honor code.
+
+** Late submissions
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, $R$ will be multiplied to the obtained marks. Mathematically, it is given by: $R = \exp(-D^2)$, where $D$ is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+[[./deadline-delay-reduction.png]]
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       25% |
+| Spot quizzes         |       25% |
+| Exam                 |       25% |
+| Project              |       25% |
+
+** Modes of formal assessment
+- Assignments will involve detailed analysis and design questions.
+- Expect one assignment per week.
+- Spot quizzes will primarily be objective type, primarily based on concepts and codes. Expect one quiz per week.
+- Exam will primarily be subjective type. It may be in-class or take-home.
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Project
+The project will entail designing the roof truss of the IITGN's sports complex (Badminton Hall). Existing drawings will be made available. The challenge will be to come up with alternative possibilities.
+
+
+** Timeline
+Project is to be done in groups of not more than 3. Following timeline must be adhered to for all submissions. (this timeline will be updated during the first week of classes)
+#+ATTR_LATEX: :environment longtable :align lp{0.7\textwidth}l
+| Date   | Task                                                  | Marks |
+|--------+-------------------------------------------------------+-------|
+| Jan 21 | Formation of groups.                                  |    10 |
+|--------+-------------------------------------------------------+-------|
+| Jan 28 | Providing drawings of existing truss.                 |       |
+|--------+-------------------------------------------------------+-------|
+| Feb 12 | Submission of preliminary report after design review. |    20 |
+|--------+-------------------------------------------------------+-------|
+| Feb 24 | Submission of final report.                           |    20 |
+|--------+-------------------------------------------------------+-------|
+
+*** Guidelines on the final report
+This report should be organized as follows:
+1) Discussion of the existing design (critical review of existing design).
+2) Description of alternative proposal.
+3) Detailed analysis and design of alternative proposal.
+4) Highlighting improvements of the alternative proposal over existing design.
+5) Conclusions.
+6) References.
+
+
+* Calendar (tentative)
+# generated from go run class-calendar.go
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+| Lec No | Date                  | Topic                                                                              | Attachments  |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      1 | 4 January, Tuesday    | Introduction to design. Concept of LRFD. Limit states.                             |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      2 | 6 January, Thursday   | Analysis of members in tension - yielding of gross section, rupture of net section | Assignment 1 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      3 | 10 January, Monday    | Analysis of members in tension - shear lag.                                        |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      4 | 11 January, Tuesday   | Design of members in tension. Block shear. Method for design.                      |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      5 | 13 January, Thursday  | Design of members in tension.                                                      | Assignment 2 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      6 | 17 January, Monday    | Analysis of members under uniaxial compression - column curves.                    | Quiz 1       |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      7 | 18 January, Tuesday   | Analysis of members in uniaxial compression - design strength calculations.        |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      8 | 20 January, Thursday  | Analysis of members in uniaxial compression - design strength calculations.        | Assignment 3 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|      9 | 24 January, Monday    | Design of compression members.                                                     | Quiz 2       |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     10 | 25 January, Tuesday   | Design of compression members.                                                     |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     11 | 27 January, Thursday  | Analysis of members under flexure.                                                 | Assignment 4 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     12 | 31 January, Monday    | Design of members under flexure.                                                   | Quiz 3       |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     13 | 1 February, Tuesday   | Design of members under flexure and other actions.                                 |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     14 | 3 February, Thursday  | Design of members under flexure and other actions.                                 | Assignment 5 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     15 | 7 February, Monday    | Bolted connections.                                                                | Quiz 4       |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     16 | 8 February, Tuesday   | Bolted connections.                                                                |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     17 | 10 February, Thursday | Bolted connections.                                                                | Assignment 6 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     18 | 14 February, Monday   | Welded connections.                                                                | Quiz 5       |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     19 | 15 February, Tuesday  | Welded connections.                                                                |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     20 | 17 February, Thursday | Welded connections.                                                                | Assignment 7 |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     21 | 21 February, Monday   | Design of systems under combined actions.                                          | Quiz 6       |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     22 | 22 February, Tuesday  | Design of systems under combined actions.                                          |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|     23 | 24 February, Thursday | Design of systems under combined actions.                                          |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|
+|        | 26 April - 4 May      | End Semester Exam Week                                                             |              |
+|--------+-----------------------+------------------------------------------------------------------------------------+--------------|

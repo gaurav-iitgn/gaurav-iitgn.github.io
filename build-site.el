@@ -25,7 +25,13 @@
 (setq org-html-validation-link nil)
 (setq org-html-head-include-scripts nil) ;;don't load default scripts
 (setq org-html-head-include-default-styles nil) ;;to enable own styles later
+
+;; simple.min directly from URL
 (setq org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+
+;; simple.css downloaded from the URL's github page
+;(setq org-html-head "<link rel=\"stylesheet\" href=\"css/simple.css\" />")
+;(setq org-html-head "<link rel=\"stylesheet\" href=\"css/marvel/owl.theme.default.min.css\" />")
 
 ;; define the publishing project
 (setq org-publish-project-alist

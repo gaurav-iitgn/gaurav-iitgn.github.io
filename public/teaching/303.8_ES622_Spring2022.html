@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-10-30 Sat 22:44 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ES 622: Finite Element Methods - Spring 2022</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Gaurav Srivastava" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">ES 622: Finite Element Methods - Spring 2022</h1>
+
+<div id="outline-container-org0ed73e8" class="outline-2">
+<h2 id="org0ed73e8">Basic Information</h2>
+<div class="outline-text-2" id="text-org0ed73e8">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Class timings</th>
+<th scope="col" class="org-left">Tuesday, Wednesday, Friday, 10:05-12:00 hrs</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Class location</th>
+<th scope="col" class="org-left">AB 7/101</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Instructor</td>
+<td class="org-left">Gaurav Srivastava (gauravs@iitgn.ac.in)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">TA</td>
+<td class="org-left">TBD.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgcec4067" class="outline-2">
+<h2 id="orgcec4067">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-orgcec4067">
+</div>
+<div id="outline-container-orge86c0b1" class="outline-3">
+<h3 id="orge86c0b1">General philosophy of the course</h3>
+<div class="outline-text-3" id="text-orge86c0b1">
+<p>
+In a world where a large number of simulation tools are available and most people assume they know how to perform a finite element analysis, this course focuses on the fundamentals and aims to equip the students with the 'how' and 'why' of finite element simulations. It covers the fundamental aspects of the finite element method that are required to understand what goes on under the hood in available simulation software.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org563f2eb" class="outline-3">
+<h3 id="org563f2eb">Objectives</h3>
+<div class="outline-text-3" id="text-org563f2eb">
+<ul class="org-ul">
+<li>To learn the fundamentals of the finite element method.</li>
+<li>To develop a computer program to perform finite element analysis of simple PDEs.</li>
+<li>To develop an understanding of what goes on under the hood of commercial finite element packages.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge2fa1b7" class="outline-3">
+<h3 id="orge2fa1b7">After finishing this course, you will</h3>
+<div class="outline-text-3" id="text-orge2fa1b7">
+<ul class="org-ul">
+<li>know an alternative representation of physical laws (called weak form)</li>
+<li>be able to convert any given linear partial differential equation (PDE) to its corresponding weak form</li>
+<li>be able to develop finite element formulation for any physical problem governed by a PDE</li>
+<li>have developed a computer code for solving linear PDEs using the finite element method</li>
+<li>know about different types of finite elements and their suitability for different types of physical problems</li>
+<li>have some idea of potential problems that can arise in typical finite element solutions</li>
+<li>know how much error can be expected in finite element analysis</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb6351b0" class="outline-3">
+<h3 id="orgb6351b0">Syllabus</h3>
+<div class="outline-text-3" id="text-orgb6351b0">
+<ul class="org-ul">
+<li>Review of basic mathematical preliminaries.</li>
+<li>Strong and weak forms, Galerkin's approximation.</li>
+<li>1D, 2D, and 3D finite element formulations, isoparametric elements. Error behavior.</li>
+<li>Finite element formulation of elliptic PDEs (elasticity equation), parabolic PDEs (heat equation), and hyperbolic PDEs (wave equation).</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orge4612a6" class="outline-3">
+<h3 id="orge4612a6">Reference Books</h3>
+<div class="outline-text-3" id="text-orge4612a6">
+<ul class="org-ul">
+<li>An Introduction to the Finite Element Method - J.N. Reddy.</li>
+<li>Introductory Finite Element Method - C.S. Desai.</li>
+<li>Finite Element Procedures - K.-J. Bathe.</li>
+<li>The Finite Element Method: Linear Static and Dynamic Finite Element Analysis - T.J.R Hughes.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orged5e8bc" class="outline-3">
+<h3 id="orged5e8bc">Pre-requisites</h3>
+<div class="outline-text-3" id="text-orged5e8bc">
+<ul class="org-ul">
+<li>Knowledge of basic linear algebra:
+<ul class="org-ul">
+<li>rank, column space, null space of a matrix,
+<ul class="org-ul">
+<li>solving system of linear algebraic equations,</li>
+<li>computing eigenvalues and eigenvectors.</li>
+</ul></li>
+</ul></li>
+<li>Knowledge of a programming language:
+<ul class="org-ul">
+<li>Matlab is a good option. Here is an excellent <a href="http://www.tutorialspoint.com/matlab/matlab_overview.htm">tutorial</a>.</li>
+<li><a href="http://www.scilab.org/">Scilab</a> is an open source alternative to Matlab.</li>
+</ul></li>
+<li>In case you feel adventurous, you can use C++ or FORTRAN as well.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb9747aa" class="outline-2">
+<h2 id="orgb9747aa">Course Policies</h2>
+<div class="outline-text-2" id="text-orgb9747aa">
+</div>
+<div id="outline-container-org1141b3c" class="outline-3">
+<h3 id="org1141b3c">Etiquette</h3>
+<div class="outline-text-3" id="text-org1141b3c">
+<ul class="org-ul">
+<li>Please be considerate about everyone's time.</li>
+<li>In all emails pertaining to this course, please have "ES622" in the subject line.
+<ul class="org-ul">
+<li>(note that there is no space or hyphen or anything between ES and 622)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgda06e9f" class="outline-3">
+<h3 id="orgda06e9f">Cheating</h3>
+<div class="outline-text-3" id="text-orgda06e9f">
+<p>
+Cheating cases (assignments/codes/exams/project) will be awarded an F grade and will be reported to academic office. It is expected that this will never happen and everyone will uphold the honor code.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgac9e372" class="outline-3">
+<h3 id="orgac9e372">Late submissions</h3>
+<div class="outline-text-3" id="text-orgac9e372">
+<p>
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+<img src="./deadline-delay-reduction.png" alt="deadline-delay-reduction.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc6b48f0" class="outline-3">
+<h3 id="orgc6b48f0">Grading</h3>
+<div class="outline-text-3" id="text-orgc6b48f0">
+<p>
+Following will be the weightage of different components of assessment
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Component</th>
+<th scope="col" class="org-right">Weightage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Homework assignments</td>
+<td class="org-right">20%</td>
+</tr>
+
+<tr>
+<td class="org-left">Spot quizzes</td>
+<td class="org-right">15%</td>
+</tr>
+
+<tr>
+<td class="org-left">Exams (mid, end)</td>
+<td class="org-right">25% each</td>
+</tr>
+
+<tr>
+<td class="org-left">Project</td>
+<td class="org-right">15%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org61c26b3" class="outline-3">
+<h3 id="org61c26b3">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-org61c26b3">
+<ul class="org-ul">
+<li>There will be two types of assignments: analytical/hand calculation and coding.</li>
+<li>For coding assignments, submission of source code will be required.</li>
+<li>Expect one assignment per week.</li>
+<li>Spot quizzes will primarily be objective type. Expect one quiz per week.</li>
+<li>Exams will primarily be subjective / coding type. They may be in-class or take-home.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org33fbc1c" class="outline-3">
+<h3 id="org33fbc1c">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-org33fbc1c">
+<p>
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3d77dc8" class="outline-2">
+<h2 id="org3d77dc8">Project</h2>
+<div class="outline-text-2" id="text-org3d77dc8">
+<p>
+The basic idea of a project is to utilize the knowledge gained from this course to a real-life situation or to better understand certain concepts that remain hidden otherwise. Try to answer some/more such questions during the project. Ideally, you would choose a reasonably complicated looking real-world problem and analyze it using a software (either the one you will develop as part of the course, or ANSYS, or ABAQUS, or any other that you may know of).
+</p>
+</div>
+
+
+<div id="outline-container-org46b79fb" class="outline-3">
+<h3 id="org46b79fb">Timeline</h3>
+<div class="outline-text-3" id="text-org46b79fb">
+<p>
+Project is to be done in groups of not more than 3. Following timeline must be adhered to for all submissions. (this timeline will be updated during the first week of classes)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Task</th>
+<th scope="col" class="org-right">Marks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Feb 4</td>
+<td class="org-left">Formation of groups, identification of topic. SUBMIT group details and abstract of proposed work.</td>
+<td class="org-right">10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Feb 18</td>
+<td class="org-left">Feedback from instructor about project topics</td>
+<td class="org-right">-10*</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Mar 17</td>
+<td class="org-left">SUBMIT 2-3 page detailed report discussing overall approach, idealizations, etc. required for project</td>
+<td class="org-right">20</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Apr 16</td>
+<td class="org-left">Project presentations (one per group)</td>
+<td class="org-right">30</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Apr 18</td>
+<td class="org-left">SUBMIT final report.</td>
+<td class="org-right">40</td>
+</tr>
+</tbody>
+</table>
+<p>
+\(^*\) In case the instructor delays in giving feedback, every group gets 10 bonus points.
+</p>
+</div>
+
+<div id="outline-container-org625d1ec" class="outline-4">
+<h4 id="org625d1ec">Guidelines on intermediate detailed report</h4>
+<div class="outline-text-4" id="text-org625d1ec">
+<p>
+This should have a clear roadmap of the activities being planned including the problem definition, governing equations, solution methodology, objectives of the study, and final deliverables.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf2e7f5a" class="outline-4">
+<h4 id="orgf2e7f5a">Guidelines on the final report</h4>
+<div class="outline-text-4" id="text-orgf2e7f5a">
+<p>
+This report should be organized as follows:
+</p>
+<ol class="org-ol">
+<li>Introduction (including background and motivation for the chosen problem)</li>
+<li>Literature Review (a brief review of recent literature dealing with the chosen problem)</li>
+<li>Theoretical Formulation (details of governing equations - PDE and weak/energy form, discretization)</li>
+<li>Verification/validation (to demonstrate the accuracy of the solution approach)</li>
+<li>Numerical studies (e.g. to show effects of parameters, discussions on physical behavior)</li>
+<li>Conclusions (summary of main findings of the study)</li>
+<li>References</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org36154b8" class="outline-3">
+<h3 id="org36154b8">Following are the titles of some projects done in previous years</h3>
+<div class="outline-text-3" id="text-org36154b8">
+<ul class="org-ul">
+<li>Free Vibration Of Thin Plates</li>
+<li>Finite Element Modelling of Thermal Management Systems of Laptops for effectiveness analysis</li>
+<li>Analysis of Cold Rolling process using Finite Element Analysis in Ansys Workbench</li>
+<li>Static Analysis of Leaf and Coil Spring</li>
+<li>Design and Analysis of Rolling Process</li>
+<li>Thermal expansion and Stress analysis of the Radial Turbine</li>
+<li>Modelling Reaction in Batch Reactor</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org5c5989b" class="outline-2">
+<h2 id="org5c5989b">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-org5c5989b">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Lec No</th>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Topic</th>
+<th scope="col" class="org-left">Attachments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">4 January, Tuesday</td>
+<td class="org-left">Stretching of 1D bar. Derivation of governing equations - force equilibrium, energy and virtual work forms.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">5 January, Wednesday</td>
+<td class="org-left">Notion and equivalence of strong and weak forms. Fundamental lemma of calculus of variations</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">7 January, Friday</td>
+<td class="org-left">Euler-Lagrange equation. Ritz-Galerkin method of solving weak form</td>
+<td class="org-left">Assignment 1</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">11 January, Tuesday</td>
+<td class="org-left">Ritz-Galerkin method of solving weak form</td>
+<td class="org-left">Quiz 1</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">12 January, Wednesday</td>
+<td class="org-left">Idea of spatial discretization. Application of boundary conditions. Formalization of FEM.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">14 January, Friday</td>
+<td class="org-left">Makar Sankranti</td>
+<td class="org-left">Assignment 2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">18 January, Tuesday</td>
+<td class="org-left">Element-level view of formulating FEM matrices. Boundary conditions.</td>
+<td class="org-left">Quiz 2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">19 January, Wednesday</td>
+<td class="org-left">Properties of shape functions. Formulation of 1D reference element.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">21 January, Friday</td>
+<td class="org-left">Gauss quadrature. Computer implementation of 1D FEM.</td>
+<td class="org-left">Assignment 3</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">25 January, Tuesday</td>
+<td class="org-left">Computer implementation of 1D FEM.</td>
+<td class="org-left">Quiz 3</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">26 January, Wednesday</td>
+<td class="org-left">Republic Day</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">10</td>
+<td class="org-left">28 January, Friday</td>
+<td class="org-left">Construction of 1D shape functions using Lagrange polynomials. Error computations.</td>
+<td class="org-left">Assignment 4</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">11</td>
+<td class="org-left">1 February, Tuesday</td>
+<td class="org-left">Computing weak form of 2D Poisson equation.</td>
+<td class="org-left">Quiz 4</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">12</td>
+<td class="org-left">2 February, Wednesday</td>
+<td class="org-left">2D FE formulation.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">13</td>
+<td class="org-left">4 February, Friday</td>
+<td class="org-left">Isoparametric bilinear element.</td>
+<td class="org-left">Assignment 5</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">14</td>
+<td class="org-left">8 February, Tuesday</td>
+<td class="org-left">Isoparametric bilinear element.</td>
+<td class="org-left">Quiz 5</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">15</td>
+<td class="org-left">9 February, Wednesday</td>
+<td class="org-left">Treatment of boundary integral in 2D problems.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">16</td>
+<td class="org-left">11 February, Friday</td>
+<td class="org-left">Treatment of boundary integral in 2D problems.</td>
+<td class="org-left">Assignment 6</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">17</td>
+<td class="org-left">15 February, Tuesday</td>
+<td class="org-left">Computer implementation of 2D FEM with scalar fields.</td>
+<td class="org-left">Quiz 6</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">18</td>
+<td class="org-left">16 February, Wednesday</td>
+<td class="org-left">Computer implementation of 2D FEM with scalar fields.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">19</td>
+<td class="org-left">18 February, Friday</td>
+<td class="org-left">Consideration of vector fields in 2D.</td>
+<td class="org-left">Assignment 7</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">20</td>
+<td class="org-left">22 February, Tuesday</td>
+<td class="org-left">Consideration of vector fields in 2D.</td>
+<td class="org-left">Quiz 7</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">21</td>
+<td class="org-left">23 February, Wednesday</td>
+<td class="org-left">Construction of higher order shape functions in 2D.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">22</td>
+<td class="org-left">25 February, Friday</td>
+<td class="org-left">Construction of higher order shape functions in 2D.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">26 February - 5 March</td>
+<td class="org-left">Mid Semester Exam Week</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">6 March - 13 March</td>
+<td class="org-left">Mid Semester Recess Week</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">23</td>
+<td class="org-left">15 March, Tuesday</td>
+<td class="org-left">2D functionals. Euler-Lagrange equations in 2D.</td>
+<td class="org-left">Quiz 8</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">24</td>
+<td class="org-left">16 March, Wednesday</td>
+<td class="org-left">2D functionals.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">18 March, Friday</td>
+<td class="org-left">Holi</td>
+<td class="org-left">Assignment 8</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">25</td>
+<td class="org-left">22 March, Tuesday</td>
+<td class="org-left">3D to 2D idealizations in elasticity.</td>
+<td class="org-left">Quiz 9</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">26</td>
+<td class="org-left">23 March, Wednesday</td>
+<td class="org-left">3D to 2D idealizations in elasticity.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">27</td>
+<td class="org-left">25 March, Friday</td>
+<td class="org-left">2D and 3D elements.</td>
+<td class="org-left">Assignment 9</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">28</td>
+<td class="org-left">29 March, Tuesday</td>
+<td class="org-left">Issues related to incompressibility in elastic problems.</td>
+<td class="org-left">Quiz 10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">29</td>
+<td class="org-left">30 March, Wednesday</td>
+<td class="org-left">Reduced integration and B-bar methods to handle incompressibility.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">30</td>
+<td class="org-left">1 April, Friday</td>
+<td class="org-left">Formulation of 2D parabolic PDE.</td>
+<td class="org-left">Assignment 10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">31</td>
+<td class="org-left">5 April, Tuesday</td>
+<td class="org-left">Formulation of 2D hyperbolic PDE.</td>
+<td class="org-left">Quiz 11</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">32</td>
+<td class="org-left">6 April, Wednesday</td>
+<td class="org-left">Time integration for parabolic and hyperbolic PDEs.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">33</td>
+<td class="org-left">8 April, Friday</td>
+<td class="org-left">Time integration for parabolic and hyperbolic PDES.</td>
+<td class="org-left">Assignment 11</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">34</td>
+<td class="org-left">12 April, Tuesday</td>
+<td class="org-left">Shear locking in elasticity problems.</td>
+<td class="org-left">Quiz 12</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">35</td>
+<td class="org-left">13 April, Wednesday</td>
+<td class="org-left">Shear locking in elasticity problems.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">15 April, Friday</td>
+<td class="org-left">Good Friday</td>
+<td class="org-left">Assignment 12</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">36</td>
+<td class="org-left">19 April, Tuesday</td>
+<td class="org-left">Numerical artifacts in different FE elements.</td>
+<td class="org-left">Quiz 13</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">37</td>
+<td class="org-left">20 April, Wednesday</td>
+<td class="org-left">Numerical artifacts in different FE elements.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">38</td>
+<td class="org-left">22 April, Friday</td>
+<td class="org-left">Method of manufactured solutions for verification of numerical methods.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">26 April - 4 May</td>
+<td class="org-left">End Semester Exam Week</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Gaurav Srivastava</p>
+<p class="date">Created: 2021-10-30 Sat 22:44</p>
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.2 (<a href="https://orgmode.org">Org</a> mode 9.4.4)</p>
+</div>
+</body>
+</html>
