@@ -1,5 +1,5 @@
 #+TITLE: ES 622: Finite Element Methods - Spring 2022
-# #+OPTIONS: toc:nil
+# #+OPTIONS: 
 
 * Basic Information
 |--------------------+---------------------------------------------|

@@ -1,5 +1,5 @@
 #+TITLE: CE 305: Steel Design - Spring 2022
-# #+OPTIONS: toc:nil
+# #+OPTIONS: 
 
 * Basic Information
 |----------------+-------------------------------------------------------|
