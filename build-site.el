@@ -27,11 +27,10 @@
 (setq org-html-head-include-default-styles nil) ;;to enable own styles later
 
 ;; simple.min directly from URL
-(setq org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
+;(setq org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
 
 ;; simple.css downloaded from the URL's github page
-;(setq org-html-head "<link rel=\"stylesheet\" href=\"css/simple.css\" />")
-;(setq org-html-head "<link rel=\"stylesheet\" href=\"css/marvel/owl.theme.default.min.css\" />")
+(setq org-html-head "<link rel=\"stylesheet\" href=\"css/simple.css\" />")
 
 ;; define the publishing project
 (setq org-publish-project-alist
@@ -39,13 +38,20 @@
 			 (list "my-org-site"
 						 :recursive t
 						 :base-directory "./content"
+						 :base-extension "org"
 						 :publishing-directory "./public"
 						 :publishing-function 'org-html-publish-to-html
 						 :with-author t
 						 :with-creator t
 						 :with-toc t
 						 :section-numbers nil
-						 :time-stamp-file t)))
+						 :time-stamp-file t)
+			 (list "my-org-site-static"
+						 :recursive t
+						 :base-directory "./content"
+						 :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg"
+						 :publishing-directory "./public"
+						 :publishing-function 'org-publish-attachment)))
 
 ;; generate the output
 (org-publish-all t)
