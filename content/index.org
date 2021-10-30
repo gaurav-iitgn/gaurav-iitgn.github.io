@@ -1,11 +1,12 @@
 #+TITLE: Org Mode Example Website
+#+OPTIONS: toc:nil
 
 * Overview
 This is an *example* of a website created with Org Mode.
 
 * Links
 - [[https://www.iitgn.ac.in][IIT Gandhinagar]]
-- Email me.
+- Email.
 
 
 Here is the [[./Emacs.org][Emacs Configuration]].

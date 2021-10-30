@@ -51,7 +51,7 @@ Cheating cases (assignments/codes/exams/project) will be awarded an F grade and 
 ** Late submissions
 All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
 The reduction factor, $R$ will be multiplied to the obtained marks. Mathematically, it is given by: $R = \exp(-D^2)$, where $D$ is the total delay in days (will be counted hourly, i.e. fractional days are possible).
-[[./deadline-delay-reduction.png]]
+[[./imgs/deadline-delay-reduction.png]]
 
 ** Grading
 Following will be the weightage of different components of assessment
