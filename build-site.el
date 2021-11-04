@@ -30,7 +30,10 @@
 ;(setq org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" />")
 
 ;; simple.css downloaded from the URL's github page
-(setq org-html-head "<link rel=\"stylesheet\" href=\"css/simple.css\" />")
+;(setq org-html-head "<link rel=\"stylesheet\" href=\"css/simple.css\" />")
+
+;; simple.css modified for my own styles
+(setq org-html-head "<link rel=\"stylesheet\" href=\"css/gs_simple.css\" />")
 
 ;; define the publishing project
 (setq org-publish-project-alist

@@ -1,12 +1,28 @@
-#+TITLE: Org Mode Example Website
-#+OPTIONS: toc:nil
+#+INCLUDE: "./header.org"
+#+TITLE: Gaurav Srivastava, IIT Gandhinagar
+#+OPTIONS: toc:nil title:nil
 
-* Overview
-This is an *example* of a website created with Org Mode.
+# photograph and designation in raw HTML
+#+BEGIN_EXPORT html
+<div class="row">
+  <div class="column left">
+	  <b>Gaurav Srivastava</b>
+		<br>
+		Associate Professor and Dr. Vilas Mujumdar Chair
+		<br>
+		<small>
+		Civil Engineering, IIT Gandhinagar
+		<br>
+		Email: <code>gauravs@iitgn.ac.in</code>
+		<br>
+		Web: <code>people.iitgn.ac.in/~gauravs</code>,
+		     <!-- <code>github.io/gaurav-iitgn</code> -->
+		</small>
+	</div>
+  <div class="column right">
+	  <img src="imgs/photo_gaurav.jpg" alt="Gaurav's Photo" width="100%">
+	</div>
+</div>
+#+END_EXPORT
 
-* Links
-- [[https://www.iitgn.ac.in][IIT Gandhinagar]]
-- Email.
-
-
-Here is the [[./Emacs.org][Emacs Configuration]].
+Hello and welcome to my personal website. Hope you find some useful things here apart from my whereabouts. Presently, my main research interests lie in the area of structural fire engineering. Particularly, efficient analysis of structures under fire to enable more comprehensive performance-based design procedures and assessment of building facade systems in fire conditions. I also have interest in development of analytical and algorithmic tools for solving problems related to structural dynamics and uncertainty quantification problems.

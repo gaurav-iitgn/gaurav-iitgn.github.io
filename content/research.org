@@ -1,0 +1,20 @@
+
+#+TITLE: Research
+#+OPTIONS: toc:nil title:nil
+#+INCLUDE: "./header.org"
+
+Research
+
+* Ongoing Projects
+- Computational modeling of energetic materials subjected to thermal and mechanical insults using the material point method (TBRL, DRDO).
+- Assessment of perimeter fire and smoke barriers through full-scale fire experiment (Hilti).
+- Cultural Heritage Preservation and Restoration using Digital 3D Models (IMPRINT)
+
+* Completed Projects
+- Containers for housing and re-urbanization of slums, refugee camps and other human settlements in post-disaster context, with EPFL Lausanne and UTM Malaysia.
+- Experimental investigation of fire behavior of different type of facade used in buildings, Underwriters Laboratories (UL).
+- Development of smart, environment friendly and low-cost fire detection and suppression systems, Uchchatar Avishkar Yojana (UAY).
+- To assess effectiveness of FR ACP sheets compared to non-FR ACP sheets (Aludecor)
+	
+* Publications
+To be updated soon.

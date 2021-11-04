@@ -1,0 +1,3 @@
+|------+----------+----------+----------|
+| [[./index.org][Home]] | [[./research.org][Research]] | [[./teaching.org][Teaching]] | [[./students.org][Students]] |
+|------+----------+----------+----------|
