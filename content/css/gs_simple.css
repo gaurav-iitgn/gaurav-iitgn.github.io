@@ -6,13 +6,13 @@
   --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 
   /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
-  --base-fontsize: 1.15rem;
+  --base-fontsize: 1.00rem;
 
   /* Major third scale progression - see https://type-scale.com/ */
-  --header-scale: 1.25;
+  --header-scale: 1.05;
 
   /* Line height is set to the "Golden ratio" for optimal legibility */
-  --line-height: 1.618;
+  --line-height: 1.10;
 
   /* Default (light) theme */
   --bg: #FFF;
@@ -69,6 +69,7 @@ body {
   overflow-x: hidden;
   word-break: break-word;
   overflow-wrap: break-word;
+	text-align: justify;
 }
 
 /* Make the header bg full width, but the content inline with body */
@@ -454,7 +455,7 @@ pre,
 pre span,
 kbd,
 samp {
-  font-size: 1.075rem;
+  font-size: 0.90rem;
   font-family: var(--mono-font);
   color: var(--code);
 }
@@ -489,6 +490,7 @@ pre code {
 /* column div tags */
 .column {
 		float: left;
+		vertical-align: middle;
 }
 .left {
 		width: 65%;

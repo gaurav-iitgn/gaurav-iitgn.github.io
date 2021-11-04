@@ -1,3 +1,4 @@
+#+INCLUDE: "./header.org"
 #+TITLE: CE 305: Steel Design - Spring 2022
 # #+OPTIONS: 
 
