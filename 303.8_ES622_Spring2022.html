@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-11-04 Thu 07:04 -->
+<!-- 2021-11-06 Sat 12:22 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ES 622: Finite Element Methods - Spring 2022</title>
@@ -179,7 +179,9 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" href="css/gs_simple.css" />
+
+<link rel='stylesheet' href='css/gs_simple.css' />
+<script type='text/javascript' src='js/gs_simple.js'></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         displayAlign: "center",
@@ -204,73 +206,63 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
+<div id="preamble" class="status">
+
+<center>
+<nav>
+<a href="/index.html">Home</a>
+<a href="/research.html">Research</a>
+<a href="/teaching.html">Teaching</a>
+<a href="/students.html">Students</a>
+</nav>
+</center>
+</div>
 <div id="content">
 <h1 class="title">ES 622: Finite Element Methods - Spring 2022</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgfdcbef9">Basic Information</a></li>
-<li><a href="#org9fb4c54">Course objectives, syllabus, books, pre-requisites</a>
+<li><a href="#org4f67ece">Basic Information</a></li>
+<li><a href="#orgd9084aa">Course objectives, syllabus, books, pre-requisites</a>
 <ul>
-<li><a href="#org2930d29">General philosophy of the course</a></li>
-<li><a href="#org11f3506">Objectives</a></li>
-<li><a href="#org9d523cc">After finishing this course, you will</a></li>
-<li><a href="#orgdb4b6ce">Syllabus</a></li>
-<li><a href="#org71e0f63">Reference Books</a></li>
-<li><a href="#org2a15de7">Pre-requisites</a></li>
+<li><a href="#org79d64d3">General philosophy of the course</a></li>
+<li><a href="#orgfe6af17">Objectives</a></li>
+<li><a href="#orgbdea4b7">After finishing this course, you will</a></li>
+<li><a href="#orgb3c8bf5">Syllabus</a></li>
+<li><a href="#orgc802ecf">Reference Books</a></li>
+<li><a href="#org7106a51">Pre-requisites</a></li>
 </ul>
 </li>
-<li><a href="#org45a0cc5">Course Policies</a>
+<li><a href="#orgf1f24e8">Course Policies</a>
 <ul>
-<li><a href="#org246db01">Etiquette</a></li>
-<li><a href="#orge162e88">Cheating</a></li>
-<li><a href="#orgdba5da6">Late submissions</a></li>
-<li><a href="#org04a0a42">Grading</a></li>
-<li><a href="#orgc8a2435">Modes of formal assessment</a></li>
-<li><a href="#org546ee65">Emphasis on self-learning</a></li>
+<li><a href="#org93e532b">Etiquette</a></li>
+<li><a href="#org61b86e9">Cheating</a></li>
+<li><a href="#org1cce5ae">Late submissions</a></li>
+<li><a href="#org0105054">Grading</a></li>
+<li><a href="#org0e703de">Modes of formal assessment</a></li>
+<li><a href="#orgb72f048">Emphasis on self-learning</a></li>
 </ul>
 </li>
-<li><a href="#org02ce244">Project</a>
+<li><a href="#org5a5be18">Project</a>
 <ul>
-<li><a href="#org9d78a54">Timeline</a>
+<li><a href="#orgc413d1b">Timeline</a>
 <ul>
-<li><a href="#orgad9d59d">Guidelines on intermediate detailed report</a></li>
-<li><a href="#org2e49578">Guidelines on the final report</a></li>
+<li><a href="#orgde1c17d">Guidelines on intermediate detailed report</a></li>
+<li><a href="#orgc9cf050">Guidelines on the final report</a></li>
 </ul>
 </li>
-<li><a href="#org28b2db0">Following are the titles of some projects done in previous years</a></li>
+<li><a href="#org09197a5">Following are the titles of some projects done in previous years</a></li>
 </ul>
 </li>
-<li><a href="#orgf8751c0">Calendar (tentative)</a></li>
+<li><a href="#orgf858212">Calendar (tentative)</a></li>
 </ul>
 </div>
 </div>
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left"><a href="./index.html">Home</a></td>
-<td class="org-left"><a href="./research.html">Research</a></td>
-<td class="org-left"><a href="./teaching.html">Teaching</a></td>
-<td class="org-left"><a href="./students.html">Students</a></td>
-</tr>
-</tbody>
-</table>
-
-<div id="outline-container-orgfdcbef9" class="outline-2">
-<h2 id="orgfdcbef9">Basic Information</h2>
-<div class="outline-text-2" id="text-orgfdcbef9">
+<div id="outline-container-org4f67ece" class="outline-2">
+<h2 id="org4f67ece">Basic Information</h2>
+<div class="outline-text-2" id="text-org4f67ece">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -306,22 +298,22 @@
 </div>
 </div>
 
-<div id="outline-container-org9fb4c54" class="outline-2">
-<h2 id="org9fb4c54">Course objectives, syllabus, books, pre-requisites</h2>
-<div class="outline-text-2" id="text-org9fb4c54">
+<div id="outline-container-orgd9084aa" class="outline-2">
+<h2 id="orgd9084aa">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-orgd9084aa">
 </div>
-<div id="outline-container-org2930d29" class="outline-3">
-<h3 id="org2930d29">General philosophy of the course</h3>
-<div class="outline-text-3" id="text-org2930d29">
+<div id="outline-container-org79d64d3" class="outline-3">
+<h3 id="org79d64d3">General philosophy of the course</h3>
+<div class="outline-text-3" id="text-org79d64d3">
 <p>
 In a world where a large number of simulation tools are available and most people assume they know how to perform a finite element analysis, this course focuses on the fundamentals and aims to equip the students with the 'how' and 'why' of finite element simulations. It covers the fundamental aspects of the finite element method that are required to understand what goes on under the hood in available simulation software.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org11f3506" class="outline-3">
-<h3 id="org11f3506">Objectives</h3>
-<div class="outline-text-3" id="text-org11f3506">
+<div id="outline-container-orgfe6af17" class="outline-3">
+<h3 id="orgfe6af17">Objectives</h3>
+<div class="outline-text-3" id="text-orgfe6af17">
 <ul class="org-ul">
 <li>To learn the fundamentals of the finite element method.</li>
 <li>To develop a computer program to perform finite element analysis of simple PDEs.</li>
@@ -330,9 +322,9 @@ In a world where a large number of simulation tools are available and most peopl
 </div>
 </div>
 
-<div id="outline-container-org9d523cc" class="outline-3">
-<h3 id="org9d523cc">After finishing this course, you will</h3>
-<div class="outline-text-3" id="text-org9d523cc">
+<div id="outline-container-orgbdea4b7" class="outline-3">
+<h3 id="orgbdea4b7">After finishing this course, you will</h3>
+<div class="outline-text-3" id="text-orgbdea4b7">
 <ul class="org-ul">
 <li>know an alternative representation of physical laws (called weak form)</li>
 <li>be able to convert any given linear partial differential equation (PDE) to its corresponding weak form</li>
@@ -345,9 +337,9 @@ In a world where a large number of simulation tools are available and most peopl
 </div>
 </div>
 
-<div id="outline-container-orgdb4b6ce" class="outline-3">
-<h3 id="orgdb4b6ce">Syllabus</h3>
-<div class="outline-text-3" id="text-orgdb4b6ce">
+<div id="outline-container-orgb3c8bf5" class="outline-3">
+<h3 id="orgb3c8bf5">Syllabus</h3>
+<div class="outline-text-3" id="text-orgb3c8bf5">
 <ul class="org-ul">
 <li>Review of basic mathematical preliminaries.</li>
 <li>Strong and weak forms, Galerkin's approximation.</li>
@@ -358,9 +350,9 @@ In a world where a large number of simulation tools are available and most peopl
 </div>
 
 
-<div id="outline-container-org71e0f63" class="outline-3">
-<h3 id="org71e0f63">Reference Books</h3>
-<div class="outline-text-3" id="text-org71e0f63">
+<div id="outline-container-orgc802ecf" class="outline-3">
+<h3 id="orgc802ecf">Reference Books</h3>
+<div class="outline-text-3" id="text-orgc802ecf">
 <ul class="org-ul">
 <li>An Introduction to the Finite Element Method - J.N. Reddy.</li>
 <li>Introductory Finite Element Method - C.S. Desai.</li>
@@ -370,9 +362,9 @@ In a world where a large number of simulation tools are available and most peopl
 </div>
 </div>
 
-<div id="outline-container-org2a15de7" class="outline-3">
-<h3 id="org2a15de7">Pre-requisites</h3>
-<div class="outline-text-3" id="text-org2a15de7">
+<div id="outline-container-org7106a51" class="outline-3">
+<h3 id="org7106a51">Pre-requisites</h3>
+<div class="outline-text-3" id="text-org7106a51">
 <ul class="org-ul">
 <li>Knowledge of basic linear algebra:
 <ul class="org-ul">
@@ -393,13 +385,13 @@ In a world where a large number of simulation tools are available and most peopl
 </div>
 </div>
 
-<div id="outline-container-org45a0cc5" class="outline-2">
-<h2 id="org45a0cc5">Course Policies</h2>
-<div class="outline-text-2" id="text-org45a0cc5">
+<div id="outline-container-orgf1f24e8" class="outline-2">
+<h2 id="orgf1f24e8">Course Policies</h2>
+<div class="outline-text-2" id="text-orgf1f24e8">
 </div>
-<div id="outline-container-org246db01" class="outline-3">
-<h3 id="org246db01">Etiquette</h3>
-<div class="outline-text-3" id="text-org246db01">
+<div id="outline-container-org93e532b" class="outline-3">
+<h3 id="org93e532b">Etiquette</h3>
+<div class="outline-text-3" id="text-org93e532b">
 <ul class="org-ul">
 <li>Please be considerate about everyone's time.</li>
 <li>In all emails pertaining to this course, please have "ES622" in the subject line.
@@ -410,18 +402,18 @@ In a world where a large number of simulation tools are available and most peopl
 </div>
 </div>
 
-<div id="outline-container-orge162e88" class="outline-3">
-<h3 id="orge162e88">Cheating</h3>
-<div class="outline-text-3" id="text-orge162e88">
+<div id="outline-container-org61b86e9" class="outline-3">
+<h3 id="org61b86e9">Cheating</h3>
+<div class="outline-text-3" id="text-org61b86e9">
 <p>
 Cheating cases (assignments/codes/exams/project) will be awarded an F grade and will be reported to academic office. It is expected that this will never happen and everyone will uphold the honor code.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgdba5da6" class="outline-3">
-<h3 id="orgdba5da6">Late submissions</h3>
-<div class="outline-text-3" id="text-orgdba5da6">
+<div id="outline-container-org1cce5ae" class="outline-3">
+<h3 id="org1cce5ae">Late submissions</h3>
+<div class="outline-text-3" id="text-org1cce5ae">
 <p>
 All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
 The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
@@ -430,9 +422,9 @@ The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematic
 </div>
 </div>
 
-<div id="outline-container-org04a0a42" class="outline-3">
-<h3 id="org04a0a42">Grading</h3>
-<div class="outline-text-3" id="text-org04a0a42">
+<div id="outline-container-org0105054" class="outline-3">
+<h3 id="org0105054">Grading</h3>
+<div class="outline-text-3" id="text-org0105054">
 <p>
 Following will be the weightage of different components of assessment
 </p>
@@ -475,9 +467,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-orgc8a2435" class="outline-3">
-<h3 id="orgc8a2435">Modes of formal assessment</h3>
-<div class="outline-text-3" id="text-orgc8a2435">
+<div id="outline-container-org0e703de" class="outline-3">
+<h3 id="org0e703de">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-org0e703de">
 <ul class="org-ul">
 <li>There will be two types of assignments: analytical/hand calculation and coding.</li>
 <li>For coding assignments, submission of source code will be required.</li>
@@ -488,9 +480,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-org546ee65" class="outline-3">
-<h3 id="org546ee65">Emphasis on self-learning</h3>
-<div class="outline-text-3" id="text-org546ee65">
+<div id="outline-container-orgb72f048" class="outline-3">
+<h3 id="orgb72f048">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-orgb72f048">
 <p>
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 </p>
@@ -498,18 +490,18 @@ It is important to develop the habit of self-learning. A number of reading assig
 </div>
 </div>
 
-<div id="outline-container-org02ce244" class="outline-2">
-<h2 id="org02ce244">Project</h2>
-<div class="outline-text-2" id="text-org02ce244">
+<div id="outline-container-org5a5be18" class="outline-2">
+<h2 id="org5a5be18">Project</h2>
+<div class="outline-text-2" id="text-org5a5be18">
 <p>
 The basic idea of a project is to utilize the knowledge gained from this course to a real-life situation or to better understand certain concepts that remain hidden otherwise. Try to answer some/more such questions during the project. Ideally, you would choose a reasonably complicated looking real-world problem and analyze it using a software (either the one you will develop as part of the course, or ANSYS, or ABAQUS, or any other that you may know of).
 </p>
 </div>
 
 
-<div id="outline-container-org9d78a54" class="outline-3">
-<h3 id="org9d78a54">Timeline</h3>
-<div class="outline-text-3" id="text-org9d78a54">
+<div id="outline-container-orgc413d1b" class="outline-3">
+<h3 id="orgc413d1b">Timeline</h3>
+<div class="outline-text-3" id="text-orgc413d1b">
 <p>
 Project is to be done in groups of not more than 3. Following timeline must be adhered to for all submissions. (this timeline will be updated during the first week of classes)
 </p>
@@ -571,17 +563,17 @@ Project is to be done in groups of not more than 3. Following timeline must be a
 </p>
 </div>
 
-<div id="outline-container-orgad9d59d" class="outline-4">
-<h4 id="orgad9d59d">Guidelines on intermediate detailed report</h4>
-<div class="outline-text-4" id="text-orgad9d59d">
+<div id="outline-container-orgde1c17d" class="outline-4">
+<h4 id="orgde1c17d">Guidelines on intermediate detailed report</h4>
+<div class="outline-text-4" id="text-orgde1c17d">
 <p>
 This should have a clear roadmap of the activities being planned including the problem definition, governing equations, solution methodology, objectives of the study, and final deliverables.
 </p>
 </div>
 </div>
-<div id="outline-container-org2e49578" class="outline-4">
-<h4 id="org2e49578">Guidelines on the final report</h4>
-<div class="outline-text-4" id="text-org2e49578">
+<div id="outline-container-orgc9cf050" class="outline-4">
+<h4 id="orgc9cf050">Guidelines on the final report</h4>
+<div class="outline-text-4" id="text-orgc9cf050">
 <p>
 This report should be organized as follows:
 </p>
@@ -598,9 +590,9 @@ This report should be organized as follows:
 </div>
 </div>
 
-<div id="outline-container-org28b2db0" class="outline-3">
-<h3 id="org28b2db0">Following are the titles of some projects done in previous years</h3>
-<div class="outline-text-3" id="text-org28b2db0">
+<div id="outline-container-org09197a5" class="outline-3">
+<h3 id="org09197a5">Following are the titles of some projects done in previous years</h3>
+<div class="outline-text-3" id="text-org09197a5">
 <ul class="org-ul">
 <li>Free Vibration Of Thin Plates</li>
 <li>Finite Element Modelling of Thermal Management Systems of Laptops for effectiveness analysis</li>
@@ -615,9 +607,9 @@ This report should be organized as follows:
 </div>
 
 
-<div id="outline-container-orgf8751c0" class="outline-2">
-<h2 id="orgf8751c0">Calendar (tentative)</h2>
-<div class="outline-text-2" id="text-orgf8751c0">
+<div id="outline-container-orgf858212" class="outline-2">
+<h2 id="orgf858212">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-orgf858212">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -1003,9 +995,14 @@ This report should be organized as follows:
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="date">Created: 2021-11-04 Thu 07:04</p>
-<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.3 (<a href="https://orgmode.org">Org</a> mode 9.1.9)</p>
-<p class="validation"></p>
+
+<footer>
+Contact: 
+<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) | it.garuav@gmail.com (personal)
+<a href='mailto:it.gaurav@gmail.com'>it.gaurav@gmail.com</a> (Personal)
+<br>
+Created completely through <a href='https://www.gnu.org/software/emacs/'>Gnu Emacs</a> and <a href='https://orgmode.org'>Org Mode</a> (<a href='https://github.com/gaurav-iitgn/gaurav-iitgn.github.io'>source code</a>)
+</footer>
 </div>
 </body>
 </html>

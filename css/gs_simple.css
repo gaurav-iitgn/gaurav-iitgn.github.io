@@ -487,6 +487,7 @@ pre code {
   padding: 0;
 }
 
+/* Things added by Gaurav */
 /* column div tags */
 .column {
 		float: left;
@@ -504,3 +505,4 @@ pre code {
 		display: table;
 		clear: both;
 }
+
