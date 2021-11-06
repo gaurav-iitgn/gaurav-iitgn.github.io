@@ -1,6 +1,5 @@
 #+TITLE: Teaching
 #+OPTIONS: toc:nil title:nil
-#+INCLUDE: "./header.org"
 
 Teaching
 

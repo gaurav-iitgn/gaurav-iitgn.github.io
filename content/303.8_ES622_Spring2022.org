@@ -1,4 +1,3 @@
-#+INCLUDE: "./header.org"
 #+TITLE: ES 622: Finite Element Methods - Spring 2022
 # #+OPTIONS: 
 

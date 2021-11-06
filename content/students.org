@@ -1,6 +1,5 @@
 #+TITLE: Students
 #+OPTIONS: toc:nil title:nil
-#+INCLUDE: "./header.org"
 
 *Students*
 

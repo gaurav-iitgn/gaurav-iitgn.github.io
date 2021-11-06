@@ -1,8 +1,7 @@
-#+INCLUDE: "./header.org"
 #+TITLE: Gaurav Srivastava, IIT Gandhinagar
 #+OPTIONS: toc:nil title:nil
 
-# photograph and designation in raw HTML
+# side-by-side photograph and designation in raw HTML
 #+BEGIN_EXPORT html
 <div class="row">
   <div class="column left">

@@ -1,7 +1,6 @@
 
 #+TITLE: Research
 #+OPTIONS: toc:nil title:nil
-#+INCLUDE: "./header.org"
 
 Research
 

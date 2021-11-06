@@ -33,7 +33,36 @@
 ;(setq org-html-head "<link rel=\"stylesheet\" href=\"css/simple.css\" />")
 
 ;; simple.css modified for my own styles
-(setq org-html-head "<link rel=\"stylesheet\" href=\"css/gs_simple.css\" />")
+(setq org-html-head
+			"
+<link rel='stylesheet' href='css/gs_simple.css' />
+<script type='text/javascript' src='js/gs_simple.js'></script>
+")
+
+;; preamble (style defined in CSS)
+(setq org-html-preamble
+			"
+<center>
+<nav>
+<a href=\"/index.html\">Home</a>
+<a href=\"/research.html\">Research</a>
+<a href=\"/teaching.html\">Teaching</a>
+<a href=\"/students.html\">Students</a>
+</nav>
+</center>
+")
+
+;; postamble
+(setq org-html-postamble
+			"
+<footer>
+Contact: 
+<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) | it.garuav@gmail.com (personal)
+<a href='mailto:it.gaurav@gmail.com'>it.gaurav@gmail.com</a> (Personal)
+<br>
+Created completely through <a href='https://www.gnu.org/software/emacs/'>Gnu Emacs</a> and <a href='https://orgmode.org'>Org Mode</a> (<a href='https://github.com/gaurav-iitgn/gaurav-iitgn.github.io'>source code</a>)
+</footer>
+")
 
 ;; define the publishing project
 (setq org-publish-project-alist
@@ -47,6 +76,7 @@
 						 :with-author t
 						 :with-creator t
 						 :with-toc t
+						 :auto-sitemap t
 						 :section-numbers nil
 						 :time-stamp-file t)
 			 (list "my-org-site-static"

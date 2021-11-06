@@ -1,4 +1,3 @@
-#+INCLUDE: "./header.org"
 #+TITLE: Emacs Configuration
 #+PROPERTY: header-args:emacs-lisp :tangle .emacs.d/init.el
 

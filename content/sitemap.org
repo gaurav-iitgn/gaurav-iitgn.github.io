@@ -1,0 +1,10 @@
+#+TITLE: Sitemap for project my-org-site
+
+- [[file:305.3_CE305_Spring2022.org][CE 305: Steel Design - Spring 2022]]
+- [[file:303.8_ES622_Spring2022.org][ES 622: Finite Element Methods - Spring 2022]]
+- [[file:Emacs.org][Emacs Configuration]]
+- [[file:index.org][Gaurav Srivastava, IIT Gandhinagar]]
+- [[file:research.org][Research]]
+- [[file:students.org][Students]]
+- [[file:teaching.org][Teaching]]
+- [[file:header.org][header]]
