@@ -5,11 +5,15 @@
 |----------------+-------------------------------------------------------|
 | Class timings  | Monday 09:05-10:00, Tuesday and Thursday, 08:05-09:00 |
 | Class location | AB 3/205                                         |
+| Online link | https://iitgn-ac-in.zoom.us/j/91510410886 |
 |----------------+-------------------------------------------------------|
 | Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)               |
 |----------------+-------------------------------------------------------|
 | TA             | Vimal Panara (vimalp@iitgn.ac.in).                 |
 |----------------+-------------------------------------------------------|
+
+
+
 
 * Course objectives, syllabus, books, pre-requisites
 ** Objective
