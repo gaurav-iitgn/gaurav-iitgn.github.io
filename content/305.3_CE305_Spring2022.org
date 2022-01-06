@@ -5,7 +5,7 @@
 |----------------+-------------------------------------------------------|
 | Class timings  | Monday 09:05-10:00, Tuesday and Thursday, 08:05-09:00 |
 | Class location | AB 3/205                                              |
-| Online class   | [[https://iitgn-ac-in.zoom.us/j/91510410886][Class link]] o [[https://drive.google.com/file/d/1fmilzXEZB8UwkKV3M2WhaEB21kEGu-rx/view?usp=sharing][Notes]]                                  |
+| Online class   | [[https://iitgn-ac-in.zoom.us/j/91510410886][Class link]] / [[https://drive.google.com/file/d/1fmilzXEZB8UwkKV3M2WhaEB21kEGu-rx/view?usp=sharing][Live Notes]] / [[https://drive.google.com/file/d/1fnBdnRXp1zpiXK871h_IAPQIsXJ6hpGy/view?usp=sharing][Resource]]     |
 |----------------+-------------------------------------------------------|
 | Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)               |
 |----------------+-------------------------------------------------------|
