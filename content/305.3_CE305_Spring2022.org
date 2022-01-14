@@ -110,13 +110,13 @@ This report should be organized as follows:
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
 |      1 | 4 January, Tuesday    | Introduction to design. Concept of LRFD. Limit states.                             |              |
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
-|      2 | 6 January, Thursday   | Analysis of members in tension - yielding of gross section, rupture of net section | [[https://drive.google.com/file/d/1fN11pZzqhMXDN8eXisVpSRAMvVm0wzNq/view?usp=sharing][A1]] (due on 13 Jan) |
+|      2 | 6 January, Thursday   | Analysis of members in tension - yielding of gross section, rupture of net section | [[https://drive.google.com/file/d/1fN11pZzqhMXDN8eXisVpSRAMvVm0wzNq/view?usp=sharing][A1]] (due 13 Jan) |
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
 |      3 | 10 January, Monday    | Analysis of members in tension - shear lag.                                        |              |
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
 |      4 | 11 January, Tuesday   | Design of members in tension. Block shear. Method for design.                      |              |
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
-|      5 | 13 January, Thursday  | Design of members in tension.                                                      | Assignment 2 |
+|      5 | 13 January, Thursday  | Design of members in tension.                                                      | [[https://drive.google.com/file/d/1nqDFBDAcfu-rs4A0YzLwgSCYvJvx9kAq/view?usp=sharing][A2]] (due 20 Jan) |
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
 |      6 | 17 January, Monday    | Analysis of members under uniaxial compression - column curves.                    | Quiz 1       |
 |--------+-----------------------+------------------------------------------------------------------------------------+--------------|
