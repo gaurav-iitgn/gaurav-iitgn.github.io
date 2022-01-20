@@ -122,7 +122,7 @@ This report should be organized as follows:
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
 |      7 | 18 January, Tuesday   | Analysis of members in uniaxial compression - design strength calculations.        | [[https://www.youtube.com/watch?v=cWlbzz7fXU0&list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&index=6][V6.2]] / [[https://www.youtube.com/watch?v=ta3FBIgUAco&list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&index=8][V6.3]]            |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
-|      8 | 20 January, Thursday  | Analysis of members in uniaxial compression - design strength calculations.        | Assignment 3 / [[https://www.youtube.com/watch?v=hp8IyUFWKCA&list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&index=9][V6.4]]    |
+|      8 | 20 January, Thursday  | Analysis of members in uniaxial compression - design strength calculations.        | [[https://drive.google.com/file/d/1h9qlZqueP59YPJRcr_vOHYj4TCXk6g3s/view?usp=sharing][A3]] (due 27 Jan) / [[https://www.youtube.com/watch?v=hp8IyUFWKCA&list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&index=9][V6.4]] |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
 |      9 | 24 January, Monday    | Design of compression members.                                                     | Quiz 2                 |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
