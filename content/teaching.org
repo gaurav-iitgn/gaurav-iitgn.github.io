@@ -1,12 +1,9 @@
 #+TITLE: Teaching
 #+OPTIONS: toc:nil title:nil
 
-Teaching
-
-* Upcoming Course(s)
+# * Upcoming Course(s)
+* Ongoing Course(s)
 ** [[./303.8_ES622_Spring2022.org][ES 622: Finite Element Methods]]
 ** [[./305.3_CE305_Spring2022.org][CE 305: Steel Design]]
-* Ongoing Course(s)
-** [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][CE 607: Advanced Structural Analysis]]
 * Past Courses
-To be updated soon.
+** [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][CE 607: Advanced Structural Analysis]]

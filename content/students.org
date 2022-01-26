@@ -1,14 +1,7 @@
 #+TITLE: Students
 #+OPTIONS: toc:nil title:nil
 
-*Students*
-
-
 * Doctoral Students
-
-** 6 Neha Kannan
-- _Start date_: August 2021
-- _Area of work_: TBD
 
 ** 5 *Vikash Kumar Singh*
 - _Start date_: August 2018
@@ -67,29 +60,33 @@ _Conferences_:
 
 * Masters Students
 
+** 26 Shubham Singh
+_Startdate_: August 2021
+_Area of work_: TBD
+
 ** 25 Sumit Kumar 
 _Startdate_: August 2017 (dual degree)
-_Area f work_: TBD
+_Area of work_: Detailed combustion modeling of ACP components
 
 ** 24 Vimal Panara
 _Startdate_: August 2020
-_Area f work_: TBD
+_Area of work_: Analysis of RC shear walls subjected to fire
 
 ** 23 Prashant Singh
 _Startdate_: August 2020
-_Area f work_: TBD
+_Area of work_: Analytical formulation of tensile membrane action of slabs under fire
 
 ** 22 *Pavithra C T*
 _Startdate_: August 2019
-_Area f work_: TBD
+_Area of work_: TBD
 
 ** 21 *Drashti Chiragbhai Shah*
 _Startdate_: August 2019
-_Area f work_: TBD
+_Area of work_: TBD
 
 ** 20 *Renjini R*
 _Startdate_: August 2018
-_Area f work_: Assessment of fire incidents in India
+_Area of work_: Assessment of fire incidents in India
 
 ** 19 *Ajay Chandran*
 _Start date_: August 2018

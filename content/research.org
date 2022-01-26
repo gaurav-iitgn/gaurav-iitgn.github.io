@@ -1,8 +1,5 @@
-
 #+TITLE: Research
 #+OPTIONS: toc:nil title:nil
-
-Research
 
 * Ongoing Projects
 - Computational modeling of energetic materials subjected to thermal and mechanical insults using the material point method (TBRL, DRDO).
