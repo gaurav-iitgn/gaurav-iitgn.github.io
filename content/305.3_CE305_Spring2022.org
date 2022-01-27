@@ -128,7 +128,7 @@ This report should be organized as follows:
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
 |     10 | 25 January, Tuesday   | Design of compression members.                                                     |                        |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
-|     11 | 27 January, Thursday  | Analysis of members under flexure.                                                 | Assignment 4           |
+|     11 | 27 January, Thursday  | Analysis of members under flexure.                                                 | [[https://drive.google.com/file/d/1kmfjAi-gyqXuqnEN1IoG-ZXuBhCciSYX/view?usp=sharing][A4]] (due 3 Feb)         |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
 |     12 | 31 January, Monday    | Design of members under flexure.                                                   | Quiz 3                 |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
