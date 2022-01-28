@@ -156,7 +156,7 @@ This report should be organized as follows:
 |--------+------------------------+-------------------------------------------------------------------------------------------------------------+-----------------------|
 |        | 26 January, Wednesday  | Republic Day                                                                                                |                       |
 |--------+------------------------+-------------------------------------------------------------------------------------------------------------+-----------------------|
-|     10 | 28 January, Friday     | Construction of 1D shape functions using Lagrange polynomials. Error computations.                          | Assignment 4          |
+|     10 | 28 January, Friday     | Construction of 1D shape functions using Lagrange polynomials. Error computations.                          | [[https://drive.google.com/file/d/12ziT0iASGKm-MgXF3PLOlkrIQiQl1_xv/view?usp=sharing][A4]] (due 4 Feb)        |
 |--------+------------------------+-------------------------------------------------------------------------------------------------------------+-----------------------|
 |     11 | 1 February, Tuesday    | Computing weak form of 2D Poisson equation.                                                                 | Quiz 4                |
 |--------+------------------------+-------------------------------------------------------------------------------------------------------------+-----------------------|
