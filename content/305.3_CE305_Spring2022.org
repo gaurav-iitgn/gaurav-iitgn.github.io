@@ -134,7 +134,7 @@ This report should be organized as follows:
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
 |     13 | 1 February, Tuesday   | Design of members under flexure and other actions.                                 |                        |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
-|     14 | 3 February, Thursday  | Design of members under flexure and other actions.                                 | Assignment 5           |
+|     14 | 3 February, Thursday  | Design of members under flexure and other actions.                                 | [[https://drive.google.com/file/d/1_-yqZgdISBBvnGYNdlwVbXhZv39de8nz/view?usp=sharing][A5]] (due 10 Feb)        |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
 |     15 | 7 February, Monday    | Bolted connections.                                                                | Quiz 4                 |
 |--------+-----------------------+------------------------------------------------------------------------------------+------------------------|
