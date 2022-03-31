@@ -81,41 +81,6 @@ Following will be the weightage of different components of assessment
 ** Emphasis on self-learning
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
-#+BEGIN_COMMENT
-* Project
-The basic idea of a project is to utilize the knowledge gained from this course to a real-life situation or to better understand certain concepts that remain hidden otherwise. Think of a scenario which was fascinating (perhaps during one of your earlier site visits) and which made you think 'how was this structure designed or analyzed'. Or, when you were designing a structure (say using IS 456:2000) and were wondering why span/d ratio is restricted to a certain number for different cases and how does that relate to the deflection. Or, when you were considering plastic moment capacity of a steel beam, and were wondering how to analyze a structure in the intermediate stage (i.e. past the elastic stage but before it yields completely). Or, when simply considering load combinations from IS 875, you were wondering how much uncertainty can the load factors cater for, and how would a structure behave under uncertainty (if actual values were to be used).
-
-Try to answer some/more such questions during the project. Ideally, you would choose a reasonably complicated looking real-world problem and analyze it using a software (either the one you will develop as part of the course, or SAP, or Mastan2, or any other that you may know of).
-
-
-** Timeline
-Project is to be done in groups of not more than 3. Following timeline must be adhered to for all submissions. (this timeline will be updated during the first week of classes)
-#+ATTR_LATEX: :environment longtable :align lp{0.7\textwidth}l
-| Date   | Task                                                  | Marks |
-|--------+-------------------------------------------------------+-------|
-| Jan 21 | Formation of groups.                                  |    10 |
-|--------+-------------------------------------------------------+-------|
-| Jan 28 | Providing drawings of existing truss.                 |       |
-|--------+-------------------------------------------------------+-------|
-| Feb 12 | Submission of preliminary report after design review. |    20 |
-|--------+-------------------------------------------------------+-------|
-| Feb 24 | Submission of final report.                           |    20 |
-|--------+-------------------------------------------------------+-------|
-
-*** Guidelines on the final report
-This report should be organized as follows:
-1) Discussion of the existing design (critical review of existing design).
-2) Description of alternative proposal.
-3) Detailed analysis and design of alternative proposal.
-4) Highlighting improvements of the alternative proposal over existing design.
-5) Conclusions.
-6) References
-
-#+END_COMMENT
-
-
-
 * Calendar (tentative)
 # generated from go run class-calendar.go
-Coming soon.
-[[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous Year]]
+Coming soon. (see [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous Year]]'s website).
