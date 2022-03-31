@@ -109,7 +109,7 @@ This report should be organized as follows:
 3) Detailed analysis and design of alternative proposal.
 4) Highlighting improvements of the alternative proposal over existing design.
 5) Conclusions.
-6) References.
+6) References
 
 #+END_COMMENT
 
