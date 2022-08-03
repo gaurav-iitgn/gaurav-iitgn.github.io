@@ -83,7 +83,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 
 * Calendar (tentative)
 # generated from go run class-calendar.go
-Coming soon. (see [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous Year]]'s website).
+(see [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous Year]]'s website and calendar).
 #+BEGIN_SRC emacs-lisp :exports none
 (let ((start_date "2022-08-03")
       (end_date   "2022-11-23"))
@@ -94,18 +94,29 @@ Coming soon. (see [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous
 #+END_SRC
 
 ** 02 August, Tuesday
-
+- Introduction. Concepts of material and geometric nonlinearity.
+- *Reading assignment*: Review energy and virtual work concepts.
 ** 04 August, Thursday
+- Energy and complimentary energy. Virtual work and complimentary virtual work.
 ** 05 August, Friday
+- Stiffness of a bar/truss element. Eigenvalue, eigenvectors and other properties of stiffness matrix.
+- *Assignment 1* (due on 12 August)
 ** 09 August, Tuesday
 - Holiday (Muharram).
 ** 11 August, Thursday
+- Stiffness of a beam element.
 ** 12 August, Friday
+- Beams under different loading conditions - solution by stiffness matrix method.
+- *Assignment 2* (due on 23 August)
 ** 16 August, Tuesday
+- Computer program for stiffness matrix method.
 ** 18 August, Thursday
+- Computer program for stiffness matrix method.
 ** 19 August, Friday
 - Holiday (Janmashtami).
 ** 23 August, Tuesday
+- Computer program for stiffness matrix method.
+- *Assignment 3* (due on 30 August)
 ** 25 August, Thursday
 ** 26 August, Friday
 ** 30 August, Tuesday
