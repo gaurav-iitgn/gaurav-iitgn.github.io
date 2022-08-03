@@ -84,7 +84,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 * Calendar (tentative)
 # generated from go run class-calendar.go
 Coming soon. (see [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous Year]]'s website).
-#+BEGIN_SRC emacs-lisp :export no
+#+BEGIN_SRC emacs-lisp :exports none
 (let ((start_date "2022-08-03")
       (end_date   "2022-11-23"))
   ;(message (1+ start_date))
