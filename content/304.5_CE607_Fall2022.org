@@ -2,20 +2,20 @@
 # #+OPTIONS: 
 
 * Basic Information
-|----------------+-----------------------------------------|
-| Class timings  | Tuesday, Thursday, Friday, 17:05-18:00  |
-| Class location | AB 7/202                              |
-|----------------+-----------------------------------------|
-| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in) |
-|----------------+-----------------------------------------|
-| TA             | TBD. |
-|----------------+-----------------------------------------|
+|----------------+-------------------------------------------|
+| Class timings  | Tuesday, Thursday, Friday, 17:05-18:00    |
+| Class location | AB 7/202                                  |
+|----------------+-------------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)   |
+|----------------+-------------------------------------------|
+| TA             | Dravesh Yadav (dravesh.yadav@iitgn.ac.in) |
+|----------------+-------------------------------------------|
 
 
 
 
 * Course objectives, syllabus, books, pre-requisites
-** Objective
+** Objectives
 - To learn matrix stiffness method for analysis of skeletal structures.
 - To develop a computer program to perform analysis of skeletal structures based on the direct stiffness method.
 - To learn analysis of structural systems with material and/or geometric nonlinearities.
@@ -84,3 +84,62 @@ It is important to develop the habit of self-learning. A number of reading assig
 * Calendar (tentative)
 # generated from go run class-calendar.go
 Coming soon. (see [[https://sites.google.com/a/iitgn.ac.in/ce-607-asa/][Previous Year]]'s website).
+#+BEGIN_SRC emacs-lisp :export no
+(let ((start_date "2022-08-03")
+      (end_date   "2022-11-23"))
+  ;(message (1+ start_date))
+  ;(message (org-parse-time-string start_date))
+  (org-parse-time-string start_date)
+)
+#+END_SRC
+
+** 02 August, Tuesday
+
+** 04 August, Thursday
+** 05 August, Friday
+** 09 August, Tuesday
+- Holiday (Muharram).
+** 11 August, Thursday
+** 12 August, Friday
+** 16 August, Tuesday
+** 18 August, Thursday
+** 19 August, Friday
+- Holiday (Janmashtami).
+** 23 August, Tuesday
+** 25 August, Thursday
+** 26 August, Friday
+** 30 August, Tuesday
+** 01 September, Thursday
+** 02 September, Friday
+** 06 September, Tuesday
+** 08 September, Thursday
+** 09 September, Friday
+** 13 September, Tuesday
+** 15 September, Thursday
+** 16 September, Friday
+** 20 September, Tuesday
+** 22 September, Thursday
+** 23 September, Friday
+** 24 September - 01 October: Mid Semester Exam Week
+** 02 October - 09 October: Mid Semester Recess Week
+** 11 October, Tuesday
+** 13 October, Thursday
+** 14 October, Friday
+** 18 October, Tuesday
+** 19 October, Thursday
+** 20 October, Friday
+** 25 October, Tuesday
+** 27 October, Thursday
+** 28 October, Friday
+** 01 November, Tuesday
+** 03 November, Thursday
+** 04 November, Friday
+** 08 November, Tuesday
+- Holiday (Guru Nanak's Birthday).
+** 10 November, Thursday
+** 11 November, Friday
+** 15 November, Tuesday
+** 17 November, Thursday
+** 18 November, Friday
+** 22 November, Tuesday
+** 24-30 November: End Semester Exam Week
