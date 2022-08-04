@@ -97,7 +97,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Introduction. Concepts of material and geometric nonlinearity.
 - *Reading assignment*: Review energy and virtual work concepts.
 ** 04 August, Thursday
-- Energy and complimentary energy. Virtual work and complimentary virtual work.
+- Energy and complimentary energy. Virtual work and complimentary virtual work. Cause and effect relation between load-displacement.
+- *Reading assignment*: Review energy and virtual work concepts.
 ** 05 August, Friday
 - Stiffness of a bar/truss element. Eigenvalue, eigenvectors and other properties of stiffness matrix.
 - *Assignment 1* (due on 12 August)
