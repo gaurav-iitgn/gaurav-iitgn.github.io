@@ -99,15 +99,16 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** L2: 04 August, Thursday
 - Energy and complimentary energy. Virtual work and complimentary virtual work. Cause and effect relation between load-displacement.
 - *Reading assignment*: Review energy and virtual work concepts.
-** 05 August, Friday
-- Stiffness of a bar/truss element. Eigenvalue, eigenvectors and other properties of stiffness matrix.
+** L3: 05 August, Friday
+- Review of joints, members, fixed-end moments and joint loads. Stiffness of a 1D bar/truss element. 2D coordinate transformation.
+- *Ungraded assignment*: Derive stiffness matrix using energy. Derive 2D coordinate transformation matrix.
 - *Assignment 1* ([[https://drive.google.com/file/d/1MdcDL322y5d1FB3AV3DgwqdGYzqy6IP4/view?usp=sharing][download]]) -- due on 12 August
 ** 09 August, Tuesday
 - Holiday (Muharram).
 ** 11 August, Thursday
-- Stiffness of a beam element.
+ - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. Assembly.
 ** 12 August, Friday
-- Beams under different loading conditions - solution by stiffness matrix method.
+- Stiffness of a beam element. Beams under different loading conditions - solution by stiffness matrix method.
 - *Assignment 2* (due on 23 August)
 ** 16 August, Tuesday
 - Computer program for stiffness matrix method.
