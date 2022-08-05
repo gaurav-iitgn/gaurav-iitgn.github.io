@@ -101,7 +101,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - *Reading assignment*: Review energy and virtual work concepts.
 ** 05 August, Friday
 - Stiffness of a bar/truss element. Eigenvalue, eigenvectors and other properties of stiffness matrix.
-- *Assignment 1* (due on 12 August)
+- *Assignment 1* ([[https://drive.google.com/file/d/1MdcDL322y5d1FB3AV3DgwqdGYzqy6IP4/view?usp=sharing][download]]) -- due on 12 August
 ** 09 August, Tuesday
 - Holiday (Muharram).
 ** 11 August, Thursday
