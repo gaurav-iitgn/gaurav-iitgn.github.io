@@ -105,9 +105,11 @@ It is important to develop the habit of self-learning. A number of reading assig
 - *Assignment 1* ([[https://drive.google.com/file/d/1MdcDL322y5d1FB3AV3DgwqdGYzqy6IP4/view?usp=sharing][download]]) -- due on 12 August
 ** 09 August, Tuesday
 - Holiday (Muharram).
-** 11 August, Thursday
- - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. Assembly.
+** L4: 11 August, Thursday
+ - Solution of an assembly of truss members using stiffness matrix method.
+- *Ungraded assignment*: Why can we add stiffness coefficients when assembling the global matrix? Why is the assembled global matrix (and member stiffness matrix) singular?
 ** 12 August, Friday
+ - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. Assembly.
 - Stiffness of a beam element. Beams under different loading conditions - solution by stiffness matrix method.
 - *Assignment 2* (due on 23 August)
 ** 16 August, Tuesday
