@@ -109,7 +109,7 @@ It is important to develop the habit of self-learning. A number of reading assig
  - Solution of an assembly of truss members using stiffness matrix method. Assembly of matrices.
 - *Ungraded assignment*: Why can we add stiffness coefficients when assembling the global matrix? Why is the assembled global matrix (and member stiffness matrix) singular?
 ** [L5] 12 August, Friday
- - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. 
+ - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. Mode shapes of a truss element.
 - *Assignment 2* ([[https://drive.google.com/file/d/10vsV_3cUbxtN8lVqI6j0WmXq9pAZYplt/view?usp=sharing][download]]) -- due on 23 August
 ** 16 August, Tuesday
 - Computer program for stiffness matrix method.
