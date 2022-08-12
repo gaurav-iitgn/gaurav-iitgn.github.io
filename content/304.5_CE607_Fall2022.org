@@ -93,25 +93,24 @@ It is important to develop the habit of self-learning. A number of reading assig
 )
 #+END_SRC
 
-** L1: 02 August, Tuesday
+** [L1] 02 August, Tuesday
 - Introduction. Concepts of material and geometric nonlinearity.
 - *Reading assignment*: Review energy and virtual work concepts.
-** L2: 04 August, Thursday
+** [L2] 04 August, Thursday
 - Energy and complimentary energy. Virtual work and complimentary virtual work. Cause and effect relation between load-displacement.
 - *Reading assignment*: Review energy and virtual work concepts.
-** L3: 05 August, Friday
+** [L3] 05 August, Friday
 - Review of joints, members, fixed-end moments and joint loads. Stiffness of a 1D bar/truss element. 2D coordinate transformation.
 - *Ungraded assignment*: Derive stiffness matrix using energy. Derive 2D coordinate transformation matrix.
 - *Assignment 1* ([[https://drive.google.com/file/d/1MdcDL322y5d1FB3AV3DgwqdGYzqy6IP4/view?usp=sharing][download]]) -- due on 12 August
 ** 09 August, Tuesday
 - Holiday (Muharram).
-** L4: 11 August, Thursday
- - Solution of an assembly of truss members using stiffness matrix method.
+** [L4] 11 August, Thursday
+ - Solution of an assembly of truss members using stiffness matrix method. Assembly of matrices.
 - *Ungraded assignment*: Why can we add stiffness coefficients when assembling the global matrix? Why is the assembled global matrix (and member stiffness matrix) singular?
-** 12 August, Friday
- - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. Assembly.
-- Stiffness of a beam element. Beams under different loading conditions - solution by stiffness matrix method.
-- *Assignment 2* (due on 23 August)
+** [L5] 12 August, Friday
+ - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. 
+- *Assignment 2* ([[https://drive.google.com/file/d/10vsV_3cUbxtN8lVqI6j0WmXq9pAZYplt/view?usp=sharing][download]]) -- due on 23 August
 ** 16 August, Tuesday
 - Computer program for stiffness matrix method.
 ** 18 August, Thursday
@@ -119,7 +118,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** 19 August, Friday
 - Holiday (Janmashtami).
 ** 23 August, Tuesday
-- Computer program for stiffness matrix method.
+- Computer program for stiffness matrix method. Stiffness of a beam element. Beams under different loading conditions - solution by stiffness matrix method.
 - *Assignment 3* (due on 30 August)
 ** 25 August, Thursday
 ** 26 August, Friday
