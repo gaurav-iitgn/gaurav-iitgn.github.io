@@ -111,20 +111,23 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L5] 12 August, Friday
  - Stiffness matrix of 1D bar element. Eigenvalue, eigenvectors and other properties of stiffness matrix. Mode shapes of a truss element.
 - *Assignment 2* ([[https://drive.google.com/file/d/10vsV_3cUbxtN8lVqI6j0WmXq9pAZYplt/view?usp=sharing][download]]) -- due on 23 August
-** 16 August, Tuesday
-- Computer program for stiffness matrix method.
-** 18 August, Thursday
-- Computer program for stiffness matrix method.
+** [L6] 16 August, Tuesday
+- Solving problems with matrix stiffness method.
+** [L7] 18 August, Thursday
+- Steps for solving problems with matrix stiffness method.
 ** 19 August, Friday
 - Holiday (Janmashtami).
-** 23 August, Tuesday
-- Computer program for stiffness matrix method. Stiffness of a beam element. Beams under different loading conditions - solution by stiffness matrix method.
+** [L8] 23 August, Tuesday
+- Computer program for stiffness matrix method.
 - *Assignment 3* (due on 30 August)
-** 25 August, Thursday
-** 26 August, Friday
+** [L9] 25 August, Thursday
+- Computer program for stiffness matrix method.
+** [L10] 26 August, Friday
+- Computer program for stiffness matrix method.
 ** 30 August, Tuesday
 ** 01 September, Thursday
 ** 02 September, Friday
+- Stiffness of a beam element.
 ** 06 September, Tuesday
 ** 08 September, Thursday
 ** 09 September, Friday
