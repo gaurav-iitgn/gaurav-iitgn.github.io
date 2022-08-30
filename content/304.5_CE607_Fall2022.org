@@ -124,10 +124,11 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Computer program for stiffness matrix method.
 ** [L10] 26 August, Friday
 - Computer program for stiffness matrix method.
-** 30 August, Tuesday
+** [L11] 30 August, Tuesday
+- Stiffness of a beam member. Examples of assembling systems with multiple beams members.
+- *Quiz 1*
 ** 01 September, Thursday
 ** 02 September, Friday
-- Stiffness of a beam element.
 ** 06 September, Tuesday
 ** 08 September, Thursday
 ** 09 September, Friday
