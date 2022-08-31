@@ -119,7 +119,6 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Holiday (Janmashtami).
 ** [L8] 23 August, Tuesday
 - Computer program for stiffness matrix method.
-- *Assignment 3* (due on 30 August)
 ** [L9] 25 August, Thursday
 - Computer program for stiffness matrix method.
 ** [L10] 26 August, Friday
@@ -127,6 +126,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L11] 30 August, Tuesday
 - Stiffness of a beam member. Examples of assembling systems with multiple beams members.
 - *Quiz 1*
+- *Assignment 3* ([[https://drive.google.com/file/d/1s5eNo7yjrVqcj13Jq1GWvREDVCTcxHDs/view?usp=sharing][download]]) -- due on 6 September
 ** 01 September, Thursday
 ** 02 September, Friday
 ** 06 September, Tuesday
