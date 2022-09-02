@@ -127,8 +127,14 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Stiffness of a beam member. Examples of assembling systems with multiple beams members.
 - *Quiz 1*
 - *Assignment 3* ([[https://drive.google.com/file/d/1s5eNo7yjrVqcj13Jq1GWvREDVCTcxHDs/view?usp=sharing][download]]) -- due on 6 September
-** 01 September, Thursday
-** 02 September, Friday
+** [L12] 01 September, Thursday
+- Analyzing of axially rigid beam and frame systems.
+** [L13] 02 September, Friday
+- Analyzing of axially rigid beam and frame systems. Formulation of frame member with six DOFs.
+- *Ungraded assignment*: Think about the following:
+	- (Why) Is a truss analyzed as a truss?
+	- Why is the strain-displacement relation $\epsilon = du/dx$ linear?
+	- What is the nonlinear relation between strain and displacement?
 ** 06 September, Tuesday
 ** 08 September, Thursday
 ** 09 September, Friday
