@@ -135,7 +135,10 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- (Why) Is a truss analyzed as a truss?
 	- Why is the strain-displacement relation $\epsilon = du/dx$ linear?
 	- What is the nonlinear relation between strain and displacement?
-** 06 September, Tuesday
+** [L14] 06 September, Tuesday
+- Coordinate transformation for frame members with six DOFs.
+- *Ungraded assignment*: Derive the nonlinear strain-displacement relation. Find out about time complexity of inversion of a matrix.
+- *Assignment 4* ([[https://drive.google.com/file/d/1w9sbRDiNsc9zqChvpHw1MRa0fjRqMvKo/view?usp=sharing][download]]) -- due on 9 September
 ** 08 September, Thursday
 ** 09 September, Friday
 ** 13 September, Tuesday

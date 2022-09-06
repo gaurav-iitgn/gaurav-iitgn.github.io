@@ -1,3 +1,5 @@
 *.html
 public
 CHANGES
+.projectile
+*~undo-tree~
