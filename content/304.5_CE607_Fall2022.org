@@ -139,7 +139,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Coordinate transformation for frame members with six DOFs.
 - *Ungraded assignment*: Derive the nonlinear strain-displacement relation. Find out about time complexity of inversion of a matrix.
 - *Assignment 4* ([[https://drive.google.com/file/d/1w9sbRDiNsc9zqChvpHw1MRa0fjRqMvKo/view?usp=sharing][download]]) -- due on 9 September
-** 08 September, Thursday
+** [L15] 08 September, Thursday
+- Analyzing axially non-rigid frames. Consideration of support settlements and directly applied joint moments/forces.
 ** 09 September, Friday
 ** 13 September, Tuesday
 ** 15 September, Thursday
@@ -148,6 +149,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** 22 September, Thursday
 ** 23 September, Friday
 ** 24 September - 01 October: Mid Semester Exam Week
+*** Mid Semester Exam - Wednesday, 28 September, 14:00 - 16:00 hrs in AB 7/101.
 ** 02 October - 09 October: Mid Semester Recess Week
 ** 11 October, Tuesday
 ** 13 October, Thursday
