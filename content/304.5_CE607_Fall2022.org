@@ -141,7 +141,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - *Assignment 4* ([[https://drive.google.com/file/d/1w9sbRDiNsc9zqChvpHw1MRa0fjRqMvKo/view?usp=sharing][download]]) -- due on 9 September
 ** [L15] 08 September, Thursday
 - Analyzing axially non-rigid frames. Consideration of support settlements and directly applied joint moments/forces.
-** 09 September, Friday
+** [L16] 09 September, Friday
+- Idea behind geometric nonlinearity. Consideration of geometric nonlinearity for truss member.
 ** 13 September, Tuesday
 ** 15 September, Thursday
 ** 16 September, Friday
