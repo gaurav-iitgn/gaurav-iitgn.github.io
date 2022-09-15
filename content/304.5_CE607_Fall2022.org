@@ -143,8 +143,11 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Analyzing axially non-rigid frames. Consideration of support settlements and directly applied joint moments/forces.
 ** [L16] 09 September, Friday
 - Idea behind geometric nonlinearity. Consideration of geometric nonlinearity for truss member.
-** 13 September, Tuesday
-** 15 September, Thursday
+** [L17] 13 September, Tuesday
+- Stiffness matrix of truss member considering geometric nonlinearity
+** [L18] 15 September, Thursday
+- Stiffness matrix of truss member considering geometric nonlinearity. Iterative methods of solution.
+- *Ungraded assignment*: Review Newton-Raphson method. Think about implementation of the simpler iteration scheme discussed in class.
 ** 16 September, Friday
 ** 20 September, Tuesday
 ** 22 September, Thursday
