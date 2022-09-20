@@ -148,8 +148,10 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L18] 15 September, Thursday
 - Stiffness matrix of truss member considering geometric nonlinearity. Iterative methods of solution.
 - *Ungraded assignment*: Review Newton-Raphson method. Think about implementation of the simpler iteration scheme discussed in class.
-** 16 September, Friday
-** 20 September, Tuesday
+** [L19] 16 September, Friday
+- Stiffness matrix of truss member considering geometric nonlinearity using energy method.
+** [L20] 20 September, Tuesday
+- *Assignment 5* ([[https://drive.google.com/file/d/1sVVZkXvlHqy-sNzO35HNcDf1BMttV7Qh/view?usp=sharing][download]]) -- due on 23 September
 ** 22 September, Thursday
 ** 23 September, Friday
 ** 24 September - 01 October: Mid Semester Exam Week
