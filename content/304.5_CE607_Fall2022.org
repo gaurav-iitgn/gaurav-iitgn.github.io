@@ -152,14 +152,25 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Stiffness matrix of truss member considering geometric nonlinearity using energy method.
 ** [L20] 20 September, Tuesday
 - *Assignment 5* ([[https://drive.google.com/file/d/1sVVZkXvlHqy-sNzO35HNcDf1BMttV7Qh/view?usp=sharing][download]]) -- due on 23 September
-** 22 September, Thursday
-** 23 September, Friday
+** [L21] 22 September, Thursday
+- Solution methods for systems with geometric nonlinearity.
+** [L22] 23 September, Friday
+- Review of basic concepts and problem solving.
+- *Ungraded assignment*: Go through the resource material for SAP2000.
 ** 24 September - 01 October: Mid Semester Exam Week
 *** Mid Semester Exam - Wednesday, 28 September, 14:00 - 16:00 hrs in AB 7/101.
 ** 02 October - 09 October: Mid Semester Recess Week
-** 11 October, Tuesday
-** 13 October, Thursday
-** 14 October, Friday
+** [L23] 11 October, Tuesday
+- Review of SAP2000.
+** [L24] 13 October, Thursday
+- Structural idealizations.
+** [L25] 14 October, Friday
+- Discussion of 3D frame with slab problem given in previous class.
+- *Ungraded assignment*: Find out how to do the following in SAP2000
+	- how to model elastic joints
+	- what is the axes convention
+	- how to add wind loads
+	- how to draw moment/force envelopes
 ** 18 October, Tuesday
 ** 19 October, Thursday
 ** 20 October, Friday
