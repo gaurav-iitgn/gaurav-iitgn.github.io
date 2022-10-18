@@ -171,8 +171,14 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- what is the axes convention
 	- how to add wind loads
 	- how to draw moment/force envelopes
-** 18 October, Tuesday
-** 19 October, Thursday
+** [L26] 18 October, Tuesday
+- Discussion of computer model.
+- *Ungraded assignment*: Find out how to do the following in SAP2000
+	- how to model slab and what is diaphragm action
+	- what are the assumptions involved in slab model
+	- model the bridge between AB7 and AB8 in SAP2000 and present its assumptions and analysis in the next class (take appropriate assumptions for material properties)
+** [L27] 19 October, Thursday
+- *Quiz*: modeling and analysis of simple truss bridge in SAP2000.
 ** 20 October, Friday
 ** 25 October, Tuesday
 ** 27 October, Thursday
