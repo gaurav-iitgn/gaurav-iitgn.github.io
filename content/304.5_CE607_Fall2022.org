@@ -177,21 +177,40 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- how to model slab and what is diaphragm action
 	- what are the assumptions involved in slab model
 	- model the bridge between AB7 and AB8 in SAP2000 and present its assumptions and analysis in the next class (take appropriate assumptions for material properties)
-** [L27] 19 October, Thursday
+** 20 October, Thursday
+- No class.
+** [L26] 21 October, Friday
 - *Quiz*: modeling and analysis of simple truss bridge in SAP2000.
-** 20 October, Friday
-** 25 October, Tuesday
-** 27 October, Thursday
-** 28 October, Friday
-** 01 November, Tuesday
-** 03 November, Thursday
-** 04 November, Friday
+** [L27] 25 October, Tuesday
+- Quantification of effects of geometric nonlinearity on simple trusses.
+** [L28] 27 October, Thursday
+- Quantification of effects of geometric nonlinearity on simple trusses.
+** [L29] 28 October, Friday
+- Quantification of effects of geometric nonlinearity on simple beams.
+** [L30, L31] 01 November, Tuesday
+- Theoretical background of geometric nonlinearity; stability and bowing functions.
+** [L32] 03 November, Thursday
+- Consideration of material nonlinearity through plastic hinges.
+** [L33] 04 November, Friday
+- *Quiz*: structural analysis with material nonlinearity.
 ** 08 November, Tuesday
 - Holiday (Guru Nanak's Birthday).
-** 10 November, Thursday
-** 11 November, Friday
-** 15 November, Tuesday
-** 17 November, Thursday
-** 18 November, Friday
-** 22 November, Tuesday
+** [L34] 10 November, Thursday
+- Quantification of effects of material nonlinearity.
+** [L35] 11 November, Friday
+- Quantification of effects of material nonlinearity.
+- *Assignment 6* (due on 15.11.2022)
+** [L36, L37] 15 November, Tuesday
+- Failure of materials (yield stress, ultimate stress, yield load, collapse load).
+- *Quiz*: derivation of stability/bowing functions.
+** [L38] 17 November, Thursday
+- Quantification of effects of material nonlinearity.
+** [L39] 18 November, Friday
+- Consideration of combined moment and axial loads on frames; P-M interaction diagram.
+- Course reaction survey.
+- *Assignment 7* (due on 23.11.2022)
+** [L40, L41] 22 November, Tuesday
+- Consideration of combined moment and axial loads on frames; P-M interaction diagram.
 ** 24-30 November: End Semester Exam Week
+*** End Semester Exam - Sunday, 27 November, 09:00 - 11:30 hrs in AB 5/303.
+- Exam to be assigned on 25.11.2022 at 23:59. Due on 27.11.2022 at 09:00.
