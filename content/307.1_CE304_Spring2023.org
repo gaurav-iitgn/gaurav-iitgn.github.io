@@ -18,9 +18,6 @@
 
 
 * Course objectives, syllabus, books, pre-requisites
-** General philosophy of the course
-In a world where a large number of simulation tools are available and most people assume they know how to perform a finite element analysis, this course focuses on the fundamentals and aims to equip the students with the 'how' and 'why' of finite element simulations. It covers the fundamental aspects of the finite element method that are required to understand what goes on under the hood in available simulation software.
-
 ** Objectives
 - To learn the fundamentals of analyzing reinforced concrete structural members.
 - To learn design of basic structural members of a reinforced concrete building.
