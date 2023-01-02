@@ -83,7 +83,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 
 * Calendar (tentative)
 ** [T1] Jan 03, Tue
-- (Review tutorial) Stresses in beams and columns; buckling of columns.
+- {[[https://drive.google.com/file/d/10CbSC1hDiQAPtmOznKD9tskjhI76R-20/view?usp=share_link][download]]} (Review tutorial) Stresses in beams and columns; buckling of columns.
 ** [L1] Jan 04, Wed
 - Behavior of composite beams
 	- Assumptions of beam theory; centroid; neutral axis
