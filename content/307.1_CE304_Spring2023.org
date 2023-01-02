@@ -114,34 +114,65 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- Grades and types of steel
 	- Manufacturing process of reinforcing steel
 	- Stress-strain behavior
-- Reading from the book: 2.14
+	- Prevention of corrosion
+# use of clear cover for corrosion prevention
+# In class video: manufacturing of TMT bars
+- Reading from the book: 2.7, 2.14
 ** [T3] Jan 17, Tue
 - Concrete mix design; properties of concrete and steel.
 ** [L5] Jan 18, Wed
-- Analysis of RC beams.
+- Design philosophies
+	- Working stress and ultimate load philosophy
+	- Limit state method, limit states of strength and serviceability
+	- Partial factors of safety
+	- Design stress-strain curves
+- Reading from the book: 3.1.2, 3.2, 3.3, 3.5, 3.6
 ** [L6] Jan 20, Fri
-- Analysis of RC columns.
+- Analysis of RC beams.
+	- analysis under flexure
+	- balanced, under-reinforced and over-reinforced sections
+	- analysis under service loads
+	- analysis at ultimate limit state; singly- and doubly-reinforced beams
+# assignment on T and L beams
+- Reading from the book: 4.5, 4.7
 ** [T4] Jan 24, Tue
-- Analysis of RC beams and columns.
+- Design philosophies; analysis of RC beams.
 ** [L7] Jan 25, Wed
-- Design of RC beams.
+- Design of RC beams
+	- requirements of cover and spacing of bars
+	- minimum and maximum reinforcement
+	- deflection control (serviceability)
+	- design of singly- and doubly-reinforced beams
+- Reading from the book: 5.2, 5.3, 5.5, 5.7
+# assignment on T and L beam design
 ** [L8] Jan 27, Fri
-- Design of RC columns.
+- Design of RC beams
+	- Curtailment and bending of tension reinforcement
+	- Behavior and design against shear
+- Reading from the book: 5.9, 6.3, 6.4, 6.5, 6.7.6
 ** [T5] Jan 31, Tue
-- Design of RC beams and columns.
+- Design of RC beams.
 ** [L9] Feb 01, Wed
-- Design of RC beams and columns.
+- Analysis and design of RC columns
+	- effective length, braced vs. unbraced columns
+	- limits on slenderness, minimum eccentricity and reinforcement
+	- longitudinal and transverse reinforcement
+	- design of short columns
+- Reading from the book: 13.2.3, 13.3, 13.4
 ** [L10] Feb 03, Fri
-- Design of RC beams and columns.
+- Design of columns
+	- consideration of combined axial and bending loads
+	- design of slender columns
+- Reading from the book: 13.5, 13.6, 13.7
 ** Feb 04 to Feb 08 - Examination I
 ** [L11] Feb 10, Fri
-- Behavior and analysis of plates.
+- Design of columns
 ** [T6] Feb 14, Tue
-- Analysis of plates.
+- Design of columns
 ** [L12] Feb 15, Wed
-- Analysis of RC slabs.
+- Behavior and analysis of plates.
 ** [L13] Feb 17, Fri
-- Design of RC slabs.
+- Analysis and design of RC slabs.
 ** [T7] Feb 21, Tue
 - Analysis and design of RC slabs.
 ** [L14] Feb 22, Wed
@@ -159,6 +190,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Design of RC portal frames; strong column weak beam concept.
 ** [L18] Mar 17, Fri
 - Design of RC portal frames; ductile detailing.
+	- Curtailment of flexure and tension reinforcement
+- Reading from the book: 5.9
 ** [T10] Mar 21, Tue
 - Design of RC portal frames.
 ** Mar 22 to Mar 26 - Examination II
