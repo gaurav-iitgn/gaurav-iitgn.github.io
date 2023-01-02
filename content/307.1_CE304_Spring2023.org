@@ -34,6 +34,7 @@
 		
 ** Textbook
 - Reinforced Concrete Design - S Unnikrishna Pillai and Devdas Menon.
+	- Respective sections from the book to be read `before' the class, will be mentioned against the lectures.
 	
 ** Reference Books
 - Limit State Design of Reinforced Concrete Structures - P C Verghese.
@@ -54,7 +55,7 @@
 	- (note that there is no space or hyphen or anything between CE and 304)
 
 ** Cheating
-Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that this will never happen and everyone will uphold the honor code.
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
 
 ** Late submissions
 All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
@@ -82,19 +83,40 @@ It is important to develop the habit of self-learning. A number of reading assig
 
 * Calendar (tentative)
 ** [T1] Jan 03, Tue
-- Stresses in beams and columns; buckling of columns.
+- (Review tutorial) Stresses in beams and columns; buckling of columns.
 ** [L1] Jan 04, Wed
-- Analysis of beams with composite sections (muiltiple materials); equivalent sections; modular ratio. Stress-strain distribution.
+- Behavior of composite beams
+	- Assumptions of beam theory; centroid; neutral axis
+	- Strain and stress distribution during bending of homegeneous and composite beams
+	- Shear stresses in beams
+	- Equivalent section and modular ratio
+- Reading from the book: 4.2, 4.3, 6.2
 ** [L2] Jan 06, Fri
-- Analysis of columns with composite sections (muiltiple materials). Stress-strain distribution.
+- Behavior of composite columns
+	- Strains and stresses in columns under axial loads only (homogeneous and composite)
+	- Effective length; slenderness ratio; buckling of columns
+	- Strains and stresses in columns under combined axial and bending loads
+- Reading from the book: 13.1.2, 13.2.1, 13.2.2
 ** [T2] Jan 10, Tue
 - Analysis of beams and columns with composite section.
 ** [L3] Jan 11, Wed
-- Constitutive behavior of concrete and steel.
+- Material behavior of concrete
+	- Stress-strain behavior; elastic modulus and Poisson's ratio; modulus of rupture
+	- Effects of confinement and creep
+	- Grades of concrete
+- Reading from the book: 2.8, 2.9, 2.10.3, 2.11.1, 2.11.2
 ** [L4] Jan 13, Fri
 - Mix design and characteristic strength.
+	- Nominal mix vs. design mix
+	- Characteristic strength
+# In class experiment: measure height with different precisions to show the spread of height
+- Material behavior of steel.
+	- Grades and types of steel
+	- Manufacturing process of reinforcing steel
+	- Stress-strain behavior
+- Reading from the book: 2.14
 ** [T3] Jan 17, Tue
-- Material behavior of concrete and steel.
+- Concrete mix design; properties of concrete and steel.
 ** [L5] Jan 18, Wed
 - Analysis of RC beams.
 ** [L6] Jan 20, Fri
