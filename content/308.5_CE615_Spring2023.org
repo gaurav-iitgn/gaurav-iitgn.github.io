@@ -1,0 +1,109 @@
+#+TITLE: CE 615: Structural Design for Fire - Spring 2023
+# #+OPTIONS: 
+
+* Basic Information
+|-------------------+--------------------------------------------|
+| Class timings     | Monday, Wednesday, 14:00-15:20 hrs         |
+| Class location    | AB 7/204                                   |
+|-------------------+--------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)    |
+|-------------------+--------------------------------------------|
+
+
+* Course objectives, syllabus, books, pre-requisites
+** Objectives
+- To understand implications of fire on structural systems
+- To understand design of RCC and steel structures under fire
+- To understand fire rating and design for fire safety
+	
+** Syllabus
+- Review of performance-based design concepts, LRFD cold design of RCC and steel structures.
+- Fire models and scenarios, load calculations.
+- Design considerations for individual members (tensile, compressive and flexural) in fire.
+- Fire proofing materials, fire safety ratings.
+- Behavior of structural systems under fire, preventive/protective mechanisms.
+- Exhaustive syllabus is as follows
+	- Review of performance-based design concepts, LRFD cold design of RCC and steel structures; codified models for fire, standard and natural fire; material behavior of steel and concrete constituents in fire; estimation of time-temperature curves for structural members in different fire and exposure/ventilation scenarios; design considerations for individual members exposed to fire: structural members in tension, compression, bending; provisions in Eurocodes and IS 456, 800, 1641, 1642 and 1643 to ensure fire safety; fire proofing materials used to enhance fire resistance of structural members; behavior of structural systems under fire; preventive/protective systems for structures.
+
+		
+** Reference Books
+- Fire-Resistant Design of Structures - S. Chandrasekaran and G. Srivastava
+- Structural Design for Fire - A.H. Buchanan.
+- Fire Safety Engineering: Design of Structures - J.A. Purkiss.
+- Performance-based Fire Engineering of Structures - Y. Wang, I. Burgess, F. Wald and M. Gillie.
+
+** Relevant building codes
+- IS 456:2000 - Plain and reinforced concrete: code of practice.
+- IS 800:2007 - General construction in steel: code of practice.
+- IS 1641:1988 - Code of practice for fire safety of buildings (general): general principles of fire grading and classification.
+- IS 1642:1989 - Fire safety of buildings (general): details of construction: code of practice.
+- IS 1643:1988 - Code of practice for fire safety of buildings (general): exposure hazard.
+- Eurocode 1: Part 1-2: Actions on structures exposed to fire.
+- Eurocode 2: Part 1-2: Design of concrete structures - structural fire design.
+- Eurocode 3: Part 1-1: Design of steel structures.
+
+** Pre-requisites
+- Knowledge of performance-based design of RCC and steel structures.
+- Working knowledge of MS Excel and Matlab.
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE615" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 615)
+
+** Cheating
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+
+** Late submissions
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, $R$ will be multiplied to the obtained marks. Mathematically, it is given by: $R = \exp(-D^2)$, where $D$ is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+[[./imgs/deadline-delay-reduction.png]]
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       40% |
+| Exams (three)        |  20% each |
+
+** Modes of formal assessment
+- Assignments will entail analysis/design problems, practical problems, visit reports, etc.
+- Exams will involve take home type analysis/design problems along with viva/presentations.
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Calendar (to be populated after discussions)
+** [L1] Jan 04, Wed
+** [L2] Jan 09, Mon
+** [L3] Jan 11, Wed
+** [L4] Jan 16, Mon
+** [L5] Jan 18, Wed
+** [L6] Jan 23, Mon
+** [L7] Jan 25, Wed
+** [L8] Jan 30, Mon
+** [L9] Feb 01, Wed
+** Feb 04 to Feb 08 - Examination I
+** [L10] Feb 13, Mon
+** [L11] Feb 15, Wed
+** [L12] Feb 20, Mon
+** [L13] Feb 22, Wed
+** [L14] Feb 27, Mon
+** [L15] Mar 01, Wed
+** Mar 05 to Mar 12 - Mid Semester Recess
+** [L16] Mar 13, Mon
+** [L17] Mar 15, Wed
+** [L18] Mar 20, Mon
+** Mar 22 to Mar 26 - Examination II
+** [L19] Mar 27, Mon
+** [L20] Mar 29, Wed
+** [L21] Apr 03, Mon
+** [L22] Apr 05, Wed
+** [L23] Apr 10, Mon
+** [L24] Apr 12, Wed
+** [L25] Apr 17, Mon
+** [L26] Apr 19, Wed
+** [L27] Apr 24, Mon
+** [L28] Apr 26, Wed
+** Apr 28 to May 02 - Examination III
