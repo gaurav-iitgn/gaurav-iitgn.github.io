@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-01-03 Tue 04:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CE 615: Structural Design for Fire - Spring 2023</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+
+<link rel='stylesheet' href='css/gs_simple.css' />
+<script type='text/javascript' src='js/gs_simple.js'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+<center>
+<nav>
+<a href="/index.html">Home</a>
+<a href="/research.html">Research</a>
+<a href="/teaching.html">Teaching</a>
+<a href="/students.html">Students</a>
+</nav>
+</center>
+</div>
+<div id="content">
+<h1 class="title">CE 615: Structural Design for Fire - Spring 2023</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgf655659">Basic Information</a></li>
+<li><a href="#orge00b870">Course objectives, syllabus, books, pre-requisites</a>
+<ul>
+<li><a href="#orgfe67c44">Objectives</a></li>
+<li><a href="#org7fb36e9">Syllabus</a></li>
+<li><a href="#orgc21ba58">Reference Books</a></li>
+<li><a href="#org7ee907b">Relevant building codes</a></li>
+<li><a href="#org61c78c8">Pre-requisites</a></li>
+</ul>
+</li>
+<li><a href="#orgac686c5">Course Policies</a>
+<ul>
+<li><a href="#org3f2171c">Etiquette</a></li>
+<li><a href="#orgd0c7f71">Cheating</a></li>
+<li><a href="#orgf7780b2">Late submissions</a></li>
+<li><a href="#orgbc4a6aa">Grading</a></li>
+<li><a href="#orgb669485">Modes of formal assessment</a></li>
+<li><a href="#org972707b">Emphasis on self-learning</a></li>
+</ul>
+</li>
+<li><a href="#orge73089d">Calendar (to be populated after discussions)</a>
+<ul>
+<li><a href="#org3e8a40d">[L1] Jan 04, Wed</a></li>
+<li><a href="#org4922a1f">[L2] Jan 09, Mon</a></li>
+<li><a href="#orgb9cc597">[L3] Jan 11, Wed</a></li>
+<li><a href="#orgafcc486">[L4] Jan 16, Mon</a></li>
+<li><a href="#org6fe5efc">[L5] Jan 18, Wed</a></li>
+<li><a href="#org24a6f0b">[L6] Jan 23, Mon</a></li>
+<li><a href="#org7aa7c5e">[L7] Jan 25, Wed</a></li>
+<li><a href="#org25f56c1">[L8] Jan 30, Mon</a></li>
+<li><a href="#orgae736c9">[L9] Feb 01, Wed</a></li>
+<li><a href="#orgdcf58a6">Feb 04 to Feb 08 - Examination I</a></li>
+<li><a href="#org35ca77b">[L10] Feb 13, Mon</a></li>
+<li><a href="#org229531b">[L11] Feb 15, Wed</a></li>
+<li><a href="#org737b342">[L12] Feb 20, Mon</a></li>
+<li><a href="#orgb121909">[L13] Feb 22, Wed</a></li>
+<li><a href="#org18c3f06">[L14] Feb 27, Mon</a></li>
+<li><a href="#orge5911ca">[L15] Mar 01, Wed</a></li>
+<li><a href="#orgba0d6ea">Mar 05 to Mar 12 - Mid Semester Recess</a></li>
+<li><a href="#orge779b53">[L16] Mar 13, Mon</a></li>
+<li><a href="#orga1b3850">[L17] Mar 15, Wed</a></li>
+<li><a href="#orgb40c1f4">[L18] Mar 20, Mon</a></li>
+<li><a href="#org7586c06">Mar 22 to Mar 26 - Examination II</a></li>
+<li><a href="#orgea615b2">[L19] Mar 27, Mon</a></li>
+<li><a href="#org9c865a9">[L20] Mar 29, Wed</a></li>
+<li><a href="#org63dac36">[L21] Apr 03, Mon</a></li>
+<li><a href="#org74ab24c">[L22] Apr 05, Wed</a></li>
+<li><a href="#orga0a6a8b">[L23] Apr 10, Mon</a></li>
+<li><a href="#org4a48467">[L24] Apr 12, Wed</a></li>
+<li><a href="#org507269c">[L25] Apr 17, Mon</a></li>
+<li><a href="#org926b11d">[L26] Apr 19, Wed</a></li>
+<li><a href="#org6535226">[L27] Apr 24, Mon</a></li>
+<li><a href="#org6e35227">[L28] Apr 26, Wed</a></li>
+<li><a href="#org64a6b1d">Apr 28 to May 02 - Examination III</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf655659" class="outline-2">
+<h2 id="orgf655659">Basic Information</h2>
+<div class="outline-text-2" id="text-orgf655659">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Class timings</th>
+<th scope="col" class="org-left">Monday, Wednesday, 14:00-15:20 hrs</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Class location</th>
+<th scope="col" class="org-left">AB 7/204</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Instructor</td>
+<td class="org-left">Gaurav Srivastava (gauravs@iitgn.ac.in)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-orge00b870" class="outline-2">
+<h2 id="orge00b870">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-orge00b870">
+</div>
+<div id="outline-container-orgfe67c44" class="outline-3">
+<h3 id="orgfe67c44">Objectives</h3>
+<div class="outline-text-3" id="text-orgfe67c44">
+<ul class="org-ul">
+<li>To understand implications of fire on structural systems</li>
+<li>To understand design of RCC and steel structures under fire</li>
+<li>To understand fire rating and design for fire safety</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7fb36e9" class="outline-3">
+<h3 id="org7fb36e9">Syllabus</h3>
+<div class="outline-text-3" id="text-org7fb36e9">
+<ul class="org-ul">
+<li>Review of performance-based design concepts, LRFD cold design of RCC and steel structures.</li>
+<li>Fire models and scenarios, load calculations.</li>
+<li>Design considerations for individual members (tensile, compressive and flexural) in fire.</li>
+<li>Fire proofing materials, fire safety ratings.</li>
+<li>Behavior of structural systems under fire, preventive/protective mechanisms.</li>
+<li>Exhaustive syllabus is as follows
+<ul class="org-ul">
+<li>Review of performance-based design concepts, LRFD cold design of RCC and steel structures; codified models for fire, standard and natural fire; material behavior of steel and concrete constituents in fire; estimation of time-temperature curves for structural members in different fire and exposure/ventilation scenarios; design considerations for individual members exposed to fire: structural members in tension, compression, bending; provisions in Eurocodes and IS 456, 800, 1641, 1642 and 1643 to ensure fire safety; fire proofing materials used to enhance fire resistance of structural members; behavior of structural systems under fire; preventive/protective systems for structures.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgc21ba58" class="outline-3">
+<h3 id="orgc21ba58">Reference Books</h3>
+<div class="outline-text-3" id="text-orgc21ba58">
+<ul class="org-ul">
+<li>Fire-Resistant Design of Structures - S. Chandrasekaran and G. Srivastava</li>
+<li>Structural Design for Fire - A.H. Buchanan.</li>
+<li>Fire Safety Engineering: Design of Structures - J.A. Purkiss.</li>
+<li>Performance-based Fire Engineering of Structures - Y. Wang, I. Burgess, F. Wald and M. Gillie.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org7ee907b" class="outline-3">
+<h3 id="org7ee907b">Relevant building codes</h3>
+<div class="outline-text-3" id="text-org7ee907b">
+<ul class="org-ul">
+<li>IS 456:2000 - Plain and reinforced concrete: code of practice.</li>
+<li>IS 800:2007 - General construction in steel: code of practice.</li>
+<li>IS 1641:1988 - Code of practice for fire safety of buildings (general): general principles of fire grading and classification.</li>
+<li>IS 1642:1989 - Fire safety of buildings (general): details of construction: code of practice.</li>
+<li>IS 1643:1988 - Code of practice for fire safety of buildings (general): exposure hazard.</li>
+<li>Eurocode 1: Part 1-2: Actions on structures exposed to fire.</li>
+<li>Eurocode 2: Part 1-2: Design of concrete structures - structural fire design.</li>
+<li>Eurocode 3: Part 1-1: Design of steel structures.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org61c78c8" class="outline-3">
+<h3 id="org61c78c8">Pre-requisites</h3>
+<div class="outline-text-3" id="text-org61c78c8">
+<ul class="org-ul">
+<li>Knowledge of performance-based design of RCC and steel structures.</li>
+<li>Working knowledge of MS Excel and Matlab.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgac686c5" class="outline-2">
+<h2 id="orgac686c5">Course Policies</h2>
+<div class="outline-text-2" id="text-orgac686c5">
+</div>
+<div id="outline-container-org3f2171c" class="outline-3">
+<h3 id="org3f2171c">Etiquette</h3>
+<div class="outline-text-3" id="text-org3f2171c">
+<ul class="org-ul">
+<li>Please be considerate about everyone's time.</li>
+<li>In all emails pertaining to this course, please have "CE615" in the subject line.
+<ul class="org-ul">
+<li>(note that there is no space or hyphen or anything between CE and 615)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd0c7f71" class="outline-3">
+<h3 id="orgd0c7f71">Cheating</h3>
+<div class="outline-text-3" id="text-orgd0c7f71">
+<p>
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf7780b2" class="outline-3">
+<h3 id="orgf7780b2">Late submissions</h3>
+<div class="outline-text-3" id="text-orgf7780b2">
+<p>
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+<img src="./imgs/deadline-delay-reduction.png" alt="deadline-delay-reduction.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbc4a6aa" class="outline-3">
+<h3 id="orgbc4a6aa">Grading</h3>
+<div class="outline-text-3" id="text-orgbc4a6aa">
+<p>
+Following will be the weightage of different components of assessment
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Component</th>
+<th scope="col" class="org-left">Weightage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Homework assignments</td>
+<td class="org-left">40%</td>
+</tr>
+
+<tr>
+<td class="org-left">Exams (three)</td>
+<td class="org-left">20% each</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgb669485" class="outline-3">
+<h3 id="orgb669485">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-orgb669485">
+<ul class="org-ul">
+<li>Assignments will entail analysis/design problems, practical problems, visit reports, etc.</li>
+<li>Exams will involve take home type analysis/design problems along with viva/presentations.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org972707b" class="outline-3">
+<h3 id="org972707b">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-org972707b">
+<p>
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge73089d" class="outline-2">
+<h2 id="orge73089d">Calendar (to be populated after discussions)</h2>
+<div class="outline-text-2" id="text-orge73089d">
+</div>
+<div id="outline-container-org3e8a40d" class="outline-3">
+<h3 id="org3e8a40d">[L1] Jan 04, Wed</h3>
+</div>
+<div id="outline-container-org4922a1f" class="outline-3">
+<h3 id="org4922a1f">[L2] Jan 09, Mon</h3>
+</div>
+<div id="outline-container-orgb9cc597" class="outline-3">
+<h3 id="orgb9cc597">[L3] Jan 11, Wed</h3>
+</div>
+<div id="outline-container-orgafcc486" class="outline-3">
+<h3 id="orgafcc486">[L4] Jan 16, Mon</h3>
+</div>
+<div id="outline-container-org6fe5efc" class="outline-3">
+<h3 id="org6fe5efc">[L5] Jan 18, Wed</h3>
+</div>
+<div id="outline-container-org24a6f0b" class="outline-3">
+<h3 id="org24a6f0b">[L6] Jan 23, Mon</h3>
+</div>
+<div id="outline-container-org7aa7c5e" class="outline-3">
+<h3 id="org7aa7c5e">[L7] Jan 25, Wed</h3>
+</div>
+<div id="outline-container-org25f56c1" class="outline-3">
+<h3 id="org25f56c1">[L8] Jan 30, Mon</h3>
+</div>
+<div id="outline-container-orgae736c9" class="outline-3">
+<h3 id="orgae736c9">[L9] Feb 01, Wed</h3>
+</div>
+<div id="outline-container-orgdcf58a6" class="outline-3">
+<h3 id="orgdcf58a6">Feb 04 to Feb 08 - Examination I</h3>
+</div>
+<div id="outline-container-org35ca77b" class="outline-3">
+<h3 id="org35ca77b">[L10] Feb 13, Mon</h3>
+</div>
+<div id="outline-container-org229531b" class="outline-3">
+<h3 id="org229531b">[L11] Feb 15, Wed</h3>
+</div>
+<div id="outline-container-org737b342" class="outline-3">
+<h3 id="org737b342">[L12] Feb 20, Mon</h3>
+</div>
+<div id="outline-container-orgb121909" class="outline-3">
+<h3 id="orgb121909">[L13] Feb 22, Wed</h3>
+</div>
+<div id="outline-container-org18c3f06" class="outline-3">
+<h3 id="org18c3f06">[L14] Feb 27, Mon</h3>
+</div>
+<div id="outline-container-orge5911ca" class="outline-3">
+<h3 id="orge5911ca">[L15] Mar 01, Wed</h3>
+</div>
+<div id="outline-container-orgba0d6ea" class="outline-3">
+<h3 id="orgba0d6ea">Mar 05 to Mar 12 - Mid Semester Recess</h3>
+</div>
+<div id="outline-container-orge779b53" class="outline-3">
+<h3 id="orge779b53">[L16] Mar 13, Mon</h3>
+</div>
+<div id="outline-container-orga1b3850" class="outline-3">
+<h3 id="orga1b3850">[L17] Mar 15, Wed</h3>
+</div>
+<div id="outline-container-orgb40c1f4" class="outline-3">
+<h3 id="orgb40c1f4">[L18] Mar 20, Mon</h3>
+</div>
+<div id="outline-container-org7586c06" class="outline-3">
+<h3 id="org7586c06">Mar 22 to Mar 26 - Examination II</h3>
+</div>
+<div id="outline-container-orgea615b2" class="outline-3">
+<h3 id="orgea615b2">[L19] Mar 27, Mon</h3>
+</div>
+<div id="outline-container-org9c865a9" class="outline-3">
+<h3 id="org9c865a9">[L20] Mar 29, Wed</h3>
+</div>
+<div id="outline-container-org63dac36" class="outline-3">
+<h3 id="org63dac36">[L21] Apr 03, Mon</h3>
+</div>
+<div id="outline-container-org74ab24c" class="outline-3">
+<h3 id="org74ab24c">[L22] Apr 05, Wed</h3>
+</div>
+<div id="outline-container-orga0a6a8b" class="outline-3">
+<h3 id="orga0a6a8b">[L23] Apr 10, Mon</h3>
+</div>
+<div id="outline-container-org4a48467" class="outline-3">
+<h3 id="org4a48467">[L24] Apr 12, Wed</h3>
+</div>
+<div id="outline-container-org507269c" class="outline-3">
+<h3 id="org507269c">[L25] Apr 17, Mon</h3>
+</div>
+<div id="outline-container-org926b11d" class="outline-3">
+<h3 id="org926b11d">[L26] Apr 19, Wed</h3>
+</div>
+<div id="outline-container-org6535226" class="outline-3">
+<h3 id="org6535226">[L27] Apr 24, Mon</h3>
+</div>
+<div id="outline-container-org6e35227" class="outline-3">
+<h3 id="org6e35227">[L28] Apr 26, Wed</h3>
+</div>
+<div id="outline-container-org64a6b1d" class="outline-3">
+<h3 id="org64a6b1d">Apr 28 to May 02 - Examination III</h3>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<footer>
+Contact: 
+<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) | it.garuav@gmail.com (personal)
+<a href='mailto:it.gaurav@gmail.com'>it.gaurav@gmail.com</a> (Personal)
+<br>
+Created completely through <a href='https://www.gnu.org/software/emacs/'>Gnu Emacs</a> and <a href='https://orgmode.org'>Org Mode</a> (<a href='https://github.com/gaurav-iitgn/gaurav-iitgn.github.io'>source code</a>)
+</footer>
+</div>
+</body>
+</html>
