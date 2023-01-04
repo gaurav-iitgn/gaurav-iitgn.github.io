@@ -91,6 +91,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- Shear stresses in beams
 	- Equivalent section and modular ratio
 - Reading from the book: 4.2, 4.3, 6.2
+- Problems given in class:
+	- Finish the derivation of neutral axis location of the composite section
+	- Calculate neutral axes locations of the two given composite sections (2 material and 3 material)
 ** [L2] Jan 06, Fri
 - Behavior of composite columns
 	- Strains and stresses in columns under axial loads only (homogeneous and composite)
