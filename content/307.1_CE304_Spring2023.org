@@ -100,8 +100,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- Effective length; slenderness ratio; buckling of columns
 	- Strains and stresses in columns under combined axial and bending loads
 - Reading from the book: 13.1.2, 13.2.1, 13.2.2
+- {[[https://drive.google.com/file/d/18huyS-eKoFCspeHnhmoorVm2NEolWmzL/view?usp=sharing][Mechanics Practice Problems]]}
 ** [T2] Jan 10, Tue
-- Analysis of beams and columns with composite section.
+- {[[https://drive.google.com/file/d/18ickA7UROCdGo826cpVdcl_f-i31B3WJ/view?usp=sharing][T2 Set A]]}{[[https://drive.google.com/file/d/18kt5ZeoUV01-_XzCAmKMfUmlHuohO5JE/view?usp=sharing][T2 Set B]]}Analysis of beams and columns with composite section.
 ** [L3] Jan 11, Wed
 - Material behavior of concrete
 	- Stress-strain behavior; elastic modulus and Poisson's ratio; modulus of rupture
