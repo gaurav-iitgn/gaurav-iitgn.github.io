@@ -123,6 +123,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 # In class video: manufacturing of TMT bars
 - Reading from the book: 2.7, 2.14
 ** [T3] Jan 17, Tue
+- {[[https://drive.google.com/file/d/18mX0lUrMp8CJpEJLG2rMPGfpFOri7BMW/view?usp=sharing][Assignment 1]]} - due on Jan 24.
 - Concrete mix design; properties of concrete and steel.
 ** [L5] Jan 18, Wed
 - Design philosophies
