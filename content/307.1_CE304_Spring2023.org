@@ -124,7 +124,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Reading from the book: 2.7, 2.14
 ** [T3] Jan 17, Tue
 - {[[https://drive.google.com/file/d/18mX0lUrMp8CJpEJLG2rMPGfpFOri7BMW/view?usp=sharing][Assignment 1]]} - due on Jan 24.
-- Concrete mix design; properties of concrete and steel.
+- {[[https://drive.google.com/file/d/1U3hXpHauN2HBJNzEdPWBw6kMZlZmUrbJ/view?usp=sharing][T3 Set A]]}{[[https://drive.google.com/file/d/1ptI9cdOygCEmSTA7eigXVykwe-o4Lrdt/view?usp=sharing][T3 Set B]]} Concrete mix design; properties of concrete and steel.
 ** [L5] Jan 18, Wed
 - Design philosophies
 	- Working stress and ultimate load philosophy
