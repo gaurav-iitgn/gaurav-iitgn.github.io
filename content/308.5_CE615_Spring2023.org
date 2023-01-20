@@ -74,12 +74,31 @@ Following will be the weightage of different components of assessment
 ** Emphasis on self-learning
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
-* Calendar (to be populated after discussions)
+* Calendar (tentative)
 ** [L1] Jan 04, Wed
+- Introduction to structural fire engineering
+- Need and Objectives of design of structures against fire
 ** [L2] Jan 09, Mon
+- Assessment of fire loads within buildings (research paper given for reading)
+- *Assignment 1* (due on 16 Jan)
+	- Conduct a survey of your hostel room in accordance with the methods mentioned in the paper; compare your results with the available data
 ** [L3] Jan 11, Wed
+- Lecture by Dr Mahesh Tiwari on fire engineering
 ** [L4] Jan 16, Mon
+- Calculation of FLED and development of parametric T-t curve as per Eurocode (sample calculation was given)
+- *Assignment 2* (due on 23 Jan)
+	- Calculate FLED of your hostel room (that you surveyed last week)
+	- Calculate FLED of AB 7/204 (classroom)
 ** [L5] Jan 18, Wed
+- Total energy content and FLED
+- Flowchart of design for fire
+	- Characterization of fire loads
+	- Development of fire scenarios (HRR-time and T-time)
+	- Thermo-mechanical analysis of structural systems/members
+	- Design
+- Concept of fire rating: strength, insulation, integrity, (smoke)
+- To read: IS 3809
+- To think: differences between standard fire curve (ISO 834, ASTM E119) and real fire behavior
 ** [L6] Jan 23, Mon
 ** [L7] Jan 25, Wed
 ** [L8] Jan 30, Mon

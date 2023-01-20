@@ -126,23 +126,29 @@ It is important to develop the habit of self-learning. A number of reading assig
 - {[[https://drive.google.com/file/d/18mX0lUrMp8CJpEJLG2rMPGfpFOri7BMW/view?usp=sharing][Assignment 1]]} - due on Jan 24.
 - {[[https://drive.google.com/file/d/1U3hXpHauN2HBJNzEdPWBw6kMZlZmUrbJ/view?usp=sharing][T3 Set A]]}{[[https://drive.google.com/file/d/1ptI9cdOygCEmSTA7eigXVykwe-o4Lrdt/view?usp=sharing][T3 Set B]]} Concrete mix design; properties of concrete and steel.
 ** [L5] Jan 18, Wed
+- Mix design using IS 10262 and IS 456
+	- Provisions of the code
+	- Examples of mix design
+	- Discussion on materials, workmanship, inspection and testing
+	- Stress-strain behavior of steel
+** [L6] Jan 20, Fri
 - Design philosophies
 	- Working stress and ultimate load philosophy
 	- Limit state method, limit states of strength and serviceability
 	- Partial factors of safety
 	- Design stress-strain curves
 - Reading from the book: 3.1.2, 3.2, 3.3, 3.5, 3.6
-** [L6] Jan 20, Fri
+** [T4] Jan 24, Tue
+- Design philosophies; linear analysis of RC beams.
+** [L7] Jan 25, Wed
 - Analysis of RC beams.
 	- analysis under flexure
 	- balanced, under-reinforced and over-reinforced sections
 	- analysis under service loads
 	- analysis at ultimate limit state; singly- and doubly-reinforced beams
-# assignment on T and L beams
 - Reading from the book: 4.5, 4.7
-** [T4] Jan 24, Tue
-- Design philosophies; analysis of RC beams.
-** [L7] Jan 25, Wed
+# assignment on T and L beams
+** [L8] Jan 27, Fri
 - Design of RC beams
 	- requirements of cover and spacing of bars
 	- minimum and maximum reinforcement
@@ -150,28 +156,26 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- design of singly- and doubly-reinforced beams
 - Reading from the book: 5.2, 5.3, 5.5, 5.7
 # assignment on T and L beam design
-** [L8] Jan 27, Fri
+** [T5] Jan 31, Tue
+- Design of RC beams.
+** [L9] Feb 01, Wed
 - Design of RC beams
 	- Curtailment and bending of tension reinforcement
 	- Behavior and design against shear
 - Reading from the book: 5.9, 6.3, 6.4, 6.5, 6.7.6
-** [T5] Jan 31, Tue
-- Design of RC beams.
-** [L9] Feb 01, Wed
+** [L10] Feb 03, Fri
 - Analysis and design of RC columns
 	- effective length, braced vs. unbraced columns
 	- limits on slenderness, minimum eccentricity and reinforcement
 	- longitudinal and transverse reinforcement
 	- design of short columns
 - Reading from the book: 13.2.3, 13.3, 13.4
-** [L10] Feb 03, Fri
+** Feb 04 to Feb 08 - Examination I
+** [L11] Feb 10, Fri
 - Design of columns
 	- consideration of combined axial and bending loads
 	- design of slender columns
 - Reading from the book: 13.5, 13.6, 13.7
-** Feb 04 to Feb 08 - Examination I
-** [L11] Feb 10, Fri
-- Design of columns
 ** [T6] Feb 14, Tue
 - Design of columns
 ** [L12] Feb 15, Wed
