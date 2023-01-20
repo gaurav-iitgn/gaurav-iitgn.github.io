@@ -136,12 +136,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- Working stress and ultimate load philosophy
 	- Limit state method, limit states of strength and serviceability
 	- Partial factors of safety
-	- Design stress-strain curves
 - Reading from the book: 3.1.2, 3.2, 3.3, 3.5, 3.6
 ** [T4] Jan 24, Tue
 - Design philosophies; linear analysis of RC beams.
 ** [L7] Jan 25, Wed
 - Analysis of RC beams.
+	- design stress-strain curves
 	- analysis under flexure
 	- balanced, under-reinforced and over-reinforced sections
 	- analysis under service loads
