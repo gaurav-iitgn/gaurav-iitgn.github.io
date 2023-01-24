@@ -138,7 +138,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- Partial factors of safety
 - Reading from the book: 3.1.2, 3.2, 3.3, 3.5, 3.6
 ** [T4] Jan 24, Tue
-- Design philosophies; linear analysis of RC beams.
+- {[[https://drive.google.com/file/d/1Xfazy-PC5Z_TEJkHnrPGfL2e2tgsogIV/view?usp=sharing][Assignment 2]]} - due on 31 Jan.
+- {[[https://drive.google.com/file/d/12uKmhWTnMN24d2m4TyZ23_A773EHQlcm/view?usp=sharing][T4 Set A]]} Design philosophies; probabilistic design ideas.
 ** [L7] Jan 25, Wed
 - Analysis of RC beams.
 	- design stress-strain curves
