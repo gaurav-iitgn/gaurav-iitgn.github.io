@@ -144,41 +144,47 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Analysis of RC beams.
 	- design stress-strain curves
 	- analysis under flexure
-	- balanced, under-reinforced and over-reinforced sections
 	- analysis under service loads
-	- analysis at ultimate limit state; singly- and doubly-reinforced beams
 - Reading from the book: 4.5, 4.7
 # assignment on T and L beams
 ** [L8] Jan 27, Fri
+- Analysis of RC beams.
+	- design stress-strain curves
+	- analysis under flexure
+	- balanced, under-reinforced and over-reinforced sections
+	- analysis at ultimate limit state; singly- and doubly-reinforced beams
+- Reading from the book: 4.5, 4.7
+# assignment on T and L beam design
+** [T5] Jan 31, Tue
+- Analysis of RC beams.
+** [L9] Feb 01, Wed
+- Analysis and design of RC beams.
+	- behavior under shear
+	- basic design process
+#- Reading from the book: 
+** [L10] Feb 03, Fri
 - Design of RC beams
 	- requirements of cover and spacing of bars
 	- minimum and maximum reinforcement
 	- deflection control (serviceability)
 	- design of singly- and doubly-reinforced beams
-- Reading from the book: 5.2, 5.3, 5.5, 5.7
-# assignment on T and L beam design
-** [T5] Jan 31, Tue
-- Design of RC beams.
-** [L9] Feb 01, Wed
-- Design of RC beams
 	- Curtailment and bending of tension reinforcement
 	- Behavior and design against shear
+- Reading from the book: 5.2, 5.3, 5.5, 5.7
 - Reading from the book: 5.9, 6.3, 6.4, 6.5, 6.7.6
-** [L10] Feb 03, Fri
+** Feb 04 to Feb 08 - Examination I
+** [L11] Feb 10, Fri
 - Analysis and design of RC columns
 	- effective length, braced vs. unbraced columns
 	- limits on slenderness, minimum eccentricity and reinforcement
 	- longitudinal and transverse reinforcement
 	- design of short columns
 - Reading from the book: 13.2.3, 13.3, 13.4
-** Feb 04 to Feb 08 - Examination I
-** [L11] Feb 10, Fri
+** [T6] Feb 14, Tue
 - Design of columns
 	- consideration of combined axial and bending loads
 	- design of slender columns
 - Reading from the book: 13.5, 13.6, 13.7
-** [T6] Feb 14, Tue
-- Design of columns
 ** [L12] Feb 15, Wed
 - Behavior and analysis of plates.
 ** [L13] Feb 17, Fri
