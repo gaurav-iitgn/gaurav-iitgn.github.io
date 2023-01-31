@@ -155,8 +155,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- analysis at ultimate limit state; singly- and doubly-reinforced beams
 - Reading from the book: 4.5, 4.7
 # assignment on T and L beam design
-** [T5] Jan 31, Tue
-- Analysis of RC beams.
+** [T5] Jan 31, Tue [moved to Feb 03, Fri]
+- {[[https://drive.google.com/file/d/1--Z4AcWVFfxrxKyV_wIZVTq6KaREkqQD/view?usp=sharing][Assignment 3]]} - due on 10 Feb.
+- {[[https://drive.google.com/file/d/1-2nO0yg4Qz2oKyKMuaRh9mDF2MMdarTG/view?usp=sharing][T5 Set A]]}{[[https://drive.google.com/file/d/1-9CdvHPvNldIJvGi7ayIOPbImzoxwtq9/view?usp=sharing][T5 Set B]]} Analysis of RC beams.
 ** [L9] Feb 01, Wed
 - Analysis and design of RC beams.
 	- behavior under shear
