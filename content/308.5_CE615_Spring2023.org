@@ -100,8 +100,13 @@ It is important to develop the habit of self-learning. A number of reading assig
 - To read: IS 3809
 - To think: differences between standard fire curve (ISO 834, ASTM E119) and real fire behavior
 ** [L6] Jan 23, Mon
+- Stages of fire development
+- HRR-time and Temperature-time behavior
 ** [L7] Jan 25, Wed
+- Equivalent fire severity of real vs. standard fire curves
 ** [L8] Jan 30, Mon
+- Heat transfer by conduction, convection and radiation
+- Electrical circuit analogy
 ** [L9] Feb 01, Wed
 ** Feb 04 to Feb 08 - Examination I
 ** [L10] Feb 13, Mon
