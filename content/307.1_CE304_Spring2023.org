@@ -176,23 +176,29 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Feb 04 to Feb 08 - Examination I
 *** Feb 04, 16:30-18:00, Exam 1, 3/205
 ** [L11] Feb 10, Fri
+- Examples on design of beams, discussion of exam questions
+** [T6] Feb 14, Tue
+- {[[https://drive.google.com/file/d/1-Jf5z3uRVJKqrskMjeSDP6Jo1lWeX93c/view?usp=sharing][Assignment 4]]} - due on 21 Feb.
+- {[[https://drive.google.com/file/d/1-cRIl6GFVYlzb6gyes3YmQ4wUrCcSA54/view?usp=sharing][T6 Set A]]} Design of beams
+** [L12] Feb 15, Wed
+- Test videos on behavior of RCC beams
+	- [[https://www.youtube.com/watch?v=dbawcyjAhSI][Different modes of failure]]
+	- [[https://www.youtube.com/watch?v=5cF2lEZge0M][Over-reinforced beam failure]]
+	- [[https://www.youtube.com/watch?v=SdpjUunqel4][Flexure failure]]
+	- [[https://www.youtube.com/watch?v=5on6fzmkjRM][Flexure and shear failure]]
 - Analysis and design of RC columns
 	- effective length, braced vs. unbraced columns
 	- limits on slenderness, minimum eccentricity and reinforcement
 	- longitudinal and transverse reinforcement
 	- design of short columns
 - Reading from the book: 13.2.3, 13.3, 13.4
-** [T6] Feb 14, Tue
+** [L13] Feb 17, Fri
 - Design of columns
 	- consideration of combined axial and bending loads
 	- design of slender columns
 - Reading from the book: 13.5, 13.6, 13.7
-** [L12] Feb 15, Wed
-- Behavior and analysis of plates.
-** [L13] Feb 17, Fri
-- Analysis and design of RC slabs.
 ** [T7] Feb 21, Tue
-- Analysis and design of RC slabs.
+- Design of columns
 ** [L14] Feb 22, Wed
 - Design of RC slabs.
 ** [L15] Feb 24, Fri

@@ -111,6 +111,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Feb 04 to Feb 08 - Examination I
 *** Feb 06, 11:00-12:30, Exam 1, 7/202
 ** [L10] Feb 13, Mon
+- Discussions on radiation
+- Examples on temperature calculations
 ** [L11] Feb 15, Wed
 ** [L12] Feb 20, Mon
 ** [L13] Feb 22, Wed
