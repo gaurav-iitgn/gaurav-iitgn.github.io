@@ -200,27 +200,36 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T7] Feb 21, Tue
 - Design of columns
 ** [L14] Feb 22, Wed
-- Design of RC slabs.
+- Design of RC slabs
+	- one-way slabs
+- Reading from the book: 5.6
 ** [L15] Feb 24, Fri
-- Design of RC slabs.
+- Design of RC slabs
+	- two-way slabs
+- Reading from the book: 11.1, 11.2 (except 11.2.6)
 ** [T8] Feb 28, Tue
-- Design of RC slabs.
+- Design of RC slabs
 ** [L16] Mar 01, Wed
-- Analysis of RC portal frames.
+- Design of RC slabs
+	- two-way slabs
+- Reading from the book: 11.3, 11.4, 11.5 (up to IS code recommendations)
 ** Mar 05 to Mar 12 - Mid Semester Recess
 ** [T9] Mar 14, Tue
-- Analysis of RC portal frames.
+- Design of RC slabs
 ** [L17] Mar 15, Wed
-- Design of RC portal frames; strong column weak beam concept.
+- Design of RC slabs
+	- two-way slabs
+- Reading from the book: 11.6, 11.7, 11.8
 ** [L18] Mar 17, Fri
+- Design of RC slabs
+	- one-way and two-way slabs
+** [T10] Mar 21, Tue
+- Design of RC slabs
+** Mar 22 to Mar 26 - Examination II
+** [T11] Mar 28, Tue
 - Design of RC portal frames; ductile detailing.
 	- Curtailment of flexure and tension reinforcement
 - Reading from the book: 5.9
-** [T10] Mar 21, Tue
-- Design of RC portal frames.
-** Mar 22 to Mar 26 - Examination II
-** [T11] Mar 28, Tue
-- Design of RC portal frames.
 ** [L19] Mar 29, Wed
 - Types and analysis of shallow foundations.
 ** [L20] Mar 31, Fri
