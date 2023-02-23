@@ -192,47 +192,48 @@ It is important to develop the habit of self-learning. A number of reading assig
 	- longitudinal and transverse reinforcement
 	- design of short columns
 - Reading from the book: 13.2.3, 13.3, 13.4
-** [L13] Feb 17, Fri
+** Feb 17, Fri -- no class
+** [T7] Feb 21, Tue
+- {[[https://drive.google.com/file/d/1ydcILIAXuIxdcnw9NGHHDOi_BbCeaul-/view?usp=sharing][T7 Set A]]}{[[https://drive.google.com/file/d/1ydUb6pS4dU6PIH1BuqvdHynVsNkD--Vn/view?usp=sharing][T7 Set B]]} Design of columns
+** [L13] Feb 22, Wed
 - Design of columns
 	- consideration of combined axial and bending loads
 	- design of slender columns
 - Reading from the book: 13.5, 13.6, 13.7
-** [T7] Feb 21, Tue
+** Feb 24, Fri -- no class
+- {[[https://drive.google.com/file/d/1yguCTvGD8IqpCIgMN5pNPT1VLcGubKyS/view?usp=sharing][Assignment 5]]} - due on 3 Mar.
+** [T8] Feb 28, Tue
 - Design of columns
-** [L14] Feb 22, Wed
+** [L16] Mar 01, Wed
+- Design of columns
+	- design of slender columns
+- Reading from the book: 13.5, 13.6, 13.7
+** Mar 05 to Mar 12 - Mid Semester Recess
+** [T9] Mar 14, Tue
+- Design of columns
+** [L17] Mar 15, Wed
 - Design of RC slabs
 	- one-way slabs
 - Reading from the book: 5.6
-** [L15] Feb 24, Fri
-- Design of RC slabs
-	- two-way slabs
-- Reading from the book: 11.1, 11.2 (except 11.2.6)
-** [T8] Feb 28, Tue
-- Design of RC slabs
-** [L16] Mar 01, Wed
-- Design of RC slabs
-	- two-way slabs
-- Reading from the book: 11.3, 11.4, 11.5 (up to IS code recommendations)
-** Mar 05 to Mar 12 - Mid Semester Recess
-** [T9] Mar 14, Tue
-- Design of RC slabs
-** [L17] Mar 15, Wed
 - Design of RC slabs
 	- two-way slabs
 - Reading from the book: 11.6, 11.7, 11.8
 ** [L18] Mar 17, Fri
 - Design of RC slabs
-	- one-way and two-way slabs
+	- two-way slabs
+- Reading from the book: 11.1, 11.2 (except 11.2.6)
 ** [T10] Mar 21, Tue
 - Design of RC slabs
 ** Mar 22 to Mar 26 - Examination II
 ** [T11] Mar 28, Tue
-- Design of RC portal frames; ductile detailing.
-	- Curtailment of flexure and tension reinforcement
-- Reading from the book: 5.9
+- Design of RC slabs.
 ** [L19] Mar 29, Wed
-- Types and analysis of shallow foundations.
+- Design of RC slabs
+	- two-way slabs
+- Reading from the book: 11.3, 11.4, 11.5 (up to IS code recommendations)
 ** [L20] Mar 31, Fri
+- Types and analysis of shallow foundations.
+
 - Analysis of shallow foundations.
 ** Apr 04, Tue - Holiday (Mahavir Jayanti)
 ** [L21] Apr 05, Wed
