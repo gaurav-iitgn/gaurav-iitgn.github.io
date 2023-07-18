@@ -1,15 +1,46 @@
 #!/bin/sh
-echo "Building site locally in /public"
-emacs -Q --script build-site.el
+
+LOGFILE=log-website.log
+SEND_TO_FTP=
+echo "Starting..."
+echo "Log will be written to $LOGFILE"
+
+echo "Building site locally in /public through Emacs." 
+emacs -Q --script build-site.el 2> log-website.log
 echo "Done."
 
-echo
-echo "Sending files to github"
-git push origin master
-echo "Done."
+while getopts 'hgf' OPTION; do
+    case "$OPTION" in
+        h)
+            echo "Help text Usage"
+            ;;
+        g)
+            echo "Will check and publish to github"
+            echo
+            echo "Sending files to github"
+            git push origin master
+            echo "Done."
+            ;;
+        f)
+            echo "Will send public directory to FTP"
+            SEND_TO_FTP=True
+            ;;
+        *)
+            echo "Print usage"
+            ;;
+    esac
+done
+
+if [ $SEND_TO_FTP ]; then
+    echo "Transmitting to FTP"
+else
+    echo "Not transmitting to FTP"
+    exit 0
+fi
+
 
 # modify links for IITGN system (Base is ~gauravs)
-# change all occurrences of href="/~gauravs/~gauravs/~gauravs/" to href="/~gauravs/~gauravs/~gauravs/~gauravs/"
+# change all occurrences of href="/" to href="/~gauravs/"
 cd public
 grep -rli 'href=\"\/' | xargs -i@ sed -i 's/href=\"\//href=\"\/~gauravs\//g' @
 # echo $?
