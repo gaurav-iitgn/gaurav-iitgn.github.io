@@ -31,19 +31,22 @@ while getopts 'hgf' OPTION; do
     esac
 done
 
-if [ $SEND_TO_FTP ]; then
-    echo "Transmitting to FTP"
-else
-    echo "Not transmitting to FTP"
-    exit 0
-fi
-
-
 # modify links for IITGN system (Base is ~gauravs)
 # change all occurrences of href="/" to href="/~gauravs/"
+echo "Modifying links within the public folder to consider /~gauravs/"
 cd public
 grep -rli 'href=\"\/' | xargs -i@ sed -i 's/href=\"\//href=\"\/~gauravs\//g' @
 # echo $?
+echo "Done."
+
+
+if [ $SEND_TO_FTP ]; then
+    echo "Transmitting to FTP."
+else
+    echo "Not transmitting to FTP."
+    exit 0
+fi
+
 
 echo
 echo "Transmitting it to iitgn /public_html via FTP"
