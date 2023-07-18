@@ -9,7 +9,7 @@
   --base-fontsize: 1.00rem;
 
   /* Major third scale progression - see https://type-scale.com/ */
-  --header-scale: 1.05;
+  --header-scale: 1.15;
 
   /* Line height is set to the "Golden ratio" for optimal legibility */
   --line-height: 1.10;
@@ -142,6 +142,7 @@ h1 {
 }
 
 h2 {
+    background: rgba(0, 0, 128, 0.2);
   font-size: calc(var(--base-fontsize) * var(--header-scale) * var(--header-scale) * var(--header-scale));
   margin-top: calc(var(--line-height) * 1.5rem);
 }
