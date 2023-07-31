@@ -1,0 +1,182 @@
+#+TITLE: CE 302: Structural Analysis - Fall 2023
+# #+OPTIONS: 
+
+* Basic Information
+|-------------------+-----------------------------------------------|
+| Class timings     | Monday 10:00-11:20, Thursday 8:30-9:50        |
+| Class location    | AB 7/101                                      |
+|-------------------+-----------------------------------------------|
+| Tutorial timings  | Tuesday 11:30-12:50                           |
+| Tutorial location | AB 7/101                                      |
+|-------------------+-----------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)       |
+|-------------------+-----------------------------------------------|
+| TA                | Bhuvesh Jaiswal (jaiswal.bhuvesh@iitgn.ac.in) |
+|-------------------+-----------------------------------------------|
+
+
+* Course objectives, syllabus, books, video lectures, pre-requisites
+** Objectives
+- To learn fundamentals of structural analysis.
+- To develop simple computer programs to perform structural analysis.
+
+** After finishing this course, you will
+- know how to analyse simple structures by hand
+- know how to use computer programming to analyze large structural systems
+- understand linear analysis of structures
+
+** Syllabus
+- Review of some concepts from Mechanics of Solids.
+- Degrees of indeterminacy (static and kinematic).
+- Types and analysis of trusses, cables, arches, beams, columns and frames.
+- Specific methods to be covered: moment area theorem; conjugate beam method; principle of virtual work; energy method; Castigliano’s theorems; unit-load and unit-displacement theorems; reciprocal theorems; Betti's and Maxwell's theorem; method of consistent deformations; slope-deflection method; displacement based methods; moment distribution method; column analogy method
+- Influence lines; Muller-Breslau's principle
+- Matrix method of analysis (if time permits)
+
+** Text Book
+- Structural Analysis 5th edition - Devdas Menon, Narosa Publishing House Pvt. Ltd.
+
+** Reference Books
+- Structural Analysis - R.C. Hibbeler, Prentice Hall.
+- Structural Analysis - Aslam Kassimali, Cengage Learning.
+- Matrix Structural Analysis - W. McGuire, R.H. Gallagher, R.D. Ziemian (available here: http://www.mastan2.com/textbook.html).
+
+** Software
+- Simple computer codes for analysis will be developed in Python.
+- SAP2000 will be used for more complicated analyses.
+- Another useful software tool is MASTAN2 (http://www.mastan2.com/)
+
+** Video lectures
+- Recorded lectures covering most of the syllabus are available [[https://www.youtube.com/watch?v=KU9GYaHTggY&list=PLKg8NoX0BvK3NuUsHHFGsEV4bZ2UkPFa7][here]].
+- You may use these to revise/learn in advance certain topics.
+
+** Pre-requisites
+- Curiosity about how structural systems (buildings, bridges, dams, etc.) are designed -- analysis is essential for design.
+- Good background of solid mechanics and any programming language.
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE302" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 302)
+
+** Cheating
+Cheating (in assignments/quizzes/exams) is unacceptable. It is expected that this will never happen and everyone will uphold the honor code.
+
+** Late submissions
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, $R$ will be multiplied to the obtained marks. Mathematically, it is given by: $R = \exp(-D^2)$, where $D$ is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+[[./imgs/deadline-delay-reduction.png]]
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       30% |
+| Spot quizzes         |       20% |
+| Class participation  |       10% |
+| Midsem exam          |       20% |
+| Endsem exam          |       20% |
+
+** Modes of formal assessment
+- Assignments will involve detailed analysis and hands-on questions.
+- Expect one assignment per week.
+- Spot quizzes will primarily be objective type, primarily based on concepts and codes. Expect one quiz per week.
+- Exam will primarily be subjective type. It may be in-class or take-home.
+
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Calendar (tentative)
+# run the following to create calendar date list
+#+BEGIN_SRC emacs-lisp :exports none
+;; (let ((start_date "2023-08-02")
+;;       (end_date   "2023-11-24"))
+;;   ;(message (1+ start_date))
+;;   ;(message (org-parse-time-string start_date))
+;;   (gs/calendar-list start_date end_date)
+;; )
+(gs/calendar-list "2023-08-02" "2023-11-24")
+#+END_SRC
+
+** [L1] Aug 03, Thu
+- Introduction. Discussion on mechanics of solids.
+** [L2] Aug 07, Mon
+- Idealization of structural members. Support reactions. Stability and determinacy.
+** (T1) Aug 08, Tue
+** [L3] Aug 10, Thu
+- Principle of virtual work for computing support reactions.
+** [L4] Aug 14, Mon
+- Analysis of trusses.
+** Aug 15, Tue -- no class
+- Independence Day.
+** [L5] Aug 17, Thu
+- Internal forces in beams. Shear force and bending moment diagrams.
+** [L6] Aug 21, Mon
+- Deflection of beams by direct integration. Singularity functions.
+** (T2) Aug 22, Tue
+** [L7] Aug 24, Thu
+- Moment area theorems.
+** [L8] Aug 28, Mon
+- Conjugate beam method.
+** (T3) Aug 29, Tue
+** [L9] Aug 31, Thu
+- Energy and complimentary energy.
+** Sep 02 - Sep 06 -- Examination 1 duration
+*** Intermediate exam
+** Sep 07, Thu -- no class
+- Janmashtami (Vaishnavi)
+** [L10] Sep 11, Mon
+- Castigliano's theorems. Energy methods.
+** (T4) Sep 12, Tue
+** [L11] Sep 14, Thu
+- Principle of virtual work. Unit load and displacement methods.
+** [L12] Sep 18, Mon
+- Unit load and displacement methods. Maxwell's and Betti's theorems.
+** (T5) Sep 19, Tue
+** [L13] Sep 21, Thu
+- Theorem of three moments.
+** [L14] Sep 25, Mon
+- Theorem of three moments.
+** (T6) Sep 26, Tue
+** Sep 28, Thu -- no class
+- Milad-un-Nabi (Id-e-Milad)
+** Oct 02, Mon -- no class
+- Mahatma Gandhi's Birthday
+** (T7) Oct 03, Tue
+** [L15] Oct 05, Thu
+- Generalization of force-based methods. Flexibility matrix.
+** [L16] Oct 09, Mon
+- Slope-deflection equations.
+** (T8) Oct 10, Tue
+** Oct 11 - Oct 15 -- Examination 2 duration
+** [L17] Oct 16, Mon
+- Slope-deflection equations.
+** (T9) Oct 17, Tue
+** [L18] Oct 19, Thu
+- Slope-deflection equations.
+** Oct 21 - October 29 -- Mid semester recess
+** [L19] Oct 30, Mon
+- Moment distribution method.
+** (T10) Oct 31, Tue
+** [L20] Nov 02, Thu
+- Moment distribution method.
+** [L21] Nov 06, Mon
+- Moment distribution method.
+** (T11) Nov 07, Tue
+** [L22] Nov 09, Thu
+- Moment distribution method.
+** [L23] Nov 13, Mon
+- Cables and arches.
+** (T12) Nov 14, Tue
+** [L24] Nov 16, Thu
+- Cables and arches.
+** [L25] Nov 20, Mon
+- Influence line diagrams.
+- Muller-Breslau's principle.
+** (T13) Nov 21, Tue
+** [L26] Nov 23, Thu
+- Influence line diagrams.
+- Muller-Breslau's principle.
+** Nov 25 - Nov 30 -- Examination 3 duration
+*** Final exam

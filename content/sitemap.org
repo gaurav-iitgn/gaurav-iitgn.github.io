@@ -1,5 +1,6 @@
 #+TITLE: Sitemap for project my-org-site
 
+- [[file:302.4_CE302_Fall2023.org][CE 302: Structural Analysis - Fall 2023]]
 - [[file:307.1_CE304_Spring2023.org][CE 304: Concrete Design - Spring 2023]]
 - [[file:305.3_CE305_Spring2022.org][CE 305: Steel Design - Spring 2022]]
 - [[file:304.5_CE607_Fall2022.org][CE 607: Advanced Structural Analysis - Fall 2022]]
