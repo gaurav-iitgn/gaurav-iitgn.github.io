@@ -35,9 +35,11 @@
 ;; simple.css modified for my own styles
 (setq org-html-head
 			"
-<link rel='stylesheet' href='css/gs_simple.css' />
-<script type='text/javascript' src='js/gs_simple.js'></script>
+<link rel='stylesheet' href='gs_simple.css' />
+<script type='text/javascript' src='gs_simple.js'></script>
 ")
+;<link rel='stylesheet' href='css/gs_simple.css' />
+;<script type='text/javascript' src='js/gs_simple.js'></script>
 
 ;; preamble (style defined in CSS)
 (setq org-html-preamble
@@ -51,6 +53,9 @@
 </nav>
 </center>
 ")
+
+; try again with div and try to fix with CSS (#navbar) and JS for sticky headers
+;  id=\"navbar\"
 
 ;; postamble
 (setq org-html-postamble
