@@ -20,6 +20,18 @@
 
 ;; Load publishing system
 (require 'ox-publish)
+;(require 'ob-tangle)
+;(require 'ox-latex)
+;(require 'ox-html)
+
+; TODO capability of auto evaluation on publish to be added some day
+;; enable evaluation of code blocks when website is published
+;(setq org-confirm-babel-evaluate nil)
+;(setq org-export-babel-evaluate t)
+;(setq org-export-use-babel t)
+;(org-babel-do-load-languages
+; 'org-babel-load-languages
+; '((emacs-lisp . t)))
 
 ;; customization
 (setq org-html-validation-link nil)

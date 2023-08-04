@@ -16,11 +16,46 @@
 	
 * Publications
 ** Books
-1. S. Chandrasekaran and G. Srivastava. 2023./Fire-resistant Design of Structures/. Boca Raton: CRC Press. 9781003328711. 
-1. G. Srivastava and P. Gandhi. 2023./Performance of Combustible Facade Systems used in Green Building Technologies under Fire/. Singapore: Springer. 9789811631122. 
-1. S. Chandrasekaran and G. Srivastava. 2018./Design Aids of Offshore Structures Under Special Environmental Loads Including Fire Resistance/. Springer. 9789811076077. 
-1. D. Nakrani and G. Srivastava. 2021./Quantification of enhanced fire severity in modern buildings/. Eds.: A.K. Gupta, A. De, S.K. Aggarwal, and A. Kushari. In: Advances in Energy and Combusion: Safety and Sustainability. Springer Nature. Pages 413-427. 9789811626470. 
+#+BEGIN_SRC emacs-lisp :results raw :exports results :eval yes
+  (setq cv-buffer (find-file-noselect "~/Nextcloud/Notes/elisp/cv.org"))
+  (with-current-buffer cv-buffer
+    (goto-char (point-min))
+    (search-forward-regexp "^\* Books$")
+    (org-narrow-to-subtree)
+    (goto-char (point-min))
+    (kill-whole-line)
+    (setq my-text (buffer-string))
+    (evil-undo 1)
+    (widen)
+  );cv-buffer
+  (org-babel-remove-result)
+  (print my-text)
+#+END_SRC
+
+#+RESULTS:
+1. S. Chandrasekaran and G. Srivastava. 2023. /Fire-resistant Design of Structures/. Boca Raton: CRC Press. 9781003328711.
+1. G. Srivastava and P. Gandhi. 2023. /Performance of Combustible Facade Systems used in Green Building Technologies under Fire/. Singapore: Springer. 9789811631122.
+1. S. Chandrasekaran and G. Srivastava. 2018. /Design Aids of Offshore Structures Under Special Environmental Loads Including Fire Resistance/. Springer. 9789811076077.
+1. D. Nakrani and G. Srivastava. 2021. /Quantification of enhanced fire severity in modern buildings/. Eds.: A.K. Gupta, A. De, S.K. Aggarwal, and A. Kushari. In: Advances in Energy and Combusion: Safety and Sustainability. Springer Nature. Pages 413-427. 9789811626470.
+
 ** Refereed Journal Publications
+#+BEGIN_SRC emacs-lisp :results raw :exports results :eval yes
+  (setq cv-buffer (find-file-noselect "~/Nextcloud/Notes/elisp/cv.org"))
+  (with-current-buffer cv-buffer
+    (goto-char (point-min))
+    (search-forward-regexp "^\* Refereed Journal Publications$")
+    (org-narrow-to-subtree)
+    (goto-char (point-min))
+    (kill-whole-line)
+    (setq my-text (buffer-string))
+    (evil-undo 1)
+    (widen)
+  );cv-buffer
+  (org-babel-remove-result)
+  (print my-text)
+#+END_SRC
+
+#+RESULTS:
 1. D. Yadav, R. Ayyagari, and G. Srivastava. 2023. "Effect of Cavity Radiation in Aluminium Hollow Tubes and Curtain Wall System Subjected to Fire". /Journal of Structural Fire Engineering/. inreview.
 1. Vikash Singh and G. Srivastava. 2023. "Development of sustainable geopolymer using blast furnace slag and lithium hydroxide". /Nature Communications Engineering/. inreview.
 1. D. Nakrani, M. Tiwari, T. Wani, and G. Srivastava. 2023. "Characterization of combustion of hardwood and softwood through experimental and computer simulations". /Journal of Thermal Analysis and Calorimetry/. DOI: [[https://www.doi.org/10.1007/s10973-023-12261-7]].
@@ -56,45 +91,63 @@
 1. Wojtkiewicz, S.F. and Gaurav. 2009. "Efficient Modal Analysis of Structures with Local Stiffness Uncertainties". /International Journal for Numerical Methods in Engineering/ 80, pages: 1007--1024. DOI: [[https://www.doi.org/10.1002/nme.2657]].
 1. S.F. Wojtkiewicz and L. Khazanovich and Gaurav and R. Velasquez. 2010. "Probabilistic Numerical Simulation of Pavement Performance using MEPDG". /Road Materials and Pavement Design/ 11(2), pages: 291--306. DOI: [[https://www.doi.org/10.1080/14680629.2010.9690277]].
 1. Gaurav and Wojtkiewicz, S.F.. 2010. "Efficient Spectral Response of Locally Uncertain Linear Systems". /Probabilistic Engineering Mechanics/ 25(4), pages: 419--424. DOI: [[https://www.doi.org/10.1016/j.probengmech.2010.05.003]].
+
 ** Conference Publications and Presentations
-1. B. Gaudet, P. Gandhi and G. Srivastva. 2023. "Analysis of spill plume heat flux exposure on exterior surfaces from fire tests". /14th International Symposium on Fire Safety Science (IAFSS)/, Tsukaba, Japan.
-2. D. Yadav and G. Srivastva. 2023. "Multi-physics modeling of the effect of blast load on steel column protected with polyurethane foam". /14th International Symposium on Fire Safety Science (IAFSS)/, Tsukaba, Japan.
-3. D. Yadav and G. Srivastva. 2023. "Effect of standoff distance on response of steel sections subjected to near-field detonations". /International Fire Safety Symposium (IFireSS)/, Rio de Janerio, Brazil.
-4. V.K. Singh and G. Srivastva. 2023. "PVME as a sustainable alternative to improve performance of dense mortar at elevated temperature". /International RILEM Conference on Synergising expertise towards sustainability and robustness of cement-based materials and concrete structures (SynerCrete)/, Greece.
-5. Bathina Siva Kumar and Gaurav Srivastava. 2023. "Numerical investigation on optimum water mist droplet size for pool fire extinguishment". /10th International and 50th National Conference on Fluid Mechanics and Fluid Power (FMFP - 2023)/, India. inreview.
-6. D. Yadav and G. Srivastva. 2022. "Characterization of blast loads due to explosion of energetic materials through multi-physics computer simulations". /4th Structural Integrity Conference and Exhibition/, Hyderabad, India.
-7. N.A. Khan and Gaurav Srivastava. 2019. "Influence of Openings on the Inelastic Response of Unstiffened Steel Plate Shear Wall Systems". /Structural Engineers World Congress/, Spain.
-8. N.A. Khan and Gaurav Srivastava. 2019. "Development of surrogate models for steel plate shear wall systems for parametric analysis". /Engineering Mechanics Institute Conference/, USA.
-9. Gaurav. 2004. "Finite Difference Method Tool for Analysis of Combined Footings". /Proceedings of All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India.
-10. Gaurav. 2004. "Role of Geo-synthetics in Civil Engineering". /Seminar on Recent Trends in Civil Engineering/, Varanasi, India.
-11. Nasar A. Khan and Gaurav Srivastava. 2017. "Need to revisit fire loads - findings from a recent survey at Ahmedabad". /International Conference on Safety (ICS) 2017/, India.
-12. P. R. Prakash and Gaurav Srivastava. 2017. "Progressive collapse analysis of {RCC} planar frames subjected to fire". /International Conference on Safety (ICS) 2017/, India.
-13. Pravinray Gandhi and V. Jagdish and G. Karthidefendedan and A. Chakravarthy and D. Nakrani and C. Ghoroi and G. Srivastava. 2017. "Performance of glass-ACP facade system in a full-scale real fire test in a {G}+2 structure". /PROTECT 2017/, China, pages: 512--519.
-14. P.R. Prakash and Gaurav Srivastava. 2017. "Efficient three-dimensional nonlinear thermo-mechanical analysis of structures subjected to fire". /Response of Structures under Extreme Loading: Proceedings of {PROTECT}-2017/, China.
-15. Pravinray Gandhi and V. Jagdish and G. Karthidefendedan and A. Chakravarthy and D. Nakrani and C. Ghoroi and G. Srivastava. 2017. "Performance of glass-{ACP} facade system in a full-scale real fire test in a {G}+2 structure". /PROTECT 2017/, .
+#+BEGIN_SRC emacs-lisp :results raw :exports results :eval yes
+  (setq cv-buffer (find-file-noselect "~/Nextcloud/Notes/elisp/cv.org"))
+  (with-current-buffer cv-buffer
+    (goto-char (point-min))
+    (search-forward-regexp "^\* Conference Publications and Presentations$")
+    (org-narrow-to-subtree)
+    (goto-char (point-min))
+    (kill-whole-line)
+    (setq my-text (buffer-string))
+    (evil-undo 1)
+    (widen)
+  );cv-buffer
+  (org-babel-remove-result)
+  (print my-text)
+#+END_SRC
+
+#+RESULTS:
+1. S. Chandrasekaran and G. Serino and A.K.Jain and S. Miranda and A. Gupta and Gaurav and A. Sharma. 2008. "Influence of Varying Inertia Coefficient and Wave Directionality on {TLP} Geometry". /Eighth {ISOPE} {A}sia/Pacific Offshore Mechanics Symposium ({ISOPE}-{PACOMS}-2008)/, Bangkok, Thailand.
+2. G. Srivastava and S. Wojtkiewicz. 2010. "Use of {GPU} Computing for Uncertainty Quantification in Computational Mechanics". /ASCE Engineering Mechanics Institute Conference, EMI 2010/, Los Angeles, CA, USA.
+3. G. Srivastava and S. Wojtkiewicz. 2009. "Efficient Response Estimation of Related Dynamical Systems Subjected to Random Inputs". /Tenth US National Congress on Computational Mechanics (USNCCM)/, Columbus, OH, USA.
+4. Pratyush Dayal and Vaibhav Palkar and Gaurav Srivastava and Olga Kuksenok and Anna C. Balazs. 2015. "Predicting dynamic behaviour of self-oscillating polymer gels using stability analyses". /3rd Soft Matter Young Investigator Meet (SMYIM 2015),/, Pondicherry.
+5. G. Srivastava and S. Wojtkiewicz. 2011. "Efficient Numerical Algorithms for Uncertainty Quantification in Computational Mechanics using {GPUs}". /{SIAM} Conference on Computational Science and Engineering/, Reno, NV, USA.
+6. Gaurav. 2007. "Response of a Liquid-Tank Mounted Building Founded on Firm Ground to Random Vibration". /Proceedings of National Conference on Civil Engineering \& Technology/, Varanasi, India.
+7. G. Srivastava. 2007. "Response of a Liquid-Tank Mounted Building Founded on Firm Ground to Random Vibration". /National Conference on Civil Engineering \& Technology/, Varanasi, India.
+8. N.A. Khan and Gaurav Srivastava. 2019. "Influence of Openings on the Inelastic Response of Unstiffened Steel Plate Shear Wall Systems". /Structural Engineers World Congress/, Spain.
+9. G. Srivastava. 2004. "Finite Difference Method Tool for Analysis of Combined Footings". /All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India.
+10. N.A. Khan and Gaurav Srivastava. 2019. "Development of surrogate models for steel plate shear wall systems for parametric analysis". /Engineering Mechanics Institute Conference/, USA.
+11. Gaurav. 2004. "Finite Difference Method Tool for Analysis of Combined Footings". /Proceedings of All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India.
+12. B. Gaudet, P. Gandhi and G. Srivastva. 2023. "Analysis of spill plume heat flux exposure on exterior surfaces from fire tests". /14th International Symposium on Fire Safety Science (IAFSS)/, Tsukaba, Japan.
+13. Gaurav. 2004. "Role of Geo-synthetics in Civil Engineering". /Seminar on Recent Trends in Civil Engineering/, Varanasi, India.
+14. Gaurav and R. Kumar and S. Mandal and V. Kumar. 2005. "Linear Deflection Analysis of Beams using Genetic Algorithms". /Proceedings of All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India, pages: 54--64.
+15. Nasar A. Khan and Gaurav Srivastava. 2017. "Need to revisit fire loads - findings from a recent survey at Ahmedabad". /International Conference on Safety (ICS) 2017/, India.
 16. P. Kumar and Gaurav Srivastava. 2016. "Thermo-Mechanical Modeling of Reinforced Concrete Masonry Infill Panels Exposed to Fire". /EMI/PMC 2016/, USA.
-17. S. Shrivastav and Gaurav Srivastava. 2016. "Topology optimization of steel girders subjected to thermal and mechanical loads". /Structural Engineering Convention (SEC)/, Chennai, India.
-18. P. R. Prakash and Gaurav Srivastava. 2016. "Numerical modeling of spalling in high strength concrete at high temperature". /Structural Engineering Convention (SEC)/, Chennai, India.
-19. A. Bhatt and Gaurav Srivastava. 2016. "Assessment of perturbation and projection-based methods for static reanalysis of linear systems for uncertainty quantification". /EMI 2016/, France.
-20. Vaibhav Palkar and Gaurav Srivastava and Olga Kuksenok and Anna C. Balazs and Pratyush Dayal. 2015. "Using Stability Analyses to Predict Dynamic Behaviour of Self-oscillating Polymer Gels". /March Meeting of the American Physical Society (APS)/, USA.
-21. Pratyush Dayal and Vaibhav Palkar and Gaurav Srivastava and Olga Kuksenok and Anna C. Balazs. 2015. "Predicting dynamic behaviour of self-oscillating polymer gels using stability analyses". /3rd Soft Matter Young Investigator Meet (SMYIM 2015),/, Pondicherry.
-22. P.R. Prakash and Gaurav Srivastava. 2015. "Development of a Matrix Method based Framework for the Thermo-mechanical Analysis of {RCC} Frames". /Response of Structures under Extreme Loading: Proceedings of {PROTECT}-2015/, USA, pages: 972-980.
-23. Gaurav Srivastava and B. Bhatt and P. Kumar and P. Raviprakash. 2014. "Redesigning Police Barricade System for Riots". /International Conference on Design for a Billion/, India.
-24. P. Kumar and Gaurav Srivastava. 2014. "{FE} Analysis of RCC Masonry Infill Panels Subjected to Thermal Exposure". /International Conference on Safety (ICS) 2014/, India.
-25. Gaurav Srivastava and K. Matou\v{s}. 2014. "Multi-physics Meso-scale Finite Element Simulation of HMX-based Solid Propellant Subjected to Thermal Insults". /March Meeting of the American Physical Society (APS)/, USA.
-26. P. R. Prakash and Gaurav Srivastava. 2014. "Development of Matrix Method for the Analysis of {RCC} Frames subjected to Fire". /International Conference on Safety (ICS) 2014/, India.
-27. A. Mandhyan and Gaurav Srivastava and S. Krishnamoorthi. 2014. "Development of Web Application for Shape and Topology Optimization of Truss Structure and Gusset Plates". /{XXIV} International Workshop on Computational Micromechanics of Materials ({IWCMM})/, Spain.
-28. Gaurav Srivastava and Harsh L. Shah. 2014. "Modeling of Moisture in Masonry Structures: A Case-Study of Structures in {C}handkheda, {A}hmedabad". /International Conference on Advances in Civil, Structural and Mechanical Engineering (CSME)/, Hong Kong.
-29. G. Srivastava and S. Wojtkiewicz. 2012. "Fast Calculation of Damped Eigenproperties of Locally Modified Linear Dynamical Systems". /ASCE EMI/PMC Conference 2012/, Notre Dame, IN, USA.
-30. G. Srivastava and S. Wojtkiewicz. 2011. "Efficient Numerical Algorithms for Uncertainty Quantification in Computational Mechanics using {GPUs}". /{SIAM} Conference on Computational Science and Engineering/, Reno, NV, USA.
-31. G. Srivastava and S. Wojtkiewicz. 2010. "Use of {GPU} Computing for Uncertainty Quantification in Computational Mechanics". /ASCE Engineering Mechanics Institute Conference, EMI 2010/, Los Angeles, CA, USA.
-32. G. Srivastava and S. Wojtkiewicz. 2009. "Efficient Response Estimation of Related Dynamical Systems Subjected to Random Inputs". /Tenth US National Congress on Computational Mechanics (USNCCM)/, Columbus, OH, USA.
-33. S. Chandrasekaran and Gaurav and A.K.Jain. 2009. "Ringing response of Offshore Compliant Structures". /Proceedings of International Conference on Ocean Engineering ({ICOE} 2009)/, IIT Madras, India, pages: 55--56.
-34. S. Chandrasekaran and G. Serino and A.K.Jain and S. Miranda and A. Gupta and Gaurav and A. Sharma. 2008. "Influence of Varying Inertia Coefficient and Wave Directionality on {TLP} Geometry". /Eighth {ISOPE} {A}sia/Pacific Offshore Mechanics Symposium ({ISOPE}-{PACOMS}-2008)/, Bangkok, Thailand.
-35. S. Chandrasekaran and Gaurav and S. Srivastava. 2008. "Steady and Transient Response of Triangular {TLP}s under Random Wave Load". /Seventh {E}uropean Conference on Structural Dynamics ({EuroDyn} 2008)/, Southampton, U.K..
-36. S. Chandrasekaran and Gaurav, and S. Srivastava. 2007. "Response Behavior of {TLP}s under Vertical Ground Excitation". /Structural Engineering World Congress/, Bangalore, India.
-37. Gaurav. 2007. "Response of a Liquid-Tank Mounted Building Founded on Firm Ground to Random Vibration". /Proceedings of National Conference on Civil Engineering \& Technology/, Varanasi, India.
-38. G. Srivastava. 2007. "Response of a Liquid-Tank Mounted Building Founded on Firm Ground to Random Vibration". /National Conference on Civil Engineering \& Technology/, Varanasi, India.
-39. G. Srivastava and R. Kumar. 2005. "Linear Deflection Analysis of Beams using Genetic Algorithms". /All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India.
-40. Gaurav and R. Kumar and S. Mandal and V. Kumar. 2005. "Linear Deflection Analysis of Beams using Genetic Algorithms". /Proceedings of All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India, pages: 54--64.
-41. G. Srivastava. 2004. "Finite Difference Method Tool for Analysis of Combined Footings". /All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India.
+17. P. Kumar and Gaurav Srivastava. 2014. "{FE} Analysis of RCC Masonry Infill Panels Subjected to Thermal Exposure". /International Conference on Safety (ICS) 2014/, India.
+18. A. Mandhyan and Gaurav Srivastava and S. Krishnamoorthi. 2014. "Development of Web Application for Shape and Topology Optimization of Truss Structure and Gusset Plates". /{XXIV} International Workshop on Computational Micromechanics of Materials ({IWCMM})/, Spain.
+19. P. R. Prakash and Gaurav Srivastava. 2017. "Progressive collapse analysis of {RCC} planar frames subjected to fire". /International Conference on Safety (ICS) 2017/, India.
+20. Gaurav Srivastava and B. Bhatt and P. Kumar and P. Raviprakash. 2014. "Redesigning Police Barricade System for Riots". /International Conference on Design for a Billion/, India.
+21. Gaurav Srivastava and K. Matou\v{s}. 2014. "Multi-physics Meso-scale Finite Element Simulation of HMX-based Solid Propellant Subjected to Thermal Insults". /March Meeting of the American Physical Society (APS)/, USA.
+22. S. Shrivastav and Gaurav Srivastava. 2016. "Topology optimization of steel girders subjected to thermal and mechanical loads". /Structural Engineering Convention (SEC)/, Chennai, India.
+23. G. Srivastava and R. Kumar. 2005. "Linear Deflection Analysis of Beams using Genetic Algorithms". /All India Seminar on Innovations in Design and Construction of Concrete Structures/, Varanasi, India.
+24. Bathina Siva Kumar and Gaurav Srivastava. 2023. "Numerical investigation on optimum water mist droplet size for pool fire extinguishment". /10th International and 50th National Conference on Fluid Mechanics and Fluid Power (FMFP - 2023)/, India. inreview.
+25. Vaibhav Palkar and Gaurav Srivastava and Olga Kuksenok and Anna C. Balazs and Pratyush Dayal. 2015. "Using Stability Analyses to Predict Dynamic Behaviour of Self-oscillating Polymer Gels". /March Meeting of the American Physical Society (APS)/, USA.
+26. P. R. Prakash and Gaurav Srivastava. 2016. "Numerical modeling of spalling in high strength concrete at high temperature". /Structural Engineering Convention (SEC)/, Chennai, India.
+27. Gaurav Srivastava and Harsh L. Shah. 2014. "Modeling of Moisture in Masonry Structures: A Case-Study of Structures in {C}handkheda, {A}hmedabad". /International Conference on Advances in Civil, Structural and Mechanical Engineering (CSME)/, Hong Kong.
+28. D. Yadav and G. Srivastva. 2022. "Characterization of blast loads due to explosion of energetic materials through multi-physics computer simulations". /4th Structural Integrity Conference and Exhibition/, Hyderabad, India.
+29. P. R. Prakash and Gaurav Srivastava. 2014. "Development of Matrix Method for the Analysis of {RCC} Frames subjected to Fire". /International Conference on Safety (ICS) 2014/, India.
+30. G. Srivastava and S. Wojtkiewicz. 2012. "Fast Calculation of Damped Eigenproperties of Locally Modified Linear Dynamical Systems". /ASCE EMI/PMC Conference 2012/, Notre Dame, IN, USA.
+31. D. Yadav and G. Srivastva. 2023. "Effect of standoff distance on response of steel sections subjected to near-field detonations". /International Fire Safety Symposium (IFireSS)/, Rio de Janerio, Brazil.
+32. V.K. Singh and G. Srivastva. 2023. "PVME as a sustainable alternative to improve performance of dense mortar at elevated temperature". /International RILEM Conference on Synergising expertise towards sustainability and robustness of cement-based materials and concrete structures (SynerCrete)/, Greece.
+33. D. Yadav and G. Srivastva. 2023. "Multi-physics modeling of the effect of blast load on steel column protected with polyurethane foam". /14th International Symposium on Fire Safety Science (IAFSS)/, Tsukaba, Japan.
+34. S. Chandrasekaran and Gaurav and S. Srivastava. 2008. "Steady and Transient Response of Triangular {TLP}s under Random Wave Load". /Seventh {E}uropean Conference on Structural Dynamics ({EuroDyn} 2008)/, Southampton, U.K..
+35. S. Chandrasekaran and Gaurav, and S. Srivastava. 2007. "Response Behavior of {TLP}s under Vertical Ground Excitation". /Structural Engineering World Congress/, Bangalore, India.
+36. A. Bhatt and Gaurav Srivastava. 2016. "Assessment of perturbation and projection-based methods for static reanalysis of linear systems for uncertainty quantification". /EMI 2016/, France.
+37. P.R. Prakash and Gaurav Srivastava. 2017. "Efficient three-dimensional nonlinear thermo-mechanical analysis of structures subjected to fire". /Response of Structures under Extreme Loading: Proceedings of {PROTECT}-2017/, China.
+38. P.R. Prakash and Gaurav Srivastava. 2015. "Development of a Matrix Method based Framework for the Thermo-mechanical Analysis of {RCC} Frames". /Response of Structures under Extreme Loading: Proceedings of {PROTECT}-2015/, USA, pages: 972-980.
+39. Pravinray Gandhi and V. Jagdish and G. Karthidefendedan and A. Chakravarthy and D. Nakrani and C. Ghoroi and G. Srivastava. 2017. "Performance of glass-{ACP} facade system in a full-scale real fire test in a {G}+2 structure". /PROTECT 2017/, .
+40. Pravinray Gandhi and V. Jagdish and G. Karthidefendedan and A. Chakravarthy and D. Nakrani and C. Ghoroi and G. Srivastava. 2017. "Performance of glass-ACP facade system in a full-scale real fire test in a {G}+2 structure". /PROTECT 2017/, China, pages: 512--519.
+41. S. Chandrasekaran and Gaurav and A.K.Jain. 2009. "Ringing response of Offshore Compliant Structures". /Proceedings of International Conference on Ocean Engineering ({ICOE} 2009)/, IIT Madras, India, pages: 55--56.
