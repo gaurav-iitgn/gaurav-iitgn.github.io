@@ -2,182 +2,76 @@
 #+OPTIONS: toc:nil title:nil
 
 * Doctoral Students
+#+BEGIN_SRC emacs-lisp :results raw :exports results :eval yes
+  (setq cv-buffer (find-file-noselect "~/Nextcloud/Notes/elisp/cv.org"))
+  (with-current-buffer cv-buffer
+    (goto-char (point-min))
+    (search-forward-regexp "^\* PhD Students$")
+    (org-narrow-to-subtree)
+    (goto-char (point-min))
+    (kill-whole-line)
+    (setq my-text (buffer-string))
+    (evil-undo 1)
+    (widen)
+  );cv-buffer
+  (org-babel-remove-result)
+  (print my-text)
+#+END_SRC
 
-** 5 *Vikash Kumar Singh*
-- _Start date_: August 2018
-- _Area of work_: Development of nano-additives for enhancement of properties of cement concrete under fire
-
-** 4 *Dravesh Yadav*
-- _Start date_: August 2018
-- _Area of work_: Multi-physics analysis of structural systems under fire
-
-** 3 *Dharmit Nakrani*
-_Start date_: August 2014
-_Area of work_: Assessment of building facade systems in fire
-
-_Articles_:
-3. G. Srivastava, D. Nakrani and C. Ghoroi, Performance of combustible facade systems with glass, ACP and firestops in full-scale, real-fire experiments, _Fire Technology_, to appear, 2020. (link:https://www.springerprofessional.de/en/performance-of-combustible-facade-systems-with-glass-acp-and-fir/17576076 popup:yes text: READ)
-2. G. Srivastava, C. Ghoroi, P. Gandhi, V. Jagdish, G. Karthikeyan, A. Chakravarthy and D. Nakrani, Development of a unique full-scale real-fire facade testing facility at IIT Gandhinagar, _Current Science_, 115(9), pp. 1782 - 1787, 2018. (link:https://www.currentscience.ac.in/Volumes/115/09/1782.pdf popup:yes text: READ)
-1. P. Gandhi, V. Jagdish, G. Karthikeyan, A. Chakravarthy, D. Nakrani, C. Ghoroi and G. Srivastava, Performance of glass-ACP facade system in a full-scale real fire test in a G+2 structure, _Procedia Engineering_, 210, pp. 512 - 519, 2017. (link:http://www.sciencedirect.com/science/article/pii/S1877705817361039  popup: yes text: READ)
-
-_Conferences_:
-1. P. Gandhi, V. Jagdish, G. Karthikeyan, A. Chakravarthy, D. Nakrani, C. Ghoroi and G. Srivastava, Performance of glass-ACP facade system in a full-scale real fire test in a G+2 structure, _PROTECT 2017_, China, December 2017.
-
-** 2 *Nasar A. Khan*
-_Start date_: August 2013
-_Area of work_: Development of earthquake resilient design of low-cost housing using steel shear plates
-
-_Articles_:
-1. N.A. Khan and G. Srivastava, Models for strength and stiffness of steel plate shear walls with openings, _Structures_, 27, pp. 2096-2113, 2020. (link: https://www.sciencedirect.com/science/article/pii/S2352012420303507 popup:yes text: READ).
-
-_Conferences_:
-1. N.A. Khan and G. Srivastava, Enhanced Fire Severity in Modern Indian Dwellings - A case study from Ahmedabad, Gujarat, _Current Science_, 115(2), pp. 320-325, 2018.
-
-_Conferences_:
-4. N.A. Khan and G. Srivastava, Surrogate-based design optimization of steel plate shear wall systems, _17th World Conference on Earthquake Engineering_, Japan, 2020.
-3. N.A. Khan and G. Srivastava, Influence of Openings on the Inelastic Response of Unstiffened Steel Plate Shear Wall Systems, _Structural Engineering World Conference_, Turkey, 2019.
-2. N.A. Khan and G. Srivastava, Development of surrogate models for steel plate shear wall systems for parametric analysis, _EMI Conference_, USA, 2019.
-1. N.A. Khan and G. Srivastava, Need to revisit fire loads - findings from a recent survey at Ahmedabad, _International Conference on Safety_, India, 2017.
-
-** 1 P. Ravi Prakash
-_Start date_: August 2013 | _Graduation date_: September 2018 | _After graduation_: Post-doctoral research at University of Minho, Portugal
-_Area of work_: Fully coupled multi-physics nonlinear analysis of structural systems subjected to fire
-
-_Articles_:
-5. P.R. Prakash and G. Srivastava, Distributed plasticity model for analysis of steel structures subjected to fire using the direct stiffness method, _Fire Safety Journal_, 105, pp. 169-187, 2019. (link: https://www.sciencedirect.com/science/article/pii/S0379711218300961 popup:yes text: READ).
-4. P.R. Prakash and G. Srivastava, Fully coupled multi-physics nonlinear analysis of structural space frames subjected to fire using the direct stiffness method, _Advances in Structural Engineering_, 22(6), pp. 1266-1283 2018. (link: https://journals.sagepub.com/eprint/xJEQUgDZTXduHuETp8ma/full popup:yes text: READ).
-3. P.R. Prakash and G. Srivastava, Efficient three-dimensional nonlinear thermo-mechanical analysis of structures subjected to fire, _Procedia Engineering_, 210, pp. 512-519, 2017. (link: http://www.sciencedirect.com/science/article/pii/S1877705817361027 popup:yes text:READ)
-2. P.R. Prakash and G. Srivastava, Nonlinear analysis of reinforced concrete plane frames exposed to fire using direct stiffness method, _Advances in Structural Engineering_, 2017. (link: http://journals.sagepub.com/doi/10.1177/1369433217737118 popup:yes text: READ).
-1. G. Srivastava and P.R. Prakash, An integrated framework for nonlinear analysis of plane frames exposed to fire using the direct stiffness method, _Computers and Structures_, 190, pp. 173-185, 2017. (link: http://www.sciencedirect.com/science/article/pii/S0045794917302535 popup: yes text: READ).
-&nbsp;
-_Conferences_:
-5. P.R. Prakash and G. Srivastava, Efficient three-dimensional nonlinear thermo-mechanical analysis of structures subjected to fire, _PROTECT 2017_, China, December 2017.
-4. P.R. Prakash and G. Srivastava, Progressive collapse analysis of RCC planar frames subjected to fire, _International Conference on Safety_, India, 2017.
-3. P.R. Prakash and G. Srivastava, Numerical modeling of spalling in high strength concrete at high temperature, _Structural Engineering Convention (SEC)_, India, 2016.
-2. P.R. Prakash and G. Srivastava, Development of matrix method based framework for thermo-mechanical analysis of RCC frames, _Response of structures under extreme loading: PROTECT 2017_, USA, pp. 972-980, 2017.
-1. P.R. Prakash and G. Srivastava, Development of matrix method for the analysis of RCC frames subjected to fire, _International Conference on Safety_, India, 2014.
-	 
+#+RESULTS:
+1. Patnayakuni Ravi Prakash. September 2018. /Fully coupled multi-physics nonlinear analysis of structural systems subjected to fire/.
+1. Nasar Ahmad Khan. September 2021. /Uncertainty quantification and design optimization of steel plate shear walls/.
+1. Dharmit Nakrani. submitted. /Material characterization and full-scale performance assessment of facade systems subjected to fire/.
+1. Vikash Kumar Singh. ongoing. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
+1. Dravesh Yadav. ongoing. /Multi-physics analysis and design of facade systems subjected to fire/.
+1. Sheikh Mayesser Mushtaq. ongoing. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
 
 * Masters Students
+#+BEGIN_SRC emacs-lisp :results raw :exports results :eval yes
+  (setq cv-buffer (find-file-noselect "~/Nextcloud/Notes/elisp/cv.org"))
+  (with-current-buffer cv-buffer
+    (goto-char (point-min))
+    (search-forward-regexp "^\* MTech Students$")
+    (org-narrow-to-subtree)
+    (goto-char (point-min))
+    (kill-whole-line)
+    (setq my-text (buffer-string))
+    (evil-undo 1)
+    (widen)
+  );cv-buffer
+  (org-babel-remove-result)
+  (print my-text)
+#+END_SRC
 
-** 26 Shubham Singh
-_Startdate_: August 2021
-_Area of work_: TBD
-
-** 25 Sumit Kumar 
-_Startdate_: August 2017 (dual degree)
-_Area of work_: Detailed combustion modeling of ACP components
-
-** 24 Vimal Panara
-_Startdate_: August 2020
-_Area of work_: Analysis of RC shear walls subjected to fire
-
-** 23 Prashant Singh
-_Startdate_: August 2020
-_Area of work_: Analytical formulation of tensile membrane action of slabs under fire
-
-** 22 *Pavithra C T*
-_Startdate_: August 2019
-_Area of work_: TBD
-
-** 21 *Drashti Chiragbhai Shah*
-_Startdate_: August 2019
-_Area of work_: TBD
-
-** 20 *Renjini R*
-_Startdate_: August 2018
-_Area of work_: Assessment of fire incidents in India
-
-** 19 *Ajay Chandran*
-_Start date_: August 2018
-_Area of work_: Development of geopolymer mortar beds for absorption of dyes and heavy metals
-
-** 18 Rahul Khatri
-_Start date_: August 2018 | _Graduation date_: August 2020 | _After graduation_: Joined GACL
-_Thesis title_: Modeling and analysis of square tubular steel beams subjected to transverse blast loads using the material point method
-
-** 17 Manu Mathur
-_Start date_: August 2018 | _Graduation date_: August 2020 | _After graduation_: Joined RVNL
-_Thesis title_: Multi-physics modeling of effect of blast on a steel column protected with polyurethane foam
-
-** 16 Prerna Sarkar
-_Start date_: August 2017 | _Graduation date_: January 2020 | _After graduation_: Joined Walter P Moore
-_Thesis title_: Developing a device to reduce carbon dioxide emission from vehicle exhaust gas
-
-** 15 Prajjwal Patidar
-_Start date_: August 2017 | _Graduation date_: January 2020 | _After graduation_: Joined L&T
-_Area of work_: Fire resistance of concrete filled steel tube columns protected by intumescent coating
-
-** 14 Ravi Shankar
-_Start date_: August 2017 | _Graduation date_: August 2019
-_Thesis title_: A new concept of augmenting steel plate shear wall with auxetic structure to enhance its energy dissipation
-
-** 13 Nikhil O
-_Start date_: August 2017 | _Graduation date_: August 2019 | _After graduation_: Joined AECOM
-_Thesis title_: Influence of polyvinyl methyl ether on hydration of cement and high-temperature behaviour of cement mortar
-
-** 12 Neha Khairkar (jointly with Dr. Dhiman Basu)
-_Start date_: August 2016  | _Graduation date_: October 2018 | _After graduation_: Joined Silver Oak College
-_Area of work_: Analysis and design of reaction wall system
-
-** 11 Akshay Nandurkar
-_Start date_: August 2016 | _Graduation date_: August 2018 | _After graduation_: Joined MEGA
-_Thesis title_: Design of facility for full-scale testing of structural elements under different fire scenarios
-
-** 10 Harsh Shah
-_Start date_: August 2016 | _Graduation date_: August 2018 | _After graduation_: Joined L&T
-_Thesis title_: Study of cement mortar reinforced with water-soluble polymer as admixture for high-temperature applications
-
-** 9 Sarana Hasanth Kota
-_Start date_: August 2016 | _Graduation date_: August 2018 | _After graduation_: Joined GSP Infra
-_Thesis title_: A computationally efficient 1-D line element for modeling 3-D heat transfer in structural systems
-
-** 8 Harshal Lambhate
-_Start date_: August 2015 | _Graduation date_: August 2017 | _After graduation_: Joined state PWD, Maharashtra
-_Thesis title_: Comparative study of fire ratings of reinforced concrete beams and columns calculated through different analytical, empirical and codal methods
-
-** 7 Satya Shrivastav
-_Start date_: August 2014 | _Graduation date_: August 2016 | _After graduation_: Joined Silver Oak College
-_Thesis title_: Toplogy optimization of steel girders subjected to thermal and mechanical loads
-_Conference_:
-1. S. Shrivastav and G. Srivastava, Topology optimization of steel girders subjected to thermal and mechanical loads, _Structural Engineering Convention (SEC)_, India, 2016.
-
-** 6 Pavan Kushwah
-_Start date_: August 2014 | _Graduation date_: August 2016 | _After graduation_: Joined SD Engineering Consultants, Delhi
-_Thesis title_: Physio-chemical characterization of cement mortar at high temperature
-
-** 5 Atik Ghumde
-_Start date_: August 2014 | _Graduation date_: August 2016 | _After graduation_: Joined Arvind Infrastructure
-_Thesis title_: Mesoscale modeling of concrete at elevated temperature
-
-** 4 Nikhil Singh
-_Start date_: August 2014 | _Graduation date_: August 2016 | _After graduation_: Joined CPWD
-_Thesis title_: Topology optimization of beam-column subjected to axial and transverse loads considering effects of buckling
-
-** 3 Puneet Kumar
-_Start date_: August 2013 | _Graduation date_: August 2015 | _After graduation_: Joined Michigan State University as doctoral student
-_Thesis title_: Characterization of in-plane and out-of-plane behavior of infill panels subjected to thermal exposure
-
-_Articles_:
-2. P. Kumar and G. Srivastava, Effect of fire on in-plane and out-of-plane behavior of reinforced
-concrete frames with and without masonry infills, _Construction and Building Materials_, 167, pp. 82-95 2018. (link: https://doi.org/10.1016/j.conbuildmat.2018.01.116 text: READ popup: yes)
-1. P. Kumar and G. Srivastava, Numerical modeling of structural frames with infills subjected to thermal exposure, _Journal of Structural Fire Engineering_, 2017. (link: http://www.emeraldinsight.com/doi/full/10.1108/JSFE-05-2017-0031 text: READ popup: yes)
-&nbsp;
-_Conferences_:
-2. P. Kumar and G. Srivastava, Thermo-mechanical modeling of reinforced concrete masonry infill panels exposed to fire, _ASCE Engineering Mechanics Institute (EMI) Conference_, USA, 2016.
-1. P. Kumar and G. Srivastava, FE analysis of RCC masonry infill panels subjected to thermal exposure, _International Conference on Safety_, India, 2014.
-
-** 2 Amar Mandhyan
-_Start date_: August 2013 | _Graduation date_: August 2015 | _After graduation_: Joined Linde Engineering Pvt Ltd
-_Thesis title_: Development of novel web application for analysis, design and optimization of trusses
-
-_Articles_:
-2. A. Mandhyan, G. Srivastava and S. Krishnamoorthi, A novel method for prediction of truss geometry from topology optimization, _Engineering with Computers_, 33, pp. 95-106, 2017. (link: https://link.springer.com/article/10.1007/s00366-016-0474-x text: READ popup: yes)
-1. S. Krishnamoorthi, G. Srivastava and A. Mandhyan, Web application for size and topology optimization of trusses and gusset plates, arXiv:1512.02881 [cs.OH], 2015. (link: https://arxiv.org/abs/1512.02881 text: READ popup: yes).
-&nbsp;
-_Conference_:
-1. A. Mandhyan, G. Srivastava and S. Krishnamoorthi, Development of web application for shape and topology optimization of truss structure and gusset plates, _XXIV International Workshop on Computational Micromechanics_, Spain, 2014.
-
-** 1 Rujuta Bhat
-_Start date_: August 2013 | _Graduation date_: August 2015 | _After graduation_: Joined VNIT Nagpur as doctoral student
-_Thesis title_: Investigation of moisture transport properties of FAl-G bricks and cement mortar
+#+RESULTS:
+1. Rujuta Bhat. July 2015. /Investigation of moisture transport properties of FAl-G bricks and cement mortar/.
+1. Amar Mandhyan. July 2015. /Development of novel web application for analysis, design and optimization of trusses/.
+1. Puneet Kumar. July 2015. /Characterization of in-plane and out-of-plane behavior of infill panels subjected to thermal exposure/.
+1. Nikhil Singh. July 2016. /Topology optimization of beam-column subjected to axial and transverse loads considering effects of buckling/.
+1. Atik Ghumde. July 2016. /Mesoscale modeling of concrete at elevated temperature/.
+1. Pavan Kushwah. July 2016. /Physio-chemical characterization of cement mortar at high temperature/.
+1. Satya Shrivastav. July 2016. /Toplogy optimization of steel girders subjected to thermal and mechanical loads/.
+1. Harshal Lambhate. July 2017. /Comparative study of fire ratings of reinforced concrete beams and columns calculated through different analytical, empirical and codal methods/.
+1. Sarana Hasanth Kota. August 2018. /A computationally efficient 1-D line element for modeling 3-D heat transfer in structural systems/.
+1. Harsh Shah. August 2018. /Study of cement mortar reinforced with water-soluble polymer as admixture for high-temperature applications/.
+1. Akshay Nandurkar. August 2018. /Design of facility for full-scale testing of structural elements under different fire scenarios/.
+1. Neha Khairkar. October 2018. /Analysis and design of reaction wall system/.
+1. Nikhil O. August 2019. /Influence of polyvinyl methyl ether on hydration of cement and high-temperature behaviour of cement mortar/.
+1. Ravi Shankar. July 2019. /A new concept of augmenting steel plate shear wall with auxetic structure to enhance its energy dissipation/.
+1. Prajjwal Patidar. December 2019. /Fire resistance of concrete filled steel tube columns protected by intumescent coating/.
+1. Prerna Sarkar. January 2020. /Developing a device to reduce carbon dioxide emission from vehicle exhaust gas/.
+1. Manu Mathur. July 2020. /Multi-physics modelling of effect of blast on a steel column protected with polyurethane foam/.
+1. Rahul Khatri. July 2020. /Modelling and analysis of square tubular steel beams subjected to transverse blast loads using material point method/.
+1. Ajay Chandran PV. October 2020. /Adsorption of the methylene blue from aqueous solution using geopolymer mortar grains in a fixed-bed column/.
+1. Renjini R. July 2021. /Quantitative analysis and understanding of building fires in India/.
+1. Drashti Shah. August 2021. /Characterization of fire behaviour inside non-AC rail coach/.
+1. Pavithra CT. June 2021. /Characterization of fire behaviour in public transport buses/.
+1. Vimal Panara. July 2022. /Analysis of RC Shear Wall subjected to thermal exposure/.
+1. Prashant Singh. July 2022. /Analytical formulation of slab behavior at fire considering the effect of tensile membrane action/.
+1. Sumit Kumar. August 2021. /Detailed combustion modeling of ACP components/.
+1. Shubham Singh. ongoing. /Methodology for design of structures for fire loads using Indian codes/.
+1. Visavaliya Yash Jayantibhai. ongoing. /Thesis work TBD/.
+1. Saurabh Kumar Sharma. ongoing. /Thesis work TBD/.
+1. Aditi Parashar. ongoing. /Simulation and design of bridges against fire/.
+1. Gaurav Singh. ongoing. /Egress modeling in metro stations/.
+1. Anil Chaudhary. ongoing. /Thesis work TBD/.

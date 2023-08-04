@@ -74,7 +74,7 @@
 			"
 <footer>
 Contact: 
-<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) | it.garuav@gmail.com (personal)
+<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) |
 <a href='mailto:it.gaurav@gmail.com'>it.gaurav@gmail.com</a> (Personal)
 <br>
 Created completely through <a href='https://www.gnu.org/software/emacs/'>Gnu Emacs</a> and <a href='https://orgmode.org'>Org Mode</a> (<a href='https://github.com/gaurav-iitgn/gaurav-iitgn.github.io'>source code</a>)
