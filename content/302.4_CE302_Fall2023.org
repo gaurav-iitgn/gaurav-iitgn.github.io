@@ -11,7 +11,8 @@
 |-------------------+-----------------------------------------------|
 | Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)       |
 |-------------------+-----------------------------------------------|
-| TA                | Bhuvesh Jaiswal (jaiswal.bhuvesh@iitgn.ac.in) |
+| TAs               | Bhuvesh Jaiswal (jaiswal.bhuvesh@iitgn.ac.in) |
+|                   | Ashmita Dey (ashmita.dey@iitgn.ac.in) |
 |-------------------+-----------------------------------------------|
 
 
