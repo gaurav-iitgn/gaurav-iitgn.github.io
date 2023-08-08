@@ -2,18 +2,18 @@
 # #+OPTIONS: 
 
 * Basic Information
-|-------------------+-----------------------------------------------|
-| Class timings     | Monday 10:00-11:20, Thursday 8:30-9:50        |
-| Class location    | AB 7/101                                      |
-|-------------------+-----------------------------------------------|
-| Tutorial timings  | Tuesday 11:30-12:50                           |
-| Tutorial location | AB 7/101                                      |
-|-------------------+-----------------------------------------------|
-| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)       |
-|-------------------+-----------------------------------------------|
-| TAs               | Bhuvesh Jaiswal (jaiswal.bhuvesh@iitgn.ac.in) |
-|                   | Ashmita Dey (ashmita.dey@iitgn.ac.in) |
-|-------------------+-----------------------------------------------|
+|-------------------+-------------------------------------------------------------|
+| Class timings     | Tuesday 11:30-12:50, Thursday 8:30-9:50  |
+| Class location    | AB 7/101                                                    |
+|-------------------+-------------------------------------------------------------|
+| Tutorial timings  | Monday 10:00-11:20                                          |
+| Tutorial location | AB 7/101                                                    |
+|-------------------+-------------------------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)                     |
+|-------------------+-------------------------------------------------------------|
+| TAs               | Bhuvesh Jaiswal (jaiswal.bhuvesh@iitgn.ac.in)               |
+|                   | Ashmita Dey (ashmita.dey@iitgn.ac.in)                       |
+|-------------------+-------------------------------------------------------------|
 
 
 * Course objectives, syllabus, books, video lectures, pre-requisites
@@ -49,6 +49,7 @@
 
 ** Video lectures
 - Recorded lectures covering most of the syllabus are available [[https://www.youtube.com/watch?v=KU9GYaHTggY&list=PLKg8NoX0BvK3NuUsHHFGsEV4bZ2UkPFa7][here]].
+- Notes used for the video lectures can be downloaded from [[https://drive.google.com/file/d/11r7tvgJRdWneozB_me78v2imqQutjZBC/view?usp=sharing][this link]].
 - You may use these to revise/learn in advance certain topics.
 
 ** Pre-requisites
@@ -105,78 +106,78 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L2] Aug 07, Mon
 - Idealization of structural members. Support reactions. Stability and determinacy.
 ** (T1) Aug 08, Tue
-- [[https://drive.google.com/file/d/1-PlOJjICuQxCp_1yApbPxeer4iluRw4_/view?usp=sharing][download]]
+- [[https://drive.google.com/file/d/1-PlOJjICuQxCp_1yApbPxeer4iluRw4_/view?usp=sharing][Download Tutorial 1]]
 ** [L3] Aug 10, Thu
 - Principle of virtual work for computing support reactions.
-** [L4] Aug 14, Mon
-- Analysis of trusses.
+** (T2) Aug 14, Mon
 ** Aug 15, Tue -- no class
 - Independence Day.
-** [L5] Aug 17, Thu
+** [L4] Aug 17, Thu
+- Analysis of trusses.
+** (T3) Aug 21, Mon
+** [L5] Aug 22, Tue
 - Internal forces in beams. Shear force and bending moment diagrams.
-** [L6] Aug 21, Mon
+** [L6] Aug 24, Thu
 - Deflection of beams by direct integration. Singularity functions.
-** (T2) Aug 22, Tue
-** [L7] Aug 24, Thu
+** (T4) Aug 28, Mon
+** [L7] Aug 29, Tue
 - Moment area theorems.
-** [L8] Aug 28, Mon
+** [L8] Aug 31, Thu
 - Conjugate beam method.
-** (T3) Aug 29, Tue
-** [L9] Aug 31, Thu
-- Energy and complimentary energy.
 ** Sep 02 - Sep 06 -- Examination 1 duration
 *** Intermediate exam
 ** Sep 07, Thu -- no class
 - Janmashtami (Vaishnavi)
-** [L10] Sep 11, Mon
+** (T5) Sep 11, Mon
+** [L9] Sep 12, Tue
+- Energy and complimentary energy.
+** [L10] Sep 14, Thu
 - Castigliano's theorems. Energy methods.
-** (T4) Sep 12, Tue
-** [L11] Sep 14, Thu
+** (T6) Sep 18, Mon
+** [L11] Sep 19, Tue
 - Principle of virtual work. Unit load and displacement methods.
-** [L12] Sep 18, Mon
+** [L12] Sep 21, Thu
 - Unit load and displacement methods. Maxwell's and Betti's theorems.
-** (T5) Sep 19, Tue
-** [L13] Sep 21, Thu
+** (T7) Sep 25, Mon
+** [L13] Sep 26, Tue
 - Theorem of three moments.
-** [L14] Sep 25, Mon
-- Theorem of three moments.
-** (T6) Sep 26, Tue
 ** Sep 28, Thu -- no class
 - Milad-un-Nabi (Id-e-Milad)
 ** Oct 02, Mon -- no class
 - Mahatma Gandhi's Birthday
-** (T7) Oct 03, Tue
+** [L14] Oct 03, Tue
+- Theorem of three moments.
 ** [L15] Oct 05, Thu
 - Generalization of force-based methods. Flexibility matrix.
-** [L16] Oct 09, Mon
+** (T8) Oct 09, Mon
+** [L16] Oct 10, Tue
 - Slope-deflection equations.
-** (T8) Oct 10, Tue
 ** Oct 11 - Oct 15 -- Examination 2 duration
-** [L17] Oct 16, Mon
+** (T9) Oct 16, Mon
+** [L17] Oct 17, Tue
 - Slope-deflection equations.
-** (T9) Oct 17, Tue
 ** [L18] Oct 19, Thu
 - Slope-deflection equations.
 ** Oct 21 - October 29 -- Mid semester recess
-** [L19] Oct 30, Mon
+** (T10) Oct 30, Mon
+** [L19] Oct 31, Tue
 - Moment distribution method.
-** (T10) Oct 31, Tue
 ** [L20] Nov 02, Thu
 - Moment distribution method.
-** [L21] Nov 06, Mon
+** (T11) Nov 06, Mon
+** [L21] Nov 07, Tue
 - Moment distribution method.
-** (T11) Nov 07, Tue
 ** [L22] Nov 09, Thu
 - Moment distribution method.
-** [L23] Nov 13, Mon
+** (T12) Nov 13, Mon
+** [L23] Nov 14, Tue
 - Cables and arches.
-** (T12) Nov 14, Tue
 ** [L24] Nov 16, Thu
 - Cables and arches.
-** [L25] Nov 20, Mon
+** (T13) Nov 20, Mon
+** [L25] Nov 21, Tue
 - Influence line diagrams.
 - Muller-Breslau's principle.
-** (T13) Nov 21, Tue
 ** [L26] Nov 23, Thu
 - Influence line diagrams.
 - Muller-Breslau's principle.
