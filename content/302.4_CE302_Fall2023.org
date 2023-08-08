@@ -105,6 +105,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L2] Aug 07, Mon
 - Idealization of structural members. Support reactions. Stability and determinacy.
 ** (T1) Aug 08, Tue
+- [[pdfs/ce302-2023-t1.pdf][download]]
 ** [L3] Aug 10, Thu
 - Principle of virtual work for computing support reactions.
 ** [L4] Aug 14, Mon
