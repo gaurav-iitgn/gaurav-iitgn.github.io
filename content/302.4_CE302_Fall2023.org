@@ -110,6 +110,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L3] Aug 10, Thu
 - Principle of virtual work for computing support reactions.
 ** (T2) Aug 14, Mon
+- [[https://drive.google.com/file/d/1g3rs1mZ9ZLZWQ_pA7ZwNzIj5O7a_ajgW/view?usp=sharing][Download Tutorial 2]]
+- [[https://drive.google.com/file/d/1nRiGO-myzmOm6xg-YzqhUwHe0HcliRus/view?usp=sharing][Assignment 1]] (due 21 August)
 ** Aug 15, Tue -- no class
 - Independence Day.
 ** [L4] Aug 17, Thu
