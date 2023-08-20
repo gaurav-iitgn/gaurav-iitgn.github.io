@@ -117,6 +117,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L4] Aug 17, Thu
 - Analysis of trusses.
 ** (T3) Aug 21, Mon
+- [[https://drive.google.com/file/d/1BRycdJXC8cz1b1IdsEdR9smzo0KnC0CU/view?usp=sharing][Download Tutorial 3]]
+- [[https://drive.google.com/file/d/1cIXy9au_5GmIchUy6q-x4a5tqFuK-2zn/view?usp=sharing][Assignment 2]] (due 28 August)
 ** [L5] Aug 22, Tue
 - Internal forces in beams. Shear force and bending moment diagrams.
 ** [L6] Aug 24, Thu
