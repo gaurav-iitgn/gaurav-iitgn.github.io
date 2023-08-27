@@ -124,6 +124,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L6] Aug 24, Thu
 - Deflection of beams by direct integration. Singularity functions.
 ** (T4) Aug 28, Mon
+- [[https://drive.google.com/file/d/19RQ1-8y-MMBCH-mCcsvrN14vgayGtCQg/view?usp=sharing][Download Tutorial 4]]
+- [[https://drive.google.com/file/d/1yHXAVrjrjMSdGaitredHOUNKTiltGjiM/view?usp=sharing][Assignment 3]] (due 11 September)
 ** [L7] Aug 29, Tue
 - Moment area theorems.
 ** [L8] Aug 31, Thu
