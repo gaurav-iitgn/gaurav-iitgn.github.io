@@ -119,6 +119,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** (T3) Aug 21, Mon
 - [[https://drive.google.com/file/d/1BRycdJXC8cz1b1IdsEdR9smzo0KnC0CU/view?usp=sharing][Download Tutorial 3]]
 - [[https://drive.google.com/file/d/1cIXy9au_5GmIchUy6q-x4a5tqFuK-2zn/view?usp=sharing][Assignment 2]] (due 28 August)
+- Partial solution to coding problem: [[https://drive.google.com/file/d/1UySAPbJJssbub3IUM8aFPI15ALmf_kKr/view?usp=sharing][Python code]], [[https://drive.google.com/file/d/1X62fP5M5u7JxrEu-JhPVmzvu0k7a1fFZ/view?usp=sharing][Input file]]
 ** [L5] Aug 22, Tue
 - Internal forces in beams. Shear force and bending moment diagrams.
 ** [L6] Aug 24, Thu
@@ -131,7 +132,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L8] Aug 31, Thu
 - Conjugate beam method.
 ** Sep 02 - Sep 06 -- Examination 1 duration
-*** Intermediate exam
+- Sep 06 from 16:30 - 18:00 in AB 3/215.
 ** Sep 07, Thu -- no class
 - Janmashtami (Vaishnavi)
 ** (T5) Sep 11, Mon
