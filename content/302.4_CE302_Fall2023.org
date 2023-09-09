@@ -130,7 +130,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L7] Aug 29, Tue
 - Moment area theorems.
 ** [L8] Aug 31, Thu
-- Conjugate beam method.
+- Moment area theorems.
 ** Sep 02 - Sep 06 -- Examination 1 duration
 - Sep 06 from 16:30 - 18:00 in AB 3/215.
 ** Sep 07, Thu -- no class
@@ -139,8 +139,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 - [[https://drive.google.com/file/d/1Ufrl2T52bM6KxUmOp44aB60o5hn5NMRP/view?usp=sharing][Download Tutorial 5]]
 - [[https://drive.google.com/file/d/1PL4P8050eUIuVEWy_3afGB2qgtmQ8s8j/view?usp=sharing][Assignment 4]] (due 18 September)
 ** [L9] Sep 12, Tue
-- Energy and complimentary energy.
+- Conjugate beam method.
 ** [L10] Sep 14, Thu
+- Energy and complimentary energy.
 - Castigliano's theorems. Energy methods.
 ** (T6) Sep 18, Mon
 ** [L11] Sep 19, Tue
