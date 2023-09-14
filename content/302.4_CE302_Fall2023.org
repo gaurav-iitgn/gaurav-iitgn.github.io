@@ -133,6 +133,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Moment area theorems.
 ** Sep 02 - Sep 06 -- Examination 1 duration
 - Sep 06 from 16:30 - 18:00 in AB 3/215.
+- [[https://drive.google.com/file/d/11uduOZr-CF4JrDVGBNWpQsJJ19DfC0Xf/view?usp=sharing][Exam 1 solutions]]
 ** Sep 07, Thu -- no class
 - Janmashtami (Vaishnavi)
 ** (T5) Sep 11, Mon
@@ -143,10 +144,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L10] Sep 14, Thu
 - Energy and complimentary energy.
 - Castigliano's theorems. Energy methods.
+- Quiz 1.
 ** (T6) Sep 18, Mon
 ** [L11] Sep 19, Tue
-- Principle of virtual work. Unit load and displacement methods.
+- Use of energy methods for structural analysis.
 ** [L12] Sep 21, Thu
+- Principle of virtual work. Unit load and displacement methods.
 - Unit load and displacement methods. Maxwell's and Betti's theorems.
 ** (T7) Sep 25, Mon
 ** [L13] Sep 26, Tue
