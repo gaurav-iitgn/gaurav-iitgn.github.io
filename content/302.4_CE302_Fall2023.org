@@ -134,6 +134,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Sep 02 - Sep 06 -- Examination 1 duration
 - Sep 06 from 16:30 - 18:00 in AB 3/215.
 - [[https://drive.google.com/file/d/11uduOZr-CF4JrDVGBNWpQsJJ19DfC0Xf/view?usp=sharing][Exam 1 solutions]]
+- Highest: 74, Average: 32, Median: 30, Range: 71
 ** Sep 07, Thu -- no class
 - Janmashtami (Vaishnavi)
 ** (T5) Sep 11, Mon
@@ -146,6 +147,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Castigliano's theorems. Energy methods.
 - Quiz 1.
 ** (T6) Sep 18, Mon
+- [[https://drive.google.com/file/d/120AKrTSd9wmBYuUHVCdzdC3ls48tPh2N/view?usp=sharing][Download Tutorial 6]]
+- [[https://drive.google.com/file/d/11z5ACJP1Sh-PVaCL0TakJ60J5qqB8Pmv/view?usp=sharing][Assignment 5]] (due 25 September)
 ** [L11] Sep 19, Tue
 - Use of energy methods for structural analysis.
 ** [L12] Sep 21, Thu
