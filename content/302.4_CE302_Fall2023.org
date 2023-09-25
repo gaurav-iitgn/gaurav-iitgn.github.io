@@ -153,9 +153,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Use of energy methods for structural analysis.
 ** [L12] Sep 21, Thu
 - Principle of virtual work. Unit load and displacement methods.
-- Unit load and displacement methods. Maxwell's and Betti's theorems.
+- Unit load and displacement methods.
 ** (T7) Sep 25, Mon
+- [[https://drive.google.com/file/d/1T_MqgPFshrvcbeagGGzRweJyeU-JdETH/view?usp=sharing][Download Tutorial 7]]
+- [[https://drive.google.com/file/d/1k2L3n46emQjurW6N3CyNv3zgRtH2saYI/view?usp=sharing][Assignment 6]] (due 2 October)
 ** [L13] Sep 26, Tue
+- Maxwell's and Betti's theorems.
 - Theorem of three moments.
 ** Sep 28, Thu -- no class
 - Milad-un-Nabi (Id-e-Milad)
