@@ -80,6 +80,16 @@ Following will be the weightage of different components of assessment
 | Midsem exam          |       20% |
 | Endsem exam          |       20% |
 
+*** Extra credit
+Earn up to 20% extra credit by creating problem-solving videos.
+- Choose a problem (to be shown to the instructor for confirmation)
+- Create a detailed solution.
+- Create a video of 2-3 minutes explaining the detailed solution.
+- Quality of the video should be good so that it can be shared online (e.g. on youtube).
+- This activity can be taken up in groups of up to 2 persons.
+- Each video can earn up to 2% extra credit subject to the overall 20% limit (both group members to get the same credit).
+- Each video will be rated by rest of the class. Grading of the video will include these ratings.
+
 ** Modes of formal assessment
 - Assignments will involve detailed analysis and hands-on questions.
 - Expect one assignment per week.
@@ -176,12 +186,14 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Slope-deflection equations.
 ** Oct 11 - Oct 15 -- Examination 2 duration
 ** (T9) Oct 16, Mon
+- [[https://drive.google.com/file/d/1PlrsIF0fdK9lvL7IrDMbKfvLrOM9z1Ba/view?usp=sharing][Download Tutorial 9]]
 ** [L17] Oct 17, Tue
 - Slope-deflection equations.
 ** [L18] Oct 19, Thu
 - Slope-deflection equations.
 ** Oct 21 - October 29 -- Mid semester recess
 ** (T10) Oct 30, Mon
+- [[https://drive.google.com/file/d/1hr0EbkHfz70Rj_1momY8Cvhf_ix95RxF/view?usp=sharing][Download Tutorial 10]]
 ** [L19] Oct 31, Tue
 - Moment distribution method.
 ** [L20] Nov 02, Thu
