@@ -194,6 +194,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Oct 21 - October 29 -- Mid semester recess
 ** (T10) Oct 30, Mon
 - [[https://drive.google.com/file/d/1hr0EbkHfz70Rj_1momY8Cvhf_ix95RxF/view?usp=sharing][Download Tutorial 10]]
+- [[https://drive.google.com/file/d/1Fq2O5Dxb2BOg90CkFGgbgAjks88Z_Mrz/view?usp=sharing][Assignment 9]] (due 6 November)
 ** [L19] Oct 31, Tue
 - Moment distribution method.
 ** [L20] Nov 02, Thu
