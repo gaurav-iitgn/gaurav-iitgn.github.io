@@ -200,6 +200,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L20] Nov 02, Thu
 - Moment distribution method.
 ** (T11) Nov 06, Mon
+- [[https://drive.google.com/file/d/1W2IcSHiJZ-ZoiLRlFXw5QCRKPQp4SQjY/view?usp=sharing][Download Tutorial 11]]
+- [[https://drive.google.com/file/d/1fkHwSEKorfSX9lIkg_29mGW8ePFx2g4x/view?usp=sharing][Assignment 10]] (due 13 November)
 ** [L21] Nov 07, Tue
 - Moment distribution method.
 ** [L22] Nov 09, Thu
