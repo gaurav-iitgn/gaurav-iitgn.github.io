@@ -89,6 +89,7 @@ Earn up to 20% extra credit by creating problem-solving videos.
 - This activity can be taken up in groups of up to 2 persons.
 - Each video can earn up to 2% extra credit subject to the overall 20% limit (both group members to get the same credit).
 - Each video will be rated by rest of the class. Grading of the video will include these ratings.
+- Last date to submit videos: *25 November 2023*
 
 ** Modes of formal assessment
 - Assignments will involve detailed analysis and hands-on questions.
@@ -207,16 +208,16 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L22] Nov 09, Thu
 - Moment distribution method.
 ** (T12) Nov 13, Mon
+- Session on SAP2000 conducted on Nov 09.
 ** [L23] Nov 14, Tue
-- Cables and arches.
+- Influence line diagrams.
 ** [L24] Nov 16, Thu
-- Cables and arches.
+- Session on SAP2000.
 ** (T13) Nov 20, Mon
 ** [L25] Nov 21, Tue
-- Influence line diagrams.
 - Muller-Breslau's principle.
 ** [L26] Nov 23, Thu
-- Influence line diagrams.
-- Muller-Breslau's principle.
+- Cables and arches.
 ** Nov 25 - Nov 30 -- Examination 3 duration
+- Nov 30 from 14:00 - 15:30 in AB 3/216.
 *** Final exam
