@@ -214,6 +214,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L24] Nov 16, Thu
 - Session on SAP2000.
 ** (T13) Nov 20, Mon
+- [[https://drive.google.com/file/d/1li_-wihoQybqbpt9xir2VSTfkhRmW5Z_/view?usp=sharing][Download Tutorial 12]]
+- [[https://drive.google.com/file/d/1_9A9DM9ztEDHbmywGB_rue9ksHzOYgWK/view?usp=sharing][Assignment 11]] (not due)
 ** [L25] Nov 21, Tue
 - Muller-Breslau's principle.
 ** [L26] Nov 23, Thu
