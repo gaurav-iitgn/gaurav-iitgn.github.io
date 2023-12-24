@@ -32,7 +32,7 @@
 		
 ** Textbook
 - Reinforced Concrete Design - S Unnikrishna Pillai and Devdas Menon.
-	- Respective sections from the book to be read `before' the class, will be mentioned against the lectures.
+# comment
 	
 ** Reference Books
 - Limit State Design of Reinforced Concrete Structures - P C Verghese.
