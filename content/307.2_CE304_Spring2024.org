@@ -90,21 +90,27 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Introduction to design. Components of a building. Load path.
 ** [L2] Jan 05, Fri
 - Analysis of a building. Load calculations. IS 875-1. Characteristic loads.
-** [T1] Jan 08, Mon
+** Jan 08, Mon - no tutorial
 ** [L3] Jan 10, Wed
 - Load calculations. IS 875-2. Load path and distribution. Characteristic loads.
+- Class activity 1
 ** [L4] Jan 12, Fri
 - Structural systems. Framed systems and their analysis. Typology of different components of structural system.
-** [T2] Jan 15, Mon
-** [L5] Jan 17, Wed
-- Design philosophies. Partial safety factors. Behaviour of composite beams.
-** [L6] Jan 19, Fri
-- Analysis of RC beams. Properties of concrete and steel. Characteristic strength.
-** [T3] Jan 22, Mon
+** [T1] Jan 15, Mon
+- [[https://drive.google.com/file/d/1PYOTXlpJy4-Zyc06781BLDzGqspfsXIS/view?usp=sharing][Tutorial 1]]
+** Jan 17, Wed - no class
+** [L5, L6] Jan 19, Fri
+- Session on SAP2000
+** Jan 22, Mon - no tutorial
 ** [L7] Jan 24, Wed
-- Analysis of RC beams.
+- Introduction to IS 456.
+- Discussions on materials, constituents of concrete, characteristic strength, construction practices.
+- Design philosophies. Partial safety factors.
+- Properties of concrete.
 ** Jan 26, Fri - no class
 - Republic Day
+** [T2, T3] Jan 27, Sat
+- Session on SAP2000
 ** [T4] Jan 29, Mon
 ** [L8] Jan 31, Wed
 - Design of RC beams.
