@@ -117,6 +117,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 - [[https://drive.google.com/file/d/1aVjTlNBACaLNhOK7JDLTChqqAz-G6Zo4/view?usp=sharing][Work Sheet 1]]
 ** [L9] Jan 31, Wed
 - Design of RC beams.
+- Consideration of over-reinforced sections.
+- Analysis and design of doubly-reinforced sections.
+- [[https://drive.google.com/file/d/1UXrbUmWjRXlsogaKq23odMT4Rjmwxmnm/view?usp=sharing][Work Sheet 2]]
 ** [T2, T3] Feb 02, Fri
 - Session on SAP2000
 ** [T5] Feb 05, Mon
