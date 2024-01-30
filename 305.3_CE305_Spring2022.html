@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-01-30 Tue 18:42 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CE 305: Steel Design - Spring 2022</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+
+<link rel='stylesheet' href='gs_simple.css' />
+<script type='text/javascript' src='gs_simple.js'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+<center>
+<nav>
+<a href="/~gauravs/index.html">Home</a>
+<a href="/~gauravs/research.html">Research</a>
+<a href="/~gauravs/teaching.html">Teaching</a>
+<a href="/~gauravs/students.html">Students</a>
+</nav>
+</center>
+</div>
+<div id="content">
+<h1 class="title">CE 305: Steel Design - Spring 2022</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org9e7cc94">Basic Information</a></li>
+<li><a href="#orgd9710bc">Course objectives, syllabus, books, pre-requisites</a>
+<ul>
+<li><a href="#org9e4be0f">Objective</a></li>
+<li><a href="#org15da5ed">After finishing this course, you will</a></li>
+<li><a href="#orgcb9c745">Syllabus</a></li>
+<li><a href="#org62588a1">Text Books</a></li>
+<li><a href="#orgebd39b0">Relevant codes</a></li>
+<li><a href="#org24c70c0">Pre-requisites</a></li>
+</ul>
+</li>
+<li><a href="#orga97f91b">Course Policies</a>
+<ul>
+<li><a href="#org972ac2e">Etiquette</a></li>
+<li><a href="#org4050732">Cheating</a></li>
+<li><a href="#org53cba30">Late submissions</a></li>
+<li><a href="#org4fb0099">Grading</a></li>
+<li><a href="#orgf03b44d">Modes of formal assessment</a></li>
+<li><a href="#org70c7e6c">Emphasis on self-learning</a></li>
+</ul>
+</li>
+<li><a href="#orgc338607">Project</a>
+<ul>
+<li><a href="#orgcc231a5">Timeline</a>
+<ul>
+<li><a href="#org96bc715">Guidelines on the final report</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org024d1e5">Calendar (tentative)</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9e7cc94" class="outline-2">
+<h2 id="org9e7cc94">Basic Information</h2>
+<div class="outline-text-2" id="text-org9e7cc94">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Class timings</th>
+<th scope="col" class="org-left">Monday 09:05-10:00, Tuesday and Thursday, 08:05-09:00</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Class location</th>
+<th scope="col" class="org-left">AB 3/205</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Online class</th>
+<th scope="col" class="org-left"><a href="https://iitgn-ac-in.zoom.us/j/91510410886">Class link</a> / <a href="https://drive.google.com/file/d/1fmilzXEZB8UwkKV3M2WhaEB21kEGu-rx/view?usp=sharing">Live Notes</a> / <a href="https://drive.google.com/file/d/1fnBdnRXp1zpiXK871h_IAPQIsXJ6hpGy/view?usp=sharing">Resource</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Instructor</td>
+<td class="org-left">Gaurav Srivastava (gauravs@iitgn.ac.in)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">TA</td>
+<td class="org-left">Vimal Panara (vimalp@iitgn.ac.in).</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+<div id="outline-container-orgd9710bc" class="outline-2">
+<h2 id="orgd9710bc">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-orgd9710bc">
+</div>
+<div id="outline-container-org9e4be0f" class="outline-3">
+<h3 id="org9e4be0f">Objective</h3>
+<div class="outline-text-3" id="text-org9e4be0f">
+<ul class="org-ul">
+<li>To learn the basics of analysis and design of steel structures.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org15da5ed" class="outline-3">
+<h3 id="org15da5ed">After finishing this course, you will</h3>
+<div class="outline-text-3" id="text-org15da5ed">
+<ul class="org-ul">
+<li>know how to analyze structural steel components</li>
+<li>know how to design structural steel members (members under tension, compression and bending)</li>
+<li>understand the basic philosophy behind the limit state method of design of structures</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcb9c745" class="outline-3">
+<h3 id="orgcb9c745">Syllabus</h3>
+<div class="outline-text-3" id="text-orgcb9c745">
+<p>
+Design of tension members; Design of beams; Design of compression members; Analysis of eccentrically loaded columns; Design of beam-columns; Design of connections (riveted, bolted and welded); Single and built-up sections.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org62588a1" class="outline-3">
+<h3 id="org62588a1">Text Books</h3>
+<div class="outline-text-3" id="text-org62588a1">
+<ul class="org-ul">
+<li>Design of Steel Structures by N. Subramanian.</li>
+<li>Structural Steel Design by McCormac and Csernak.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgebd39b0" class="outline-3">
+<h3 id="orgebd39b0">Relevant codes</h3>
+<div class="outline-text-3" id="text-orgebd39b0">
+<ul class="org-ul">
+<li>IS 800:2007 (main design code)</li>
+<li>IS 875 (specification of design loads)</li>
+<li>IS 808:1989, 1732:1989, 1173:1978 (dimensions of hot rolled sections)</li>
+<li>IS 2062:2011 (specifications of hot rolled structural steel)</li>
+</ul>
+<p>
+Codes can be downloaded free of charge from the BIS website: <a href="https://standardsbis.bsbedge.com/">https://standardsbis.bsbedge.com/</a>.
+</p>
+<ul class="org-ul">
+<li>Please ensure that you have a copy of all of these codes BEFORE the first class.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org24c70c0" class="outline-3">
+<h3 id="org24c70c0">Pre-requisites</h3>
+<div class="outline-text-3" id="text-org24c70c0">
+<ul class="org-ul">
+<li>CE 302 - Structural Analysis</li>
+<li>Mechanics of Solids</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga97f91b" class="outline-2">
+<h2 id="orga97f91b">Course Policies</h2>
+<div class="outline-text-2" id="text-orga97f91b">
+</div>
+<div id="outline-container-org972ac2e" class="outline-3">
+<h3 id="org972ac2e">Etiquette</h3>
+<div class="outline-text-3" id="text-org972ac2e">
+<ul class="org-ul">
+<li>Please be considerate about everyone's time.</li>
+<li>In all emails pertaining to this course, please have "CE305" in the subject line.
+<ul class="org-ul">
+<li>(note that there is no space or hyphen or anything between CE and 305)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4050732" class="outline-3">
+<h3 id="org4050732">Cheating</h3>
+<div class="outline-text-3" id="text-org4050732">
+<p>
+Cheating cases (assignments/codes/exams/project) will be awarded an F grade and will be reported to academic office. It is expected that this will never happen and everyone will uphold the honor code.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org53cba30" class="outline-3">
+<h3 id="org53cba30">Late submissions</h3>
+<div class="outline-text-3" id="text-org53cba30">
+<p>
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+<img src="./imgs/deadline-delay-reduction.png" alt="deadline-delay-reduction.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4fb0099" class="outline-3">
+<h3 id="org4fb0099">Grading</h3>
+<div class="outline-text-3" id="text-org4fb0099">
+<p>
+Following will be the weightage of different components of assessment
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Component</th>
+<th scope="col" class="org-right">Weightage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Homework assignments</td>
+<td class="org-right">25%</td>
+</tr>
+
+<tr>
+<td class="org-left">Spot quizzes</td>
+<td class="org-right">25%</td>
+</tr>
+
+<tr>
+<td class="org-left">Exam</td>
+<td class="org-right">25%</td>
+</tr>
+
+<tr>
+<td class="org-left">Project</td>
+<td class="org-right">25%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-orgf03b44d" class="outline-3">
+<h3 id="orgf03b44d">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-orgf03b44d">
+<ul class="org-ul">
+<li>Assignments will involve detailed analysis and design questions.</li>
+<li>Expect one assignment per week.</li>
+<li>Spot quizzes will primarily be objective type, primarily based on concepts and codes. Expect one quiz per week.</li>
+<li>Exam will primarily be subjective type. It may be in-class or take-home.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org70c7e6c" class="outline-3">
+<h3 id="org70c7e6c">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-org70c7e6c">
+<p>
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc338607" class="outline-2">
+<h2 id="orgc338607">Project</h2>
+<div class="outline-text-2" id="text-orgc338607">
+<p>
+The project will entail designing the roof truss of the IITGN's sports complex (Badminton Hall). Existing drawings will be made available. The challenge will be to come up with alternative possibilities.
+</p>
+</div>
+
+
+<div id="outline-container-orgcc231a5" class="outline-3">
+<h3 id="orgcc231a5">Timeline</h3>
+<div class="outline-text-3" id="text-orgcc231a5">
+<p>
+Project is to be done in groups of not more than 3. Following timeline must be adhered to for all submissions. (this timeline will be updated during the first week of classes)
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Task</th>
+<th scope="col" class="org-right">Marks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Jan 21</td>
+<td class="org-left">Formation of groups.</td>
+<td class="org-right">10</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Jan 28</td>
+<td class="org-left">Providing drawings of existing truss.</td>
+<td class="org-right">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Feb 12</td>
+<td class="org-left">Submission of preliminary report after design review.</td>
+<td class="org-right">20</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Feb 24</td>
+<td class="org-left">Submission of final report.</td>
+<td class="org-right">20</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="outline-container-org96bc715" class="outline-4">
+<h4 id="org96bc715">Guidelines on the final report</h4>
+<div class="outline-text-4" id="text-org96bc715">
+<p>
+This report should be organized as follows:
+</p>
+<ol class="org-ol">
+<li>Discussion of the existing design (critical review of existing design).</li>
+<li>Description of alternative proposal.</li>
+<li>Detailed analysis and design of alternative proposal.</li>
+<li>Highlighting improvements of the alternative proposal over existing design.</li>
+<li>Conclusions.</li>
+<li>References.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org024d1e5" class="outline-2">
+<h2 id="org024d1e5">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-org024d1e5">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Lec No</th>
+<th scope="col" class="org-left">Date</th>
+<th scope="col" class="org-left">Topic</th>
+<th scope="col" class="org-left">Attachments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">4 January, Tuesday</td>
+<td class="org-left">Introduction to design. Concept of LRFD. Limit states.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">6 January, Thursday</td>
+<td class="org-left">Analysis of members in tension - yielding of gross section, rupture of net section</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1fN11pZzqhMXDN8eXisVpSRAMvVm0wzNq/view?usp=sharing">A1</a> (due 13 Jan)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">10 January, Monday</td>
+<td class="org-left">Analysis of members in tension - shear lag.</td>
+<td class="org-left"><a href="https://www.youtube.com/watch?v=Bj9n8LRxtx8&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS">V4.2</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">11 January, Tuesday</td>
+<td class="org-left">Design of members in tension. Block shear. Method for design.</td>
+<td class="org-left"><a href="https://www.youtube.com/watch?v=tY3fjsfZa0E&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=2">V4.3</a> / <a href="https://www.youtube.com/watch?v=myuc3KW3ONs&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=3">V5.1</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">13 January, Thursday</td>
+<td class="org-left">Design of members in tension.</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1nqDFBDAcfu-rs4A0YzLwgSCYvJvx9kAq/view?usp=sharing">A2</a> (due 20 Jan) / <a href="https://www.youtube.com/watch?v=cXY2DlXU8DI&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=4">V5.2</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">17 January, Monday</td>
+<td class="org-left">Analysis of members under uniaxial compression - column curves.</td>
+<td class="org-left">Quiz 1 / <a href="https://www.youtube.com/watch?v=_TDv9EQ3EvU&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=5">V6.1</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">7</td>
+<td class="org-left">18 January, Tuesday</td>
+<td class="org-left">Analysis of members in uniaxial compression - design strength calculations.</td>
+<td class="org-left"><a href="https://www.youtube.com/watch?v=cWlbzz7fXU0&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=6">V6.2</a> / <a href="https://www.youtube.com/watch?v=ta3FBIgUAco&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=8">V6.3</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">20 January, Thursday</td>
+<td class="org-left">Analysis of members in uniaxial compression - design strength calculations.</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1h9qlZqueP59YPJRcr_vOHYj4TCXk6g3s/view?usp=sharing">A3</a> (due 27 Jan) / <a href="https://www.youtube.com/watch?v=hp8IyUFWKCA&amp;list=PLKg8NoX0BvK1uTYUcfgDd6gmge_CxFWpS&amp;index=9">V6.4</a></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">9</td>
+<td class="org-left">24 January, Monday</td>
+<td class="org-left">Design of compression members.</td>
+<td class="org-left">Quiz 2</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">10</td>
+<td class="org-left">25 January, Tuesday</td>
+<td class="org-left">Design of compression members.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">11</td>
+<td class="org-left">27 January, Thursday</td>
+<td class="org-left">Analysis of members under flexure.</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1kmfjAi-gyqXuqnEN1IoG-ZXuBhCciSYX/view?usp=sharing">A4</a> (due 3 Feb)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">12</td>
+<td class="org-left">31 January, Monday</td>
+<td class="org-left">Design of members under flexure.</td>
+<td class="org-left">Quiz 3</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">13</td>
+<td class="org-left">1 February, Tuesday</td>
+<td class="org-left">Design of members under flexure and other actions.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">14</td>
+<td class="org-left">3 February, Thursday</td>
+<td class="org-left">Design of members under flexure and other actions.</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1_-yqZgdISBBvnGYNdlwVbXhZv39de8nz/view?usp=sharing">A5</a> (due 10 Feb)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">15</td>
+<td class="org-left">7 February, Monday</td>
+<td class="org-left">Bolted connections.</td>
+<td class="org-left">Quiz 4</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">16</td>
+<td class="org-left">8 February, Tuesday</td>
+<td class="org-left">Bolted connections.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">17</td>
+<td class="org-left">10 February, Thursday</td>
+<td class="org-left">Bolted connections.</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1kDOG-bbuQOehLMSJauiOYd5Pg1voYdBa/view?usp=sharing">A6</a> (due 17 Feb)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">18</td>
+<td class="org-left">14 February, Monday</td>
+<td class="org-left">Welded connections.</td>
+<td class="org-left">Quiz 5</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">19</td>
+<td class="org-left">15 February, Tuesday</td>
+<td class="org-left">Welded connections.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">20</td>
+<td class="org-left">17 February, Thursday</td>
+<td class="org-left">Welded connections.</td>
+<td class="org-left"><a href="https://drive.google.com/file/d/1dasRu49ma5JKj7qytK3umbzEy-urSkWb/view?usp=sharing">A7</a> (due 25 Feb)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">21</td>
+<td class="org-left">21 February, Monday</td>
+<td class="org-left">Design of systems under combined actions.</td>
+<td class="org-left">Quiz 6</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">22</td>
+<td class="org-left">22 February, Tuesday</td>
+<td class="org-left">Design of systems under combined actions.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">23</td>
+<td class="org-left">24 February, Thursday</td>
+<td class="org-left">Design of systems under combined actions.</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">26 February - 5 March</td>
+<td class="org-left">Mid Semester Exam Week</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">&#xa0;</td>
+<td class="org-left">5 March, 2-4 PM</td>
+<td class="org-left">Mid Semester Exam (3/211)</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<footer>
+Contact: 
+<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) |
+<a href='mailto:it.gaurav@gmail.com'>it.gaurav@gmail.com</a> (Personal)
+<br>
+Created completely through <a href='https://www.gnu.org/software/emacs/'>Gnu Emacs</a> and <a href='https://orgmode.org'>Org Mode</a> (<a href='https://github.com/gaurav-iitgn/gaurav-iitgn.github.io'>source code</a>)
+</footer>
+</div>
+</body>
+</html>
