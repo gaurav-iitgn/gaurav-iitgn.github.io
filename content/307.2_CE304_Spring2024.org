@@ -109,13 +109,16 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Properties of concrete.
 ** Jan 26, Fri - no class
 - Republic Day
-** [T2, T3] Jan 27, Sat
-- Session on SAP2000
 ** [L8] Jan 29, Mon
 - Design of RC beams.
+- Concept of neutral axis of homogeneous and heterogeneous sections.
+- Assumptions in the behaviour of RC beams. Concept of balanced, under-reinforced and over-reinforced sections.
+- Analysis and design of singly-reinforced RC beams.
+- [[https://drive.google.com/file/d/1aVjTlNBACaLNhOK7JDLTChqqAz-G6Zo4/view?usp=sharing][Work Sheet 1]]
 ** [L9] Jan 31, Wed
 - Design of RC beams.
-** [T4] Feb 02, Fri
+** [T2, T3] Feb 02, Fri
+- Session on SAP2000
 ** [T5] Feb 05, Mon
 ** [L10] Feb 07, Wed
 - Design of RC beams.
