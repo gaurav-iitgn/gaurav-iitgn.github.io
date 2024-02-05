@@ -122,7 +122,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - [[https://drive.google.com/file/d/1UXrbUmWjRXlsogaKq23odMT4Rjmwxmnm/view?usp=sharing][Work Sheet 2]]
 ** [T2, T3] Feb 02, Fri
 - Session on SAP2000
-** [T5] Feb 05, Mon
+** [T4] Feb 05, Mon
+- [[https://drive.google.com/file/d/1_F-khpU6hTXqkWVGbEUozMJvGIUctVo1/view?usp=sharing][Assignment 1]] (due 12 Feb)
 ** [L10] Feb 07, Wed
 - Design of RC beams.
 ** [L11] Feb 09, Fri
