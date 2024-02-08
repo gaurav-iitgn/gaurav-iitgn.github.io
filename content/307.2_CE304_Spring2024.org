@@ -124,9 +124,14 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Session on SAP2000
 ** [T4] Feb 05, Mon
 - [[https://drive.google.com/file/d/1_F-khpU6hTXqkWVGbEUozMJvGIUctVo1/view?usp=sharing][Assignment 1]] (due 12 Feb)
+- Failure modes of an RCC beam.
+- Design of RC beams under shear.
 - [[https://drive.google.com/file/d/16XarXcQDRy8QcHUSIptSYowfZ76eBNmY/view?usp=sharing][Work Sheet 3]]
 ** [L10] Feb 07, Wed
 - Design of RC beams.
+- Consideration of T and L beams.
+- Provisions of the Code for design of RCC beams.
+- [[https://drive.google.com/file/d/1GMtVqu3onF44m8BtnfBxb2wuAvLksXN0/view?usp=sharing][Work Sheet 4]]
 ** [L11] Feb 09, Fri
 - Design of RC columns.
 ** [T6] Feb 12, Mon
