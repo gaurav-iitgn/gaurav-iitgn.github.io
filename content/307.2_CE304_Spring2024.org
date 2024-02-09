@@ -134,6 +134,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - [[https://drive.google.com/file/d/1GMtVqu3onF44m8BtnfBxb2wuAvLksXN0/view?usp=sharing][Work Sheet 4]]
 ** [L11] Feb 09, Fri
 - Design of RC columns.
+- [[https://drive.google.com/file/d/1o9JHDkLPybKNZB5-4FFR2tujPdJ8unod/view?usp=sharing][Work Sheet 5]]
 ** [T6] Feb 12, Mon
 ** [L12] Feb 14, Wed
 - Design of RC columns.
