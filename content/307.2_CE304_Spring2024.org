@@ -156,6 +156,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Design of RC slabs.
 - Examples 5.2 and 5.3 of the Book.
 ** [T8] Mar 04, Mon
+- [[https://drive.google.com/file/d/1PK30Nyz_6pmrZ6tBACIG4KSN6aWq_oWD/view?usp=sharing][Tutorial 4]]
+- [[https://drive.google.com/file/d/1C61hq3Bi2BcUbpKECSq8yiuEC1muKewp/view?usp=sharing][Assignment 4]] (due 11 Mar)
 ** [L16] Mar 06, Wed
 - Design of RC slabs.
 ** Mar 08, Fri - no class
