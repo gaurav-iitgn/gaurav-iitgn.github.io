@@ -163,32 +163,35 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Mar 08, Fri - no class
 - Maha Shivratri
 ** [T9] Mar 11, Mon
+- [[https://drive.google.com/file/d/1x7EYwwqTAww7xKGbeTJAIEt_TMqFrW2O/view?usp=sharing][Tutorial 5]]
+- Analysis of RC building in SAP2000.
 ** [L17] Mar 13, Wed
-- Design of RC slabs.
-** [L18] Mar 15, Fri
-- Design of shallow foundations.
+- Design of RC building components in SAP2000.
+** Mar 15, Fri - no class
 ** [T10] Mar 18, Mon
-** [L19] Mar 20, Wed
+- [[https://drive.google.com/file/d/1ji3-DsqIY5oBw_F1N3pUgYvv2SMI62Sk/view?usp=sharing][Tutorial 6]]
+- [[https://drive.google.com/file/d/1w1aeRMdnH6_-3Mt8kH7v7-ypZO8maib1/view?usp=sharing][Assignment 5]] (due 1 Apr [no joke intended])
+** [L18] Mar 20, Wed
 - Design of shallow foundations.
-** [L20] Mar 22, Fri
+** [L19] Mar 22, Fri
 - Design of shallow foundations.
 ** Mar 23 - Mar 31: Mid semester recess
 ** [T11] Apr 01, Mon
-** [L21] Apr 03, Wed
+** [L20] Apr 03, Wed
 - Design of staircases.
-** [L22] Apr 05, Fri
+** [L21] Apr 05, Fri
 - Design of staircases.
 ** [T12] Apr 08, Mon
-** [L23] Apr 10, Wed
+** [L22] Apr 10, Wed
 - Design of staircases.
-** [L24] Apr 12, Fri
+** [L23] Apr 12, Fri
 - Detailing and construction practices.
 ** [T13] Apr 15, Mon
-** [L25] Apr 17, Wed
+** [L24] Apr 17, Wed
 - Detailing and construction practices.
-** [L26] Apr 19, Fri
+** [L25] Apr 19, Fri
 - Detailing and construction practices.
 ** [T14] Apr 22, Mon
-** [L27] Apr 24, Wed
+** [L26] Apr 24, Wed
 - Detailing and construction practices.
 ** Apr 25 - May 01: End semester exam week
