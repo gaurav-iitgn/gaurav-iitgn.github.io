@@ -173,8 +173,10 @@ It is important to develop the habit of self-learning. A number of reading assig
 - [[https://drive.google.com/file/d/1w1aeRMdnH6_-3Mt8kH7v7-ypZO8maib1/view?usp=sharing][Assignment 5]] (due 1 Apr [no joke intended])
 ** [L18] Mar 20, Wed
 - Design of shallow foundations.
+- Types of footings. Eccentricity. Failure modes and design considerations.
 ** [L19] Mar 22, Fri
 - Design of shallow foundations.
+- [[https://drive.google.com/file/d/1g1-LJDjdnusjKq-ulvokV8TUklVgK2Hp/view?usp=sharing][Work Sheet 7]]
 ** Mar 23 - Mar 31: Mid semester recess
 ** [T11] Apr 01, Mon
 ** [L20] Apr 03, Wed
