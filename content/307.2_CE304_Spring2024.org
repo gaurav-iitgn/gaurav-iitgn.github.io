@@ -186,6 +186,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L21] Apr 05, Fri
 - Design of staircases.
 ** [T12] Apr 08, Mon
+- [[https://drive.google.com/file/d/1ntj-vmoxpaioPZZzXzvV6OqlHwPagMyD/view?usp=sharing][Tutorial 8]]
+- [[https://drive.google.com/file/d/1YE-4YMSTJ1Nys0SVvST_yaz-f6a4d4Z-/view?usp=sharing][Assignment 7]] (due 15 Apr)
 ** [L22] Apr 10, Wed
 - Design of staircases.
 ** [L23] Apr 12, Fri
