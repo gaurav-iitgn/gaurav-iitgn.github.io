@@ -31,13 +31,19 @@ while getopts 'hgf' OPTION; do
     esac
 done
 
-# modify links for IITGN system (Base is ~gauravs)
-# change all occurrences of href="/" to href="/~gauravs/"
-echo "Modifying links within the public folder to consider /~gauravs/"
-cd public
-grep -rli 'href=\"\/' | xargs -i@ sed -i 's/href=\"\//href=\"\/~gauravs\//g' @
-# echo $?
-echo "Done."
+if [ $CI ]; then
+    echo "In CI environment."
+else
+    echo "Not in CI environment."
+    echo "Likely in self hosted system."
+    # modify links for IITGN system (Base is ~gauravs)
+    # change all occurrences of href="/" to href="/~gauravs/"
+    echo "Modifying links within the public folder to consider /~gauravs/"
+    cd public
+    grep -rli 'href=\"\/' | xargs -i@ sed -i 's/href=\"\//href=\"\/~gauravs\//g' @
+    # echo $?
+    echo "Done."
+fi
 
 
 if [ $SEND_TO_FTP ]; then
