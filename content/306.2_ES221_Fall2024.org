@@ -1,0 +1,182 @@
+#+TITLE: ES 221: Mechanics of Solids - Fall 2024
+# #+OPTIONS: 
+
+* Basic Information
+|-------------------+------------------------------------------|
+| Class timings     | Wednesday, Friday, 10:00-11:20 hrs       |
+| Class location    | AB 7/101                                 |
+|-------------------+------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)  |
+|-------------------+------------------------------------------|
+| Tutorial timings  | Monday, 11:30-12:20 hrs                  |
+| Tutorial location | AB 7/101                                 |
+|-------------------+------------------------------------------|
+| TA                | Yajat Sharma (yajat.sharma@iitgn.ac.in) |
+|-------------------+------------------------------------------|
+
+
+* Course objectives, syllabus, books, pre-requisites
+** Objectives
+- To learn the fundamentals of analyzing reinforced concrete structural members.
+- To learn design of basic structural members of a reinforced concrete building.
+- To learn overall structual design of a reinforced concrete building.
+	
+** Syllabus
+- Free body diagram, Modeling of supports, Conditions for Equilibrium.
+- Friction Force-deformation relationship and geometric compatibility (for small deformations) with illustrations through simple problems on axially loaded members and thin walled pressure vessels.
+- Axial force, shear force, bending moment, and twisting moment diagrams of slender members.
+- Concept of stress and strain at a point, Transformation of stresses and strain at a point, Principal stresses and strains, Mohr’s circle (only for plane stress and strain case).
+- Displacement field, Strain Rosette, Modeling of problem as a plane stress or plane strain problem.
+- Discussion of experimental results on 1-D material behavior.
+- Concepts of elasticity, plasticity, strain-hardening, failure (fracture/yielding), idealization of 1-D stress-strain curve, Concepts of isotropy, orthotropy, anisotropy.
+- Generalized Hooke’s law, (without and with thermal strains).
+- Torsion of circular shafts and thin-walled tubes.
+- Bending of beams with symmetric cross-section (normal and shear stresses), Combined stresses, Yield criteria, Deflection due to bending.
+- Integration of the moment-curvature relationship for simple boundary conditions, Super position principle.
+- Concepts of strain energy and complementary strain energy for simple structural elements (those under axial load, shear force, bending moment, and torsion).
+- Castigliano’s theorems for deflection analysis and indeterminate problems.
+- Concept of elastic instability and a brief introduction to column buckling and Euler’s formula. 
+		
+** Textbook
+- Engineering Mechanics: Statics - R.C. Hibbeler.
+- Mechanics of Materials - R.C. Hibbeler.
+# comment
+	
+** Reference Books
+- Strength of Materials - S. Timoshenko.
+
+** Pre-requisites
+- Good background in Mathematics.
+- Curiosity to learn the fundamentals behind construction of some of the largest structures like Hoover Dam and Burj Khalifa.
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "ES221" in the subject line.
+	- (note that there is no space or hyphen or anything between ES and 221)
+
+** Cheating
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       20% |
+| In-class submissions |       25% |
+| Tutorials            |       25% |
+| Exams (two)          |  15% each |
+
+** Modes of formal assessment
+- Tutorials will involve two types of problems:
+	- Set A: to be submitted within the tutorial session and will be graded towards Tutorial weightage
+	- Set B: to be practiced outside the tutorial hour and will not be graded
+- Assignments will entail analysis/practical problems, reports, etc. and may be individual or group
+- Expect one assignment and tutorial per week.
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Calendar (tentative)
+** [L1] Aug 02, Fri
+- Introduction to the subject.
+- Review of topics from Class XI (units, significant digits, free-body diagram, force vectors, etc.).
+** [T1] Aug 05, Mon
+- Review of topics from Class XI.
+** [L2] Aug 07, Wed
+- Frictional contacts, idealization of supports and members.
+- Equilibrium conditions.
+- Analysis of pin-jointed trusses.
+** [L3] Aug 09, Fri
+- Analysis of pin-jointed trusses.
+** [T2] Aug 12, Mon
+- Analysis of pin-jointed trusses.
+** [L4] Aug 14, Wed
+- Consideration of uniaxial deformations.
+- Geometric compatibility.
+** [L5] Aug 16, Fri
+- Consideration of uniaxial deformations.
+- Consideration of thin rings in cylindrical coordinates.
+** [T3] Aug 19, Mon
+- Uniaxial deformations.
+** [L6] Aug 21, Wed
+- Concept of stress.
+- Types of stresses.
+** [L7] Aug 23, Fri
+- Plane stress idealization.
+- Stress at a point.
+- Transformation of stress.
+** Aug 26, Mon - holiday (Janmashtami)
+** [L8] Aug 28, Wed
+- Mohr's circle for plane stress condition.
+- Principal stresses.
+** [L9] Aug 30, Fri
+- Stress in cylindrical coordinates.
+** [T4] Sep 02, Mon
+- Stress and its transformation.
+** [L10] Sep 04, Wed
+- Strain at a point.
+- Strain compatibility conditions.
+** [L11] Sep 06, Fri
+- Transformation of strain.
+- Principal strains.
+- Hooke's law and stress-strain relations.
+** [T5] Sep 09, Mon
+- Strain at a point.
+** [L12] Sep 11, Wed
+- Relations between different elastic constants (Young's modulus, shear modulus, bulk modulus).
+- Idealization of 1D stress-strain curve.
+** [L13] Sep 13, Fri
+- Elastic energy / strain energy in a body.
+** Sep 16, Mon - holiday (Id-e-Milad)
+** [L14] Sep 18, Wed
+- Yield criteria and conditions.
+** [L15] Sep 20, Fri
+- Equivalence of yield stresses.
+** [T6] Sep 23, Mon
+- Strain energy and yield conditions.
+- Failure theories.
+** [L16] Sep 25, Wed
+- Review of topics.
+** Sep 27 - Oct 04: Mid semester exam week
+** Oct 05 - 13: Mid semester recess
+** [T7] Oct 14, Mon
+- Failure theories.
+** [L17] Oct 16, Wed
+- Consideration of bending.
+- Shear force and bending moment diagrams.
+** [L18] Oct 18, Fri
+- Shear force and bending moment diagrams.
+** [T8] Oct 21, Mon
+- Shear force and bending moment diagrams.
+** [L19] Oct 23, Wed
+- Stresses due to bending.
+** [L20] Oct 25, Fri
+- Stresses due to bending.
+** [T9] Oct 28, Mon
+- Stresses due to bending.
+** [L21] Oct 30, Wed
+- Deflections due to bending.
+** [L22] Nov 01, Fri
+- Torsion of circular members.
+** [T10] Nov 04, Mon
+- Deflections due to bending.
+** [L23] Nov 06, Wed
+- Castigliano's theorems.
+** [L24] Nov 08, Fri
+- Torsion of circular members.
+- State of stress in members with torsion and axial force.
+** [T11] Nov 11, Mon
+- Torsion of circular members.
+** [L25] Nov 13, Wed
+- Stability of equilibrium.
+- Buckling of slender members.
+** Nov 15, Fri - holiday (Guru Nanak's Birthday)
+** [T12] Nov 18, Mon
+- Stability of equilibrium.
+- Buckling of slender members.
+** [L26] Nov 20, Wed
+- Buckling of slender members.
+** [L27] Nov 22, Fri
+- Review of topics.
+** Nov 23 - 29: End semester exam week
