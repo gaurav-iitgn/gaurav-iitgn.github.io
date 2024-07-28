@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-07-28 Sun 07:58 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CE 302: Structural Analysis - Fall 2023</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+
+<link rel='stylesheet' href='gs_simple.css' />
+<script type='text/javascript' src='gs_simple.js'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="preamble" class="status">
+
+<center>
+<nav>
+<a href="/index.html">Home</a>
+<a href="/research.html">Research</a>
+<a href="/teaching.html">Teaching</a>
+<a href="/students.html">Students</a>
+</nav>
+</center>
+</div>
+<div id="content">
+<h1 class="title">CE 302: Structural Analysis - Fall 2023</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org22360a2">Basic Information</a></li>
+<li><a href="#orgc7549e4">Course objectives, syllabus, books, video lectures, pre-requisites</a>
+<ul>
+<li><a href="#org2d92f0f">Objectives</a></li>
+<li><a href="#orge64a7e3">After finishing this course, you will</a></li>
+<li><a href="#orgfbace20">Syllabus</a></li>
+<li><a href="#orge82940d">Text Book</a></li>
+<li><a href="#orgd3a8a53">Reference Books</a></li>
+<li><a href="#org56dd6e1">Software</a></li>
+<li><a href="#orgf9b437e">Video lectures</a></li>
+<li><a href="#orge9960b2">Pre-requisites</a></li>
+</ul>
+</li>
+<li><a href="#orgc8b5f7b">Course Policies</a>
+<ul>
+<li><a href="#orgf54f5f1">Etiquette</a></li>
+<li><a href="#orge722e1f">Cheating</a></li>
+<li><a href="#org040b516">Late submissions</a></li>
+<li><a href="#org9ad9b10">Grading</a>
+<ul>
+<li><a href="#orgeeecd90">Extra credit</a></li>
+</ul>
+</li>
+<li><a href="#org2bcbf42">Modes of formal assessment</a></li>
+<li><a href="#org978af6c">Emphasis on self-learning</a></li>
+</ul>
+</li>
+<li><a href="#org7231df7">Calendar (tentative)</a>
+<ul>
+<li><a href="#org7e2e3ba">[L1] Aug 03, Thu</a></li>
+<li><a href="#org141b123">[L2] Aug 07, Mon</a></li>
+<li><a href="#org096d673">(T1) Aug 08, Tue</a></li>
+<li><a href="#orgea78d82">[L3] Aug 10, Thu</a></li>
+<li><a href="#orgcfce4b8">(T2) Aug 14, Mon</a></li>
+<li><a href="#org3c840bc">Aug 15, Tue &#x2013; no class</a></li>
+<li><a href="#orgd524f56">[L4] Aug 17, Thu</a></li>
+<li><a href="#org497af48">(T3) Aug 21, Mon</a></li>
+<li><a href="#org56f6866">[L5] Aug 22, Tue</a></li>
+<li><a href="#org344dc0e">[L6] Aug 24, Thu</a></li>
+<li><a href="#org0ab2f1c">(T4) Aug 28, Mon</a></li>
+<li><a href="#orgfce8fc4">[L7] Aug 29, Tue</a></li>
+<li><a href="#org70d648d">[L8] Aug 31, Thu</a></li>
+<li><a href="#org3d97f82">Sep 02 - Sep 06 &#x2013; Examination 1 duration</a></li>
+<li><a href="#org190d4c5">Sep 07, Thu &#x2013; no class</a></li>
+<li><a href="#orgd841400">(T5) Sep 11, Mon</a></li>
+<li><a href="#org3348f2e">[L9] Sep 12, Tue</a></li>
+<li><a href="#org03c0bc2">[L10] Sep 14, Thu</a></li>
+<li><a href="#org3bea0a2">(T6) Sep 18, Mon</a></li>
+<li><a href="#orgd972235">[L11] Sep 19, Tue</a></li>
+<li><a href="#org9a9f050">[L12] Sep 21, Thu</a></li>
+<li><a href="#orgc2dd0d1">(T7) Sep 25, Mon</a></li>
+<li><a href="#org92b900c">[L13] Sep 26, Tue</a></li>
+<li><a href="#org8dd3f9a">Sep 28, Thu &#x2013; no class</a></li>
+<li><a href="#org72c465e">Oct 02, Mon &#x2013; no class</a></li>
+<li><a href="#org6458c61">[L14] Oct 03, Tue</a></li>
+<li><a href="#org39e7913">[L15] Oct 05, Thu</a></li>
+<li><a href="#orge8f7718">(T8) Oct 09, Mon</a></li>
+<li><a href="#orga9012b7">[L16] Oct 10, Tue</a></li>
+<li><a href="#org72fe8f5">Oct 11 - Oct 15 &#x2013; Examination 2 duration</a></li>
+<li><a href="#orgfb02946">(T9) Oct 16, Mon</a></li>
+<li><a href="#org7317ad4">[L17] Oct 17, Tue</a></li>
+<li><a href="#org1635297">[L18] Oct 19, Thu</a></li>
+<li><a href="#org11c9f04">Oct 21 - October 29 &#x2013; Mid semester recess</a></li>
+<li><a href="#org1f624d6">(T10) Oct 30, Mon</a></li>
+<li><a href="#org4c8f267">[L19] Oct 31, Tue</a></li>
+<li><a href="#org8be1771">[L20] Nov 02, Thu</a></li>
+<li><a href="#orgaa9152b">(T11) Nov 06, Mon</a></li>
+<li><a href="#org083b179">[L21] Nov 07, Tue</a></li>
+<li><a href="#orgfa44b0e">[L22] Nov 09, Thu</a></li>
+<li><a href="#org8352e08">(T12) Nov 13, Mon</a></li>
+<li><a href="#orge70361a">[L23] Nov 14, Tue</a></li>
+<li><a href="#org2b7bd07">[L24] Nov 16, Thu</a></li>
+<li><a href="#org4ba28a5">(T13) Nov 20, Mon</a></li>
+<li><a href="#org5b52a8c">[L25] Nov 21, Tue</a></li>
+<li><a href="#org0cb1ce2">[L26] Nov 23, Thu</a></li>
+<li><a href="#org71f4ebb">Nov 25 - Nov 30 &#x2013; Examination 3 duration</a>
+<ul>
+<li><a href="#org9e1566d">Final exam</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org22360a2" class="outline-2">
+<h2 id="org22360a2">Basic Information</h2>
+<div class="outline-text-2" id="text-org22360a2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Class timings</th>
+<th scope="col" class="org-left">Tuesday 11:30-12:50, Thursday 8:30-9:50</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Class location</th>
+<th scope="col" class="org-left">AB 7/101</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Tutorial timings</td>
+<td class="org-left">Monday 10:00-11:20</td>
+</tr>
+
+<tr>
+<td class="org-left">Tutorial location</td>
+<td class="org-left">AB 7/101</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">Instructor</td>
+<td class="org-left">Gaurav Srivastava (gauravs@iitgn.ac.in)</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="org-left">TAs</td>
+<td class="org-left">Bhuvesh Jaiswal (jaiswal.bhuvesh@iitgn.ac.in)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Ashmita Dey (ashmita.dey@iitgn.ac.in)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-orgc7549e4" class="outline-2">
+<h2 id="orgc7549e4">Course objectives, syllabus, books, video lectures, pre-requisites</h2>
+<div class="outline-text-2" id="text-orgc7549e4">
+</div>
+<div id="outline-container-org2d92f0f" class="outline-3">
+<h3 id="org2d92f0f">Objectives</h3>
+<div class="outline-text-3" id="text-org2d92f0f">
+<ul class="org-ul">
+<li>To learn fundamentals of structural analysis.</li>
+<li>To develop simple computer programs to perform structural analysis.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge64a7e3" class="outline-3">
+<h3 id="orge64a7e3">After finishing this course, you will</h3>
+<div class="outline-text-3" id="text-orge64a7e3">
+<ul class="org-ul">
+<li>know how to analyse simple structures by hand</li>
+<li>know how to use computer programming to analyze large structural systems</li>
+<li>understand linear analysis of structures</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfbace20" class="outline-3">
+<h3 id="orgfbace20">Syllabus</h3>
+<div class="outline-text-3" id="text-orgfbace20">
+<ul class="org-ul">
+<li>Review of some concepts from Mechanics of Solids.</li>
+<li>Degrees of indeterminacy (static and kinematic).</li>
+<li>Types and analysis of trusses, cables, arches, beams, columns and frames.</li>
+<li>Specific methods to be covered: moment area theorem; conjugate beam method; principle of virtual work; energy method; Castigliano’s theorems; unit-load and unit-displacement theorems; reciprocal theorems; Betti's and Maxwell's theorem; method of consistent deformations; slope-deflection method; displacement based methods; moment distribution method; column analogy method</li>
+<li>Influence lines; Muller-Breslau's principle</li>
+<li>Matrix method of analysis (if time permits)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge82940d" class="outline-3">
+<h3 id="orge82940d">Text Book</h3>
+<div class="outline-text-3" id="text-orge82940d">
+<ul class="org-ul">
+<li>Structural Analysis 5th edition - Devdas Menon, Narosa Publishing House Pvt. Ltd.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgd3a8a53" class="outline-3">
+<h3 id="orgd3a8a53">Reference Books</h3>
+<div class="outline-text-3" id="text-orgd3a8a53">
+<ul class="org-ul">
+<li>Structural Analysis - R.C. Hibbeler, Prentice Hall.</li>
+<li>Structural Analysis - Aslam Kassimali, Cengage Learning.</li>
+<li>Matrix Structural Analysis - W. McGuire, R.H. Gallagher, R.D. Ziemian (available here: <a href="http://www.mastan2.com/textbook.html">http://www.mastan2.com/textbook.html</a>).</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org56dd6e1" class="outline-3">
+<h3 id="org56dd6e1">Software</h3>
+<div class="outline-text-3" id="text-org56dd6e1">
+<ul class="org-ul">
+<li>Simple computer codes for analysis will be developed in Python.</li>
+<li>SAP2000 will be used for more complicated analyses.</li>
+<li>Another useful software tool is MASTAN2 (<a href="http://www.mastan2.com/">http://www.mastan2.com/</a>)</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf9b437e" class="outline-3">
+<h3 id="orgf9b437e">Video lectures</h3>
+<div class="outline-text-3" id="text-orgf9b437e">
+<ul class="org-ul">
+<li>Recorded lectures covering most of the syllabus are available <a href="https://www.youtube.com/watch?v=KU9GYaHTggY&amp;list=PLKg8NoX0BvK3NuUsHHFGsEV4bZ2UkPFa7">here</a>.</li>
+<li>Notes used for the video lectures can be downloaded from <a href="https://drive.google.com/file/d/11r7tvgJRdWneozB_me78v2imqQutjZBC/view?usp=sharing">this link</a>.</li>
+<li>You may use these to revise/learn in advance certain topics.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge9960b2" class="outline-3">
+<h3 id="orge9960b2">Pre-requisites</h3>
+<div class="outline-text-3" id="text-orge9960b2">
+<ul class="org-ul">
+<li>Curiosity about how structural systems (buildings, bridges, dams, etc.) are designed &#x2013; analysis is essential for design.</li>
+<li>Good background of solid mechanics and any programming language.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc8b5f7b" class="outline-2">
+<h2 id="orgc8b5f7b">Course Policies</h2>
+<div class="outline-text-2" id="text-orgc8b5f7b">
+</div>
+<div id="outline-container-orgf54f5f1" class="outline-3">
+<h3 id="orgf54f5f1">Etiquette</h3>
+<div class="outline-text-3" id="text-orgf54f5f1">
+<ul class="org-ul">
+<li>Please be considerate about everyone's time.</li>
+<li>In all emails pertaining to this course, please have "CE302" in the subject line.
+<ul class="org-ul">
+<li>(note that there is no space or hyphen or anything between CE and 302)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge722e1f" class="outline-3">
+<h3 id="orge722e1f">Cheating</h3>
+<div class="outline-text-3" id="text-orge722e1f">
+<p>
+Cheating (in assignments/quizzes/exams) is unacceptable. It is expected that this will never happen and everyone will uphold the honor code.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org040b516" class="outline-3">
+<h3 id="org040b516">Late submissions</h3>
+<div class="outline-text-3" id="text-org040b516">
+<p>
+All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
+The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
+<img src="./imgs/deadline-delay-reduction.png" alt="deadline-delay-reduction.png" />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9ad9b10" class="outline-3">
+<h3 id="org9ad9b10">Grading</h3>
+<div class="outline-text-3" id="text-org9ad9b10">
+<p>
+Following will be the weightage of different components of assessment
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Component</th>
+<th scope="col" class="org-right">Weightage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Homework assignments</td>
+<td class="org-right">30%</td>
+</tr>
+
+<tr>
+<td class="org-left">Spot quizzes</td>
+<td class="org-right">20%</td>
+</tr>
+
+<tr>
+<td class="org-left">Class participation</td>
+<td class="org-right">10%</td>
+</tr>
+
+<tr>
+<td class="org-left">Midsem exam</td>
+<td class="org-right">20%</td>
+</tr>
+
+<tr>
+<td class="org-left">Endsem exam</td>
+<td class="org-right">20%</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="outline-container-orgeeecd90" class="outline-4">
+<h4 id="orgeeecd90">Extra credit</h4>
+<div class="outline-text-4" id="text-orgeeecd90">
+<p>
+Earn up to 20% extra credit by creating problem-solving videos.
+</p>
+<ul class="org-ul">
+<li>Choose a problem (to be shown to the instructor for confirmation)</li>
+<li>Create a detailed solution.</li>
+<li>Create a video of 2-3 minutes explaining the detailed solution.</li>
+<li>Quality of the video should be good so that it can be shared online (e.g. on youtube).</li>
+<li>This activity can be taken up in groups of up to 2 persons.</li>
+<li>Each video can earn up to 2% extra credit subject to the overall 20% limit (both group members to get the same credit).</li>
+<li>Each video will be rated by rest of the class. Grading of the video will include these ratings.</li>
+<li>Last date to submit videos: <b>25 November 2023</b></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2bcbf42" class="outline-3">
+<h3 id="org2bcbf42">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-org2bcbf42">
+<ul class="org-ul">
+<li>Assignments will involve detailed analysis and hands-on questions.</li>
+<li>Expect one assignment per week.</li>
+<li>Spot quizzes will primarily be objective type, primarily based on concepts and codes. Expect one quiz per week.</li>
+<li>Exam will primarily be subjective type. It may be in-class or take-home.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org978af6c" class="outline-3">
+<h3 id="org978af6c">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-org978af6c">
+<p>
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7231df7" class="outline-2">
+<h2 id="org7231df7">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-org7231df7">
+</div>
+<div id="outline-container-org7e2e3ba" class="outline-3">
+<h3 id="org7e2e3ba">[L1] Aug 03, Thu</h3>
+<div class="outline-text-3" id="text-org7e2e3ba">
+<ul class="org-ul">
+<li>Introduction. Discussion on mechanics of solids.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org141b123" class="outline-3">
+<h3 id="org141b123">[L2] Aug 07, Mon</h3>
+<div class="outline-text-3" id="text-org141b123">
+<ul class="org-ul">
+<li>Idealization of structural members. Support reactions. Stability and determinacy.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org096d673" class="outline-3">
+<h3 id="org096d673">(T1) Aug 08, Tue</h3>
+<div class="outline-text-3" id="text-org096d673">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1-PlOJjICuQxCp_1yApbPxeer4iluRw4_/view?usp=sharing">Download Tutorial 1</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgea78d82" class="outline-3">
+<h3 id="orgea78d82">[L3] Aug 10, Thu</h3>
+<div class="outline-text-3" id="text-orgea78d82">
+<ul class="org-ul">
+<li>Principle of virtual work for computing support reactions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgcfce4b8" class="outline-3">
+<h3 id="orgcfce4b8">(T2) Aug 14, Mon</h3>
+<div class="outline-text-3" id="text-orgcfce4b8">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1g3rs1mZ9ZLZWQ_pA7ZwNzIj5O7a_ajgW/view?usp=sharing">Download Tutorial 2</a></li>
+<li><a href="https://drive.google.com/file/d/1nRiGO-myzmOm6xg-YzqhUwHe0HcliRus/view?usp=sharing">Assignment 1</a> (due 21 August)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3c840bc" class="outline-3">
+<h3 id="org3c840bc">Aug 15, Tue &#x2013; no class</h3>
+<div class="outline-text-3" id="text-org3c840bc">
+<ul class="org-ul">
+<li>Independence Day.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd524f56" class="outline-3">
+<h3 id="orgd524f56">[L4] Aug 17, Thu</h3>
+<div class="outline-text-3" id="text-orgd524f56">
+<ul class="org-ul">
+<li>Analysis of trusses.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org497af48" class="outline-3">
+<h3 id="org497af48">(T3) Aug 21, Mon</h3>
+<div class="outline-text-3" id="text-org497af48">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1BRycdJXC8cz1b1IdsEdR9smzo0KnC0CU/view?usp=sharing">Download Tutorial 3</a></li>
+<li><a href="https://drive.google.com/file/d/1cIXy9au_5GmIchUy6q-x4a5tqFuK-2zn/view?usp=sharing">Assignment 2</a> (due 28 August)</li>
+<li>Partial solution to coding problem: <a href="https://drive.google.com/file/d/1UySAPbJJssbub3IUM8aFPI15ALmf_kKr/view?usp=sharing">Python code</a>, <a href="https://drive.google.com/file/d/1X62fP5M5u7JxrEu-JhPVmzvu0k7a1fFZ/view?usp=sharing">Input file</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org56f6866" class="outline-3">
+<h3 id="org56f6866">[L5] Aug 22, Tue</h3>
+<div class="outline-text-3" id="text-org56f6866">
+<ul class="org-ul">
+<li>Internal forces in beams. Shear force and bending moment diagrams.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org344dc0e" class="outline-3">
+<h3 id="org344dc0e">[L6] Aug 24, Thu</h3>
+<div class="outline-text-3" id="text-org344dc0e">
+<ul class="org-ul">
+<li>Deflection of beams by direct integration. Singularity functions.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0ab2f1c" class="outline-3">
+<h3 id="org0ab2f1c">(T4) Aug 28, Mon</h3>
+<div class="outline-text-3" id="text-org0ab2f1c">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/19RQ1-8y-MMBCH-mCcsvrN14vgayGtCQg/view?usp=sharing">Download Tutorial 4</a></li>
+<li><a href="https://drive.google.com/file/d/1yHXAVrjrjMSdGaitredHOUNKTiltGjiM/view?usp=sharing">Assignment 3</a> (due 11 September)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfce8fc4" class="outline-3">
+<h3 id="orgfce8fc4">[L7] Aug 29, Tue</h3>
+<div class="outline-text-3" id="text-orgfce8fc4">
+<ul class="org-ul">
+<li>Moment area theorems.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org70d648d" class="outline-3">
+<h3 id="org70d648d">[L8] Aug 31, Thu</h3>
+<div class="outline-text-3" id="text-org70d648d">
+<ul class="org-ul">
+<li>Moment area theorems.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3d97f82" class="outline-3">
+<h3 id="org3d97f82">Sep 02 - Sep 06 &#x2013; Examination 1 duration</h3>
+<div class="outline-text-3" id="text-org3d97f82">
+<ul class="org-ul">
+<li>Sep 06 from 16:30 - 18:00 in AB 3/215.</li>
+<li><a href="https://drive.google.com/file/d/11uduOZr-CF4JrDVGBNWpQsJJ19DfC0Xf/view?usp=sharing">Exam 1 solutions</a></li>
+<li>Highest: 74, Average: 32, Median: 30, Range: 71</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org190d4c5" class="outline-3">
+<h3 id="org190d4c5">Sep 07, Thu &#x2013; no class</h3>
+<div class="outline-text-3" id="text-org190d4c5">
+<ul class="org-ul">
+<li>Janmashtami (Vaishnavi)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd841400" class="outline-3">
+<h3 id="orgd841400">(T5) Sep 11, Mon</h3>
+<div class="outline-text-3" id="text-orgd841400">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1Ufrl2T52bM6KxUmOp44aB60o5hn5NMRP/view?usp=sharing">Download Tutorial 5</a></li>
+<li><a href="https://drive.google.com/file/d/1PL4P8050eUIuVEWy_3afGB2qgtmQ8s8j/view?usp=sharing">Assignment 4</a> (due 18 September)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3348f2e" class="outline-3">
+<h3 id="org3348f2e">[L9] Sep 12, Tue</h3>
+<div class="outline-text-3" id="text-org3348f2e">
+<ul class="org-ul">
+<li>Conjugate beam method.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org03c0bc2" class="outline-3">
+<h3 id="org03c0bc2">[L10] Sep 14, Thu</h3>
+<div class="outline-text-3" id="text-org03c0bc2">
+<ul class="org-ul">
+<li>Energy and complimentary energy.</li>
+<li>Castigliano's theorems. Energy methods.</li>
+<li>Quiz 1.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3bea0a2" class="outline-3">
+<h3 id="org3bea0a2">(T6) Sep 18, Mon</h3>
+<div class="outline-text-3" id="text-org3bea0a2">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/120AKrTSd9wmBYuUHVCdzdC3ls48tPh2N/view?usp=sharing">Download Tutorial 6</a></li>
+<li><a href="https://drive.google.com/file/d/11z5ACJP1Sh-PVaCL0TakJ60J5qqB8Pmv/view?usp=sharing">Assignment 5</a> (due 25 September)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd972235" class="outline-3">
+<h3 id="orgd972235">[L11] Sep 19, Tue</h3>
+<div class="outline-text-3" id="text-orgd972235">
+<ul class="org-ul">
+<li>Use of energy methods for structural analysis.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org9a9f050" class="outline-3">
+<h3 id="org9a9f050">[L12] Sep 21, Thu</h3>
+<div class="outline-text-3" id="text-org9a9f050">
+<ul class="org-ul">
+<li>Principle of virtual work. Unit load and displacement methods.</li>
+<li>Unit load and displacement methods.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgc2dd0d1" class="outline-3">
+<h3 id="orgc2dd0d1">(T7) Sep 25, Mon</h3>
+<div class="outline-text-3" id="text-orgc2dd0d1">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1T_MqgPFshrvcbeagGGzRweJyeU-JdETH/view?usp=sharing">Download Tutorial 7</a></li>
+<li><a href="https://drive.google.com/file/d/1k2L3n46emQjurW6N3CyNv3zgRtH2saYI/view?usp=sharing">Assignment 6</a> (due <del>2</del> 3 October)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org92b900c" class="outline-3">
+<h3 id="org92b900c">[L13] Sep 26, Tue</h3>
+<div class="outline-text-3" id="text-org92b900c">
+<ul class="org-ul">
+<li>Maxwell's and Betti's theorems.</li>
+<li>Theorem of three moments.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8dd3f9a" class="outline-3">
+<h3 id="org8dd3f9a">Sep 28, Thu &#x2013; no class</h3>
+<div class="outline-text-3" id="text-org8dd3f9a">
+<ul class="org-ul">
+<li>Milad-un-Nabi (Id-e-Milad)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org72c465e" class="outline-3">
+<h3 id="org72c465e">Oct 02, Mon &#x2013; no class</h3>
+<div class="outline-text-3" id="text-org72c465e">
+<ul class="org-ul">
+<li>Mahatma Gandhi's Birthday</li>
+<li><a href="https://drive.google.com/file/d/1Scpw1AhYOBM542ZRYyq34tJI0KovzZe8/view?usp=sharing">Assignment 7</a> (due 9 October)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6458c61" class="outline-3">
+<h3 id="org6458c61">[L14] Oct 03, Tue</h3>
+<div class="outline-text-3" id="text-org6458c61">
+<ul class="org-ul">
+<li>Theorem of three moments.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org39e7913" class="outline-3">
+<h3 id="org39e7913">[L15] Oct 05, Thu</h3>
+<div class="outline-text-3" id="text-org39e7913">
+<ul class="org-ul">
+<li>Generalization of force-based methods. Flexibility matrix.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge8f7718" class="outline-3">
+<h3 id="orge8f7718">(T8) Oct 09, Mon</h3>
+<div class="outline-text-3" id="text-orge8f7718">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/123x57R-g6spVt-uIhxcpkCzmcVC0J8DQ/view?usp=sharing">Download Tutorial 8</a></li>
+<li><a href="https://drive.google.com/file/d/122leNvNhRw47B97E08rL7ONZVbX4yCgx/view?usp=sharing">Assignment 8</a> (due 16 October)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga9012b7" class="outline-3">
+<h3 id="orga9012b7">[L16] Oct 10, Tue</h3>
+<div class="outline-text-3" id="text-orga9012b7">
+<ul class="org-ul">
+<li>Slope-deflection equations.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org72fe8f5" class="outline-3">
+<h3 id="org72fe8f5">Oct 11 - Oct 15 &#x2013; Examination 2 duration</h3>
+</div>
+<div id="outline-container-orgfb02946" class="outline-3">
+<h3 id="orgfb02946">(T9) Oct 16, Mon</h3>
+<div class="outline-text-3" id="text-orgfb02946">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1PlrsIF0fdK9lvL7IrDMbKfvLrOM9z1Ba/view?usp=sharing">Download Tutorial 9</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7317ad4" class="outline-3">
+<h3 id="org7317ad4">[L17] Oct 17, Tue</h3>
+<div class="outline-text-3" id="text-org7317ad4">
+<ul class="org-ul">
+<li>Slope-deflection equations.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1635297" class="outline-3">
+<h3 id="org1635297">[L18] Oct 19, Thu</h3>
+<div class="outline-text-3" id="text-org1635297">
+<ul class="org-ul">
+<li>Slope-deflection equations.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org11c9f04" class="outline-3">
+<h3 id="org11c9f04">Oct 21 - October 29 &#x2013; Mid semester recess</h3>
+</div>
+<div id="outline-container-org1f624d6" class="outline-3">
+<h3 id="org1f624d6">(T10) Oct 30, Mon</h3>
+<div class="outline-text-3" id="text-org1f624d6">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1hr0EbkHfz70Rj_1momY8Cvhf_ix95RxF/view?usp=sharing">Download Tutorial 10</a></li>
+<li><a href="https://drive.google.com/file/d/1Fq2O5Dxb2BOg90CkFGgbgAjks88Z_Mrz/view?usp=sharing">Assignment 9</a> (due 6 November)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4c8f267" class="outline-3">
+<h3 id="org4c8f267">[L19] Oct 31, Tue</h3>
+<div class="outline-text-3" id="text-org4c8f267">
+<ul class="org-ul">
+<li>Moment distribution method.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8be1771" class="outline-3">
+<h3 id="org8be1771">[L20] Nov 02, Thu</h3>
+<div class="outline-text-3" id="text-org8be1771">
+<ul class="org-ul">
+<li>Moment distribution method.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaa9152b" class="outline-3">
+<h3 id="orgaa9152b">(T11) Nov 06, Mon</h3>
+<div class="outline-text-3" id="text-orgaa9152b">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1W2IcSHiJZ-ZoiLRlFXw5QCRKPQp4SQjY/view?usp=sharing">Download Tutorial 11</a></li>
+<li><a href="https://drive.google.com/file/d/1fkHwSEKorfSX9lIkg_29mGW8ePFx2g4x/view?usp=sharing">Assignment 10</a> (due 13 November)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org083b179" class="outline-3">
+<h3 id="org083b179">[L21] Nov 07, Tue</h3>
+<div class="outline-text-3" id="text-org083b179">
+<ul class="org-ul">
+<li>Moment distribution method.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgfa44b0e" class="outline-3">
+<h3 id="orgfa44b0e">[L22] Nov 09, Thu</h3>
+<div class="outline-text-3" id="text-orgfa44b0e">
+<ul class="org-ul">
+<li>Moment distribution method.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8352e08" class="outline-3">
+<h3 id="org8352e08">(T12) Nov 13, Mon</h3>
+<div class="outline-text-3" id="text-org8352e08">
+<ul class="org-ul">
+<li>Session on SAP2000 conducted on Nov 09.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge70361a" class="outline-3">
+<h3 id="orge70361a">[L23] Nov 14, Tue</h3>
+<div class="outline-text-3" id="text-orge70361a">
+<ul class="org-ul">
+<li>Influence line diagrams.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2b7bd07" class="outline-3">
+<h3 id="org2b7bd07">[L24] Nov 16, Thu</h3>
+<div class="outline-text-3" id="text-org2b7bd07">
+<ul class="org-ul">
+<li>Session on SAP2000.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4ba28a5" class="outline-3">
+<h3 id="org4ba28a5">(T13) Nov 20, Mon</h3>
+<div class="outline-text-3" id="text-org4ba28a5">
+<ul class="org-ul">
+<li><a href="https://drive.google.com/file/d/1li_-wihoQybqbpt9xir2VSTfkhRmW5Z_/view?usp=sharing">Download Tutorial 12</a></li>
+<li><a href="https://drive.google.com/file/d/1_9A9DM9ztEDHbmywGB_rue9ksHzOYgWK/view?usp=sharing">Assignment 11</a> (not due)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5b52a8c" class="outline-3">
+<h3 id="org5b52a8c">[L25] Nov 21, Tue</h3>
+<div class="outline-text-3" id="text-org5b52a8c">
+<ul class="org-ul">
+<li>Muller-Breslau's principle.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org0cb1ce2" class="outline-3">
+<h3 id="org0cb1ce2">[L26] Nov 23, Thu</h3>
+<div class="outline-text-3" id="text-org0cb1ce2">
+<ul class="org-ul">
+<li>Cables and arches.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org71f4ebb" class="outline-3">
+<h3 id="org71f4ebb">Nov 25 - Nov 30 &#x2013; Examination 3 duration</h3>
+<div class="outline-text-3" id="text-org71f4ebb">
+<ul class="org-ul">
+<li>Nov 30 from 14:00 - 15:30 in AB 3/216.</li>
+</ul>
+</div>
+<div id="outline-container-org9e1566d" class="outline-4">
+<h4 id="org9e1566d">Final exam</h4>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+
+<footer>
+Contact: 
+<a href='mailto:gauravs@iitgn.ac.in'>gauravs@iitgn.ac.in</a> (Work) |
+<a href='mailto:it.gaurav@gmail.com'>it.gaurav@gmail.com</a> (Personal)
+<br>
+Created completely through <a href='https://www.gnu.org/software/emacs/'>Gnu Emacs</a> and <a href='https://orgmode.org'>Org Mode</a> (<a href='https://github.com/gaurav-iitgn/gaurav-iitgn.github.io'>source code</a>)
+</footer>
+</div>
+</body>
+</html>
