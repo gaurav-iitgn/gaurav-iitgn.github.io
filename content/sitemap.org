@@ -6,6 +6,7 @@
 - [[file:305.3_CE305_Spring2022.org][CE 305: Steel Design - Spring 2022]]
 - [[file:304.5_CE607_Fall2022.org][CE 607: Advanced Structural Analysis - Fall 2022]]
 - [[file:308.5_CE615_Spring2023.org][CE 615: Structural Design for Fire - Spring 2023]]
+- [[file:306.2_ES221_Fall2024.org][ES 221: Mechanics of Solids - Fall 2024]]
 - [[file:303.8_ES622_Spring2022.org][ES 622: Finite Element Methods - Spring 2022]]
 - [[file:Emacs.org][Emacs Configuration]]
 - [[file:index.org][Gaurav Srivastava, IIT Gandhinagar]]

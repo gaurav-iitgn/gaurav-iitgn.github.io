@@ -74,11 +74,14 @@
 1. Vimal Panara. July 2022. /Analysis of RC Shear Wall subjected to thermal exposure/.
 1. Prashant Singh. July 2022. /Analytical formulation of slab behavior at fire considering the effect of tensile membrane action/.
 1. Sumit Kumar. August 2021. /Detailed combustion modeling of ACP components/.
+1. Aditi Parashar. July 2024. /Simulation and design of bridges against fire/.
 ** Ongoing
-1. Shubham Singh. ongoing. /Methodology for design of structures for fire loads using Indian codes/.
-1. Visavaliya Yash Jayantibhai. ongoing. /Thesis work TBD/.
 1. Saurabh Kumar Sharma. ongoing. /Thesis work TBD/.
-1. Aditi Parashar. ongoing. /Simulation and design of bridges against fire/.
 1. Gaurav Singh. ongoing. /Egress modeling in metro stations/.
 1. Anil Chaudhary. ongoing. /Thesis work TBD/.
+1. Ashmita Dey. ongoing. /Thesis work TBD/.
+1. Kritika Rai. ongoing. /Thesis work TBD/.
+1. Krishna Chaitanya Golamari. ongoing. /Thesis work TBD/.
+1. Venkata Valligatla. ongoing. /Thesis work TBD/.
+1. Darshan Dolas. ongoing. /Thesis work TBD/.
 :end:

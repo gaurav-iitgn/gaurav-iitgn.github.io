@@ -17,9 +17,9 @@
 
 * Course objectives, syllabus, books, pre-requisites
 ** Objectives
-- To learn the fundamentals of analyzing reinforced concrete structural members.
-- To learn design of basic structural members of a reinforced concrete building.
-- To learn overall structual design of a reinforced concrete building.
+- To learn how materials behave in engineering applications.
+- To learn how small and large natural and engineered systems remain stable/fail.
+- To get an idea about design and analysis of different systems such as dams, buildings, bridges, etc.
 	
 ** Syllabus
 - Free body diagram, Modeling of supports, Conditions for Equilibrium.
