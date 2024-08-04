@@ -38,8 +38,8 @@
 - Concept of elastic instability and a brief introduction to column buckling and Euler’s formula. 
 		
 ** Textbook
-- Engineering Mechanics: Statics - R.C. Hibbeler.
-- Mechanics of Materials - R.C. Hibbeler.
+- *B1*: Engineering Mechanics: Statics - R.C. Hibbeler.
+- *B2*: Mechanics of Materials - R.C. Hibbeler.
 # comment
 	
 ** Reference Books
@@ -79,8 +79,15 @@ It is important to develop the habit of self-learning. A number of reading assig
 
 * Calendar (tentative)
 ** [L1] Aug 02, Fri
-- Introduction to the subject.
-- Review of topics from Class XI (units, significant digits, free-body diagram, force vectors, etc.).
+- Introduction to the subject, solids vs. fluids, rigidity vs. flexibility. Failure modes of solids.
+- Fundamental vs. derived quantities, dimensional analysis.
+- SI units (base and derived).
+- Significant figures and scientific notation, rounding off.
+- Newton's laws of motion - first, second and third.
+- Force systems - coplanar, collinear, concurrent.
+- Moment of force.
+- Resultant force and moment. Equations of static equilibrium.
+- /Reading from the book (*B1*)/: Chapters 1-4.
 ** [T1] Aug 05, Mon
 - Review of topics from Class XI.
 ** [L2] Aug 07, Wed
