@@ -2,17 +2,17 @@
 # #+OPTIONS: 
 
 * Basic Information
-|-------------------+------------------------------------------|
-| Class timings     | Wednesday, Friday, 10:00-11:20 hrs       |
-| Class location    | AB 7/101                                 |
-|-------------------+------------------------------------------|
-| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)  |
-|-------------------+------------------------------------------|
-| Tutorial timings  | Monday, 11:30-12:20 hrs                  |
-| Tutorial location | AB 7/101                                 |
-|-------------------+------------------------------------------|
+|-------------------+-----------------------------------------|
+| Class timings     | Wednesday, Friday, 10:00-11:20 hrs      |
+| Class location    | AB 7/101                                |
+|-------------------+-----------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in) |
+|-------------------+-----------------------------------------|
+| Tutorial timings  | Thursday, 14:00-15:20 hrs               |
+| Tutorial location | AB 7/101                                |
+|-------------------+-----------------------------------------|
 | TA                | Yajat Sharma (yajat.sharma@iitgn.ac.in) |
-|-------------------+------------------------------------------|
+|-------------------+-----------------------------------------|
 
 
 * Course objectives, syllabus, books, pre-requisites
@@ -91,98 +91,99 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T1] Aug 05, Mon
 - Review of topics from Class XI.
 ** [L2] Aug 07, Wed
-- Frictional contacts, idealization of supports and members.
-- Equilibrium conditions.
-- Analysis of pin-jointed trusses.
+- Moment of a force, couple moment. Equations of static equilibrium.
+- Idealization of supports - fixed, roller, hinged.
+- External and internal forces.
+- Examples of determining support reactions and internal forces.
 ** [L3] Aug 09, Fri
-- Analysis of pin-jointed trusses.
-** [T2] Aug 12, Mon
 - Analysis of pin-jointed trusses.
 ** [L4] Aug 14, Wed
 - Consideration of uniaxial deformations.
 - Geometric compatibility.
+** Aug 15, Thu - holiday (Independence Day)
 ** [L5] Aug 16, Fri
 - Consideration of uniaxial deformations.
 - Consideration of thin rings in cylindrical coordinates.
-** [T3] Aug 19, Mon
-- Uniaxial deformations.
 ** [L6] Aug 21, Wed
 - Concept of stress.
 - Types of stresses.
+** [T2] Aug 22, Thu
+- Analysis of pin-jointed trusses.
+- Uniaxial deformations.
 ** [L7] Aug 23, Fri
 - Plane stress idealization.
 - Stress at a point.
 - Transformation of stress.
-** Aug 26, Mon - holiday (Janmashtami)
 ** [L8] Aug 28, Wed
 - Mohr's circle for plane stress condition.
 - Principal stresses.
+** [T3] Aug 29, Thu
 ** [L9] Aug 30, Fri
 - Stress in cylindrical coordinates.
-** [T4] Sep 02, Mon
-- Stress and its transformation.
 ** [L10] Sep 04, Wed
 - Strain at a point.
 - Strain compatibility conditions.
+** [T4] Sep 05, Thu
+- Stress and its transformation.
 ** [L11] Sep 06, Fri
 - Transformation of strain.
 - Principal strains.
 - Hooke's law and stress-strain relations.
-** [T5] Sep 09, Mon
-- Strain at a point.
 ** [L12] Sep 11, Wed
 - Relations between different elastic constants (Young's modulus, shear modulus, bulk modulus).
 - Idealization of 1D stress-strain curve.
+** [T5] Sep 12, Thu
+- Strain at a point.
 ** [L13] Sep 13, Fri
 - Elastic energy / strain energy in a body.
-** Sep 16, Mon - holiday (Id-e-Milad)
 ** [L14] Sep 18, Wed
 - Yield criteria and conditions.
+** [T6] Sep 19, Thu
 ** [L15] Sep 20, Fri
 - Equivalence of yield stresses.
-** [T6] Sep 23, Mon
-- Strain energy and yield conditions.
-- Failure theories.
 ** [L16] Sep 25, Wed
 - Review of topics.
+** [T7] Sep 24, Thu
+- Strain energy and yield conditions.
+- Failure theories.
 ** Sep 27 - Oct 04: Mid semester exam week
 ** Oct 05 - 13: Mid semester recess
-** [T7] Oct 14, Mon
-- Failure theories.
 ** [L17] Oct 16, Wed
 - Consideration of bending.
 - Shear force and bending moment diagrams.
+** [T8] Oct 17, Thu
+- Failure theories.
 ** [L18] Oct 18, Fri
-- Shear force and bending moment diagrams.
-** [T8] Oct 21, Mon
 - Shear force and bending moment diagrams.
 ** [L19] Oct 23, Wed
 - Stresses due to bending.
+** [T9] Oct 24, Thu
+- Shear force and bending moment diagrams.
 ** [L20] Oct 25, Fri
-- Stresses due to bending.
-** [T9] Oct 28, Mon
 - Stresses due to bending.
 ** [L21] Oct 30, Wed
 - Deflections due to bending.
+** [T10] Oct 31, Thu
+- Stresses due to bending.
 ** [L22] Nov 01, Fri
 - Torsion of circular members.
-** [T10] Nov 04, Mon
-- Deflections due to bending.
 ** [L23] Nov 06, Wed
 - Castigliano's theorems.
+** [T11] Nov 07, Thu
+- Deflections due to bending.
 ** [L24] Nov 08, Fri
 - Torsion of circular members.
 - State of stress in members with torsion and axial force.
-** [T11] Nov 11, Mon
-- Torsion of circular members.
 ** [L25] Nov 13, Wed
 - Stability of equilibrium.
 - Buckling of slender members.
+** [T12] Nov 14, Thu
+- Torsion of circular members.
 ** Nov 15, Fri - holiday (Guru Nanak's Birthday)
-** [T12] Nov 18, Mon
-- Stability of equilibrium.
-- Buckling of slender members.
 ** [L26] Nov 20, Wed
+- Buckling of slender members.
+** [T13] Nov 21, Thu
+- Stability of equilibrium.
 - Buckling of slender members.
 ** [L27] Nov 22, Fri
 - Review of topics.
