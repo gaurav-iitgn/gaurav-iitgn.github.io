@@ -8,7 +8,7 @@
 |-------------------+-----------------------------------------|
 | Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in) |
 |-------------------+-----------------------------------------|
-| Tutorial timings  | Thursday, 14:00-15:20 hrs               |
+| Tutorial timings  | Thursday, 22:00-23:20 hrs               |
 | Tutorial location | AB 7/101                                |
 |-------------------+-----------------------------------------|
 | TA                | Yajat Sharma (yajat.sharma@iitgn.ac.in) |
@@ -73,6 +73,7 @@ Following will be the weightage of different components of assessment
 	- Set B: to be practiced outside the tutorial hour and will not be graded
 - Assignments will entail analysis/practical problems, reports, etc. and may be individual or group
 - Expect one assignment and tutorial per week.
+- All assignments and tutorials can be downloaded from [[https://drive.google.com/drive/folders/1xh3KbURRTQPupLBcsRxMVuHeTEFI5BDN?usp=drive_link][this google folder]].
 	
 ** Emphasis on self-learning
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
@@ -87,7 +88,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Force systems - coplanar, collinear, concurrent.
 - Moment of force.
 - Resultant force and moment. Equations of static equilibrium.
-- /Reading from the book (*B1*)/: Chapters 1-4.
+- /Reading from the book (B1)/: Chapters 1-4.
 ** [T1] Aug 05, Mon
 - Review of topics from Class XI.
 ** [L2] Aug 07, Wed
@@ -95,47 +96,55 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Idealization of supports - fixed, roller, hinged.
 - External and internal forces.
 - Examples of determining support reactions and internal forces.
+- /Reading from the book (B1)/: Chapter 5.
 ** [L3] Aug 09, Fri
 - Two-force members.
 - Introduction to truss structures.
-- Analysis of pin-jointed trusses.
+- Analysis of pin-jointed trusses by method of joints.
+- /Reading from the book (B1)/: Chapters 5 & 6.
 ** [L4] Aug 14, Wed
-- Consideration of uniaxial deformations.
-- Geometric compatibility.
+- Analysis of pin-jointed trusses by method of sections.
+- /Reading from the book (B1)/: Chapter 6.
 ** Aug 15, Thu - holiday (Independence Day)
 ** [L5] Aug 16, Fri
-- Consideration of uniaxial deformations.
-- Consideration of thin rings in cylindrical coordinates.
+- Classification and idealization of structural members by geometry (1D, 2D, 3D).
+- Classification and idealization of structural members by resisting action (tie, strut, beam, column, shaft).
+- Bending moment and shear forces in beams. Sign convention for bending moment.
+- /Reading from the book (B1)/: Chapter 7.
 ** [L6] Aug 21, Wed
-- Concept of stress.
-- Types of stresses.
+- Class cancelled.
 ** [T2] Aug 22, Thu
 - Analysis of pin-jointed trusses.
-- Uniaxial deformations.
 ** [L7] Aug 23, Fri
-- Plane stress idealization.
-- Stress at a point.
-- Transformation of stress.
+- Bending moment and shear force diagrams. Sign convention for shear force.
+- /Reading from the book (B1)/: Chapter 7.
 ** [L8] Aug 28, Wed
+- Bending moment and shear force diagrams.
+- /Reading from the book (B1)/: Chapter 7.
+** [T3] Aug 29, Thu
+- Bending moment and shear force diagrams.
+** [L9] Aug 30, Fri
+- Stresses.
 - Mohr's circle for plane stress condition.
 - Principal stresses.
-** [T3] Aug 29, Thu
-** [L9] Aug 30, Fri
-- Stress in cylindrical coordinates.
 ** [L10] Sep 04, Wed
-- Strain at a point.
-- Strain compatibility conditions.
+- Mohr's circle for plane stress condition.
+- Principal stresses.
 ** [T4] Sep 05, Thu
 - Stress and its transformation.
 ** [L11] Sep 06, Fri
+- Strain at a point.
+- Strain compatibility conditions.
 - Transformation of strain.
 - Principal strains.
+- Stresses.
 - Hooke's law and stress-strain relations.
 ** [L12] Sep 11, Wed
 - Relations between different elastic constants (Young's modulus, shear modulus, bulk modulus).
 - Idealization of 1D stress-strain curve.
 ** [T5] Sep 12, Thu
 - Strain at a point.
+- Stress in cylindrical coordinates.
 ** [L13] Sep 13, Fri
 - Elastic energy / strain energy in a body.
 ** [L14] Sep 18, Wed
