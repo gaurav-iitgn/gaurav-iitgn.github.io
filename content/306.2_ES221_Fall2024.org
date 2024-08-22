@@ -103,6 +103,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Analysis of pin-jointed trusses by method of joints.
 - /Reading from the book (B1)/: Chapters 5 & 6.
 ** [L4] Aug 14, Wed
+- /In-class submission C1/
 - Analysis of pin-jointed trusses by method of sections.
 - /Reading from the book (B1)/: Chapter 6.
 ** Aug 15, Thu - holiday (Independence Day)
