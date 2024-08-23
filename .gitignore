@@ -3,6 +3,7 @@
 public
 CHANGES
 .projectile
+.packages
 *~undo-tree~
 my-org-site
 .#*

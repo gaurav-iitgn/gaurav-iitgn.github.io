@@ -1,5 +1,6 @@
 #+TITLE: ES 221: Mechanics of Solids - Fall 2024
 # #+OPTIONS: 
+#+OPTIONS: toc:1
 
 * Basic Information
 |-------------------+-----------------------------------------|
