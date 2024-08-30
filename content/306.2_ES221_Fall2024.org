@@ -39,8 +39,8 @@
 - Concept of elastic instability and a brief introduction to column buckling and Euler’s formula. 
 		
 ** Textbook
-- *B1*: Engineering Mechanics: Statics - R.C. Hibbeler.
-- *B2*: Mechanics of Materials - R.C. Hibbeler.
+- *B1*: Engineering Mechanics: Statics - R.C. Hibbeler (14th edition).
+- *B2*: Mechanics of Materials - R.C. Hibbeler (10th edition).
 # comment
 	
 ** Reference Books
@@ -127,18 +127,23 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T3] Aug 29, Thu
 - Bending moment and shear force diagrams.
 ** [L9] Aug 30, Fri
-- Stresses.
-- Mohr's circle for plane stress condition.
-- Principal stresses.
+- /Assignment 2/ given (due on 6 Sep).
+- Concept of stress. Normal and shear stresses. General state of stress. Sign convention.
+- Area as a vector. Average stresses. Examples of finding normal stress.
+- Concept of strain. Normal and shear strain. General state of strain. Sign convention.
+- Average strain. Examples of finding normal strain.
+- /Reading from the book (B2)/: Chapters 1 and 2.
 ** [L10] Sep 04, Wed
-- Mohr's circle for plane stress condition.
-- Principal stresses.
+- Material properties. Relations between stress and strain.
+- Young's modulus, shear modulus, Poisson ratio.
+- Hooke's law.
 ** [T4] Sep 05, Thu
-- Stress and its transformation.
+- Stress and strain computations.
 ** [L11] Sep 06, Fri
 - Strain at a point.
 - Strain compatibility conditions.
 - Transformation of strain.
+- Principal stresses.
 - Principal strains.
 - Stresses.
 - Hooke's law and stress-strain relations.
