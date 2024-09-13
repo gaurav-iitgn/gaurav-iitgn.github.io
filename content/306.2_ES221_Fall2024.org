@@ -137,24 +137,32 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Material properties. Relations between stress and strain.
 - Young's modulus, shear modulus, Poisson ratio.
 - Hooke's law.
+- /Reading from the book (B2)/: Chapter 3.
 ** [T4] Sep 05, Thu
-- Stress and strain computations.
+- Tutorial shifted to Sep 06 class.
 ** [L11] Sep 06, Fri
-- Strain at a point.
-- Strain compatibility conditions.
-- Transformation of strain.
-- Principal stresses.
-- Principal strains.
-- Stresses.
-- Hooke's law and stress-strain relations.
+- Tutorial 4.
 ** [L12] Sep 11, Wed
-- Relations between different elastic constants (Young's modulus, shear modulus, bulk modulus).
-- Idealization of 1D stress-strain curve.
+- Saint Venant principle.
+- Axial deformations of a bar.
+- Principle of superposition.
+- Degree of static indeterminacy; statically indeterminate and determinate system.
+- Use of geometric compatibility to solve statically indeterminate systems.
+- /Reading from the book (B2)/: Chapter 4.
+** Sep 12, Thu
+- Consideration of temperature changes through coefficient of thermal expansion.
+- Strain decomposition into mechanical and thermal parts.
+- Stresses and strains due to changes in temperature.
+- /Reading from the book (B2)/: Chapter 4.
 ** [T5] Sep 12, Thu
-- Strain at a point.
-- Stress in cylindrical coordinates.
+- Axial deformations and temperature changes of bars.
 ** [L13] Sep 13, Fri
-- Elastic energy / strain energy in a body.
+- Consideration of torsion of bars.
+- Useful video: https://www.youtube.com/watch?v=1YTKedLQOa0
+- Angle of twist, shear strain and stress due to torsion.
+- Polar moment of inertia.
+- /Reading from the book (B2)/: Chapter 5.
+- /In-class submission C2/
 ** [L14] Sep 18, Wed
 - Yield criteria and conditions.
 ** [T6] Sep 19, Thu
