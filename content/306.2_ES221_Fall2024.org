@@ -164,36 +164,37 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapter 5.
 - /In-class submission C2/
 ** [L14] Sep 18, Wed
-- Yield criteria and conditions.
+- No lecture due to Monday's time table being followed.
 ** [T6] Sep 19, Thu
+- Torsion and uniaxial forces in bars.
 ** [L15] Sep 20, Fri
-- Equivalence of yield stresses.
+- Normal strains and stresses due to bending.
+- Derivation of the flexure formula and underlying discussions.
+- First and second moments of area.
 ** [L16] Sep 25, Wed
-- Review of topics.
+- Normal stresses due to bending.
 ** [T7] Sep 24, Thu
-- Strain energy and yield conditions.
-- Failure theories.
+- Normal stresses due to bending.
 ** Sep 27 - Oct 04: Mid semester exam week
 ** Oct 05 - 13: Mid semester recess
 ** [L17] Oct 16, Wed
-- Consideration of bending.
-- Shear force and bending moment diagrams.
+- Shear stresses in bending.
 ** [T8] Oct 17, Thu
-- Failure theories.
+- Normal and shear stresses in bending.
 ** [L18] Oct 18, Fri
-- Shear force and bending moment diagrams.
+- Transformation of stress in 2D.
 ** [L19] Oct 23, Wed
-- Stresses due to bending.
+- Transformation of stress in 2D.
 ** [T9] Oct 24, Thu
-- Shear force and bending moment diagrams.
+- Transformation of stress in 2D.
 ** [L20] Oct 25, Fri
-- Stresses due to bending.
+- Transformation of strain in 2D.
 ** [L21] Oct 30, Wed
 - Deflections due to bending.
 ** [T10] Oct 31, Thu
-- Stresses due to bending.
+- Deflections due to bending.
 ** [L22] Nov 01, Fri
-- Torsion of circular members.
+- Deflections due to bending.
 ** [L23] Nov 06, Wed
 - Castigliano's theorems.
 ** [T11] Nov 07, Thu
