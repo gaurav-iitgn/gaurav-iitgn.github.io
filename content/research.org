@@ -58,9 +58,9 @@
 #+RESULTS:
 :results:
 1. Vikash Singh and G. Srivastava. 2024. "Development of sustainable geopolymer using blast furnace slag and lithium hydroxide". /Sustainable Materials and Technologies/ 40, pages: e00934. DOI: [[https://www.doi.org/10.1016/j.susmat.2024.e00934]].
-1. G. Srivastava and V.K. Singh. 2024. "Effect of Methyl Cellulose on cement hydration and pore creation in high strength mixes at elevated temperatures". /ASCE Journal of Materials in Civil Engineering/. submitted.
+1. G. Srivastava and V.K. Singh. 2024. "Effect of Methyl Cellulose on cement hydration and pore creation in high strength mixes at elevated temperatures". /ASCE Journal of Materials in Civil Engineering/. inrevision.
 1. V.K. Singh and K. Jasuja and G. Srivastava. 2023. "Enhancing stabilization and early age hydration of dicalcium silicate using TiB_2 derived nanosheets". /ACS Applied Engineering Materials/. DOI: [[https://www.doi.org/10.1021/acsaenm.3c00025]].
-1. D. Yadav, R. Ayyagari, and G. Srivastava. 2023. "Effect of Cavity Radiation in Aluminium Hollow Tubes and Curtain Wall System Subjected to Fire". /Journal of Structural Fire Engineering/. accepted.
+1. D. Yadav, R. Ayyagari, and G. Srivastava. 2024. "Effect of Cavity Radiation in Aluminium Hollow Tubes and Curtain Wall System Subjected to Fire". /Journal of Structural Fire Engineering/ 15(3), pages: 338--361.
 1. G. Srivastava and V.K. Singh. 2023. "Effect of PVME on cement hydration and pore creation in mortar at elevated temperatures". /ASCE Journal of Materials in Civil Engineering/ 35(4), pages: 04023028. DOI: [[https://www.doi.org/10.1061/(ASCE)MT.1943-5533.0004684]].
 1. D. Nakrani and G. Srivastava. 2022. "Experimental study on fire performance of ventilated facade system". /Quarterly Journal of Indian Association of Structural Engineers/ 12(4), pages: 70--81.
 1. D. Nakrani, M. Tiwari, T. Wani, and G. Srivastava. 2023. "Characterization of combustion of hardwood and softwood through experimental and computer simulations". /Journal of Thermal Analysis and Calorimetry/. DOI: [[https://www.doi.org/10.1007/s10973-023-12261-7]].
@@ -86,13 +86,13 @@
 1. Gaurav and S.F. Wojtkiewicz. 2011. "Use of GPU Computing for Uncertainty Quantification in Computational Mechanics: A Case Study". /Scientific Programming/ 19, pages: 199--212. DOI: [[https://www.doi.org/10.3233/SPR-2011-0328]].
 1. S.F. Wojtkiewicz and L. Khazanovich and Gaurav and R. Velasquez. 2010. "Probabilistic Numerical Simulation of Pavement Performance using MEPDG". /Road Materials and Pavement Design/ 11(2), pages: 291--306. DOI: [[https://www.doi.org/10.1080/14680629.2010.9690277]].
 1. Wojtkiewicz, S.F. and Gaurav and Odes, Q.I.. 2011. "Efficient Frequency Response of Locally Uncertain Linear Structural Systems". /ASCE Journal of Engineering Mechanics/ 137(2), pages: 147--150. DOI: [[https://www.doi.org/10.1061/(ASCE)EM.1943-7889.0000212]].
-1. S.K. Shukla, Gaurav and N. Sivakugan. 2009. "A Simplified Extension of the Conventional Theory of Arching in Soils". /International Journal of Geotechnical Engineering/ 3, pages: 353--359. DOI: [[https://www.doi.org/10.3328/IJGE.2009.03.03.353-359]].
 1. Wojtkiewicz, S.F. and Gaurav. 2009. "Efficient Modal Analysis of Structures with Local Stiffness Uncertainties". /International Journal for Numerical Methods in Engineering/ 80, pages: 1007--1024. DOI: [[https://www.doi.org/10.1002/nme.2657]].
 1. S. Chandrasekaran and Gaurav and A.K. Jain. 2010. "Ringing Response of Offshore Compliant Structures". /International Journal of Ocean & Climate Systems/ 1(3--4), pages: 133--144. DOI: [[https://www.doi.org/10.1260/1759-3131.1.3-4.133]].
 1. Gaurav and Wojtkiewicz, S.F.. 2010. "Efficient Spectral Response of Locally Uncertain Linear Systems". /Probabilistic Engineering Mechanics/ 25(4), pages: 419--424. DOI: [[https://www.doi.org/10.1016/j.probengmech.2010.05.003]].
 1. Gaurav and S.F. Wojtkiewicz and L. Khazanovich. 2011. "Optimal Design of Flexible Pavements using a Framework of DAKOTA and MEPDG". /International Journal of Pavement Engineering/ 12(2), pages: 137--148. DOI: [[https://www.doi.org/10.1080/10298436.2010.535535]].
 1. S. Chandrasekaran and Gaurav. 2008. "Offshore Triangular TLP Earthquake Motion Analysis under Distinctly High Sea Waves". /Ship and Offshore Structures (Taylor & Francis)/ 3(3), pages: 173--184. DOI: [[https://www.doi.org/10.1080/17445300802051681]].
 1. S. Chandrasekaran and Gaurav and S. Srivastava. 2008. "Structural response of Offshore TLPs under Seismic Excitations". /International Engineering & Technology Journal of Civil & Structures/ 1(1), pages: 7--12.
+1. S.K. Shukla, Gaurav and N. Sivakugan. 2009. "A Simplified Extension of the Conventional Theory of Arching in Soils". /International Journal of Geotechnical Engineering/ 3, pages: 353--359. DOI: [[https://www.doi.org/10.3328/IJGE.2009.03.03.353-359]].
 :end:
 
 ** Conference Publications and Presentations
