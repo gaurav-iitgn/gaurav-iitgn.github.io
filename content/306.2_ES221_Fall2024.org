@@ -142,6 +142,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Tutorial shifted to Sep 06 class.
 ** [L11] Sep 06, Fri
 - Tutorial 4.
+- /Assignment 3/ given (due on 13 Sep).
 ** [L12] Sep 11, Wed
 - Saint Venant principle.
 - Axial deformations of a bar.
@@ -171,6 +172,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Normal strains and stresses due to bending.
 - Derivation of the flexure formula and underlying discussions.
 - First and second moments of area.
+- /Assignment 4/ given (due on 27 Sep).
 ** [L16] Sep 25, Wed
 - Normal stresses due to bending.
 ** [T7] Sep 24, Thu
@@ -178,9 +180,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Sep 27 - Oct 04: Mid semester exam week
 ** Oct 05 - 13: Mid semester recess
 ** [L17] Oct 16, Wed
-- Shear stresses in bending.
+- Shear stresses in beams. Shear formula.
+- Transverse and longitudinal shear stress.
+- /Reading from the book (B2)/: Chapter 7.
 ** [T8] Oct 17, Thu
 - Normal and shear stresses in bending.
+- /Assignment 5/ given (due on 25 Oct).
 ** [L18] Oct 18, Fri
 - Transformation of stress in 2D.
 ** [L19] Oct 23, Wed
