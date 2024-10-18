@@ -3,13 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-10-11 Fri 06:49 -->
+<!-- 2024-10-18 Fri 19:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CE 304: Concrete Design - Spring 2024</title>
-<meta name="generator" content="Org Mode" />
-<style>
-  #content { max-width: 60em; margin: auto; }
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -30,9 +30,8 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
-    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -40,22 +39,22 @@
   }
   pre.src {
     position: relative;
-    overflow: auto;
+    overflow: visible;
+    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    top: -8px;
-    right: 12px;
+    background-color: white;
+    top: -10px;
+    right: 10px;
     padding: 3px;
-    color: #555;
-    background-color: #f2f2f299;
+    border: 1px solid black;
   }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
+  pre.src:hover:before { display: inline;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
-  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,43 +189,34 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
 </style>
 
 <link rel='stylesheet' href='gs_simple.css' />
 <script type='text/javascript' src='gs_simple.js'></script>
-<script>
-  window.MathJax = {
-    tex: {
-      ams: {
-        multlineWidth: '85%'
-      },
-      tags: 'ams',
-      tagSide: 'right',
-      tagIndent: '.8em'
-    },
-    chtml: {
-      scale: 1.0,
-      displayAlign: 'center',
-      displayIndent: '0em'
-    },
-    svg: {
-      scale: 1.0,
-      displayAlign: 'center',
-      displayIndent: '0em'
-    },
-    output: {
-      font: 'mathjax-modern',
-      displayOverflow: 'overflow'
-    }
-  };
-</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
 
-<script
-  id="MathJax-script"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
 </script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -240,90 +230,90 @@
 </nav>
 </center>
 </div>
-<div id="content" class="content">
+<div id="content">
 <h1 class="title">CE 304: Concrete Design - Spring 2024</h1>
-<div id="table-of-contents" role="doc-toc">
+<div id="table-of-contents">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
+<div id="text-table-of-contents">
 <ul>
-<li><a href="#orgee16c63">Basic Information</a></li>
-<li><a href="#orgd6fe94c">Course objectives, syllabus, books, pre-requisites</a>
+<li><a href="#orge306cfc">Basic Information</a></li>
+<li><a href="#org512a793">Course objectives, syllabus, books, pre-requisites</a>
 <ul>
-<li><a href="#orge2a2fe5">Objectives</a></li>
-<li><a href="#org39e7509">Syllabus</a></li>
-<li><a href="#org5366cf2">Textbook</a></li>
-<li><a href="#orgecd7295">Reference Books</a></li>
-<li><a href="#orgbdcc144">Required codes</a></li>
-<li><a href="#org6e81077">Pre-requisites</a></li>
+<li><a href="#org740632b">Objectives</a></li>
+<li><a href="#org22c3a1a">Syllabus</a></li>
+<li><a href="#org9f1bec8">Textbook</a></li>
+<li><a href="#org0846aaa">Reference Books</a></li>
+<li><a href="#orgd378c35">Required codes</a></li>
+<li><a href="#org7efef6b">Pre-requisites</a></li>
 </ul>
 </li>
-<li><a href="#orgefcece9">Course Policies</a>
+<li><a href="#org1ba0894">Course Policies</a>
 <ul>
-<li><a href="#org7c1ac23">Etiquette</a></li>
-<li><a href="#org49f5174">Cheating</a></li>
-<li><a href="#orgcc095c0">Late submissions</a></li>
-<li><a href="#orgfef0bca">Grading</a></li>
-<li><a href="#org0898436">Modes of formal assessment</a></li>
-<li><a href="#org4e93987">Emphasis on self-learning</a></li>
+<li><a href="#org9bceca5">Etiquette</a></li>
+<li><a href="#orge75e1af">Cheating</a></li>
+<li><a href="#org10b1954">Late submissions</a></li>
+<li><a href="#org5598890">Grading</a></li>
+<li><a href="#org99d752d">Modes of formal assessment</a></li>
+<li><a href="#org56b5add">Emphasis on self-learning</a></li>
 </ul>
 </li>
-<li><a href="#orgbf4825d">Calendar (tentative)</a>
+<li><a href="#org7e85611">Calendar (tentative)</a>
 <ul>
-<li><a href="#org18b15f6">[L1] Jan 03, Wed</a></li>
-<li><a href="#org1918908">[L2] Jan 05, Fri</a></li>
-<li><a href="#org2eb8383">Jan 08, Mon - no tutorial</a></li>
-<li><a href="#org9986101">[L3] Jan 10, Wed</a></li>
-<li><a href="#org6742dd1">[L4] Jan 12, Fri</a></li>
-<li><a href="#org4f4c3af">[T1] Jan 15, Mon</a></li>
-<li><a href="#org2e1c6c9">Jan 17, Wed - no class</a></li>
-<li><a href="#org5058d80">[L5, L6] Jan 19, Fri</a></li>
-<li><a href="#org8527e81">Jan 22, Mon - no tutorial</a></li>
-<li><a href="#org00c356c">[L7] Jan 24, Wed</a></li>
-<li><a href="#org85670a9">Jan 26, Fri - no class</a></li>
-<li><a href="#orgce54d06">[L8] Jan 29, Mon</a></li>
-<li><a href="#orgc7704cf">[L9] Jan 31, Wed</a></li>
-<li><a href="#org7c80303">[T2, T3] Feb 02, Fri</a></li>
-<li><a href="#org7c6a6f1">[T4] Feb 05, Mon</a></li>
-<li><a href="#orgb2722e3">[L10] Feb 07, Wed</a></li>
-<li><a href="#org0e2698c">[L11] Feb 09, Fri</a></li>
-<li><a href="#orgd27faf9">[T6] Feb 12, Mon</a></li>
-<li><a href="#org2cdc5f9">[L12] Feb 14, Wed</a></li>
-<li><a href="#org12b08c7">[L13] Feb 16, Fri</a></li>
-<li><a href="#org6598a17">Feb 19 - Feb 24: Mid semester exam week</a></li>
-<li><a href="#orgde75efb">[T7] Feb 26, Mon</a></li>
-<li><a href="#org82bb9e9">[L14] Feb 28, Wed</a></li>
-<li><a href="#org32ebe98">[L15] Mar 01, Fri</a></li>
-<li><a href="#orgebf2fb7">[T8] Mar 04, Mon</a></li>
-<li><a href="#orgc0e158b">[L16] Mar 06, Wed</a></li>
-<li><a href="#orgbe20cb3">Mar 08, Fri - no class</a></li>
-<li><a href="#org1e189c0">[T9] Mar 11, Mon</a></li>
-<li><a href="#org4e90281">[L17] Mar 13, Wed</a></li>
-<li><a href="#org3f536f6">Mar 15, Fri - no class</a></li>
-<li><a href="#orgd0e62b7">[T10] Mar 18, Mon</a></li>
-<li><a href="#org0316a95">[L18] Mar 20, Wed</a></li>
-<li><a href="#orgbac33f2">[L19] Mar 22, Fri</a></li>
-<li><a href="#orgb35335a">Mar 23 - Mar 31: Mid semester recess</a></li>
-<li><a href="#org71b9366">[T11] Apr 01, Mon</a></li>
-<li><a href="#org3a8f5d3">[L20] Apr 03, Wed</a></li>
-<li><a href="#orgd97403d">[L21] Apr 05, Fri</a></li>
-<li><a href="#orgcbacf8e">[T12] Apr 08, Mon</a></li>
-<li><a href="#org5eeb5aa">[L22] Apr 10, Wed</a></li>
-<li><a href="#orgf126047">[L23] Apr 12, Fri</a></li>
-<li><a href="#orga491c80">[T13] Apr 15, Mon</a></li>
-<li><a href="#org096693c">[L24] Apr 17, Wed</a></li>
-<li><a href="#org959d4d4">[L25] Apr 19, Fri</a></li>
-<li><a href="#orgee432a0">[T14] Apr 22, Mon</a></li>
-<li><a href="#org20b7aa1">[L26] Apr 24, Wed</a></li>
-<li><a href="#org0f2d4e6">Apr 25 - May 01: End semester exam week</a></li>
+<li><a href="#org9997c13">[L1] Jan 03, Wed</a></li>
+<li><a href="#orgcc02438">[L2] Jan 05, Fri</a></li>
+<li><a href="#orgf59b636">Jan 08, Mon - no tutorial</a></li>
+<li><a href="#org621ea40">[L3] Jan 10, Wed</a></li>
+<li><a href="#org79ccacc">[L4] Jan 12, Fri</a></li>
+<li><a href="#orgf64f27e">[T1] Jan 15, Mon</a></li>
+<li><a href="#orgb3f081f">Jan 17, Wed - no class</a></li>
+<li><a href="#org496c0d3">[L5, L6] Jan 19, Fri</a></li>
+<li><a href="#orgd8b5ceb">Jan 22, Mon - no tutorial</a></li>
+<li><a href="#org8f8a85b">[L7] Jan 24, Wed</a></li>
+<li><a href="#orgfbb3ac4">Jan 26, Fri - no class</a></li>
+<li><a href="#orgba8a20e">[L8] Jan 29, Mon</a></li>
+<li><a href="#orgfc18e64">[L9] Jan 31, Wed</a></li>
+<li><a href="#org037b3b8">[T2, T3] Feb 02, Fri</a></li>
+<li><a href="#org34fbd7d">[T4] Feb 05, Mon</a></li>
+<li><a href="#orga2fe802">[L10] Feb 07, Wed</a></li>
+<li><a href="#orgb0b3f1d">[L11] Feb 09, Fri</a></li>
+<li><a href="#orgfa83386">[T6] Feb 12, Mon</a></li>
+<li><a href="#org4d15a04">[L12] Feb 14, Wed</a></li>
+<li><a href="#org029ef17">[L13] Feb 16, Fri</a></li>
+<li><a href="#org8ef35e5">Feb 19 - Feb 24: Mid semester exam week</a></li>
+<li><a href="#org6df23cb">[T7] Feb 26, Mon</a></li>
+<li><a href="#org733e477">[L14] Feb 28, Wed</a></li>
+<li><a href="#orgf63e9dd">[L15] Mar 01, Fri</a></li>
+<li><a href="#org9f30a84">[T8] Mar 04, Mon</a></li>
+<li><a href="#org8274cad">[L16] Mar 06, Wed</a></li>
+<li><a href="#org3b7617c">Mar 08, Fri - no class</a></li>
+<li><a href="#org6d635ba">[T9] Mar 11, Mon</a></li>
+<li><a href="#orgd5085fc">[L17] Mar 13, Wed</a></li>
+<li><a href="#org6772c29">Mar 15, Fri - no class</a></li>
+<li><a href="#org40f3f39">[T10] Mar 18, Mon</a></li>
+<li><a href="#org0da4919">[L18] Mar 20, Wed</a></li>
+<li><a href="#org2e9983d">[L19] Mar 22, Fri</a></li>
+<li><a href="#org94686c5">Mar 23 - Mar 31: Mid semester recess</a></li>
+<li><a href="#org967ca42">[T11] Apr 01, Mon</a></li>
+<li><a href="#orgc225e38">[L20] Apr 03, Wed</a></li>
+<li><a href="#orge71a7e8">[L21] Apr 05, Fri</a></li>
+<li><a href="#org6763f94">[T12] Apr 08, Mon</a></li>
+<li><a href="#org50b6903">[L22] Apr 10, Wed</a></li>
+<li><a href="#orgf5133ea">[L23] Apr 12, Fri</a></li>
+<li><a href="#orgd44f203">[T13] Apr 15, Mon</a></li>
+<li><a href="#orgdf65dcd">[L24] Apr 17, Wed</a></li>
+<li><a href="#org2af2e19">[L25] Apr 19, Fri</a></li>
+<li><a href="#org0f5eecc">[T14] Apr 22, Mon</a></li>
+<li><a href="#orgb5a2aa0">[L26] Apr 24, Wed</a></li>
+<li><a href="#org5949214">Apr 25 - May 01: End semester exam week</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgee16c63" class="outline-2">
-<h2 id="orgee16c63">Basic Information</h2>
-<div class="outline-text-2" id="text-orgee16c63">
+<div id="outline-container-orge306cfc" class="outline-2">
+<h2 id="orge306cfc">Basic Information</h2>
+<div class="outline-text-2" id="text-orge306cfc">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -371,13 +361,13 @@
 </div>
 
 
-<div id="outline-container-orgd6fe94c" class="outline-2">
-<h2 id="orgd6fe94c">Course objectives, syllabus, books, pre-requisites</h2>
-<div class="outline-text-2" id="text-orgd6fe94c">
+<div id="outline-container-org512a793" class="outline-2">
+<h2 id="org512a793">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-org512a793">
 </div>
-<div id="outline-container-orge2a2fe5" class="outline-3">
-<h3 id="orge2a2fe5">Objectives</h3>
-<div class="outline-text-3" id="text-orge2a2fe5">
+<div id="outline-container-org740632b" class="outline-3">
+<h3 id="org740632b">Objectives</h3>
+<div class="outline-text-3" id="text-org740632b">
 <ul class="org-ul">
 <li>To learn the fundamentals of analyzing reinforced concrete structural members.</li>
 <li>To learn design of basic structural members of a reinforced concrete building.</li>
@@ -386,9 +376,9 @@
 </div>
 </div>
 
-<div id="outline-container-org39e7509" class="outline-3">
-<h3 id="org39e7509">Syllabus</h3>
-<div class="outline-text-3" id="text-org39e7509">
+<div id="outline-container-org22c3a1a" class="outline-3">
+<h3 id="org22c3a1a">Syllabus</h3>
+<div class="outline-text-3" id="text-org22c3a1a">
 <ul class="org-ul">
 <li>Properties of concrete and steel.</li>
 <li>Design philosophies.</li>
@@ -401,27 +391,27 @@
 </div>
 
 
-<div id="outline-container-org5366cf2" class="outline-3">
-<h3 id="org5366cf2">Textbook</h3>
-<div class="outline-text-3" id="text-org5366cf2">
+<div id="outline-container-org9f1bec8" class="outline-3">
+<h3 id="org9f1bec8">Textbook</h3>
+<div class="outline-text-3" id="text-org9f1bec8">
 <ul class="org-ul">
 <li>Reinforced Concrete Design - S Unnikrishna Pillai and Devdas Menon.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgecd7295" class="outline-3">
-<h3 id="orgecd7295">Reference Books</h3>
-<div class="outline-text-3" id="text-orgecd7295">
+<div id="outline-container-org0846aaa" class="outline-3">
+<h3 id="org0846aaa">Reference Books</h3>
+<div class="outline-text-3" id="text-org0846aaa">
 <ul class="org-ul">
 <li>Limit State Design of Reinforced Concrete Structures - P C Verghese.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgbdcc144" class="outline-3">
-<h3 id="orgbdcc144">Required codes</h3>
-<div class="outline-text-3" id="text-orgbdcc144">
+<div id="outline-container-orgd378c35" class="outline-3">
+<h3 id="orgd378c35">Required codes</h3>
+<div class="outline-text-3" id="text-orgd378c35">
 <ul class="org-ul">
 <li>IS 456(2000): Plain and reinforced concrete - Code of Practice</li>
 <li>IS 875-1(1987): Code of practice for design loads (other than earthquake) for buildings and structures [Dead Loads]</li>
@@ -433,9 +423,9 @@
 </div>
 </div>
 
-<div id="outline-container-org6e81077" class="outline-3">
-<h3 id="org6e81077">Pre-requisites</h3>
-<div class="outline-text-3" id="text-org6e81077">
+<div id="outline-container-org7efef6b" class="outline-3">
+<h3 id="org7efef6b">Pre-requisites</h3>
+<div class="outline-text-3" id="text-org7efef6b">
 <ul class="org-ul">
 <li>Good background in Mechanics of Solids.</li>
 <li>Good background in Structural Analysis.</li>
@@ -445,13 +435,13 @@
 </div>
 </div>
 
-<div id="outline-container-orgefcece9" class="outline-2">
-<h2 id="orgefcece9">Course Policies</h2>
-<div class="outline-text-2" id="text-orgefcece9">
+<div id="outline-container-org1ba0894" class="outline-2">
+<h2 id="org1ba0894">Course Policies</h2>
+<div class="outline-text-2" id="text-org1ba0894">
 </div>
-<div id="outline-container-org7c1ac23" class="outline-3">
-<h3 id="org7c1ac23">Etiquette</h3>
-<div class="outline-text-3" id="text-org7c1ac23">
+<div id="outline-container-org9bceca5" class="outline-3">
+<h3 id="org9bceca5">Etiquette</h3>
+<div class="outline-text-3" id="text-org9bceca5">
 <ul class="org-ul">
 <li>Please be considerate about everyone's time.</li>
 <li>In all emails pertaining to this course, please have "CE304" in the subject line.
@@ -462,18 +452,18 @@
 </div>
 </div>
 
-<div id="outline-container-org49f5174" class="outline-3">
-<h3 id="org49f5174">Cheating</h3>
-<div class="outline-text-3" id="text-org49f5174">
+<div id="outline-container-orge75e1af" class="outline-3">
+<h3 id="orge75e1af">Cheating</h3>
+<div class="outline-text-3" id="text-orge75e1af">
 <p>
 Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgcc095c0" class="outline-3">
-<h3 id="orgcc095c0">Late submissions</h3>
-<div class="outline-text-3" id="text-orgcc095c0">
+<div id="outline-container-org10b1954" class="outline-3">
+<h3 id="org10b1954">Late submissions</h3>
+<div class="outline-text-3" id="text-org10b1954">
 <p>
 All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
 The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
@@ -482,9 +472,9 @@ The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematic
 </div>
 </div>
 
-<div id="outline-container-orgfef0bca" class="outline-3">
-<h3 id="orgfef0bca">Grading</h3>
-<div class="outline-text-3" id="text-orgfef0bca">
+<div id="outline-container-org5598890" class="outline-3">
+<h3 id="org5598890">Grading</h3>
+<div class="outline-text-3" id="text-org5598890">
 <p>
 Following will be the weightage of different components of assessment
 </p>
@@ -527,9 +517,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-org0898436" class="outline-3">
-<h3 id="org0898436">Modes of formal assessment</h3>
-<div class="outline-text-3" id="text-org0898436">
+<div id="outline-container-org99d752d" class="outline-3">
+<h3 id="org99d752d">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-org99d752d">
 <ul class="org-ul">
 <li>Tutorials will involve two types of problems:
 <ul class="org-ul">
@@ -544,9 +534,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-org4e93987" class="outline-3">
-<h3 id="org4e93987">Emphasis on self-learning</h3>
-<div class="outline-text-3" id="text-org4e93987">
+<div id="outline-container-org56b5add" class="outline-3">
+<h3 id="org56b5add">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-org56b5add">
 <p>
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 </p>
@@ -554,71 +544,71 @@ It is important to develop the habit of self-learning. A number of reading assig
 </div>
 </div>
 
-<div id="outline-container-orgbf4825d" class="outline-2">
-<h2 id="orgbf4825d">Calendar (tentative)</h2>
-<div class="outline-text-2" id="text-orgbf4825d">
+<div id="outline-container-org7e85611" class="outline-2">
+<h2 id="org7e85611">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-org7e85611">
 </div>
-<div id="outline-container-org18b15f6" class="outline-3">
-<h3 id="org18b15f6">[L1] Jan 03, Wed</h3>
-<div class="outline-text-3" id="text-org18b15f6">
+<div id="outline-container-org9997c13" class="outline-3">
+<h3 id="org9997c13">[L1] Jan 03, Wed</h3>
+<div class="outline-text-3" id="text-org9997c13">
 <ul class="org-ul">
 <li>Introduction to design. Components of a building. Load path.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1918908" class="outline-3">
-<h3 id="org1918908">[L2] Jan 05, Fri</h3>
-<div class="outline-text-3" id="text-org1918908">
+<div id="outline-container-orgcc02438" class="outline-3">
+<h3 id="orgcc02438">[L2] Jan 05, Fri</h3>
+<div class="outline-text-3" id="text-orgcc02438">
 <ul class="org-ul">
 <li>Analysis of a building. Load calculations. IS 875-1. Characteristic loads.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2eb8383" class="outline-3">
-<h3 id="org2eb8383">Jan 08, Mon - no tutorial</h3>
+<div id="outline-container-orgf59b636" class="outline-3">
+<h3 id="orgf59b636">Jan 08, Mon - no tutorial</h3>
 </div>
-<div id="outline-container-org9986101" class="outline-3">
-<h3 id="org9986101">[L3] Jan 10, Wed</h3>
-<div class="outline-text-3" id="text-org9986101">
+<div id="outline-container-org621ea40" class="outline-3">
+<h3 id="org621ea40">[L3] Jan 10, Wed</h3>
+<div class="outline-text-3" id="text-org621ea40">
 <ul class="org-ul">
 <li>Load calculations. IS 875-2. Load path and distribution. Characteristic loads.</li>
 <li>Class activity 1</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6742dd1" class="outline-3">
-<h3 id="org6742dd1">[L4] Jan 12, Fri</h3>
-<div class="outline-text-3" id="text-org6742dd1">
+<div id="outline-container-org79ccacc" class="outline-3">
+<h3 id="org79ccacc">[L4] Jan 12, Fri</h3>
+<div class="outline-text-3" id="text-org79ccacc">
 <ul class="org-ul">
 <li>Structural systems. Framed systems and their analysis. Typology of different components of structural system.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4f4c3af" class="outline-3">
-<h3 id="org4f4c3af">[T1] Jan 15, Mon</h3>
-<div class="outline-text-3" id="text-org4f4c3af">
+<div id="outline-container-orgf64f27e" class="outline-3">
+<h3 id="orgf64f27e">[T1] Jan 15, Mon</h3>
+<div class="outline-text-3" id="text-orgf64f27e">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1PYOTXlpJy4-Zyc06781BLDzGqspfsXIS/view?usp=sharing">Tutorial 1</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2e1c6c9" class="outline-3">
-<h3 id="org2e1c6c9">Jan 17, Wed - no class</h3>
+<div id="outline-container-orgb3f081f" class="outline-3">
+<h3 id="orgb3f081f">Jan 17, Wed - no class</h3>
 </div>
-<div id="outline-container-org5058d80" class="outline-3">
-<h3 id="org5058d80">[L5, L6] Jan 19, Fri</h3>
-<div class="outline-text-3" id="text-org5058d80">
+<div id="outline-container-org496c0d3" class="outline-3">
+<h3 id="org496c0d3">[L5, L6] Jan 19, Fri</h3>
+<div class="outline-text-3" id="text-org496c0d3">
 <ul class="org-ul">
 <li>Session on SAP2000</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8527e81" class="outline-3">
-<h3 id="org8527e81">Jan 22, Mon - no tutorial</h3>
+<div id="outline-container-orgd8b5ceb" class="outline-3">
+<h3 id="orgd8b5ceb">Jan 22, Mon - no tutorial</h3>
 </div>
-<div id="outline-container-org00c356c" class="outline-3">
-<h3 id="org00c356c">[L7] Jan 24, Wed</h3>
-<div class="outline-text-3" id="text-org00c356c">
+<div id="outline-container-org8f8a85b" class="outline-3">
+<h3 id="org8f8a85b">[L7] Jan 24, Wed</h3>
+<div class="outline-text-3" id="text-org8f8a85b">
 <ul class="org-ul">
 <li>Introduction to IS 456.</li>
 <li>Discussions on materials, constituents of concrete, characteristic strength, construction practices.</li>
@@ -627,17 +617,17 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org85670a9" class="outline-3">
-<h3 id="org85670a9">Jan 26, Fri - no class</h3>
-<div class="outline-text-3" id="text-org85670a9">
+<div id="outline-container-orgfbb3ac4" class="outline-3">
+<h3 id="orgfbb3ac4">Jan 26, Fri - no class</h3>
+<div class="outline-text-3" id="text-orgfbb3ac4">
 <ul class="org-ul">
 <li>Republic Day</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgce54d06" class="outline-3">
-<h3 id="orgce54d06">[L8] Jan 29, Mon</h3>
-<div class="outline-text-3" id="text-orgce54d06">
+<div id="outline-container-orgba8a20e" class="outline-3">
+<h3 id="orgba8a20e">[L8] Jan 29, Mon</h3>
+<div class="outline-text-3" id="text-orgba8a20e">
 <ul class="org-ul">
 <li>Design of RC beams.</li>
 <li>Concept of neutral axis of homogeneous and heterogeneous sections.</li>
@@ -647,9 +637,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc7704cf" class="outline-3">
-<h3 id="orgc7704cf">[L9] Jan 31, Wed</h3>
-<div class="outline-text-3" id="text-orgc7704cf">
+<div id="outline-container-orgfc18e64" class="outline-3">
+<h3 id="orgfc18e64">[L9] Jan 31, Wed</h3>
+<div class="outline-text-3" id="text-orgfc18e64">
 <ul class="org-ul">
 <li>Design of RC beams.</li>
 <li>Consideration of over-reinforced sections.</li>
@@ -658,17 +648,17 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org7c80303" class="outline-3">
-<h3 id="org7c80303">[T2, T3] Feb 02, Fri</h3>
-<div class="outline-text-3" id="text-org7c80303">
+<div id="outline-container-org037b3b8" class="outline-3">
+<h3 id="org037b3b8">[T2, T3] Feb 02, Fri</h3>
+<div class="outline-text-3" id="text-org037b3b8">
 <ul class="org-ul">
 <li>Session on SAP2000</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org7c6a6f1" class="outline-3">
-<h3 id="org7c6a6f1">[T4] Feb 05, Mon</h3>
-<div class="outline-text-3" id="text-org7c6a6f1">
+<div id="outline-container-org34fbd7d" class="outline-3">
+<h3 id="org34fbd7d">[T4] Feb 05, Mon</h3>
+<div class="outline-text-3" id="text-org34fbd7d">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1_F-khpU6hTXqkWVGbEUozMJvGIUctVo1/view?usp=sharing">Assignment 1</a> (due 12 Feb)</li>
 <li>Failure modes of an RCC beam.</li>
@@ -677,9 +667,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb2722e3" class="outline-3">
-<h3 id="orgb2722e3">[L10] Feb 07, Wed</h3>
-<div class="outline-text-3" id="text-orgb2722e3">
+<div id="outline-container-orga2fe802" class="outline-3">
+<h3 id="orga2fe802">[L10] Feb 07, Wed</h3>
+<div class="outline-text-3" id="text-orga2fe802">
 <ul class="org-ul">
 <li>Design of RC beams.</li>
 <li>Consideration of T and L beams.</li>
@@ -688,61 +678,61 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org0e2698c" class="outline-3">
-<h3 id="org0e2698c">[L11] Feb 09, Fri</h3>
-<div class="outline-text-3" id="text-org0e2698c">
+<div id="outline-container-orgb0b3f1d" class="outline-3">
+<h3 id="orgb0b3f1d">[L11] Feb 09, Fri</h3>
+<div class="outline-text-3" id="text-orgb0b3f1d">
 <ul class="org-ul">
 <li>Design of RC columns.</li>
 <li><a href="https://drive.google.com/file/d/1o9JHDkLPybKNZB5-4FFR2tujPdJ8unod/view?usp=sharing">Work Sheet 5</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd27faf9" class="outline-3">
-<h3 id="orgd27faf9">[T6] Feb 12, Mon</h3>
-<div class="outline-text-3" id="text-orgd27faf9">
+<div id="outline-container-orgfa83386" class="outline-3">
+<h3 id="orgfa83386">[T6] Feb 12, Mon</h3>
+<div class="outline-text-3" id="text-orgfa83386">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1U4-ShFZS9pl2KT1ieyNmMYm6yjGxh1fB/view?usp=drive_link">Tutorial 2</a></li>
 <li><a href="https://drive.google.com/file/d/1QpL3YSDJ2XID4zfMsVNclnz52YEz7nI0/view?usp=sharing">Assignment 2</a> (due 26 Feb)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2cdc5f9" class="outline-3">
-<h3 id="org2cdc5f9">[L12] Feb 14, Wed</h3>
-<div class="outline-text-3" id="text-org2cdc5f9">
+<div id="outline-container-org4d15a04" class="outline-3">
+<h3 id="org4d15a04">[L12] Feb 14, Wed</h3>
+<div class="outline-text-3" id="text-org4d15a04">
 <ul class="org-ul">
 <li>Design of RC columns.</li>
 <li><a href="https://drive.google.com/file/d/1NYsuIFfuUvBwDA0ajGhOYhAtHQEtH8h_/view?usp=sharing">Work Sheet 6</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org12b08c7" class="outline-3">
-<h3 id="org12b08c7">[L13] Feb 16, Fri</h3>
-<div class="outline-text-3" id="text-org12b08c7">
+<div id="outline-container-org029ef17" class="outline-3">
+<h3 id="org029ef17">[L13] Feb 16, Fri</h3>
+<div class="outline-text-3" id="text-org029ef17">
 <ul class="org-ul">
 <li>Design of RC columns.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6598a17" class="outline-3">
-<h3 id="org6598a17">Feb 19 - Feb 24: Mid semester exam week</h3>
-<div class="outline-text-3" id="text-org6598a17">
+<div id="outline-container-org8ef35e5" class="outline-3">
+<h3 id="org8ef35e5">Feb 19 - Feb 24: Mid semester exam week</h3>
+<div class="outline-text-3" id="text-org8ef35e5">
 <ul class="org-ul">
 <li>Feb 23, 9 AM &#x2013; 11 AM, AB 10/102.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgde75efb" class="outline-3">
-<h3 id="orgde75efb">[T7] Feb 26, Mon</h3>
-<div class="outline-text-3" id="text-orgde75efb">
+<div id="outline-container-org6df23cb" class="outline-3">
+<h3 id="org6df23cb">[T7] Feb 26, Mon</h3>
+<div class="outline-text-3" id="text-org6df23cb">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1yogHFgTggO1EDZ-WrMoflB0LMu0f6jZ-/view?usp=sharing">Tutorial 3</a></li>
 <li><a href="https://drive.google.com/file/d/15vTi2iBpNHolCCt6viqwQFxI3gAbQIJm/view?usp=sharing">Assignment 3</a> (due 4 Mar)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org82bb9e9" class="outline-3">
-<h3 id="org82bb9e9">[L14] Feb 28, Wed</h3>
-<div class="outline-text-3" id="text-org82bb9e9">
+<div id="outline-container-org733e477" class="outline-3">
+<h3 id="org733e477">[L14] Feb 28, Wed</h3>
+<div class="outline-text-3" id="text-org733e477">
 <ul class="org-ul">
 <li>Design of RC slabs.</li>
 <li>Behavior of slab as a plate, torsion near supported edges. Different cases of supporting conditions.</li>
@@ -750,172 +740,172 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org32ebe98" class="outline-3">
-<h3 id="org32ebe98">[L15] Mar 01, Fri</h3>
-<div class="outline-text-3" id="text-org32ebe98">
+<div id="outline-container-orgf63e9dd" class="outline-3">
+<h3 id="orgf63e9dd">[L15] Mar 01, Fri</h3>
+<div class="outline-text-3" id="text-orgf63e9dd">
 <ul class="org-ul">
 <li>Design of RC slabs.</li>
 <li>Examples 5.2 and 5.3 of the Book.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgebf2fb7" class="outline-3">
-<h3 id="orgebf2fb7">[T8] Mar 04, Mon</h3>
-<div class="outline-text-3" id="text-orgebf2fb7">
+<div id="outline-container-org9f30a84" class="outline-3">
+<h3 id="org9f30a84">[T8] Mar 04, Mon</h3>
+<div class="outline-text-3" id="text-org9f30a84">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1PK30Nyz_6pmrZ6tBACIG4KSN6aWq_oWD/view?usp=sharing">Tutorial 4</a></li>
 <li><a href="https://drive.google.com/file/d/1C61hq3Bi2BcUbpKECSq8yiuEC1muKewp/view?usp=sharing">Assignment 4</a> (due 11 Mar)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc0e158b" class="outline-3">
-<h3 id="orgc0e158b">[L16] Mar 06, Wed</h3>
-<div class="outline-text-3" id="text-orgc0e158b">
+<div id="outline-container-org8274cad" class="outline-3">
+<h3 id="org8274cad">[L16] Mar 06, Wed</h3>
+<div class="outline-text-3" id="text-org8274cad">
 <ul class="org-ul">
 <li>Design of RC slabs.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbe20cb3" class="outline-3">
-<h3 id="orgbe20cb3">Mar 08, Fri - no class</h3>
-<div class="outline-text-3" id="text-orgbe20cb3">
+<div id="outline-container-org3b7617c" class="outline-3">
+<h3 id="org3b7617c">Mar 08, Fri - no class</h3>
+<div class="outline-text-3" id="text-org3b7617c">
 <ul class="org-ul">
 <li>Maha Shivratri</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org1e189c0" class="outline-3">
-<h3 id="org1e189c0">[T9] Mar 11, Mon</h3>
-<div class="outline-text-3" id="text-org1e189c0">
+<div id="outline-container-org6d635ba" class="outline-3">
+<h3 id="org6d635ba">[T9] Mar 11, Mon</h3>
+<div class="outline-text-3" id="text-org6d635ba">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1x7EYwwqTAww7xKGbeTJAIEt_TMqFrW2O/view?usp=sharing">Tutorial 5</a></li>
 <li>Analysis of RC building in SAP2000.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4e90281" class="outline-3">
-<h3 id="org4e90281">[L17] Mar 13, Wed</h3>
-<div class="outline-text-3" id="text-org4e90281">
+<div id="outline-container-orgd5085fc" class="outline-3">
+<h3 id="orgd5085fc">[L17] Mar 13, Wed</h3>
+<div class="outline-text-3" id="text-orgd5085fc">
 <ul class="org-ul">
 <li>Design of RC building components in SAP2000.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3f536f6" class="outline-3">
-<h3 id="org3f536f6">Mar 15, Fri - no class</h3>
+<div id="outline-container-org6772c29" class="outline-3">
+<h3 id="org6772c29">Mar 15, Fri - no class</h3>
 </div>
-<div id="outline-container-orgd0e62b7" class="outline-3">
-<h3 id="orgd0e62b7">[T10] Mar 18, Mon</h3>
-<div class="outline-text-3" id="text-orgd0e62b7">
+<div id="outline-container-org40f3f39" class="outline-3">
+<h3 id="org40f3f39">[T10] Mar 18, Mon</h3>
+<div class="outline-text-3" id="text-org40f3f39">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1ji3-DsqIY5oBw_F1N3pUgYvv2SMI62Sk/view?usp=sharing">Tutorial 6</a></li>
 <li><a href="https://drive.google.com/file/d/1w1aeRMdnH6_-3Mt8kH7v7-ypZO8maib1/view?usp=sharing">Assignment 5</a> (due 1 Apr [no joke intended])</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0316a95" class="outline-3">
-<h3 id="org0316a95">[L18] Mar 20, Wed</h3>
-<div class="outline-text-3" id="text-org0316a95">
+<div id="outline-container-org0da4919" class="outline-3">
+<h3 id="org0da4919">[L18] Mar 20, Wed</h3>
+<div class="outline-text-3" id="text-org0da4919">
 <ul class="org-ul">
 <li>Design of shallow foundations.</li>
 <li>Types of footings. Eccentricity. Failure modes and design considerations.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbac33f2" class="outline-3">
-<h3 id="orgbac33f2">[L19] Mar 22, Fri</h3>
-<div class="outline-text-3" id="text-orgbac33f2">
+<div id="outline-container-org2e9983d" class="outline-3">
+<h3 id="org2e9983d">[L19] Mar 22, Fri</h3>
+<div class="outline-text-3" id="text-org2e9983d">
 <ul class="org-ul">
 <li>Design of shallow foundations.</li>
 <li><a href="https://drive.google.com/file/d/1g1-LJDjdnusjKq-ulvokV8TUklVgK2Hp/view?usp=sharing">Work Sheet 7</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb35335a" class="outline-3">
-<h3 id="orgb35335a">Mar 23 - Mar 31: Mid semester recess</h3>
+<div id="outline-container-org94686c5" class="outline-3">
+<h3 id="org94686c5">Mar 23 - Mar 31: Mid semester recess</h3>
 </div>
-<div id="outline-container-org71b9366" class="outline-3">
-<h3 id="org71b9366">[T11] Apr 01, Mon</h3>
-<div class="outline-text-3" id="text-org71b9366">
+<div id="outline-container-org967ca42" class="outline-3">
+<h3 id="org967ca42">[T11] Apr 01, Mon</h3>
+<div class="outline-text-3" id="text-org967ca42">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1fpvILs3rYOKDekpIxWpj0pIe7DEgMqo5/view?usp=sharing">Tutorial 7</a></li>
 <li><a href="https://drive.google.com/file/d/1eroB49mgaVTm7mQA_xXjMQIdgO4OUc0V/view?usp=sharing">Assignment 6</a> (due 8 Apr)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3a8f5d3" class="outline-3">
-<h3 id="org3a8f5d3">[L20] Apr 03, Wed</h3>
-<div class="outline-text-3" id="text-org3a8f5d3">
+<div id="outline-container-orgc225e38" class="outline-3">
+<h3 id="orgc225e38">[L20] Apr 03, Wed</h3>
+<div class="outline-text-3" id="text-orgc225e38">
 <ul class="org-ul">
 <li>Design of staircases.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd97403d" class="outline-3">
-<h3 id="orgd97403d">[L21] Apr 05, Fri</h3>
-<div class="outline-text-3" id="text-orgd97403d">
+<div id="outline-container-orge71a7e8" class="outline-3">
+<h3 id="orge71a7e8">[L21] Apr 05, Fri</h3>
+<div class="outline-text-3" id="text-orge71a7e8">
 <ul class="org-ul">
 <li>Design of staircases.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcbacf8e" class="outline-3">
-<h3 id="orgcbacf8e">[T12] Apr 08, Mon</h3>
-<div class="outline-text-3" id="text-orgcbacf8e">
+<div id="outline-container-org6763f94" class="outline-3">
+<h3 id="org6763f94">[T12] Apr 08, Mon</h3>
+<div class="outline-text-3" id="text-org6763f94">
 <ul class="org-ul">
 <li><a href="https://drive.google.com/file/d/1ntj-vmoxpaioPZZzXzvV6OqlHwPagMyD/view?usp=sharing">Tutorial 8</a></li>
 <li><a href="https://drive.google.com/file/d/1YE-4YMSTJ1Nys0SVvST_yaz-f6a4d4Z-/view?usp=sharing">Assignment 7</a> (due 15 Apr)</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5eeb5aa" class="outline-3">
-<h3 id="org5eeb5aa">[L22] Apr 10, Wed</h3>
-<div class="outline-text-3" id="text-org5eeb5aa">
+<div id="outline-container-org50b6903" class="outline-3">
+<h3 id="org50b6903">[L22] Apr 10, Wed</h3>
+<div class="outline-text-3" id="text-org50b6903">
 <ul class="org-ul">
 <li>Design of staircases.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf126047" class="outline-3">
-<h3 id="orgf126047">[L23] Apr 12, Fri</h3>
-<div class="outline-text-3" id="text-orgf126047">
+<div id="outline-container-orgf5133ea" class="outline-3">
+<h3 id="orgf5133ea">[L23] Apr 12, Fri</h3>
+<div class="outline-text-3" id="text-orgf5133ea">
 <ul class="org-ul">
 <li>Detailing and construction practices.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga491c80" class="outline-3">
-<h3 id="orga491c80">[T13] Apr 15, Mon</h3>
+<div id="outline-container-orgd44f203" class="outline-3">
+<h3 id="orgd44f203">[T13] Apr 15, Mon</h3>
 </div>
-<div id="outline-container-org096693c" class="outline-3">
-<h3 id="org096693c">[L24] Apr 17, Wed</h3>
-<div class="outline-text-3" id="text-org096693c">
+<div id="outline-container-orgdf65dcd" class="outline-3">
+<h3 id="orgdf65dcd">[L24] Apr 17, Wed</h3>
+<div class="outline-text-3" id="text-orgdf65dcd">
 <ul class="org-ul">
 <li>Detailing and construction practices.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org959d4d4" class="outline-3">
-<h3 id="org959d4d4">[L25] Apr 19, Fri</h3>
-<div class="outline-text-3" id="text-org959d4d4">
+<div id="outline-container-org2af2e19" class="outline-3">
+<h3 id="org2af2e19">[L25] Apr 19, Fri</h3>
+<div class="outline-text-3" id="text-org2af2e19">
 <ul class="org-ul">
 <li>Detailing and construction practices.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgee432a0" class="outline-3">
-<h3 id="orgee432a0">[T14] Apr 22, Mon</h3>
+<div id="outline-container-org0f5eecc" class="outline-3">
+<h3 id="org0f5eecc">[T14] Apr 22, Mon</h3>
 </div>
-<div id="outline-container-org20b7aa1" class="outline-3">
-<h3 id="org20b7aa1">[L26] Apr 24, Wed</h3>
-<div class="outline-text-3" id="text-org20b7aa1">
+<div id="outline-container-orgb5a2aa0" class="outline-3">
+<h3 id="orgb5a2aa0">[L26] Apr 24, Wed</h3>
+<div class="outline-text-3" id="text-orgb5a2aa0">
 <ul class="org-ul">
 <li>Detailing and construction practices.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0f2d4e6" class="outline-3">
-<h3 id="org0f2d4e6">Apr 25 - May 01: End semester exam week</h3>
+<div id="outline-container-org5949214" class="outline-3">
+<h3 id="org5949214">Apr 25 - May 01: End semester exam week</h3>
 </div>
 </div>
 </div>

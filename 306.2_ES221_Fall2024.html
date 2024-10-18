@@ -3,13 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-10-11 Fri 06:49 -->
+<!-- 2024-10-18 Fri 19:04 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ES 221: Mechanics of Solids - Fall 2024</title>
-<meta name="generator" content="Org Mode" />
-<style>
-  #content { max-width: 60em; margin: auto; }
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -30,9 +30,8 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #e6e6e6;
-    border-radius: 3px;
-    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -40,22 +39,22 @@
   }
   pre.src {
     position: relative;
-    overflow: auto;
+    overflow: visible;
+    padding-top: 1.2em;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    top: -8px;
-    right: 12px;
+    background-color: white;
+    top: -10px;
+    right: 10px;
     padding: 3px;
-    color: #555;
-    background-color: #f2f2f299;
+    border: 1px solid black;
   }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
+  pre.src:hover:before { display: inline;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
-  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -190,7 +189,8 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
 </style>
 
 <link rel='stylesheet' href='gs_simple.css' />
@@ -208,23 +208,23 @@
 </nav>
 </center>
 </div>
-<div id="content" class="content">
+<div id="content">
 <h1 class="title">ES 221: Mechanics of Solids - Fall 2024</h1>
-<div id="table-of-contents" role="doc-toc">
+<div id="table-of-contents">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
+<div id="text-table-of-contents">
 <ul>
-<li><a href="#org875d4d0">Basic Information</a></li>
-<li><a href="#orge7fac77">Course objectives, syllabus, books, pre-requisites</a></li>
-<li><a href="#orgef349fc">Course Policies</a></li>
-<li><a href="#org076b5e0">Calendar (tentative)</a></li>
+<li><a href="#org49258df">Basic Information</a></li>
+<li><a href="#org35d910f">Course objectives, syllabus, books, pre-requisites</a></li>
+<li><a href="#orge794de8">Course Policies</a></li>
+<li><a href="#org2dea41b">Calendar (tentative)</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org875d4d0" class="outline-2">
-<h2 id="org875d4d0">Basic Information</h2>
-<div class="outline-text-2" id="text-org875d4d0">
+<div id="outline-container-org49258df" class="outline-2">
+<h2 id="org49258df">Basic Information</h2>
+<div class="outline-text-2" id="text-org49258df">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -253,18 +253,23 @@
 <tbody>
 <tr>
 <td class="org-left">Tutorial timings</td>
-<td class="org-left">Thursday, 22:00-23:20 hrs</td>
+<td class="org-left">Monday, 15:30-16:50 hrs</td>
 </tr>
 
 <tr>
 <td class="org-left">Tutorial location</td>
-<td class="org-left">AB 7/101</td>
+<td class="org-left">AB 7/206</td>
 </tr>
 </tbody>
 <tbody>
 <tr>
-<td class="org-left">TA</td>
+<td class="org-left">TAs</td>
 <td class="org-left">Yajat Sharma (yajat.sharma@iitgn.ac.in)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Samar Jyoti Deka (24250078@iitgn.ac.in)</td>
 </tr>
 </tbody>
 </table>
@@ -272,13 +277,13 @@
 </div>
 
 
-<div id="outline-container-orge7fac77" class="outline-2">
-<h2 id="orge7fac77">Course objectives, syllabus, books, pre-requisites</h2>
-<div class="outline-text-2" id="text-orge7fac77">
+<div id="outline-container-org35d910f" class="outline-2">
+<h2 id="org35d910f">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-org35d910f">
 </div>
-<div id="outline-container-orgb1230ea" class="outline-3">
-<h3 id="orgb1230ea">Objectives</h3>
-<div class="outline-text-3" id="text-orgb1230ea">
+<div id="outline-container-orgf5895f9" class="outline-3">
+<h3 id="orgf5895f9">Objectives</h3>
+<div class="outline-text-3" id="text-orgf5895f9">
 <ul class="org-ul">
 <li>To learn how materials behave in engineering applications.</li>
 <li>To learn how small and large natural and engineered systems remain stable/fail.</li>
@@ -287,9 +292,9 @@
 </div>
 </div>
 
-<div id="outline-container-org718b960" class="outline-3">
-<h3 id="org718b960">Syllabus</h3>
-<div class="outline-text-3" id="text-org718b960">
+<div id="outline-container-org44bf5a8" class="outline-3">
+<h3 id="org44bf5a8">Syllabus</h3>
+<div class="outline-text-3" id="text-org44bf5a8">
 <ul class="org-ul">
 <li>Free body diagram, Modeling of supports, Conditions for Equilibrium.</li>
 <li>Friction Force-deformation relationship and geometric compatibility (for small deformations) with illustrations through simple problems on axially loaded members and thin walled pressure vessels.</li>
@@ -309,9 +314,9 @@
 </div>
 </div>
 
-<div id="outline-container-orgb21aee5" class="outline-3">
-<h3 id="orgb21aee5">Textbook</h3>
-<div class="outline-text-3" id="text-orgb21aee5">
+<div id="outline-container-orgb669f43" class="outline-3">
+<h3 id="orgb669f43">Textbook</h3>
+<div class="outline-text-3" id="text-orgb669f43">
 <ul class="org-ul">
 <li><b>B1</b>: Engineering Mechanics: Statics - R.C. Hibbeler (14th edition).</li>
 <li><b>B2</b>: Mechanics of Materials - R.C. Hibbeler (10th edition).</li>
@@ -319,18 +324,18 @@
 </div>
 </div>
 
-<div id="outline-container-org6fffdd5" class="outline-3">
-<h3 id="org6fffdd5">Reference Books</h3>
-<div class="outline-text-3" id="text-org6fffdd5">
+<div id="outline-container-orgb194982" class="outline-3">
+<h3 id="orgb194982">Reference Books</h3>
+<div class="outline-text-3" id="text-orgb194982">
 <ul class="org-ul">
 <li>Strength of Materials - S. Timoshenko.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org0960915" class="outline-3">
-<h3 id="org0960915">Pre-requisites</h3>
-<div class="outline-text-3" id="text-org0960915">
+<div id="outline-container-orgd779851" class="outline-3">
+<h3 id="orgd779851">Pre-requisites</h3>
+<div class="outline-text-3" id="text-orgd779851">
 <ul class="org-ul">
 <li>Good background in Mathematics.</li>
 <li>Curiosity to learn the fundamentals behind construction of some of the largest structures like Hoover Dam and Burj Khalifa.</li>
@@ -339,13 +344,13 @@
 </div>
 </div>
 
-<div id="outline-container-orgef349fc" class="outline-2">
-<h2 id="orgef349fc">Course Policies</h2>
-<div class="outline-text-2" id="text-orgef349fc">
+<div id="outline-container-orge794de8" class="outline-2">
+<h2 id="orge794de8">Course Policies</h2>
+<div class="outline-text-2" id="text-orge794de8">
 </div>
-<div id="outline-container-orgcb09250" class="outline-3">
-<h3 id="orgcb09250">Etiquette</h3>
-<div class="outline-text-3" id="text-orgcb09250">
+<div id="outline-container-org61f9c26" class="outline-3">
+<h3 id="org61f9c26">Etiquette</h3>
+<div class="outline-text-3" id="text-org61f9c26">
 <ul class="org-ul">
 <li>Please be considerate about everyone's time.</li>
 <li>In all emails pertaining to this course, please have "ES221" in the subject line.
@@ -356,18 +361,18 @@
 </div>
 </div>
 
-<div id="outline-container-org3747186" class="outline-3">
-<h3 id="org3747186">Cheating</h3>
-<div class="outline-text-3" id="text-org3747186">
+<div id="outline-container-org5549427" class="outline-3">
+<h3 id="org5549427">Cheating</h3>
+<div class="outline-text-3" id="text-org5549427">
 <p>
 Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org008a1d3" class="outline-3">
-<h3 id="org008a1d3">Grading</h3>
-<div class="outline-text-3" id="text-org008a1d3">
+<div id="outline-container-org8f0ccce" class="outline-3">
+<h3 id="org8f0ccce">Grading</h3>
+<div class="outline-text-3" id="text-org8f0ccce">
 <p>
 Following will be the weightage of different components of assessment
 </p>
@@ -410,9 +415,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-org9a1f4a7" class="outline-3">
-<h3 id="org9a1f4a7">Modes of formal assessment</h3>
-<div class="outline-text-3" id="text-org9a1f4a7">
+<div id="outline-container-org07dda00" class="outline-3">
+<h3 id="org07dda00">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-org07dda00">
 <ul class="org-ul">
 <li>Tutorials will involve two types of problems:
 <ul class="org-ul">
@@ -426,9 +431,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-orgfd61dbe" class="outline-3">
-<h3 id="orgfd61dbe">Emphasis on self-learning</h3>
-<div class="outline-text-3" id="text-orgfd61dbe">
+<div id="outline-container-orgc7e4889" class="outline-3">
+<h3 id="orgc7e4889">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-orgc7e4889">
 <p>
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 </p>
@@ -436,13 +441,13 @@ It is important to develop the habit of self-learning. A number of reading assig
 </div>
 </div>
 
-<div id="outline-container-org076b5e0" class="outline-2">
-<h2 id="org076b5e0">Calendar (tentative)</h2>
-<div class="outline-text-2" id="text-org076b5e0">
+<div id="outline-container-org2dea41b" class="outline-2">
+<h2 id="org2dea41b">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-org2dea41b">
 </div>
-<div id="outline-container-org7cb3c7d" class="outline-3">
-<h3 id="org7cb3c7d">[L1] Aug 02, Fri</h3>
-<div class="outline-text-3" id="text-org7cb3c7d">
+<div id="outline-container-orgb976e11" class="outline-3">
+<h3 id="orgb976e11">[L1] Aug 02, Fri</h3>
+<div class="outline-text-3" id="text-orgb976e11">
 <ul class="org-ul">
 <li>Introduction to the subject, solids vs. fluids, rigidity vs. flexibility. Failure modes of solids.</li>
 <li>Fundamental vs. derived quantities, dimensional analysis.</li>
@@ -456,17 +461,17 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc7b5ae7" class="outline-3">
-<h3 id="orgc7b5ae7">[T1] Aug 05, Mon</h3>
-<div class="outline-text-3" id="text-orgc7b5ae7">
+<div id="outline-container-org5ff1ea1" class="outline-3">
+<h3 id="org5ff1ea1">[T1] Aug 05, Mon</h3>
+<div class="outline-text-3" id="text-org5ff1ea1">
 <ul class="org-ul">
 <li>Review of topics from Class XI.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd6b8995" class="outline-3">
-<h3 id="orgd6b8995">[L2] Aug 07, Wed</h3>
-<div class="outline-text-3" id="text-orgd6b8995">
+<div id="outline-container-org6ae5394" class="outline-3">
+<h3 id="org6ae5394">[L2] Aug 07, Wed</h3>
+<div class="outline-text-3" id="text-org6ae5394">
 <ul class="org-ul">
 <li>Moment of a force, couple moment. Equations of static equilibrium.</li>
 <li>Idealization of supports - fixed, roller, hinged.</li>
@@ -476,9 +481,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb8ef13f" class="outline-3">
-<h3 id="orgb8ef13f">[L3] Aug 09, Fri</h3>
-<div class="outline-text-3" id="text-orgb8ef13f">
+<div id="outline-container-org66e5b45" class="outline-3">
+<h3 id="org66e5b45">[L3] Aug 09, Fri</h3>
+<div class="outline-text-3" id="text-org66e5b45">
 <ul class="org-ul">
 <li>Two-force members.</li>
 <li>Introduction to truss structures.</li>
@@ -487,9 +492,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc8b2734" class="outline-3">
-<h3 id="orgc8b2734">[L4] Aug 14, Wed</h3>
-<div class="outline-text-3" id="text-orgc8b2734">
+<div id="outline-container-orgae07dfa" class="outline-3">
+<h3 id="orgae07dfa">[L4] Aug 14, Wed</h3>
+<div class="outline-text-3" id="text-orgae07dfa">
 <ul class="org-ul">
 <li><i>In-class submission C1</i></li>
 <li>Analysis of pin-jointed trusses by method of sections.</li>
@@ -497,12 +502,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgfe2d82a" class="outline-3">
-<h3 id="orgfe2d82a">Aug 15, Thu - holiday (Independence Day)</h3>
+<div id="outline-container-org7ba9823" class="outline-3">
+<h3 id="org7ba9823">Aug 15, Thu - holiday (Independence Day)</h3>
 </div>
-<div id="outline-container-org60e7fd9" class="outline-3">
-<h3 id="org60e7fd9">[L5] Aug 16, Fri</h3>
-<div class="outline-text-3" id="text-org60e7fd9">
+<div id="outline-container-org9e8dc11" class="outline-3">
+<h3 id="org9e8dc11">[L5] Aug 16, Fri</h3>
+<div class="outline-text-3" id="text-org9e8dc11">
 <ul class="org-ul">
 <li>Classification and idealization of structural members by geometry (1D, 2D, 3D).</li>
 <li>Classification and idealization of structural members by resisting action (tie, strut, beam, column, shaft).</li>
@@ -511,25 +516,25 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org155fc05" class="outline-3">
-<h3 id="org155fc05">[L6] Aug 21, Wed</h3>
-<div class="outline-text-3" id="text-org155fc05">
+<div id="outline-container-org3818242" class="outline-3">
+<h3 id="org3818242">[L6] Aug 21, Wed</h3>
+<div class="outline-text-3" id="text-org3818242">
 <ul class="org-ul">
 <li>Class cancelled.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org4cdfae8" class="outline-3">
-<h3 id="org4cdfae8">[T2] Aug 22, Thu</h3>
-<div class="outline-text-3" id="text-org4cdfae8">
+<div id="outline-container-org1c92528" class="outline-3">
+<h3 id="org1c92528">[T2] Aug 22, Thu</h3>
+<div class="outline-text-3" id="text-org1c92528">
 <ul class="org-ul">
 <li>Analysis of pin-jointed trusses.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcf0d85f" class="outline-3">
-<h3 id="orgcf0d85f">[L7] Aug 23, Fri</h3>
-<div class="outline-text-3" id="text-orgcf0d85f">
+<div id="outline-container-org4f7d39a" class="outline-3">
+<h3 id="org4f7d39a">[L7] Aug 23, Fri</h3>
+<div class="outline-text-3" id="text-org4f7d39a">
 <ul class="org-ul">
 <li><i>Assignment 1</i> given (due on 30 Aug).</li>
 <li>Bending moment and shear force diagrams. Sign convention for shear force.</li>
@@ -537,26 +542,26 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org032ed3d" class="outline-3">
-<h3 id="org032ed3d">[L8] Aug 28, Wed</h3>
-<div class="outline-text-3" id="text-org032ed3d">
+<div id="outline-container-orgc32ebd8" class="outline-3">
+<h3 id="orgc32ebd8">[L8] Aug 28, Wed</h3>
+<div class="outline-text-3" id="text-orgc32ebd8">
 <ul class="org-ul">
 <li>Bending moment and shear force diagrams.</li>
 <li><i>Reading from the book (B1)</i>: Chapter 7.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgebedb49" class="outline-3">
-<h3 id="orgebedb49">[T3] Aug 29, Thu</h3>
-<div class="outline-text-3" id="text-orgebedb49">
+<div id="outline-container-orgdd4de6b" class="outline-3">
+<h3 id="orgdd4de6b">[T3] Aug 29, Thu</h3>
+<div class="outline-text-3" id="text-orgdd4de6b">
 <ul class="org-ul">
 <li>Bending moment and shear force diagrams.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org8c324a9" class="outline-3">
-<h3 id="org8c324a9">[L9] Aug 30, Fri</h3>
-<div class="outline-text-3" id="text-org8c324a9">
+<div id="outline-container-orgfbf8987" class="outline-3">
+<h3 id="orgfbf8987">[L9] Aug 30, Fri</h3>
+<div class="outline-text-3" id="text-orgfbf8987">
 <ul class="org-ul">
 <li><i>Assignment 2</i> given (due on 6 Sep).</li>
 <li>Concept of stress. Normal and shear stresses. General state of stress. Sign convention.</li>
@@ -567,9 +572,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org93a2c43" class="outline-3">
-<h3 id="org93a2c43">[L10] Sep 04, Wed</h3>
-<div class="outline-text-3" id="text-org93a2c43">
+<div id="outline-container-org7e10610" class="outline-3">
+<h3 id="org7e10610">[L10] Sep 04, Wed</h3>
+<div class="outline-text-3" id="text-org7e10610">
 <ul class="org-ul">
 <li>Material properties. Relations between stress and strain.</li>
 <li>Young's modulus, shear modulus, Poisson ratio.</li>
@@ -578,25 +583,26 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org6b394a5" class="outline-3">
-<h3 id="org6b394a5">[T4] Sep 05, Thu</h3>
-<div class="outline-text-3" id="text-org6b394a5">
+<div id="outline-container-orge50e056" class="outline-3">
+<h3 id="orge50e056">[T4] Sep 05, Thu</h3>
+<div class="outline-text-3" id="text-orge50e056">
 <ul class="org-ul">
 <li>Tutorial shifted to Sep 06 class.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgc2473e6" class="outline-3">
-<h3 id="orgc2473e6">[L11] Sep 06, Fri</h3>
-<div class="outline-text-3" id="text-orgc2473e6">
+<div id="outline-container-org85c9ec0" class="outline-3">
+<h3 id="org85c9ec0">[L11] Sep 06, Fri</h3>
+<div class="outline-text-3" id="text-org85c9ec0">
 <ul class="org-ul">
 <li>Tutorial 4.</li>
+<li><i>Assignment 3</i> given (due on 13 Sep).</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org42208aa" class="outline-3">
-<h3 id="org42208aa">[L12] Sep 11, Wed</h3>
-<div class="outline-text-3" id="text-org42208aa">
+<div id="outline-container-org123aac3" class="outline-3">
+<h3 id="org123aac3">[L12] Sep 11, Wed</h3>
+<div class="outline-text-3" id="text-org123aac3">
 <ul class="org-ul">
 <li>Saint Venant principle.</li>
 <li>Axial deformations of a bar.</li>
@@ -607,9 +613,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgcd25e38" class="outline-3">
-<h3 id="orgcd25e38">Sep 12, Thu</h3>
-<div class="outline-text-3" id="text-orgcd25e38">
+<div id="outline-container-orgcb77420" class="outline-3">
+<h3 id="orgcb77420">Sep 12, Thu</h3>
+<div class="outline-text-3" id="text-orgcb77420">
 <ul class="org-ul">
 <li>Consideration of temperature changes through coefficient of thermal expansion.</li>
 <li>Strain decomposition into mechanical and thermal parts.</li>
@@ -618,17 +624,17 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-org58bf74a" class="outline-3">
-<h3 id="org58bf74a">[T5] Sep 12, Thu</h3>
-<div class="outline-text-3" id="text-org58bf74a">
+<div id="outline-container-org130ca77" class="outline-3">
+<h3 id="org130ca77">[T5] Sep 12, Thu</h3>
+<div class="outline-text-3" id="text-org130ca77">
 <ul class="org-ul">
 <li>Axial deformations and temperature changes of bars.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb874d6a" class="outline-3">
-<h3 id="orgb874d6a">[L13] Sep 13, Fri</h3>
-<div class="outline-text-3" id="text-orgb874d6a">
+<div id="outline-container-org9fb9d32" class="outline-3">
+<h3 id="org9fb9d32">[L13] Sep 13, Fri</h3>
+<div class="outline-text-3" id="text-org9fb9d32">
 <ul class="org-ul">
 <li>Consideration of torsion of bars.</li>
 <li>Useful video: <a href="https://www.youtube.com/watch?v=1YTKedLQOa0">https://www.youtube.com/watch?v=1YTKedLQOa0</a></li>
@@ -639,198 +645,226 @@ It is important to develop the habit of self-learning. A number of reading assig
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb57111b" class="outline-3">
-<h3 id="orgb57111b">[L14] Sep 18, Wed</h3>
-<div class="outline-text-3" id="text-orgb57111b">
+<div id="outline-container-org472b201" class="outline-3">
+<h3 id="org472b201">[L14] Sep 18, Wed</h3>
+<div class="outline-text-3" id="text-org472b201">
 <ul class="org-ul">
 <li>No lecture due to Monday's time table being followed.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb77973c" class="outline-3">
-<h3 id="orgb77973c">[T6] Sep 19, Thu</h3>
-<div class="outline-text-3" id="text-orgb77973c">
+<div id="outline-container-org156a4cc" class="outline-3">
+<h3 id="org156a4cc">[T6] Sep 19, Thu</h3>
+<div class="outline-text-3" id="text-org156a4cc">
 <ul class="org-ul">
 <li>Torsion and uniaxial forces in bars.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgaa180eb" class="outline-3">
-<h3 id="orgaa180eb">[L15] Sep 20, Fri</h3>
-<div class="outline-text-3" id="text-orgaa180eb">
+<div id="outline-container-org59745b7" class="outline-3">
+<h3 id="org59745b7">[L15] Sep 20, Fri</h3>
+<div class="outline-text-3" id="text-org59745b7">
 <ul class="org-ul">
 <li>Normal strains and stresses due to bending.</li>
 <li>Derivation of the flexure formula and underlying discussions.</li>
 <li>First and second moments of area.</li>
+<li><i>Assignment 4</i> given (due on 27 Sep).</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2de818d" class="outline-3">
-<h3 id="org2de818d">[L16] Sep 25, Wed</h3>
-<div class="outline-text-3" id="text-org2de818d">
+<div id="outline-container-org82c93d6" class="outline-3">
+<h3 id="org82c93d6">[L16] Sep 25, Wed</h3>
+<div class="outline-text-3" id="text-org82c93d6">
 <ul class="org-ul">
 <li>Normal stresses due to bending.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf044340" class="outline-3">
-<h3 id="orgf044340">[T7] Sep 24, Thu</h3>
-<div class="outline-text-3" id="text-orgf044340">
+<div id="outline-container-org2fc3fc6" class="outline-3">
+<h3 id="org2fc3fc6">[T7] Sep 24, Thu</h3>
+<div class="outline-text-3" id="text-org2fc3fc6">
 <ul class="org-ul">
 <li>Normal stresses due to bending.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2f9875c" class="outline-3">
-<h3 id="org2f9875c">Sep 27 - Oct 04: Mid semester exam week</h3>
+<div id="outline-container-org36908c6" class="outline-3">
+<h3 id="org36908c6">Sep 27 - Oct 04: Mid semester exam week</h3>
 </div>
-<div id="outline-container-org88740b6" class="outline-3">
-<h3 id="org88740b6">Oct 05 - 13: Mid semester recess</h3>
+<div id="outline-container-org344c703" class="outline-3">
+<h3 id="org344c703">Oct 05 - 13: Mid semester recess</h3>
 </div>
-<div id="outline-container-org572344c" class="outline-3">
-<h3 id="org572344c">[L17] Oct 16, Wed</h3>
-<div class="outline-text-3" id="text-org572344c">
+<div id="outline-container-org2ab94ac" class="outline-3">
+<h3 id="org2ab94ac">[L17] Oct 16, Wed</h3>
+<div class="outline-text-3" id="text-org2ab94ac">
 <ul class="org-ul">
-<li>Shear stresses in bending.</li>
+<li>Shear stresses in beams. Shear formula.</li>
+<li>Transverse and longitudinal shear stress.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 7.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgf35c6b0" class="outline-3">
-<h3 id="orgf35c6b0">[T8] Oct 17, Thu</h3>
-<div class="outline-text-3" id="text-orgf35c6b0">
+<div id="outline-container-orgc65cff0" class="outline-3">
+<h3 id="orgc65cff0">[T8] Oct 17, Thu</h3>
+<div class="outline-text-3" id="text-orgc65cff0">
 <ul class="org-ul">
 <li>Normal and shear stresses in bending.</li>
+<li><i>Assignment 5</i> given (due on 25 Oct).</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orged69256" class="outline-3">
-<h3 id="orged69256">[L18] Oct 18, Fri</h3>
-<div class="outline-text-3" id="text-orged69256">
+<div id="outline-container-orge4411f3" class="outline-3">
+<h3 id="orge4411f3">[L18] Oct 18, Fri</h3>
+<div class="outline-text-3" id="text-orge4411f3">
+<ul class="org-ul">
+<li>Stress at a point.</li>
+<li>Consideration of combined states of stress.</li>
+<li>Sign conventions for positive/negative planes and positive/negative stresses.</li>
+<li>Transformation of stresses in 2D.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 9.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orga6fb5a5" class="outline-3">
+<h3 id="orga6fb5a5">[T9] Oct 21, Mon</h3>
+<div class="outline-text-3" id="text-orga6fb5a5">
 <ul class="org-ul">
 <li>Transformation of stress in 2D.</li>
+<li>Mohr's circle for 2D stress transformation.</li>
+<li>Problems related to stress transformation.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 9.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org6951cf5" class="outline-3">
-<h3 id="org6951cf5">[L19] Oct 23, Wed</h3>
-<div class="outline-text-3" id="text-org6951cf5">
+<div id="outline-container-orgb8fd42b" class="outline-3">
+<h3 id="orgb8fd42b">[L19] Oct 23, Wed</h3>
+<div class="outline-text-3" id="text-orgb8fd42b">
 <ul class="org-ul">
-<li>Transformation of stress in 2D.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org531d25b" class="outline-3">
-<h3 id="org531d25b">[T9] Oct 24, Thu</h3>
-<div class="outline-text-3" id="text-org531d25b">
-<ul class="org-ul">
-<li>Transformation of stress in 2D.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgad2169c" class="outline-3">
-<h3 id="orgad2169c">[L20] Oct 25, Fri</h3>
-<div class="outline-text-3" id="text-orgad2169c">
-<ul class="org-ul">
+<li>Principal stresses and maximum shear stress.</li>
 <li>Transformation of strain in 2D.</li>
+<li>Generalized Hooke's law. Relations between material properties.</li>
+<li><i>Reading from the book (B2)</i>: Chapters 9 and 10.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgbece489" class="outline-3">
-<h3 id="orgbece489">[L21] Oct 30, Wed</h3>
-<div class="outline-text-3" id="text-orgbece489">
+<div id="outline-container-org79e217c" class="outline-3">
+<h3 id="org79e217c">[L20] Oct 25, Fri</h3>
+<div class="outline-text-3" id="text-org79e217c">
 <ul class="org-ul">
-<li>Deflections due to bending.</li>
+<li>Absolute maximum shear stress.</li>
+<li>Failure theories
+<ul class="org-ul">
+<li>Maximum shear stress theory (Tresca criteron)</li>
+<li>Maximum distortion energy theory (Mises-Huber criterion)</li>
+<li>Maximum normal stress theory (Mohr-Coulomb criteron)</li>
+</ul></li>
+<li><i>Reading from the book (B2)</i>: Chapter 10.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org7781716" class="outline-3">
-<h3 id="org7781716">[T10] Oct 31, Thu</h3>
-<div class="outline-text-3" id="text-org7781716">
+<div id="outline-container-org3543093" class="outline-3">
+<h3 id="org3543093">[T10] Oct 28, Mon</h3>
+<div class="outline-text-3" id="text-org3543093">
 <ul class="org-ul">
-<li>Deflections due to bending.</li>
+<li>Strain and stress transformation in 2D.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgb27c126" class="outline-3">
-<h3 id="orgb27c126">[L22] Nov 01, Fri</h3>
-<div class="outline-text-3" id="text-orgb27c126">
+<div id="outline-container-orgb6e72e1" class="outline-3">
+<h3 id="orgb6e72e1">[L21] Oct 30, Wed</h3>
+<div class="outline-text-3" id="text-orgb6e72e1">
 <ul class="org-ul">
-<li>Deflections due to bending.</li>
+<li>Displacement field and strain-displacement relationship.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org2e93de2" class="outline-3">
-<h3 id="org2e93de2">[L23] Nov 06, Wed</h3>
-<div class="outline-text-3" id="text-org2e93de2">
+<div id="outline-container-org01fd884" class="outline-3">
+<h3 id="org01fd884">[L22] Nov 01, Fri</h3>
+<div class="outline-text-3" id="text-org01fd884">
 <ul class="org-ul">
+<li>Thin-walled pressure vessels.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 11.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org4db92b0" class="outline-3">
+<h3 id="org4db92b0">[T11] Nov 04, Mon</h3>
+<div class="outline-text-3" id="text-org4db92b0">
+<ul class="org-ul">
+<li>Strain-displacement relationship and thin-walled pressure vessels.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgaa2ba90" class="outline-3">
+<h3 id="orgaa2ba90">[L23] Nov 06, Wed</h3>
+<div class="outline-text-3" id="text-orgaa2ba90">
+<ul class="org-ul">
+<li>Thin-walled pressure vessels.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 11.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1000e5f" class="outline-3">
+<h3 id="org1000e5f">[L24] Nov 08, Fri</h3>
+<div class="outline-text-3" id="text-org1000e5f">
+<ul class="org-ul">
+<li>Deflections of beams.</li>
+<li>Moment-curvature relationship. Elastic curve.</li>
+<li>Macaulay functions / singularity functions.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 12.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org12253e0" class="outline-3">
+<h3 id="org12253e0">[T12] Nov 11, Mon</h3>
+<div class="outline-text-3" id="text-org12253e0">
+<ul class="org-ul">
+<li>Deflections of beams.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orge0ece96" class="outline-3">
+<h3 id="orge0ece96">[L25] Nov 13, Wed</h3>
+<div class="outline-text-3" id="text-orge0ece96">
+<ul class="org-ul">
+<li>Strain energy and complimentary strain energy.</li>
+<li>Conservation of energy.</li>
 <li>Castigliano's theorems.</li>
+<li>Deflections of indeterminate problems.</li>
+<li><i>Reading from the book (B2)</i>: Chapter 14.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orga7061cd" class="outline-3">
-<h3 id="orga7061cd">[T11] Nov 07, Thu</h3>
-<div class="outline-text-3" id="text-orga7061cd">
+<div id="outline-container-org3fee50e" class="outline-3">
+<h3 id="org3fee50e">Nov 15, Fri - holiday (Guru Nanak's Birthday)</h3>
+</div>
+<div id="outline-container-org8c98cf0" class="outline-3">
+<h3 id="org8c98cf0">[T13] Nov 18, Mon</h3>
+<div class="outline-text-3" id="text-org8c98cf0">
 <ul class="org-ul">
-<li>Deflections due to bending.</li>
+<li>Energy methods.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0f1c900" class="outline-3">
-<h3 id="org0f1c900">[L24] Nov 08, Fri</h3>
-<div class="outline-text-3" id="text-org0f1c900">
-<ul class="org-ul">
-<li>Torsion of circular members.</li>
-<li>State of stress in members with torsion and axial force.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org22736b0" class="outline-3">
-<h3 id="org22736b0">[L25] Nov 13, Wed</h3>
-<div class="outline-text-3" id="text-org22736b0">
+<div id="outline-container-org7764337" class="outline-3">
+<h3 id="org7764337">[L26] Nov 20, Wed</h3>
+<div class="outline-text-3" id="text-org7764337">
 <ul class="org-ul">
 <li>Stability of equilibrium.</li>
 <li>Buckling of slender members.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org9ac5769" class="outline-3">
-<h3 id="org9ac5769">[T12] Nov 14, Thu</h3>
-<div class="outline-text-3" id="text-org9ac5769">
-<ul class="org-ul">
-<li>Torsion of circular members.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org6961266" class="outline-3">
-<h3 id="org6961266">Nov 15, Fri - holiday (Guru Nanak's Birthday)</h3>
-</div>
-<div id="outline-container-orgbeafd21" class="outline-3">
-<h3 id="orgbeafd21">[L26] Nov 20, Wed</h3>
-<div class="outline-text-3" id="text-orgbeafd21">
-<ul class="org-ul">
-<li>Buckling of slender members.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-org064e866" class="outline-3">
-<h3 id="org064e866">[T13] Nov 21, Thu</h3>
-<div class="outline-text-3" id="text-org064e866">
-<ul class="org-ul">
-<li>Stability of equilibrium.</li>
-<li>Buckling of slender members.</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-orgcb065bd" class="outline-3">
-<h3 id="orgcb065bd">[L27] Nov 22, Fri</h3>
-<div class="outline-text-3" id="text-orgcb065bd">
+<div id="outline-container-orgc744a16" class="outline-3">
+<h3 id="orgc744a16">[L27] Nov 22, Fri</h3>
+<div class="outline-text-3" id="text-orgc744a16">
 <ul class="org-ul">
 <li>Review of topics.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org9939f20" class="outline-3">
-<h3 id="org9939f20">Nov 23 - 29: End semester exam week</h3>
+<div id="outline-container-orge30b96f" class="outline-3">
+<h3 id="orge30b96f">Nov 23 - 29: End semester exam week</h3>
 </div>
 </div>
 </div>
