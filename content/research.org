@@ -1,5 +1,6 @@
 #+TITLE: Research
 #+OPTIONS: toc:nil title:nil
+#+PROPERTY: HEADER-ARGS+ :eval no-export
 
 * Ongoing Projects
 - Egress modeling of metro stations
@@ -16,7 +17,7 @@
 	
 * Publications
 ** Books
-#+BEGIN_SRC emacs-lisp :results raw :exports results :eval yes
+#+BEGIN_SRC emacs-lisp :results raw :exports results
   (setq cv-buffer (find-file-noselect "~/Nextcloud/Notes/elisp/cv.org"))
   (with-current-buffer cv-buffer
     (goto-char (point-min))
@@ -39,7 +40,7 @@
 1. D. Nakrani and G. Srivastava. 2021. /Quantification of enhanced fire severity in modern buildings/. Eds.: A.K. Gupta, A. De, S.K. Aggarwal, and A. Kushari. In: Advances in Energy and Combusion: Safety and Sustainability. Springer Nature. Pages 413-427. 9789811626470.
 
 ** Refereed Journal Publications
-#+BEGIN_SRC emacs-lisp :results drawer :exports results :eval yes
+#+BEGIN_SRC emacs-lisp :results drawer :exports results
   (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/notes/elisp/cv.org")))
 
   (with-current-buffer cv-buffer
@@ -96,7 +97,7 @@
 :end:
 
 ** Conference Publications and Presentations
-#+BEGIN_SRC emacs-lisp :results drawer :exports results :eval yes
+#+BEGIN_SRC emacs-lisp :results drawer :exports results
   (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/notes/elisp/cv.org")))
 
   (with-current-buffer cv-buffer

@@ -1,8 +1,9 @@
 #+TITLE: Students
 #+OPTIONS: toc:nil title:nil
+#+PROPERTY: HEADER-ARGS+ :eval no-export
 
 * Doctoral Students
-#+BEGIN_SRC emacs-lisp :results drawer :exports results :eval yes
+#+BEGIN_SRC emacs-lisp :results drawer :exports results
   (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/notes/elisp/cv.org")))
 
   (with-current-buffer cv-buffer
@@ -30,7 +31,7 @@
 1. Yajat Sharma. ongoing. /Fire egress modeling/.
 
 * Masters Students
-#+BEGIN_SRC emacs-lisp :results drawer :exports results :eval yes
+#+BEGIN_SRC emacs-lisp :results drawer :exports results
   (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/notes/elisp/cv.org")))
 
   (with-current-buffer cv-buffer
