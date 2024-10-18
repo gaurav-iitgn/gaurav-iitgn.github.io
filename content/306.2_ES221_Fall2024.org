@@ -9,10 +9,11 @@
 |-------------------+-----------------------------------------|
 | Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in) |
 |-------------------+-----------------------------------------|
-| Tutorial timings  | Thursday, 22:00-23:20 hrs               |
-| Tutorial location | AB 7/101                                |
+| Tutorial timings  | Monday, 15:30-16:50 hrs                 |
+| Tutorial location | AB 7/206                                |
 |-------------------+-----------------------------------------|
-| TA                | Yajat Sharma (yajat.sharma@iitgn.ac.in) |
+| TAs               | Yajat Sharma (yajat.sharma@iitgn.ac.in) |
+|                   | Samar Jyoti Deka (24250078@iitgn.ac.in) |
 |-------------------+-----------------------------------------|
 
 
@@ -187,35 +188,57 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Normal and shear stresses in bending.
 - /Assignment 5/ given (due on 25 Oct).
 ** [L18] Oct 18, Fri
+- Stress at a point.
+- Consideration of combined states of stress.
+- Sign conventions for positive/negative planes and positive/negative stresses.
+- Transformation of stresses in 2D.
+- /Reading from the book (B2)/: Chapter 9.
+** [T9] Oct 21, Mon
 - Transformation of stress in 2D.
+- Mohr's circle for 2D stress transformation.
+- Problems related to stress transformation.
+- /Reading from the book (B2)/: Chapter 9.
 ** [L19] Oct 23, Wed
-- Transformation of stress in 2D.
-** [T9] Oct 24, Thu
-- Transformation of stress in 2D.
-** [L20] Oct 25, Fri
+- Principal stresses and maximum shear stress.
 - Transformation of strain in 2D.
+- Generalized Hooke's law. Relations between material properties.
+- /Reading from the book (B2)/: Chapters 9 and 10.
+** [L20] Oct 25, Fri
+- Absolute maximum shear stress.
+- Failure theories
+  - Maximum shear stress theory (Tresca criteron)
+  - Maximum distortion energy theory (Mises-Huber criterion)
+  - Maximum normal stress theory (Mohr-Coulomb criteron)
+- /Reading from the book (B2)/: Chapter 10.
+** [T10] Oct 28, Mon
+- Strain and stress transformation in 2D.
 ** [L21] Oct 30, Wed
-- Deflections due to bending.
-** [T10] Oct 31, Thu
-- Deflections due to bending.
+- Displacement field and strain-displacement relationship.
 ** [L22] Nov 01, Fri
-- Deflections due to bending.
+- Thin-walled pressure vessels.
+- /Reading from the book (B2)/: Chapter 11.
+** [T11] Nov 04, Mon
+- Strain-displacement relationship and thin-walled pressure vessels.
 ** [L23] Nov 06, Wed
-- Castigliano's theorems.
-** [T11] Nov 07, Thu
-- Deflections due to bending.
+- Thin-walled pressure vessels.
+- /Reading from the book (B2)/: Chapter 11.
 ** [L24] Nov 08, Fri
-- Torsion of circular members.
-- State of stress in members with torsion and axial force.
+- Deflections of beams.
+- Moment-curvature relationship. Elastic curve.
+- Macaulay functions / singularity functions.
+- /Reading from the book (B2)/: Chapter 12.
+** [T12] Nov 11, Mon
+- Deflections of beams.
 ** [L25] Nov 13, Wed
-- Stability of equilibrium.
-- Buckling of slender members.
-** [T12] Nov 14, Thu
-- Torsion of circular members.
+- Strain energy and complimentary strain energy.
+- Conservation of energy.
+- Castigliano's theorems.
+- Deflections of indeterminate problems.
+- /Reading from the book (B2)/: Chapter 14.
 ** Nov 15, Fri - holiday (Guru Nanak's Birthday)
+** [T13] Nov 18, Mon
+- Energy methods.
 ** [L26] Nov 20, Wed
-- Buckling of slender members.
-** [T13] Nov 21, Thu
 - Stability of equilibrium.
 - Buckling of slender members.
 ** [L27] Nov 22, Fri
