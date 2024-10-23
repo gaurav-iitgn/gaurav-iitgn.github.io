@@ -196,14 +196,17 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T9] Oct 21, Mon
 - Transformation of stress in 2D.
 - Mohr's circle for 2D stress transformation.
+- Principal stresses and maximum shear stress.
 - Problems related to stress transformation.
 - /Reading from the book (B2)/: Chapter 9.
 ** [L19] Oct 23, Wed
-- Principal stresses and maximum shear stress.
-- Transformation of strain in 2D.
-- Generalized Hooke's law. Relations between material properties.
+- General state of plane stress and equilibrium equations.
+- General state of plane strain and strain-displacement relations.
+- Mohr's circle for plane strain.
+- Generalized Hooke's law for triaxial loading and thermal effects.
 - /Reading from the book (B2)/: Chapters 9 and 10.
 ** [L20] Oct 25, Fri
+- Relations between material properties.
 - Absolute maximum shear stress.
 - Failure theories
   - Maximum shear stress theory (Tresca criteron)
