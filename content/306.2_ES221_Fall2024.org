@@ -205,6 +205,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Mohr's circle for plane strain.
 - Generalized Hooke's law for triaxial loading and thermal effects.
 - /Reading from the book (B2)/: Chapters 9 and 10.
+- /In-class submission C3/
 ** [L20] Oct 25, Fri
 - Relations between material properties.
 - Absolute maximum shear stress.
