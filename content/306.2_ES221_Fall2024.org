@@ -220,6 +220,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapter 10.
 ** [T10] Oct 28, Mon
 - Strain and stress transformation in 2D, triaxial state of stress.
+- /Assignment 6/ given (due on 4 Nov).
 ** [L21] Oct 30, Wed
 - Failure theories
   - Maximum shear stress theory (Tresca criteron)
