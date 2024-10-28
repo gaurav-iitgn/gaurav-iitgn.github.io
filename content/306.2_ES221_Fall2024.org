@@ -176,6 +176,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Assignment 4/ given (due on 27 Sep).
 ** [L16] Sep 25, Wed
 - Normal stresses due to bending.
+- Centroid and moment of area of different shapes.
 ** [T7] Sep 24, Thu
 - Normal stresses due to bending.
 ** Sep 27 - Oct 04: Mid semester exam week
@@ -207,17 +208,24 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapters 9 and 10.
 - /In-class submission C3/
 ** [L20] Oct 25, Fri
-- Relations between material properties.
+- Triaxial state of stress.
+- Mohr's circle for triaxial state of stress.
 - Absolute maximum shear stress.
-- Failure theories
+- Dilatation vs. distortion. Definition of bulk modulus and its relation with Young's modulus.
+- Theoretical limits for Poisson's ratio.
+- Introduction to failure theories
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
   - Maximum normal stress theory (Mohr-Coulomb criteron)
 - /Reading from the book (B2)/: Chapter 10.
 ** [T10] Oct 28, Mon
-- Strain and stress transformation in 2D.
+- Strain and stress transformation in 2D, triaxial state of stress.
 ** [L21] Oct 30, Wed
-- Displacement field and strain-displacement relationship.
+- Failure theories
+  - Maximum shear stress theory (Tresca criteron)
+  - Maximum distortion energy theory (Mises-Huber criterion)
+  - Maximum normal stress theory (Mohr-Coulomb criteron)
+- /Reading from the book (B2)/: Chapter 10.
 ** [L22] Nov 01, Fri
 - Thin-walled pressure vessels.
 - /Reading from the book (B2)/: Chapter 11.
