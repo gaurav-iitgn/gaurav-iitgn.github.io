@@ -226,19 +226,19 @@ It is important to develop the habit of self-learning. A number of reading assig
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
 - /Reading from the book (B2)/: Chapter 10.
-** [L22] Nov 01, Fri --> Nov 04
+** [L22] Nov 01, Fri --> Nov 07
 - Maximum normal stress failure theory (Mohr-Coulomb criteron)
 - Useful video on failure theories: https://www.youtube.com/watch?v=xkbQnBAOFEg
-- Thin-walled pressure vessels.
-- /Reading from the book (B2)/: Chapter 11.
+- /Reading from the book (B2)/: Chapter 10.
 ** [T11] Nov 04, Mon
 - Strain-displacement relationship and thin-walled pressure vessels.
 ** [L23] Nov 06, Wed
 - Thin-walled pressure vessels.
-- /Reading from the book (B2)/: Chapter 11.
+- Moment-curvature relationship in beams. Elastic curve.
+- Deflections of beams.
+- /Reading from the book (B2)/: Chapters 8 and 12.
 ** [L24] Nov 08, Fri
 - Deflections of beams.
-- Moment-curvature relationship. Elastic curve.
 - Macaulay functions / singularity functions.
 - /Reading from the book (B2)/: Chapter 12.
 ** [T12] Nov 11, Mon
