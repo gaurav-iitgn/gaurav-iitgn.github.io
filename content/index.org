@@ -7,7 +7,7 @@
   <div class="column left">
 	  <b>Gaurav Srivastava</b>
 		<br>
-		Associate Professor and Dr. Vilas Mujumdar Chair
+		Professor and Dr. Vilas Mujumdar Chair
 		<br>
 		<small>
 		Civil Engineering, IIT Gandhinagar
