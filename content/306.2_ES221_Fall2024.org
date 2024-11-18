@@ -232,6 +232,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapter 10.
 ** [T11] Nov 04, Mon
 - Strain-displacement relationship and thin-walled pressure vessels.
+- /Assignment 7/ given (due on 11 Nov).
 ** [L23] Nov 06, Wed
 - Thin-walled pressure vessels.
 - Moment-curvature relationship in beams. Elastic curve.
@@ -241,6 +242,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - No class due to Amalthea.
 ** [T12] Nov 11, Mon
 - Deflections of beams.
+- /Assignment 8/ given (due on 18 Nov).
 ** [L25] Nov 13, Wed
 - Deflections of beams.
 - Macaulay functions / singularity functions.
@@ -253,7 +255,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapter 14.
 ** Nov 15, Fri - holiday (Guru Nanak's Birthday)
 ** [T13] Nov 18, Mon
-- Energy methods.
+- Singularity method and Energy methods.
+- /Assignment 9/ given (due on 22 Nov).
 ** [L26] Nov 20, Wed
 - Stability of equilibrium.
 - Buckling of slender members.
