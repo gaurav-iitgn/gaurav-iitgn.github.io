@@ -180,6 +180,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T7] Sep 24, Thu
 - Normal stresses due to bending.
 ** Sep 27 - Oct 04: Mid semester exam week
+*** Oct 04, Fri, 14:00-16:00 -- Mid Semester Exam -- AB 7/208
 ** Oct 05 - 13: Mid semester recess
 ** [L17] Oct 16, Wed
 - Shear stresses in beams. Shear formula.
@@ -263,3 +264,4 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L27] Nov 22, Fri
 - Review of topics.
 ** Nov 23 - 29: End semester exam week
+*** Nov 23, Sat, 14:00-16:30 -- End Semester Exam -- AB 10/202
