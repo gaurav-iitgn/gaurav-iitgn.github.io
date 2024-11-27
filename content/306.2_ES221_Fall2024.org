@@ -181,6 +181,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Normal stresses due to bending.
 ** Sep 27 - Oct 04: Mid semester exam week
 *** Oct 04, Fri, 14:00-16:00 -- Mid Semester Exam -- AB 7/208
+Marks out of 100: Maximum: 90, Average: 60.67, Standard Deviation: 21.15
 ** Oct 05 - 13: Mid semester recess
 ** [L17] Oct 16, Wed
 - Shear stresses in beams. Shear formula.
@@ -265,3 +266,4 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Review of topics.
 ** Nov 23 - 29: End semester exam week
 *** Nov 23, Sat, 14:00-16:30 -- End Semester Exam -- AB 10/202
+Marks out of 100: Maximum: 91, Average: 50.83, Standard Deviation: 21.50
