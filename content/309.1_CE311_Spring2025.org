@@ -11,7 +11,7 @@
 |-------------------+-----------------------------------------------------+------------------------------------------------|
 | Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)             | Siva Chopperla (siva.chopperla@iitgn.ac.in)    |
 |-------------------+-----------------------------------------------------+------------------------------------------------|
-| Tutorial timings  | Thursday, 17:00-18:20 hrs                           | Thursday, 17:00-18:20 hrs                      |
+| Tutorial time     | Thursday, 17:00-18:20 hrs                           | Thursday, 17:00-18:20 hrs                      |
 | Tutorial location | AB 7/206                                            | AB 7/206                                       |
 |-------------------+-----------------------------------------------------+------------------------------------------------|
 | TAs               | Venkata Valligatla (venkata.valligatla@iitgn.ac.in) | Sheikh Mayesser Mushtaq (sheikh.m@iitgn.ac.in) |
@@ -41,7 +41,7 @@
 - Reinforced Concrete Design - S Unnikrishna Pillai and Devdas Menon.
 # comment
 	
-** Reference Books
+** Reference Book
 - Limit State Design of Reinforced Concrete Structures - P C Verghese.
 
 ** Required codes
