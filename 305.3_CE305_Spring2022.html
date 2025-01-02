@@ -3,13 +3,13 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-11-27 Wed 10:40 -->
+<!-- 2025-01-02 Thu 17:11 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>CE 305: Steel Design - Spring 2022</title>
-<meta name="generator" content="Org mode" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
   .title  { text-align: center;
              margin-bottom: .2em; }
   .subtitle { text-align: center;
@@ -30,8 +30,9 @@
   #postamble p, #preamble p { font-size: 90%; margin: .2em; }
   p.verse { margin-left: 3%; }
   pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
     padding: 8pt;
     font-family: monospace;
     overflow: auto;
@@ -39,22 +40,22 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
-    padding-top: 1.2em;
+    overflow: auto;
   }
   pre.src:before {
     display: none;
     position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
+    top: -8px;
+    right: 12px;
     padding: 3px;
-    border: 1px solid black;
+    color: #555;
+    background-color: #f2f2f299;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
   pre.src-C:before { content: 'C'; }
   /* pre.src-C++ doesn't work in CSS */
   pre.src-clojure:before { content: 'Clojure'; }
@@ -189,34 +190,43 @@
     { font-size: 10px; font-weight: bold; white-space: nowrap; }
   .org-info-js_search-highlight
     { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
+  .org-svg { }
 </style>
 
 <link rel='stylesheet' href='gs_simple.css' />
 <script type='text/javascript' src='gs_simple.js'></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        displayAlign: "center",
-        displayIndent: "0em",
-
-        "HTML-CSS": { scale: 100,
-                        linebreaks: { automatic: "false" },
-                        webFont: "TeX"
-                       },
-        SVG: {scale: 100,
-              linebreaks: { automatic: "false" },
-              font: "TeX"},
-        NativeMML: {scale: 100},
-        TeX: { equationNumbers: {autoNumber: "AMS"},
-               MultLineWidth: "85%",
-               TagSide: "right",
-               TagIndent: ".8em"
-             }
-});
+<script>
+  window.MathJax = {
+    tex: {
+      ams: {
+        multlineWidth: '85%'
+      },
+      tags: 'ams',
+      tagSide: 'right',
+      tagIndent: '.8em'
+    },
+    chtml: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    svg: {
+      scale: 1.0,
+      displayAlign: 'center',
+      displayIndent: '0em'
+    },
+    output: {
+      font: 'mathjax-modern',
+      displayOverflow: 'overflow'
+    }
+  };
 </script>
-<script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+
+<script
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 </head>
 <body>
 <div id="preamble" class="status">
@@ -230,50 +240,50 @@
 </nav>
 </center>
 </div>
-<div id="content">
+<div id="content" class="content">
 <h1 class="title">CE 305: Steel Design - Spring 2022</h1>
-<div id="table-of-contents">
+<div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
-<div id="text-table-of-contents">
+<div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org2add67f">Basic Information</a></li>
-<li><a href="#org6ce34ca">Course objectives, syllabus, books, pre-requisites</a>
+<li><a href="#org0592062">Basic Information</a></li>
+<li><a href="#org94e6ae5">Course objectives, syllabus, books, pre-requisites</a>
 <ul>
-<li><a href="#org69b5d9e">Objective</a></li>
-<li><a href="#org660cdff">After finishing this course, you will</a></li>
-<li><a href="#orgadd2d16">Syllabus</a></li>
-<li><a href="#orgc97813c">Text Books</a></li>
-<li><a href="#orgcfa9d83">Relevant codes</a></li>
-<li><a href="#org5b5be4a">Pre-requisites</a></li>
+<li><a href="#orgca80c2e">Objective</a></li>
+<li><a href="#org23047a1">After finishing this course, you will</a></li>
+<li><a href="#org6037fb7">Syllabus</a></li>
+<li><a href="#org9c72acf">Text Books</a></li>
+<li><a href="#org970103a">Relevant codes</a></li>
+<li><a href="#org408ba5b">Pre-requisites</a></li>
 </ul>
 </li>
-<li><a href="#org10efa1b">Course Policies</a>
+<li><a href="#org35122e5">Course Policies</a>
 <ul>
-<li><a href="#org105491e">Etiquette</a></li>
-<li><a href="#org70d066c">Cheating</a></li>
-<li><a href="#org29a8e45">Late submissions</a></li>
-<li><a href="#orgab6e638">Grading</a></li>
-<li><a href="#orgdd64253">Modes of formal assessment</a></li>
-<li><a href="#org52d160e">Emphasis on self-learning</a></li>
+<li><a href="#orgcda1b3a">Etiquette</a></li>
+<li><a href="#org66c9c35">Cheating</a></li>
+<li><a href="#orge84e4e5">Late submissions</a></li>
+<li><a href="#orgdfedb83">Grading</a></li>
+<li><a href="#org67ddd27">Modes of formal assessment</a></li>
+<li><a href="#org3e27d71">Emphasis on self-learning</a></li>
 </ul>
 </li>
-<li><a href="#orgbb7db22">Project</a>
+<li><a href="#org9a97c32">Project</a>
 <ul>
-<li><a href="#orgeedd306">Timeline</a>
+<li><a href="#org9055462">Timeline</a>
 <ul>
-<li><a href="#org3ba4a65">Guidelines on the final report</a></li>
+<li><a href="#org90c3a07">Guidelines on the final report</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#orgec4b3b8">Calendar (tentative)</a></li>
+<li><a href="#orgac846e4">Calendar (tentative)</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org2add67f" class="outline-2">
-<h2 id="org2add67f">Basic Information</h2>
-<div class="outline-text-2" id="text-org2add67f">
+<div id="outline-container-org0592062" class="outline-2">
+<h2 id="org0592062">Basic Information</h2>
+<div class="outline-text-2" id="text-org0592062">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -317,22 +327,22 @@
 
 
 
-<div id="outline-container-org6ce34ca" class="outline-2">
-<h2 id="org6ce34ca">Course objectives, syllabus, books, pre-requisites</h2>
-<div class="outline-text-2" id="text-org6ce34ca">
+<div id="outline-container-org94e6ae5" class="outline-2">
+<h2 id="org94e6ae5">Course objectives, syllabus, books, pre-requisites</h2>
+<div class="outline-text-2" id="text-org94e6ae5">
 </div>
-<div id="outline-container-org69b5d9e" class="outline-3">
-<h3 id="org69b5d9e">Objective</h3>
-<div class="outline-text-3" id="text-org69b5d9e">
+<div id="outline-container-orgca80c2e" class="outline-3">
+<h3 id="orgca80c2e">Objective</h3>
+<div class="outline-text-3" id="text-orgca80c2e">
 <ul class="org-ul">
 <li>To learn the basics of analysis and design of steel structures.</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org660cdff" class="outline-3">
-<h3 id="org660cdff">After finishing this course, you will</h3>
-<div class="outline-text-3" id="text-org660cdff">
+<div id="outline-container-org23047a1" class="outline-3">
+<h3 id="org23047a1">After finishing this course, you will</h3>
+<div class="outline-text-3" id="text-org23047a1">
 <ul class="org-ul">
 <li>know how to analyze structural steel components</li>
 <li>know how to design structural steel members (members under tension, compression and bending)</li>
@@ -341,18 +351,18 @@
 </div>
 </div>
 
-<div id="outline-container-orgadd2d16" class="outline-3">
-<h3 id="orgadd2d16">Syllabus</h3>
-<div class="outline-text-3" id="text-orgadd2d16">
+<div id="outline-container-org6037fb7" class="outline-3">
+<h3 id="org6037fb7">Syllabus</h3>
+<div class="outline-text-3" id="text-org6037fb7">
 <p>
 Design of tension members; Design of beams; Design of compression members; Analysis of eccentrically loaded columns; Design of beam-columns; Design of connections (riveted, bolted and welded); Single and built-up sections.
 </p>
 </div>
 </div>
 
-<div id="outline-container-orgc97813c" class="outline-3">
-<h3 id="orgc97813c">Text Books</h3>
-<div class="outline-text-3" id="text-orgc97813c">
+<div id="outline-container-org9c72acf" class="outline-3">
+<h3 id="org9c72acf">Text Books</h3>
+<div class="outline-text-3" id="text-org9c72acf">
 <ul class="org-ul">
 <li>Design of Steel Structures by N. Subramanian.</li>
 <li>Structural Steel Design by McCormac and Csernak.</li>
@@ -360,9 +370,9 @@ Design of tension members; Design of beams; Design of compression members; Analy
 </div>
 </div>
 
-<div id="outline-container-orgcfa9d83" class="outline-3">
-<h3 id="orgcfa9d83">Relevant codes</h3>
-<div class="outline-text-3" id="text-orgcfa9d83">
+<div id="outline-container-org970103a" class="outline-3">
+<h3 id="org970103a">Relevant codes</h3>
+<div class="outline-text-3" id="text-org970103a">
 <ul class="org-ul">
 <li>IS 800:2007 (main design code)</li>
 <li>IS 875 (specification of design loads)</li>
@@ -378,9 +388,9 @@ Codes can be downloaded free of charge from the BIS website: <a href="https://st
 </div>
 </div>
 
-<div id="outline-container-org5b5be4a" class="outline-3">
-<h3 id="org5b5be4a">Pre-requisites</h3>
-<div class="outline-text-3" id="text-org5b5be4a">
+<div id="outline-container-org408ba5b" class="outline-3">
+<h3 id="org408ba5b">Pre-requisites</h3>
+<div class="outline-text-3" id="text-org408ba5b">
 <ul class="org-ul">
 <li>CE 302 - Structural Analysis</li>
 <li>Mechanics of Solids</li>
@@ -389,13 +399,13 @@ Codes can be downloaded free of charge from the BIS website: <a href="https://st
 </div>
 </div>
 
-<div id="outline-container-org10efa1b" class="outline-2">
-<h2 id="org10efa1b">Course Policies</h2>
-<div class="outline-text-2" id="text-org10efa1b">
+<div id="outline-container-org35122e5" class="outline-2">
+<h2 id="org35122e5">Course Policies</h2>
+<div class="outline-text-2" id="text-org35122e5">
 </div>
-<div id="outline-container-org105491e" class="outline-3">
-<h3 id="org105491e">Etiquette</h3>
-<div class="outline-text-3" id="text-org105491e">
+<div id="outline-container-orgcda1b3a" class="outline-3">
+<h3 id="orgcda1b3a">Etiquette</h3>
+<div class="outline-text-3" id="text-orgcda1b3a">
 <ul class="org-ul">
 <li>Please be considerate about everyone's time.</li>
 <li>In all emails pertaining to this course, please have "CE305" in the subject line.
@@ -406,18 +416,18 @@ Codes can be downloaded free of charge from the BIS website: <a href="https://st
 </div>
 </div>
 
-<div id="outline-container-org70d066c" class="outline-3">
-<h3 id="org70d066c">Cheating</h3>
-<div class="outline-text-3" id="text-org70d066c">
+<div id="outline-container-org66c9c35" class="outline-3">
+<h3 id="org66c9c35">Cheating</h3>
+<div class="outline-text-3" id="text-org66c9c35">
 <p>
 Cheating cases (assignments/codes/exams/project) will be awarded an F grade and will be reported to academic office. It is expected that this will never happen and everyone will uphold the honor code.
 </p>
 </div>
 </div>
 
-<div id="outline-container-org29a8e45" class="outline-3">
-<h3 id="org29a8e45">Late submissions</h3>
-<div class="outline-text-3" id="text-org29a8e45">
+<div id="outline-container-orge84e4e5" class="outline-3">
+<h3 id="orge84e4e5">Late submissions</h3>
+<div class="outline-text-3" id="text-orge84e4e5">
 <p>
 All delays beyond the defined deadlines will attract reduction in marks as per the following curve.
 The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematically, it is given by: \(R = \exp(-D^2)\), where \(D\) is the total delay in days (will be counted hourly, i.e. fractional days are possible).
@@ -426,9 +436,9 @@ The reduction factor, \(R\) will be multiplied to the obtained marks. Mathematic
 </div>
 </div>
 
-<div id="outline-container-orgab6e638" class="outline-3">
-<h3 id="orgab6e638">Grading</h3>
-<div class="outline-text-3" id="text-orgab6e638">
+<div id="outline-container-orgdfedb83" class="outline-3">
+<h3 id="orgdfedb83">Grading</h3>
+<div class="outline-text-3" id="text-orgdfedb83">
 <p>
 Following will be the weightage of different components of assessment
 </p>
@@ -471,9 +481,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-orgdd64253" class="outline-3">
-<h3 id="orgdd64253">Modes of formal assessment</h3>
-<div class="outline-text-3" id="text-orgdd64253">
+<div id="outline-container-org67ddd27" class="outline-3">
+<h3 id="org67ddd27">Modes of formal assessment</h3>
+<div class="outline-text-3" id="text-org67ddd27">
 <ul class="org-ul">
 <li>Assignments will involve detailed analysis and design questions.</li>
 <li>Expect one assignment per week.</li>
@@ -483,9 +493,9 @@ Following will be the weightage of different components of assessment
 </div>
 </div>
 
-<div id="outline-container-org52d160e" class="outline-3">
-<h3 id="org52d160e">Emphasis on self-learning</h3>
-<div class="outline-text-3" id="text-org52d160e">
+<div id="outline-container-org3e27d71" class="outline-3">
+<h3 id="org3e27d71">Emphasis on self-learning</h3>
+<div class="outline-text-3" id="text-org3e27d71">
 <p>
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 </p>
@@ -493,18 +503,18 @@ It is important to develop the habit of self-learning. A number of reading assig
 </div>
 </div>
 
-<div id="outline-container-orgbb7db22" class="outline-2">
-<h2 id="orgbb7db22">Project</h2>
-<div class="outline-text-2" id="text-orgbb7db22">
+<div id="outline-container-org9a97c32" class="outline-2">
+<h2 id="org9a97c32">Project</h2>
+<div class="outline-text-2" id="text-org9a97c32">
 <p>
 The project will entail designing the roof truss of the IITGN's sports complex (Badminton Hall). Existing drawings will be made available. The challenge will be to come up with alternative possibilities.
 </p>
 </div>
 
 
-<div id="outline-container-orgeedd306" class="outline-3">
-<h3 id="orgeedd306">Timeline</h3>
-<div class="outline-text-3" id="text-orgeedd306">
+<div id="outline-container-org9055462" class="outline-3">
+<h3 id="org9055462">Timeline</h3>
+<div class="outline-text-3" id="text-org9055462">
 <p>
 Project is to be done in groups of not more than 3. Following timeline must be adhered to for all submissions. (this timeline will be updated during the first week of classes)
 </p>
@@ -556,9 +566,9 @@ Project is to be done in groups of not more than 3. Following timeline must be a
 </table>
 </div>
 
-<div id="outline-container-org3ba4a65" class="outline-4">
-<h4 id="org3ba4a65">Guidelines on the final report</h4>
-<div class="outline-text-4" id="text-org3ba4a65">
+<div id="outline-container-org90c3a07" class="outline-4">
+<h4 id="org90c3a07">Guidelines on the final report</h4>
+<div class="outline-text-4" id="text-org90c3a07">
 <p>
 This report should be organized as follows:
 </p>
@@ -576,9 +586,9 @@ This report should be organized as follows:
 </div>
 
 
-<div id="outline-container-orgec4b3b8" class="outline-2">
-<h2 id="orgec4b3b8">Calendar (tentative)</h2>
-<div class="outline-text-2" id="text-orgec4b3b8">
+<div id="outline-container-orgac846e4" class="outline-2">
+<h2 id="orgac846e4">Calendar (tentative)</h2>
+<div class="outline-text-2" id="text-orgac846e4">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
