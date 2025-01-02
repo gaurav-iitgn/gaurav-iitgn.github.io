@@ -1,0 +1,163 @@
+#+TITLE: CE 311: Design of Reinforced Concrete Structures - Spring 2025
+# #+OPTIONS: 
+#+OPTIONS: toc:1
+
+* Basic Information
+|-------------------+-----------------------------------------------------+------------------------------------------------|
+|                   | Theory                                              | Laboratory                                     |
+|-------------------+-----------------------------------------------------+------------------------------------------------|
+| Class time        | Wednesday, Friday, 10:00-11:20 hrs                  | Thursday, 15:30-16:50 hrs                      |
+| Class location    | AB 7/101                                            | AB 6/102                                       |
+|-------------------+-----------------------------------------------------+------------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)             | Siva Chopperla (siva.chopperla@iitgn.ac.in)    |
+|-------------------+-----------------------------------------------------+------------------------------------------------|
+| Tutorial timings  | Thursday, 17:00-18:20 hrs                           | Thursday, 17:00-18:20 hrs                      |
+| Tutorial location | AB 7/206                                            | AB 7/206                                       |
+|-------------------+-----------------------------------------------------+------------------------------------------------|
+| TAs               | Venkata Valligatla (venkata.valligatla@iitgn.ac.in) | Sheikh Mayesser Mushtaq (sheikh.m@iitgn.ac.in) |
+|                   | Sreerag CS (24250094@iitgn.ac.in)                   | Faizan Yousuf Bhat (24350009@iitgn.ac.in)      |
+|-------------------+-----------------------------------------------------+------------------------------------------------|
+*Note*:
+1. Tutorial hours will be used for problem-solving, covering theoretical aspects of the laboratory, and hands-on laboratory experiments, as relevant for the topics being covered.
+2. The remainder of this website has information pertaining to the theory part of the course.
+3. The laboratory part of the course will use a Google Classroom (Code: wg7cn6k). More information is available here (link to PDF).
+
+* Course objectives, syllabus, books, pre-requisites
+** Objectives
+- To learn the fundamentals of analyzing reinforced concrete structural members.
+- To learn design of basic structural members of a reinforced concrete building.
+- To learn overall structual design of a reinforced concrete building.
+	
+** Syllabus
+- Properties of concrete and steel.
+- Design philosophies.
+- Loads and load combinations.
+- Analysis and design of beams, columns, slabs, stair case and shallow foundations.
+- Ductile detailing.
+- (if time permits: ) design of shear walls, seismic design.
+
+		
+** Textbook
+- Reinforced Concrete Design - S Unnikrishna Pillai and Devdas Menon.
+# comment
+	
+** Reference Books
+- Limit State Design of Reinforced Concrete Structures - P C Verghese.
+
+** Required codes
+- IS 456(2000): Plain and reinforced concrete - Code of Practice
+- IS 875-1(1987): Code of practice for design loads (other than earthquake) for buildings and structures [Dead Loads]
+- IS 875-2(1987): Code of practice for design loads (other than earthquake) for buildings and structures [Imposed Loads]
+- IS 875-3(2015): Code of practice for design loads (other than earthquake) for buildings and structures [Wind Loads]
+- SP 16(1980): Design aids for reinforced concrete to IS 456
+
+*Note*:
+- Please have a printed copy of the codes available during classes, tutorials and exams.
+- During the exams, only printed copies of the codes will be allowed.
+
+** Pre-requisites
+- Good background in Mechanics of Solids.
+- Good background in Structural Analysis.
+- Curiosity to learn the fundamentals behind construction of some of the largest structures like Hoover Dam and Burj Khalifa.
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE311" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 311)
+
+** Cheating
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+
+** Grading
+- Theory part comprises of 70% of the overall grading (remaining 30% is for laboratory)
+- Following will be the weightage of different components of assessment for the theory part
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       40% |
+| Exams (two)          |  15% each |
+
+** Modes of formal assessment
+- Assignments will involve two types of problems:
+	- Set A: to be submitted for grading
+	- Set B: to be practiced and will not be graded (this is treated as tutorial; help will be available from the TAs/instructor for solving, if needed)
+- Exams will involve take home type analysis/design problems along with viva/presentations.
+- Expect one assignment per week.
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Calendar (tentative)
+** [L1] Jan 03, Fri
+- Introduction to design. Components of a building. Load path.
+** [L2] Jan 08, Wed
+- Analysis of a building. Load calculations. IS 875-1. Characteristics loads.
+** [L3] Jan 10, Fri
+- Load calculations. IS 875-2. Load path and distribution. Characteristic loads.
+** [L4] Jan 15, Wed
+- Structural systems. Framed systems and their analysis. Typology of different components of structural systems.
+** [L5] Jan 17, Fri
+- Introduction to IS 456.
+- Discussions on materials, constituents of concrete, characteristic strength, construction practices.
+- Design philosophies. Partial safety factors.
+- Properties of concrete.
+** [L6] Jan 22, Wed
+- Design of RC beams.
+- Concept of neutral axis of homogeneous and heterogeneous sections.
+- Assumptions in the behaviour of RC beams. Concept of balanced, under-reinforced and over-reinforced sections.
+- Analysis and design of singly-reinforced RC beams.
+** [L7] Jan 24, Fri
+- Design of RC beams.
+- Consideration of over-reinforced sections.
+- Analysis and design of doubly-reinforced sections.
+** [L8] Jan 29, Wed
+- Failure modes of an RCC beam.
+- Design of RC beams under shear.
+** [L9] Jan 31, Fri
+- Design of RC beams.
+- Consideration of T and L beams.
+- Provisions of the Code for design of RCC beams.
+** [L10] Feb 05, Wed
+- Design of RC columns.
+** [L11] Feb 07, Fri
+- Design of RC columns.
+** [L12] Feb 12, Wed
+- Design of RC columns.
+** [L13] Feb 14, Fri
+- Design of RC columns.
+** [L14] Feb 19, Wed
+- Design of RC slabs.
+- Behavior of slab as a plate, torsion near supported edges. Different cases of supporting conditions.
+- One-way vs. two-way slab action.
+** [L15] Feb 21, Fri
+- Design of RC slabs.
+** Feb 26, Wed - no class
+- Maha Shivaratri
+** [L16] Feb 28, Fri
+- Design of RC slabs.
+** Mar 1 - 7: Mid semester exam week
+** Mar 8 - 16: Mid semester recess
+** [L17] Mar 19, Wed
+- Design of shallow foundations.
+- Types of footings. Eccentricity. Failure modes and design considerations.
+** [L18] Mar 21, Fri
+- Design of shallow foundations.
+** [L19] Mar 26, Wed
+- Design of shallow foundations.
+** [L20] Mar 28, Fri
+- Design of staircases.
+** [L21] Apr 02, Wed
+- Design of staircases.
+** [L22] Apr 04, Fri
+- Design of staircases.
+** [L23] Apr 09, Wed
+- Detailing and construction practices.
+** [L24] Apr 11, Fri
+- Detailing and construction practices.
+** [L25] Apr 16, Wed
+- Detailing and construction practices.
+** Apr 18, Fri - no class
+- Good Friday
+** [L26] Apr 23, Wed
+- Detailing and construction practices.
+** Apr 24 - 30: End semester exam week

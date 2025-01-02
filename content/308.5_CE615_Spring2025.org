@@ -1,0 +1,16 @@
+#+TITLE: CE 615: Structural Design for Fire - Spring 2025
+# #+OPTIONS: 
+#+OPTIONS: toc:1
+
+
+
+* Basic Information
+|-------------------+-----------------------------------------|
+| Class timings     | Wednesday, Friday, 15:30-16:60 hrs      |
+| Class location    | AB 7/210                                |
+|-------------------+-----------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in) |
+|-------------------+-----------------------------------------|
+
+
+Remaining information will be updated soon.
