@@ -20,7 +20,7 @@
 *Note*:
 1. Tutorial hours will be used for problem-solving, covering theoretical aspects of the laboratory, and hands-on laboratory experiments, as relevant for the topics being covered.
 2. The remainder of this website has information pertaining to the theory part of the course.
-3. The laboratory part of the course will use a Google Classroom (Code: wg7cn6k). More information is available here (link to PDF).
+3. The laboratory part of the course will use a Google Classroom (Code: wg7cn6k). More information is available here ([[https://iitgnacin-my.sharepoint.com/:b:/g/personal/siva_chopperla_iitgn_ac_in/EXN5nsZQEQxGm6IeGD7rpGwBHYBSjKF5czc9GGqBC9-T4A?e=yZQSkb][link to PDF]]).
 
 * Course objectives, syllabus, books, pre-requisites
 ** Objectives
