@@ -14,3 +14,141 @@
 
 
 Remaining information will be updated soon.
+
+* Course objectives, syllabus, books, pre-requisites
+** Objectives
+- To learn about the effects of fire on reinforced concrete and steel structures.
+- To learn about the behavior and characterization of fires of different kinds.
+- To be able to design reinforced concrete and steel structures under fire conditions.
+	
+** Syllabus
+- Fire characteristics (combustion, ignition, flammability limits, etc.)
+- Properties of steel and concrete at high temperatures.
+- Heat transfer mechanisms: conduction, convection and radiation. Mathematical modeling of the heat transfer problem.
+- Fire as a hazard; development of a fire in the open and in a compartment.
+- Stages of a compartment fire: pre-flashover, flashover and post-flashover.
+- Characterization of a fire through time-temperature and time-HRR; t^2 fire model.
+- Estimation of fire curves through fire load energy density and compartment characteristics. Ventilation factor; fuel vs. ventilation controlled fire.
+- Design and parametric fire curves.
+- Heat transfer within concrete structures (semi-infinite idealization) and steel structures (lumped capacity idealization).
+- Empirical and code-based methods to compute temperature within structural systems.
+- Design of steel structures under fire.
+- Design of reinforced concrete structures under fire; 500 isotherm method, zone method.
+- Equivalent fire severity.
+		
+** Textbook
+- Fire-resistant Design of Structures by S. Chandrasekaran and G. Srivastava, CRC Press.
+# comment
+	
+** Reference Books
+- Fundamentals of Heat and Mass Transfer by T.L. Bergman, A.S. Lavine, F.P. Incropera and D.P. Dewitt, John Wiley & Sons.
+- An Introduction to Fire Dynamics by D. Drysdale, Wiley.
+- Temperature calculation in Fire Safety Engineering by U. Wickstrom, Springer.
+  
+** Codes and Standards
+- National Building Code (NBC) 2016 of India.
+- IS 800 (steel) and IS 456 (reinforced concrete)
+- Eurocode EN 1990:2002 (basis of structural design)
+- Eurocode EN 1991-1-1 and EN 1991-1-2 (actions)
+- Eurocode EN 1992-1-1 and EN 1992-1-2 (reinforced concrete)
+- Eurocode EN 1993-1-1 and EN 1993-1-2 (reinforced concrete)
+- Eurocode EN 1996-1-1 and EN 1996-1-2 (masonry)
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE615" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 615)
+
+** Cheating
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       30% |
+| Group projects       |       30% |
+| Exams (two)          |  20% each |
+
+** Modes of formal assessment
+- Assignments will entail analysis/practical problems, reports, etc. and may be individual or group
+- Group projects will involve more aggregating tasks including small amount of coding, use of a software, or design of larger systems.
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Calendar (tentative)
+** [L1] Jan 03, Fri
+- Introduction to fire engineering and design.
+** [L2] Jan 08, Wed
+- Analysis of a building. Load calculations. IS 875-1. Characteristics loads.
+** [L3] Jan 10, Fri
+- Load calculations. IS 875-2. Load path and distribution. Characteristic loads.
+** [L4] Jan 15, Wed
+- Structural systems. Framed systems and their analysis. Typology of different components of structural systems.
+** [L5] Jan 17, Fri
+- Introduction to IS 456.
+- Discussions on materials, constituents of concrete, characteristic strength, construction practices.
+- Design philosophies. Partial safety factors.
+- Properties of concrete.
+** [L6] Jan 22, Wed
+- Design of RC beams.
+- Concept of neutral axis of homogeneous and heterogeneous sections.
+- Assumptions in the behaviour of RC beams. Concept of balanced, under-reinforced and over-reinforced sections.
+- Analysis and design of singly-reinforced RC beams.
+** [L7] Jan 24, Fri
+- Design of RC beams.
+- Consideration of over-reinforced sections.
+- Analysis and design of doubly-reinforced sections.
+** [L8] Jan 29, Wed
+- Failure modes of an RCC beam.
+- Design of RC beams under shear.
+** [L9] Jan 31, Fri
+- Design of RC beams.
+- Consideration of T and L beams.
+- Provisions of the Code for design of RCC beams.
+** [L10] Feb 05, Wed
+- Design of RC columns.
+** [L11] Feb 07, Fri
+- Design of RC columns.
+** [L12] Feb 12, Wed
+- Design of RC columns.
+** [L13] Feb 14, Fri
+- Design of RC columns.
+** [L14] Feb 19, Wed
+- Design of RC slabs.
+- Behavior of slab as a plate, torsion near supported edges. Different cases of supporting conditions.
+- One-way vs. two-way slab action.
+** [L15] Feb 21, Fri
+- Design of RC slabs.
+** Feb 26, Wed - no class
+- Maha Shivaratri
+** [L16] Feb 28, Fri
+- Design of RC slabs.
+** Mar 1 - 7: Mid semester exam week
+** Mar 8 - 16: Mid semester recess
+** [L17] Mar 19, Wed
+- Design of shallow foundations.
+- Types of footings. Eccentricity. Failure modes and design considerations.
+** [L18] Mar 21, Fri
+- Design of shallow foundations.
+** [L19] Mar 26, Wed
+- Design of shallow foundations.
+** [L20] Mar 28, Fri
+- Design of staircases.
+** [L21] Apr 02, Wed
+- Design of staircases.
+** [L22] Apr 04, Fri
+- Design of staircases.
+** [L23] Apr 09, Wed
+- Detailing and construction practices.
+** [L24] Apr 11, Fri
+- Detailing and construction practices.
+** [L25] Apr 16, Wed
+- Detailing and construction practices.
+** Apr 18, Fri - no class
+- Good Friday
+** [L26] Apr 23, Wed
+- Detailing and construction practices.
+** Apr 24 - 30: End semester exam week
