@@ -82,73 +82,99 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L1] Jan 03, Fri
 - Introduction to fire engineering and design.
 ** [L2] Jan 08, Wed
-- Analysis of a building. Load calculations. IS 875-1. Characteristics loads.
+- Combustion, ignition, autoignition, fire triangle and tetrahedron.
+- Flash point and fire point. Flammability limits, limiting oxygen concentration.
+- General chemical reaction of combustion.
+- Refer to the textbook (Chapter 1).
 ** [L3] Jan 10, Fri
-- Load calculations. IS 875-2. Load path and distribution. Characteristic loads.
+- Thermal and mechanical properties of steel at elevated temperatures - codes and standards vs. literature.
+- Structural steel vs. reinforcing steel.
+- Refer to the textbook (Chapter 1).
 ** [L4] Jan 15, Wed
-- Structural systems. Framed systems and their analysis. Typology of different components of structural systems.
+- Thermal and mechanical properties of concrete at elevated temperatures - codes and standards vs. literature.
+- Normal strength vs. high strength concrete.
+- Refer to the textbook (Chapter 2).
 ** [L5] Jan 17, Fri
-- Introduction to IS 456.
-- Discussions on materials, constituents of concrete, characteristic strength, construction practices.
-- Design philosophies. Partial safety factors.
-- Properties of concrete.
+- Concepts of temperature, heat and heat flux.
+- Modes of heat transfer. Fourier's law, Newton's law of cooling, and Stefan's law of radiation.
+- Derivation of the transient heat equation along with three kinds of boundary conditions.
+- Refer to Wickstrom's book (Chapter 1).
 ** [L6] Jan 22, Wed
-- Design of RC beams.
-- Concept of neutral axis of homogeneous and heterogeneous sections.
-- Assumptions in the behaviour of RC beams. Concept of balanced, under-reinforced and over-reinforced sections.
-- Analysis and design of singly-reinforced RC beams.
+- Electrical circuit analogy for heat transfer.
+- Steady-state heat conduction.
+- Refer to Wickstrom's book (Chapter 2).
 ** [L7] Jan 24, Fri
-- Design of RC beams.
-- Consideration of over-reinforced sections.
-- Analysis and design of doubly-reinforced sections.
+- Lumped-capacity model and unsteady heat equation for this idealization.
+- Consideration with different boundary conditions. Relevance of boundary conditions w.r.t. different fire exposure conditions.
+- Refer to Wickstrom's book (Chapter 3).
 ** [L8] Jan 29, Wed
-- Failure modes of an RCC beam.
-- Design of RC beams under shear.
+- Boundary conditions in fire protection engineering.
+- Combined convective and radiative boundary conditions. Adiabitic surface temperature.
+- Refer to Wickstrom's book (Chapter 4).
 ** [L9] Jan 31, Fri
-- Design of RC beams.
-- Consideration of T and L beams.
-- Provisions of the Code for design of RCC beams.
+- Radiative heat transfer.
+- Stefan's law, model parameters. View factors.
+- Radiation from flames and smoke. Provisions from codes.
+- Refer to Wickstrom's book (Chapter 5).
 ** [L10] Feb 05, Wed
-- Design of RC columns.
+- Convective heat transfer.
+- Free/natural and force convection. Convective heat transfer coefficients. Provisions from codes.
+- Refer to Wickstrom's book (Chapter 6).
 ** [L11] Feb 07, Fri
-- Design of RC columns.
+- Consideration of 2D transient heat transfer equation and its numerical solution via finite difference method.
+- Refer to textbook (Section 3.22).
 ** [L12] Feb 12, Wed
-- Design of RC columns.
+- Consideration of 2D transient heat transfer equation and its numerical solution via finite difference method.
+- Refer to textbook (Section 3.22).
 ** [L13] Feb 14, Fri
-- Design of RC columns.
+- Temperature calculations for steel structures. Lumped-capacity and detailed calculation approaches.
+- Refer to textbook (Section 3.24) and Wickstrom's book (Chapter 13).
 ** [L14] Feb 19, Wed
-- Design of RC slabs.
-- Behavior of slab as a plate, torsion near supported edges. Different cases of supporting conditions.
-- One-way vs. two-way slab action.
+- Temperature calculations for steel structures. Lumped-capacity and detailed calculation approaches.
+- Refer to textbook (Section 3.24) and Wickstrom's book (Chapter 13).
 ** [L15] Feb 21, Fri
-- Design of RC slabs.
+- Temperature calculations for concrete structures. Semi-infinite idealization and detailed calculation approaches.
+- Refer to textbook (Section 3.25) and Wickstrom's book (Chapter 14).
 ** Feb 26, Wed - no class
 - Maha Shivaratri
 ** [L16] Feb 28, Fri
-- Design of RC slabs.
+- Temperature calculations for concrete structures. Semi-infinite idealization and detailed calculation approaches.
+- Refer to textbook (Section 3.25) and Wickstrom's book (Chapter 14).
 ** Mar 1 - 7: Mid semester exam week
 ** Mar 8 - 16: Mid semester recess
 ** [L17] Mar 19, Wed
-- Design of shallow foundations.
-- Types of footings. Eccentricity. Failure modes and design considerations.
+- Stages of a compartment fire. Pre-flashover, flashover and post-flashover.
+- Zone models for pre-flashover and post-flashover stage. Empirical models to predict flashover.
+- Refer to textbook (Section 3.9) and Wickstrom's book (Chapter 10, 11).
 ** [L18] Mar 21, Fri
-- Design of shallow foundations.
+- HRR-time models for fire (t^2 model) and their relation with the nature of combustibles.
+- Estimation of fire load energy density.
+- Parametric time-temperature fire curves.
+- Refer to textbook (Section 3.16) and Wickstrom's book (Chapter 12).
 ** [L19] Mar 26, Wed
-- Design of shallow foundations.
+- Standard fire models. Equivalent fire severity.
+- Refer to textbook (Section 3.19, 3.20) and Wickstrom's book (Chapter 12).
 ** [L20] Mar 28, Fri
-- Design of staircases.
+- Limit states for design under fire.
+- Design calculations for steel structures (tension members).
+- Refer to textbook (Section 3.27, 3.28).
 ** [L21] Apr 02, Wed
-- Design of staircases.
+- Design calculations for flexural members (steel and concrete).
+- Refer to textbook (Section 3.29).
 ** [L22] Apr 04, Fri
-- Design of staircases.
+- Design calculations for flexural members (steel and concrete).
+- Refer to textbook (Section 3.29).
 ** [L23] Apr 09, Wed
-- Detailing and construction practices.
+- Design calculations for compression members (steel and concrete).
+- Refer to textbook (Section 3.30).
 ** [L24] Apr 11, Fri
-- Detailing and construction practices.
+- Design calculations for compression members (steel and concrete).
+- Refer to textbook (Section 3.30).
 ** [L25] Apr 16, Wed
-- Detailing and construction practices.
+- Design of fire protection for steel structures.
+- Refer to textbook (Section 3.26.1) and Wickstrom's book (Chapter 13).
 ** Apr 18, Fri - no class
 - Good Friday
 ** [L26] Apr 23, Wed
-- Detailing and construction practices.
+- Summary and recap.
 ** Apr 24 - 30: End semester exam week
