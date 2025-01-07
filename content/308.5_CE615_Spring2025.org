@@ -6,7 +6,7 @@
 
 * Basic Information
 |-------------------+-----------------------------------------|
-| Class timings     | Wednesday, Friday, 15:30-16:60 hrs      |
+| Class timings     | Wednesday, Friday, 15:30-16:50 hrs     |
 | Class location    | AB 7/210                                |
 |-------------------+-----------------------------------------|
 | Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in) |
