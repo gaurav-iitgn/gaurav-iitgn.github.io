@@ -91,9 +91,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L1] Jan 03, Fri
 - Introduction to design. Components of a building. Load path.
 ** [L2] Jan 08, Wed
-- Analysis of a building. Load calculations. IS 875-1. Characteristics loads.
+- Characterization and estimation of loads.
+- IS 875. Characteristics loads.
 ** [L3] Jan 10, Fri
-- Load calculations. IS 875-2. Load path and distribution. Characteristic loads.
+- Visit of different RCC structures within the academic area.
+- Discussion on structural components, dimensions, resisting actions and load path.
+- Refer to Chapter 1 of the textbook.
 ** [L4] Jan 15, Wed
 - Structural systems. Framed systems and their analysis. Typology of different components of structural systems.
 ** [L5] Jan 17, Fri
