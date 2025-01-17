@@ -99,11 +99,16 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Refer to Chapter 1 of the textbook.
 ** [L4] Jan 15, Wed
 - Structural systems. Framed systems and their analysis. Typology of different components of structural systems.
+- Refer to Chapter 1 of the textbook.
 ** [L5] Jan 17, Fri
+- Analysis of composite sections. Calculation of neutral axis through equilibrium and moment of resistance.
+- Discussions based on a typical beam/column reinforcement cage. Functions of longitudinal and transverse rebars for beams and columns.
+- Concept of modular ratio.
 - Introduction to IS 456.
-- Discussions on materials, constituents of concrete, characteristic strength, construction practices.
-- Design philosophies. Partial safety factors.
-- Properties of concrete.
+- Design philosophies; limit states of collapse and serviceability.
+- Stress-strain behaviour of concrete.
+- Refer to Chapter 3 of the textbook.
+- Refer to Section 3 of IS 456.
 ** [L6] Jan 22, Wed
 - Design of RC beams.
 - Concept of neutral axis of homogeneous and heterogeneous sections.
