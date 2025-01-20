@@ -98,15 +98,44 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Concepts of temperature, heat and heat flux.
 - Modes of heat transfer. Fourier's law, Newton's law of cooling, and Stefan's law of radiation.
 - Derivation of the transient heat equation along with three kinds of boundary conditions.
-- Refer to Wickstrom's book (Chapter 1).
+- Refer to Wickstrom's book (Chapter 1). Questions to reflect on:
+  1. How are heat and temperature of a body related?
+  2. What is heat flux? What is the heat flux in case of conduction?
+  3.  What is Fourier's law of heat conduction?
+  4. What is first kind of boundary condition? What is another name for it?
+  5. What is second kind of boundary condition? What is another name for it?
+  6. What is third kind of boundary condition? What is another name for it?
+  7. What is an adiabitic surface?
+  8. How is third kind of boundary condition related to Newton's law of cooling?
+  9. How can one calculate heat flux gain due to radiation?
+  10. What is the difference between incident, absorbed, and emitted heat flux?
+  11. What is absorptivity coefficient, what is emissivity?
+  12. What is Stefan-Boltzmann law?
+  13. What is Kirchhoff's identity?
+  14. What is the mixed boundary condition that incorporates both convection and radiation?
+  15. Derive the transient heat conduction equation in one dimension. How is the time change rate related to spatial heat flow?
+  16. What is thermal diffusivity?
+  17. Explain the electric circuit analogy for thermal problems in one dimension.
 ** [L6] Jan 22, Wed
 - Electrical circuit analogy for heat transfer.
 - Steady-state heat conduction.
-- Refer to Wickstrom's book (Chapter 2).
+- Refer to Wickstrom's book (Chapter 2). Questions to reflect on:
+  1. Write Fourier's law of conduction using the electrical circuit analogy and define thermal resistance due to conduction.
+  2. How is 1D heat transfer equation useful in modeling heat transfer through a wall?
+  3. What will be the thermal resistance of a wall comprising of multiple layers?
+  4. Define the thermal resistance due to convection (surface thermal resistance).
+  5. Derive steady-state heat conduction relation from the transient equation. 
 ** [L7] Jan 24, Fri
 - Lumped-capacity model and unsteady heat equation for this idealization.
 - Consideration with different boundary conditions. Relevance of boundary conditions w.r.t. different fire exposure conditions.
-- Refer to Wickstrom's book (Chapter 3).
+- Refer to Wickstrom's book (Chapter 3). Questions to reflect on:
+  1. What is meant by lumped heat capacity?
+  2. Write the dynamic energy balance equation for a material modeled using lumped heat capacity assumption. What is the dimensionality of this problem?
+  3. What is the thermal resistance in case of unprotected vs. protected steel structures, when modeled using this approach?
+  4. What is the electrical circuit analogy in this case? What is heat capacitance per unit area?
+  5. What is time constant?
+  6. Derive an expression for calculating steel temperature, when exposed to a varying gas temperature.
+  7. What is Biot number? How does it provide guidance on the applicability of the lumped heat capacity assumption?
 ** [L8] Jan 29, Wed
 - Boundary conditions in fire protection engineering.
 - Combined convective and radiative boundary conditions. Adiabitic surface temperature.
