@@ -104,12 +104,13 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Analysis of composite sections. Calculation of neutral axis through equilibrium and moment of resistance.
 - Discussions based on a typical beam/column reinforcement cage. Functions of longitudinal and transverse rebars for beams and columns.
 - Concept of modular ratio.
-- Introduction to IS 456.
+- Concept of neutral axis of homogeneous and heterogeneous sections.
 - Design philosophies; limit states of collapse and serviceability.
-- Stress-strain behaviour of concrete.
 - Refer to Chapter 3 of the textbook.
-- Refer to Section 3 of IS 456.
 ** [L6] Jan 22, Wed
+- Introduction to IS 456.
+- Stress-strain behaviour of concrete.
+- Refer to Section 3 of IS 456.
 - Design of RC beams.
 - Concept of neutral axis of homogeneous and heterogeneous sections.
 - Assumptions in the behaviour of RC beams. Concept of balanced, under-reinforced and over-reinforced sections.
