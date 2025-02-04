@@ -120,14 +120,15 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Consideration of over-reinforced sections.
 - Analysis and design of doubly-reinforced sections.
 ** [L8] Jan 29, Wed
+- *Assignment 1* given, due on 5 Feb. ([[https://drive.google.com/drive/folders/1YiNLh1W9SuXim8eYhemuWcap9eUwGCVb?usp=sharing][download from here]])
 - Failure modes of an RCC beam.
 - Design of RC beams under shear.
-- *Assignment 1* given, due on 5 Feb. ([[https://drive.google.com/drive/folders/1YiNLh1W9SuXim8eYhemuWcap9eUwGCVb?usp=sharing][download from here]])
 ** [L9] Jan 31, Fri
 - Design of RC beams.
 - Consideration of T and L beams.
 - Provisions of the Code for design of RCC beams.
 ** [L10] Feb 05, Wed
+- *Assignment 2* given, due on 12 Feb. ([[https://drive.google.com/drive/folders/1YiNLh1W9SuXim8eYhemuWcap9eUwGCVb?usp=sharing][download from here]])
 - Design of RC columns.
 ** [L11] Feb 07, Fri
 - Design of RC columns.
