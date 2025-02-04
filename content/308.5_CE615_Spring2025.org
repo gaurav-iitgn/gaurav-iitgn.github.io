@@ -72,8 +72,8 @@ Following will be the weightage of different components of assessment
 | Exams (two)          |  20% each |
 
 ** Modes of formal assessment
-- Assignments will entail analysis/practical problems, reports, etc. and may be individual or group
-- Group projects will involve more aggregating tasks including small amount of coding, use of a software, or design of larger systems.
+- Assignments will entail analysis/practical problems, coding, reports, etc. and may be individual or group.
+- Group projects will involve more aggregating tasks including coding, use of a software, or design of larger systems.
 	
 ** Emphasis on self-learning
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
@@ -139,69 +139,108 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L8] Jan 29, Wed
 - Boundary conditions in fire protection engineering.
 - Combined convective and radiative boundary conditions. Adiabitic surface temperature.
-- Refer to Wickstrom's book (Chapter 4).
+- Refer to Wickstrom's book (Chapter 4). Questions to reflect on:
+  1. How are the different fluxes (incident, absorbed, reflected, emitted, [transmitted]) related through energy balance?
+  2. How can the convective and radiative boundary conditions be combined through a common heat transfer coefficient?
+  3. What is the form of this combined heat transfer coefficient?
+  4. What is the difference between gas temperature and fire temperature? How do these affect convection and radiation?
+  5. Under what conditions, can these two temperatures be considered the same?
+  6. What is AST (adiabitic surface temperature) and how is it related to the above two temperatures?
+  7. What is the electrical circuit analogy for AST?
+  8. What is the importance of plate thermocouples? Which temperature do they measure? Is there any effect of direction on plate thermocouple?
+  9. How can the time constant of plate thermocouple be calculated?
 ** [L9] Jan 31, Fri
 - Radiative heat transfer.
 - Stefan's law, model parameters. View factors.
 - Radiation from flames and smoke. Provisions from codes.
-- Refer to Wickstrom's book (Chapter 5).
+- Refer to Wickstrom's book (Chapter 5). Questions to reflect on:
+  - What is a blackbody?
+  - What is Stefan-Boltzmann law? How can it be derived?
+  - What is Kirchhoff's identity? How can it be arrived at? What are the assumptions?
+  - What is view factor? How does it affect radiation?
+  - Derive the reciprocity relation pertaining to view factors.
+  - Derive the relation of radiation between two infinite parallel planes.
+  - How can radiation shields be used to reduce the impact of radiation from fires?
+  - What are view factors between different elements and planes oriented in different directions?
+  - How does the distance between two surfaces affect radiative heat transfer?
+  - How can the emissivity and absorptivity of flames and smoke be estimated? What are the typical values for fuels arising from common fuels?
 ** [L10] Feb 05, Wed
+- *Assignment 1 given* (due on 12.02.25) [[https://drive.google.com/drive/folders/1JwitDJ-MCzK7mHEF9tC9tDC6imD3d-Pw?usp=sharing][download from here]]
+- *Group Project 1 given* (due on 28.02.25) [[https://drive.google.com/drive/folders/1JwitDJ-MCzK7mHEF9tC9tDC6imD3d-Pw?usp=sharing][download from here]]
 - Convective heat transfer.
 - Free/natural and force convection. Convective heat transfer coefficients. Provisions from codes.
-- Refer to Wickstrom's book (Chapter 6).
+- Refer to Wickstrom's book (Chapter 6). Questions to reflect on:
+  - What is natural or free convection?
+  - What are the heat transfer properties of air and water? How do they affect convection?
+  - What is Prandtl's number?
+  - What is forced convection?
+  - What is Nusselt number? How is it useful to estimate forced convection heat transfer?
+  - Plot the relation between convective heat transfer in air as a function of temperature and velocity.
+  - Study and explain Figure 6.5 of the book.
+  - h = 25 W/m^2K is a commonly used convective heat transfer coefficient for air. Under what conditions is this value useful?
 ** [L11] Feb 07, Fri
 - Consideration of 2D transient heat transfer equation and its numerical solution via finite difference method.
-- Refer to textbook (Section 3.22).
+- Refer to textbook (Section 3.22). Questions to reflect on:
+  - Derive the 2D transient heat transfer equation.
+  - How can this be discretized in space and time using finite difference method?
+  - How will the three different kinds of boundary conditions be applied numerically?
+  - What are the requirements for numerical stability of the solution?
 ** [L12] Feb 12, Wed
+- *Assignment 2 given* (due on 19.02.25) [[https://drive.google.com/drive/folders/1JwitDJ-MCzK7mHEF9tC9tDC6imD3d-Pw?usp=sharing][download from here]]
 - Consideration of 2D transient heat transfer equation and its numerical solution via finite difference method.
-- Refer to textbook (Section 3.22).
+- Refer to textbook (Section 3.22). Questions to reflect on:
+  - Derive the 2D transient heat transfer equation.
+  - How can this be discretized in space and time using finite difference method?
+  - How will the three different kinds of boundary conditions be applied numerically?
+  - What are the requirements for numerical stability of the solution?
 ** [L13] Feb 14, Fri
 - Temperature calculations for steel structures. Lumped-capacity and detailed calculation approaches.
-- Refer to textbook (Section 3.24) and Wickstrom's book (Chapter 13).
+- Refer to textbook (Section 3.24) and Wickstrom's book (Chapter 13). Questions to reflect on:
 ** [L14] Feb 19, Wed
+- *Assignment 3 given* (due on 28.02.25) [[https://drive.google.com/drive/folders/1JwitDJ-MCzK7mHEF9tC9tDC6imD3d-Pw?usp=sharing][download from here]]
 - Temperature calculations for steel structures. Lumped-capacity and detailed calculation approaches.
-- Refer to textbook (Section 3.24) and Wickstrom's book (Chapter 13).
+- Refer to textbook (Section 3.24) and Wickstrom's book (Chapter 13). Questions to reflect on:
 ** [L15] Feb 21, Fri
 - Temperature calculations for concrete structures. Semi-infinite idealization and detailed calculation approaches.
-- Refer to textbook (Section 3.25) and Wickstrom's book (Chapter 14).
+- Refer to textbook (Section 3.25) and Wickstrom's book (Chapter 14). Questions to reflect on:
 ** Feb 26, Wed - no class
 - Maha Shivaratri
 ** [L16] Feb 28, Fri
 - Temperature calculations for concrete structures. Semi-infinite idealization and detailed calculation approaches.
-- Refer to textbook (Section 3.25) and Wickstrom's book (Chapter 14).
+- Refer to textbook (Section 3.25) and Wickstrom's book (Chapter 14). Questions to reflect on:
 ** Mar 1 - 7: Mid semester exam week
 ** Mar 8 - 16: Mid semester recess
 ** [L17] Mar 19, Wed
 - Stages of a compartment fire. Pre-flashover, flashover and post-flashover.
 - Zone models for pre-flashover and post-flashover stage. Empirical models to predict flashover.
-- Refer to textbook (Section 3.9) and Wickstrom's book (Chapter 10, 11).
+- Refer to textbook (Section 3.9) and Wickstrom's book (Chapter 10, 11). Questions to reflect on:
 ** [L18] Mar 21, Fri
 - HRR-time models for fire (t^2 model) and their relation with the nature of combustibles.
 - Estimation of fire load energy density.
 - Parametric time-temperature fire curves.
-- Refer to textbook (Section 3.16) and Wickstrom's book (Chapter 12).
+- Refer to textbook (Section 3.16) and Wickstrom's book (Chapter 12). Questions to reflect on:
 ** [L19] Mar 26, Wed
 - Standard fire models. Equivalent fire severity.
-- Refer to textbook (Section 3.19, 3.20) and Wickstrom's book (Chapter 12).
+- Refer to textbook (Section 3.19, 3.20) and Wickstrom's book (Chapter 12). Questions to reflect on:
 ** [L20] Mar 28, Fri
 - Limit states for design under fire.
 - Design calculations for steel structures (tension members).
-- Refer to textbook (Section 3.27, 3.28).
+- Refer to textbook (Section 3.27, 3.28). Questions to reflect on:
 ** [L21] Apr 02, Wed
 - Design calculations for flexural members (steel and concrete).
-- Refer to textbook (Section 3.29).
+- Refer to textbook (Section 3.29). Questions to reflect on:
 ** [L22] Apr 04, Fri
 - Design calculations for flexural members (steel and concrete).
-- Refer to textbook (Section 3.29).
+- Refer to textbook (Section 3.29). Questions to reflect on:
 ** [L23] Apr 09, Wed
 - Design calculations for compression members (steel and concrete).
-- Refer to textbook (Section 3.30).
+- Refer to textbook (Section 3.30). Questions to reflect on:
 ** [L24] Apr 11, Fri
 - Design calculations for compression members (steel and concrete).
-- Refer to textbook (Section 3.30).
+- Refer to textbook (Section 3.30). Questions to reflect on:
 ** [L25] Apr 16, Wed
 - Design of fire protection for steel structures.
-- Refer to textbook (Section 3.26.1) and Wickstrom's book (Chapter 13).
+- Refer to textbook (Section 3.26.1) and Wickstrom's book (Chapter 13). Questions to reflect on:
 ** Apr 18, Fri - no class
 - Good Friday
 ** [L26] Apr 23, Wed
