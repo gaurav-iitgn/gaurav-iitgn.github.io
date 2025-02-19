@@ -138,6 +138,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L13] Feb 14, Fri
 - Design of RC columns.
 ** [L14] Feb 19, Wed
+- *Assignment 4* given, due on 26 Feb. ([[https://drive.google.com/drive/folders/1YiNLh1W9SuXim8eYhemuWcap9eUwGCVb?usp=sharing][download from here]])
 - Design of RC slabs.
 - Behavior of slab as a plate, torsion near supported edges. Different cases of supporting conditions.
 - One-way vs. two-way slab action.
