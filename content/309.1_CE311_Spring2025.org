@@ -156,6 +156,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L18] Mar 21, Fri
 - Design of shallow foundations.
 ** [L19] Mar 26, Wed
+- *Assignment 5* given, due on 2 Apr. ([[https://drive.google.com/drive/folders/1YiNLh1W9SuXim8eYhemuWcap9eUwGCVb?usp=sharing][download from here]])
 - Design of shallow foundations.
 ** [L20] Mar 28, Fri
 - Design of staircases.
