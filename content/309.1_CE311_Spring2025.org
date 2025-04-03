@@ -163,6 +163,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L21] Apr 02, Wed
 - Design of staircases.
 ** [L22] Apr 04, Fri
+- *Assignment 6* given, due on 11 Apr. ([[https://drive.google.com/drive/folders/1YiNLh1W9SuXim8eYhemuWcap9eUwGCVb?usp=sharing][download from here]])
 - Design of staircases.
 ** [L23] Apr 09, Wed
 - Detailing and construction practices.
