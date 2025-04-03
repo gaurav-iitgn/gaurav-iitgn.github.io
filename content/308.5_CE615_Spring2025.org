@@ -223,34 +223,37 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [L17] Mar 19, Wed
 - Stages of a compartment fire. Pre-flashover, flashover and post-flashover.
 - Zone models for pre-flashover and post-flashover stage. Empirical models to predict flashover.
-- Refer to textbook (Section 3.9) and Wickstrom's book (Chapter 10, 11). Questions to reflect on:
+- Refer to textbook (Section 3.9) and Wickstrom's book (Chapter 10, 11).
 ** [L18] Mar 21, Fri
 - HRR-time models for fire (t^2 model) and their relation with the nature of combustibles.
 - Estimation of fire load energy density.
 - Parametric time-temperature fire curves.
-- Refer to textbook (Section 3.16) and Wickstrom's book (Chapter 12). Questions to reflect on:
+- Refer to textbook (Section 3.16) and Wickstrom's book (Chapter 12).
 ** [L19] Mar 26, Wed
 - Standard fire models. Equivalent fire severity.
-- Refer to textbook (Section 3.19, 3.20) and Wickstrom's book (Chapter 12). Questions to reflect on:
+- Refer to textbook (Section 3.19, 3.20) and Wickstrom's book (Chapter 12).
 ** [L20] Mar 28, Fri
 - Limit states for design under fire.
 - Design calculations for steel structures (tension members).
-- Refer to textbook (Section 3.27, 3.28). Questions to reflect on:
+- Refer to textbook (Section 3.27, 3.28).
 ** [L21] Apr 02, Wed
 - Design calculations for flexural members (steel and concrete).
-- Refer to textbook (Section 3.29). Questions to reflect on:
+- Refer to textbook (Section 3.29).
+** Apr 03, Thu
+- *Assignment 4 given* (due on 16.04.25) [[https://drive.google.com/drive/folders/1JwitDJ-MCzK7mHEF9tC9tDC6imD3d-Pw?usp=sharing][download from here]]
+- *Group Project 2 given* (due on 12.04.25) [[https://drive.google.com/drive/folders/1JwitDJ-MCzK7mHEF9tC9tDC6imD3d-Pw?usp=sharing][download from here]]
 ** [L22] Apr 04, Fri
 - Design calculations for flexural members (steel and concrete).
-- Refer to textbook (Section 3.29). Questions to reflect on:
+- Refer to textbook (Section 3.29).
 ** [L23] Apr 09, Wed
 - Design calculations for compression members (steel and concrete).
-- Refer to textbook (Section 3.30). Questions to reflect on:
+- Refer to textbook (Section 3.30).
 ** [L24] Apr 11, Fri
 - Design calculations for compression members (steel and concrete).
-- Refer to textbook (Section 3.30). Questions to reflect on:
+- Refer to textbook (Section 3.30).
 ** [L25] Apr 16, Wed
 - Design of fire protection for steel structures.
-- Refer to textbook (Section 3.26.1) and Wickstrom's book (Chapter 13). Questions to reflect on:
+- Refer to textbook (Section 3.26.1) and Wickstrom's book (Chapter 13).
 ** Apr 18, Fri - no class
 - Good Friday
 ** [L26] Apr 23, Wed
