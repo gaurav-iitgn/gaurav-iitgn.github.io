@@ -18,7 +18,6 @@
 - Development of smart, environment friendly and low-cost fire detection and suppression systems, Uchchatar Avishkar Yojana
 - Uncertainty analysis and modeling in engineering systems
 	
-* Ongoing Projects
 
 * Publications
 ** Books
@@ -167,4 +166,4 @@
 :end:
 
 
-Last updated: {{{time(%d-%B-%Y)}}}
+(Last updated: {{{time(%d-%B-%Y)}}})

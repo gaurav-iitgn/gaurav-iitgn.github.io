@@ -13,6 +13,6 @@
 - [[file:303.8_ES622_Spring2022.org][ES 622: Finite Element Methods - Spring 2022]]
 - [[file:index.org][Gaurav Srivastava, IIT Gandhinagar]]
 - [[file:header.org][header]]
-- [[file:research.org][Research]]
+- [[file:research.org][Research and Development]]
 - [[file:students.org][Students]]
 - [[file:teaching.org][Teaching]]

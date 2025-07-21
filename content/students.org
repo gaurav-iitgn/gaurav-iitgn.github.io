@@ -92,4 +92,4 @@
 1. Samar Jyoti Deka. ongoing. /Thesis work TBD/.
 
 
-Last updated: {{{time(%d-%B-%Y)}}}
+(Last updated: {{{time(%d-%B-%Y)}}})
