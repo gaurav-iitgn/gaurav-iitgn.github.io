@@ -1,20 +1,25 @@
-#+TITLE: Research
+#+TITLE: Research and Development
 #+OPTIONS: toc:nil title:nil
 #+PROPERTY: HEADER-ARGS+ :eval no-export
 
-* Ongoing Projects
+* Major Areas of Work and Projects
+- Fire resistance rating of passive fire protection elements ([[https://labs.iitgn.ac.in/ferl/][Fire Engineering and Research Laboratory]], FERL)
+- Development of cement-free binders for construction
+- Structural audit, assessment and retrofitting
+- Structural design and structural fire design
 - Egress modeling of metro stations
-- Assessment of perimeter fire and smoke barriers through full-scale fire experiment
-
-* Completed Projects
-- Computational modeling of energetic materials subjected to thermal and mechanical insults using the material point method
-- Assessment of perimeter fire and smoke barriers through full-scale fire experiment
+- Fire dynamics modeling in infrastructure under different fire scenarios
+- Multi-physics computational modeling of energetic materials subjected to thermal and mechanical insults (Finite Element Method, Material Point Method)
+- Full-scale experimental assessment of perimeter fire and smoke barriers
+- Experimental investigation of fire behavior of different type of facade used in buildings
+- To assess effectiveness of FR ACP sheets compared to non-FR ACP sheets
 - Cultural Heritage Preservation and Restoration using Digital 3D Models
 - Containers for housing and re-urbanization of slums, refugee camps and other human settlements in post-disaster context, with EPFL Lausanne and UTM Malaysia.
-- Experimental investigation of fire behavior of different type of facade used in buildings, Underwriters Laboratories
 - Development of smart, environment friendly and low-cost fire detection and suppression systems, Uchchatar Avishkar Yojana
-- To assess effectiveness of FR ACP sheets compared to non-FR ACP sheets
+- Uncertainty analysis and modeling in engineering systems
 	
+* Ongoing Projects
+
 * Publications
 ** Books
 #+BEGIN_SRC emacs-lisp :results raw :exports results
@@ -160,3 +165,6 @@
 1. S. Chandrasekaran and Gaurav and A.K.Jain. 2009. "Ringing response of Offshore Compliant Structures". /Proceedings of International Conference on Ocean Engineering ({ICOE} 2009)/, IIT Madras, India, pages: 55--56.
 1. S. Chandrasekaran and Gaurav, and S. Srivastava. 2007. "Response Behavior of {TLP}s under Vertical Ground Excitation". /Structural Engineering World Congress/, Bangalore, India.
 :end:
+
+
+Last updated: {{{time(%d-%B-%Y)}}}
