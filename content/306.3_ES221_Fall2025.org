@@ -83,14 +83,15 @@ It is important to develop the habit of self-learning. A number of reading assig
 * Calendar (tentative)
 ** [L1] Aug 05, Tue
 - Introduction to the subject, solids vs. fluids, rigidity vs. flexibility. Failure modes of solids.
-- Fundamental vs. derived quantities, dimensional analysis.
-- SI units (base and derived).
-- Significant figures and scientific notation, rounding off.
-- Newton's laws of motion - first, second and third.
-- Force systems - coplanar, collinear, concurrent.
-- Moment of force.
-- Resultant force and moment. Equations of static equilibrium.
-- /Reading from the book (B1)/: Chapters 1-4.
+- Review (self) of class XI topics:
+  - Fundamental vs. derived quantities, dimensional analysis.
+  - SI units (base and derived).
+  - Significant figures and scientific notation, rounding off.
+  - Newton's laws of motion - first, second and third.
+  - Force systems - coplanar, collinear, concurrent.
+  - Moment of force.
+  - Resultant force and moment. Equations of static equilibrium.
+  - /Reading from the book (B1)/: Chapters 1-4.
 ** [T1] Aug 06, Wed
 - Review of topics from Class XI.
 ** [L2] Aug 08, Fri
