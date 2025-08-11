@@ -10,6 +10,7 @@
 - [[file:308.5_CE615_Spring2025.org][CE 615: Structural Design for Fire - Spring 2025]]
 - [[file:Emacs.org][Emacs Configuration]]
 - [[file:306.2_ES221_Fall2024.org][ES 221: Mechanics of Solids - Fall 2024]]
+- [[file:306.3_ES221_Fall2025.org][ES 221: Mechanics of Solids - Fall 2025]]
 - [[file:303.8_ES622_Spring2022.org][ES 622: Finite Element Methods - Spring 2022]]
 - [[file:index.org][Gaurav Srivastava, IIT Gandhinagar]]
 - [[file:header.org][header]]
