@@ -106,54 +106,54 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Introduction to truss structures.
 - Analysis of pin-jointed trusses by method of joints.
 - /Reading from the book (B1)/: Chapters 5 & 6.
-** [L4] Aug 13, Wed
+** [T2] Aug 13, Wed
 # - /In-class submission C1/
-- Analysis of pin-jointed trusses by method of sections.
+- Analysis of pin-jointed trusses.
 - /Reading from the book (B1)/: Chapter 6.
 ** Aug 15, Fri - holiday (Independence Day)
-** [L5] Aug 19, Tue
+** [L4] Aug 19, Tue
 - Classification and idealization of structural members by geometry (1D, 2D, 3D).
 - Classification and idealization of structural members by resisting action (tie, strut, beam, column, shaft).
 - Bending moment and shear forces in beams. Sign convention for bending moment.
 - /Reading from the book (B1)/: Chapter 7.
-** [T2] Aug 20, Thu
-- Analysis of pin-jointed trusses.
-** [L6] Aug 22, Fri
+** [T3] Aug 20, Wed
+- Analysis of pin-jointed trusses (method of joints and method of sections).
+** [L5] Aug 22, Fri
 # - /Assignment 1/ given (due on 30 Aug).
 - Bending moment and shear force diagrams. Sign convention for shear force.
 - /Reading from the book (B1)/: Chapter 7.
-** [L7] Aug 26, Tue
+** [L6] Aug 26, Tue
 - Bending moment and shear force diagrams.
 - /Reading from the book (B1)/: Chapter 7.
-** [T3] Aug 27, Wed
+** [T4] Aug 27, Wed
 - Bending moment and shear force diagrams.
-** [L8] Aug 29, Fri
+** [L7] Aug 29, Fri
 # - /Assignment 2/ given (due on 6 Sep).
 - Concept of stress. Normal and shear stresses. General state of stress. Sign convention.
 - Area as a vector. Average stresses. Examples of finding normal stress.
 - Concept of strain. Normal and shear strain. General state of strain. Sign convention.
 - Average strain. Examples of finding normal strain.
 - /Reading from the book (B2)/: Chapters 1 and 2.
-** [L9] Sep 02, Tue
+** [L8] Sep 02, Tue
 - Material properties. Relations between stress and strain.
 - Young's modulus, shear modulus, Poisson ratio.
 - Hooke's law.
 - /Reading from the book (B2)/: Chapter 3.
-** [T4] Sep 03, Wed
+** [T5] Sep 03, Wed
 - Material properties. Relations between stress and strain.
 ** Sep 05, Fri - holiday (Id-e-Milad)
-** [L10] Sep 09, Tue
+** [L9] Sep 09, Tue
 - Saint Venant principle.
 - Axial deformations of a bar.
 # - /Assignment 3/ given (due on 13 Sep).
 ** [T6] Sep 10, Wed
 - Axial deformations of a bar.
-** [L11] Sep 12, Fri
+** [L10] Sep 12, Fri
 - Principle of superposition.
 - Degree of static indeterminacy; statically indeterminate and determinate system.
 - Use of geometric compatibility to solve statically indeterminate systems.
 - /Reading from the book (B2)/: Chapter 4.
-** [L12] Sep 16, Tue
+** [L11] Sep 16, Tue
 - Consideration of temperature changes through coefficient of thermal expansion.
 - Strain decomposition into mechanical and thermal parts.
 - Stresses and strains due to changes in temperature.
@@ -164,7 +164,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 # *** Oct 04, Fri, 14:00-16:00 -- Mid Semester Exam -- AB 7/208
 # Marks out of 100: Maximum: 90, Average: 60.67, Standard Deviation: 21.15
 ** Sep 27 - Oct 05: Mid semester recess
-** [L13] Oct 07, Tue
+** [L12] Oct 07, Tue
 - Consideration of torsion of bars.
 - Useful video: https://www.youtube.com/watch?v=1YTKedLQOa0
 - Angle of twist, shear strain and stress due to torsion.
@@ -173,45 +173,45 @@ It is important to develop the habit of self-learning. A number of reading assig
 # - /In-class submission C2/
 ** [T8] Oct 08, Wed
 - Torsion and uniaxial forces in bars.
-** [L14] Oct 10, Fri
+** [L13] Oct 10, Fri
 - Normal strains and stresses due to bending.
-** [L15] Oct 14, Tue
+** [L14] Oct 14, Tue
 - Normal strains and stresses due to bending.
 - Derivation of the flexure formula and underlying discussions.
 - First and second moments of area.
 # - /Assignment 4/ given (due on 27 Sep).
-** [T8] Oct 15, Wed
+** [T9] Oct 15, Wed
 - Normal stresses due to bending.
-** [L16] Oct 17, Fri
+** [L15] Oct 17, Fri
 - Normal stresses due to bending.
 - Centroid and moment of area of different shapes.
-** [L17] Oct 21, Tue
+** [L16] Oct 21, Tue
 - Shear stresses in beams. Shear formula.
 - Transverse and longitudinal shear stress.
 - /Reading from the book (B2)/: Chapter 7.
-** [T8] Oct 22, Wed
+** [T10] Oct 22, Wed
 - Normal and shear stresses in bending.
 # - /Assignment 5/ given (due on 25 Oct).
-** [L18] Oct 24, Fri
+** [L17] Oct 24, Fri
 - Stress at a point.
 - Consideration of combined states of stress.
 - Sign conventions for positive/negative planes and positive/negative stresses.
 - Transformation of stresses in 2D.
 - /Reading from the book (B2)/: Chapter 9.
-** [L19] Oct 28, Tue
+** [L18] Oct 28, Tue
 - General state of plane stress and equilibrium equations.
 - General state of plane strain and strain-displacement relations.
 - Mohr's circle for plane strain.
 - Generalized Hooke's law for triaxial loading and thermal effects.
 - /Reading from the book (B2)/: Chapters 9 and 10.
 # - /In-class submission C3/
-** [T9] Oct 29, Wed
+** [T11] Oct 29, Wed
 - Transformation of stress in 2D.
 - Mohr's circle for 2D stress transformation.
 - Principal stresses and maximum shear stress.
 - Problems related to stress transformation.
 - /Reading from the book (B2)/: Chapter 9.
-** [L20] Oct 31, Fri
+** [L19] Oct 31, Fri
 - Triaxial state of stress.
 - Mohr's circle for triaxial state of stress.
 - Absolute maximum shear stress.
@@ -222,33 +222,33 @@ It is important to develop the habit of self-learning. A number of reading assig
   - Maximum distortion energy theory (Mises-Huber criterion)
   - Maximum normal stress theory (Mohr-Coulomb criteron)
 - /Reading from the book (B2)/: Chapter 10.
-** [L21] Nov 04, Tue
+** [L20] Nov 04, Tue
 - Failure theories
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
 - /Reading from the book (B2)/: Chapter 10.
 ** Nov 05 - holiday (Guru Nanak Jayanti)
-** [L22] Nov 07, Fri
+** [L21] Nov 07, Fri
 - Maximum normal stress failure theory (Mohr-Coulomb criteron)
 - Useful video on failure theories: https://www.youtube.com/watch?v=xkbQnBAOFEg
 - /Reading from the book (B2)/: Chapter 10.
-** [L23] Nov 11, Tue
+** [L22] Nov 11, Tue
 - Thin-walled pressure vessels.
 - Moment-curvature relationship in beams. Elastic curve.
 - Deflections of beams.
 - /Reading from the book (B2)/: Chapters 8 and 12.
-** [T10] Nov 12, Wed
+** [T12] Nov 12, Wed
 - Strain-displacement relationship and thin-walled pressure vessels.
 - Strain and stress transformation in 2D, triaxial state of stress.
 # - /Assignment 7/ given (due on 11 Nov).
-** [L24] Nov 14, Fri
+** [L23] Nov 14, Fri
 - Deflections of beams.
 - Strain energy.
 - Conservation of energy.
 - Castigliano's theorems.
 - Deflections of indeterminate problems.
 - /Reading from the book (B2)/: Chapter 14.
-** [L25] Nov 18, Tue
+** [L24] Nov 18, Tue
 - Deflections of beams.
 - Macaulay functions / singularity functions.
 - Stability of equilibrium.
@@ -256,7 +256,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapter 12.
 - Singularity method and Energy methods.
 # - /Assignment 9/ given (due on 22 Nov).
-** [T11] Nov 19, Wed
+** [T13] Nov 19, Wed
 - Deflections of beams. Strain energy, stability.
 # - /Assignment 8/ given (due on 18 Nov).
 ** Nov 21 - 28: End semester exam week
