@@ -9,7 +9,7 @@
 |-------------------+------------------------------------------|
 | Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)  |
 |-------------------+------------------------------------------|
-| Tutorial timings  | I2: Wednesday, 14:00-15:20 hrs           |
+| Tutorial timings  | Wednesday, 21:00-22:20 hrs               |
 | Tutorial location | AB 7/101                                 |
 |-------------------+------------------------------------------|
 | TAs               | Yajat Sharma (yajat.sharma@iitgn.ac.in)  |
@@ -96,7 +96,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Review of topics from Class XI.
 ** [L2] Aug 08, Fri
 - Moment of a force, couple moment. Equations of static equilibrium vis-a-vis dynamic equilibrium.
-- Classification of systems based on their force resisting mechanism.
+- Classification and idealization of systems by resisting action (tie, strut, beam, column, shaft).
 - External and internal forces.
 - Examples of determining support reactions and internal forces.
 - /Reading from the book (B1)/: Chapter 5.
@@ -113,11 +113,10 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Aug 15, Fri - holiday (Independence Day)
 ** [L4] Aug 19, Tue
 - Classification and idealization of structural members by geometry (1D, 2D, 3D).
-- Classification and idealization of structural members by resisting action (tie, strut, beam, column, shaft).
-- Bending moment and shear forces in beams. Sign convention for bending moment.
+- Bending moment and shear forces in beams. Sign conventions for bending moment and shear force.
 - /Reading from the book (B1)/: Chapter 7.
 ** [T3] Aug 20, Wed
-- Analysis of pin-jointed trusses (method of joints and method of sections).
+- Bending moment and shear force diagrams.
 ** [L5] Aug 22, Fri
 # - /Assignment 1/ given (due on 30 Aug).
 - Bending moment and shear force diagrams. Sign convention for shear force.
