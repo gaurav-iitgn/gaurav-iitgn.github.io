@@ -118,26 +118,25 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T3] Aug 20, Wed
 - Bending moment and shear force diagrams.
 ** [L5] Aug 22, Fri
-# - /Assignment 1/ given (due on 30 Aug).
 - Bending moment and shear force diagrams. Sign convention for shear force.
 - /Reading from the book (B1)/: Chapter 7.
 ** [L6] Aug 26, Tue
-- Bending moment and shear force diagrams.
-- /Reading from the book (B1)/: Chapter 7.
-** [T4] Aug 27, Wed
-- Bending moment and shear force diagrams.
-** [L7] Aug 29, Fri
-# - /Assignment 2/ given (due on 6 Sep).
+- /Assignment 1/ given (due on 2 Sep).
 - Concept of stress. Normal and shear stresses. General state of stress. Sign convention.
 - Area as a vector. Average stresses. Examples of finding normal stress.
+- /Reading from the book (B2)/: Chapter 1.
+** [T4] Aug 27, Wed
+- Computation of stresses.
+** [L7] Aug 29, Fri
+# - /Assignment 2/ given (due on 6 Sep).
 - Concept of strain. Normal and shear strain. General state of strain. Sign convention.
 - Average strain. Examples of finding normal strain.
-- /Reading from the book (B2)/: Chapters 1 and 2.
+- /Reading from the book (B2)/: Chapter 2.
 ** [L8] Sep 02, Tue
 - Material properties. Relations between stress and strain.
 - Young's modulus, shear modulus, Poisson ratio.
 - Hooke's law.
-- /Reading from the book (B2)/: Chapter 3.
+- /Reading from the book (B2)/: Chapter 2.
 ** [T5] Sep 03, Wed
 - Material properties. Relations between stress and strain.
 ** Sep 05, Fri - holiday (Id-e-Milad)
