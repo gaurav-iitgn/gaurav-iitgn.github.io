@@ -128,14 +128,19 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T4] Aug 27, Wed
 - Computation of stresses.
 ** [L7] Aug 29, Fri
-# - /Assignment 2/ given (due on 6 Sep).
-- Concept of strain. Normal and shear strain. General state of strain. Sign convention.
+- Concept of strain. Normal and shear strain. General state of strain. Sign convention. Poisson's ratio.
 - Average strain. Examples of finding normal strain.
 - /Reading from the book (B2)/: Chapter 2.
 ** [L8] Sep 02, Tue
+- /Assignment 2/ given (due on 9 Sep).
+- Uniaxial tensile test (useful video: https://www.youtube.com/watch?v=RY9X_O8is-k )
 - Material properties. Relations between stress and strain.
-- Young's modulus, shear modulus, Poisson ratio.
+- Young's modulus, shear modulus.
 - Hooke's law.
+- Discussion of terms
+  - ductile vs. brittle
+  - stiffness vs. strength
+  - modulus of resilience and modulus of toughness
 - /Reading from the book (B2)/: Chapter 2.
 ** [T5] Sep 03, Wed
 - Material properties. Relations between stress and strain.
