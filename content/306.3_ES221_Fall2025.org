@@ -146,23 +146,28 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Material properties. Relations between stress and strain.
 ** Sep 05, Fri - holiday (Id-e-Milad)
 ** [L9] Sep 09, Tue
+- /Assignment 3/ given (due on 16 Sep).
 - Saint Venant principle.
 - Axial deformations of a bar.
-# - /Assignment 3/ given (due on 13 Sep).
-** [T6] Sep 10, Wed
-- Axial deformations of a bar.
-** [L10] Sep 12, Fri
 - Principle of superposition.
 - Degree of static indeterminacy; statically indeterminate and determinate system.
 - Use of geometric compatibility to solve statically indeterminate systems.
 - /Reading from the book (B2)/: Chapter 4.
-** [L11] Sep 16, Tue
+** [T6] Sep 10, Wed
+- Axial deformations of a bar.
+** [L10] Sep 12, Fri
 - Consideration of temperature changes through coefficient of thermal expansion.
 - Strain decomposition into mechanical and thermal parts.
 - Stresses and strains due to changes in temperature.
 - /Reading from the book (B2)/: Chapter 4.
+** [L11] Sep 16, Tue
+- Consideration of torsion of bars.
+- Useful video: https://www.youtube.com/watch?v=1YTKedLQOa0
+- Angle of twist, shear strain and stress due to torsion.
+- Polar moment of inertia.
+- /Reading from the book (B2)/: Chapter 5.
 ** [T7] Sep 17, Wed
-- Axial deformations and temperature changes of bars.
+- Axial deformations and torsion in bars.
 ** Sep 19 - 26: Mid semester exam week
 # *** Oct 04, Fri, 14:00-16:00 -- Mid Semester Exam -- AB 7/208
 # Marks out of 100: Maximum: 90, Average: 60.67, Standard Deviation: 21.15
