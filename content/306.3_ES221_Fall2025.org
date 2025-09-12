@@ -157,8 +157,10 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Axial deformations of a bar.
 ** [L10] Sep 12, Fri
 - Consideration of temperature changes through coefficient of thermal expansion.
+- Positive and negative coefficients of thermal expansion.
 - Strain decomposition into mechanical and thermal parts.
 - Stresses and strains due to changes in temperature.
+- Degree of static indeterminacy; statically indeterminate and determinate system.
 - /Reading from the book (B2)/: Chapter 4.
 ** [L11] Sep 16, Tue
 - Consideration of torsion of bars.
