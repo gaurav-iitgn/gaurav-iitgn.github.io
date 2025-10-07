@@ -167,7 +167,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Useful video: https://www.youtube.com/watch?v=1YTKedLQOa0
 - Angle of twist, shear strain and stress due to torsion.
 - Polar moment of inertia.
-- /Reading from the book (B2)/: Chapter 5.
+- /Reading from the book (B2)/: Chapter 5 and Appendix A.
 ** [T7] Sep 17, Wed
 - Axial deformations and torsion in bars.
 ** Sep 19 - 26: Mid semester exam week
@@ -175,21 +175,22 @@ It is important to develop the habit of self-learning. A number of reading assig
 # Marks out of 100: Maximum: 90, Average: 60.67, Standard Deviation: 21.15
 ** Sep 27 - Oct 05: Mid semester recess
 ** [L12] Oct 07, Tue
-- Consideration of torsion of bars.
-- Useful video: https://www.youtube.com/watch?v=1YTKedLQOa0
-- Angle of twist, shear strain and stress due to torsion.
-- Polar moment of inertia.
-- /Reading from the book (B2)/: Chapter 5.
+- Refresher on SFD and BMD: https://www.youtube.com/watch?v=C-FEVzI8oe8
+- Normal strains and stresses due to bending.
+- Derivation of the flexure formula and underlying discussions.
+- First and second moments of area.
+- /Reading from the book (B1)/: Chapter 10 and Appendix A.
+- /Reading from the book (B2)/: Chapter 6.
+- /Assignment 4/ given (due on 14 Oct).
 # - /In-class submission C2/
 ** [T8] Oct 08, Wed
 - Torsion and uniaxial forces in bars.
 ** [L13] Oct 10, Fri
 - Normal strains and stresses due to bending.
+- /Reading from the book (B2)/: Chapter 6.
 ** [L14] Oct 14, Tue
 - Normal strains and stresses due to bending.
-- Derivation of the flexure formula and underlying discussions.
-- First and second moments of area.
-# - /Assignment 4/ given (due on 27 Sep).
+- /Reading from the book (B2)/: Chapter 6.
 ** [T9] Oct 15, Wed
 - Normal stresses due to bending.
 ** [L15] Oct 17, Fri
