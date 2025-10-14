@@ -187,26 +187,31 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Torsion and uniaxial forces in bars.
 ** [L13] Oct 10, Fri
 - Normal strains and stresses due to bending.
+- Determination of neutral axis for simple sections through force balance
+- Limits on neutral axis depth through strain diagram; concept of balanced section
+- Curvature and moment-curvature relationship; its similarity with force-displacement and torsion-rotation relationship
+- Concept of spring constants for different scenarios
+- Consideration of composite sections and concept of modular ratio
 - /Reading from the book (B2)/: Chapter 6.
 ** [L14] Oct 14, Tue
-- Normal strains and stresses due to bending.
-- /Reading from the book (B2)/: Chapter 6.
-** [T9] Oct 15, Wed
-- Normal stresses due to bending.
-** [L15] Oct 17, Fri
-- Normal stresses due to bending.
-- Centroid and moment of area of different shapes.
-** [L16] Oct 21, Tue
 - Shear stresses in beams. Shear formula.
 - Transverse and longitudinal shear stress.
 - /Reading from the book (B2)/: Chapter 7.
-** [T10] Oct 22, Wed
-- Normal and shear stresses in bending.
-# - /Assignment 5/ given (due on 25 Oct).
-** [L17] Oct 24, Fri
+- /Assignment 5/ given (due on 21 Oct).
+** [T9] Oct 15, Wed
+- Shear stresses in beams.
+** [L15] Oct 17, Fri
+- Combined states of stresses.
+- Consideration of thin-walled pressure vessels.
+- /Reading from the book (B2)/: Chapter 8.
+** [L16] Oct 21, Tue
 - Stress at a point.
-- Consideration of combined states of stress.
 - Sign conventions for positive/negative planes and positive/negative stresses.
+- Transformation of stresses in 2D.
+- /Reading from the book (B2)/: Chapter 9.
+** [T10] Oct 22, Wed
+- Transformation of stress in 2D.
+** [L17] Oct 24, Fri
 - Transformation of stresses in 2D.
 - /Reading from the book (B2)/: Chapter 9.
 ** [L18] Oct 28, Tue
