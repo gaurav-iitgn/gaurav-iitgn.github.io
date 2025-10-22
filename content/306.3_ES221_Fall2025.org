@@ -209,35 +209,34 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Sign conventions for positive/negative planes and positive/negative stresses.
 - Transformation of stresses in 2D.
 - /Reading from the book (B2)/: Chapter 9.
+- /Assignment 6/ given (due on 28 Oct).
 ** [T10] Oct 22, Wed
-- Transformation of stress in 2D.
+- Pressure vessels, combined stresses.
 ** [L17] Oct 24, Fri
 - Transformation of stresses in 2D.
-- /Reading from the book (B2)/: Chapter 9.
-** [L18] Oct 28, Tue
-- General state of plane stress and equilibrium equations.
-- General state of plane strain and strain-displacement relations.
-- Mohr's circle for plane strain.
-- Generalized Hooke's law for triaxial loading and thermal effects.
-- /Reading from the book (B2)/: Chapters 9 and 10.
-# - /In-class submission C3/
-** [T11] Oct 29, Wed
-- Transformation of stress in 2D.
 - Mohr's circle for 2D stress transformation.
 - Principal stresses and maximum shear stress.
-- Problems related to stress transformation.
 - /Reading from the book (B2)/: Chapter 9.
-** [L19] Oct 31, Fri
+** [L18] Oct 28, Tue
 - Triaxial state of stress.
 - Mohr's circle for triaxial state of stress.
 - Absolute maximum shear stress.
 - Dilatation vs. distortion. Definition of bulk modulus and its relation with Young's modulus.
+- /Reading from the book (B2)/: Chapter 9.
+# - /In-class submission C3/
+** [T11] Oct 29, Wed
+- Mohr's circle for stress transformation.
+** [L19] Oct 31, Fri
+- General state of plane stress and equilibrium equations.
+- General state of plane strain and strain-displacement relations.
+- Mohr's circle for plane strain.
+- Generalized Hooke's law for triaxial loading and thermal effects.
 - Theoretical limits for Poisson's ratio.
 - Introduction to failure theories
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
   - Maximum normal stress theory (Mohr-Coulomb criteron)
-- /Reading from the book (B2)/: Chapter 10.
+- /Reading from the book (B2)/: Chapters 9 and 10.
 ** [L20] Nov 04, Tue
 - Failure theories
   - Maximum shear stress theory (Tresca criteron)
