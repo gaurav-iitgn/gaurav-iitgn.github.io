@@ -245,23 +245,19 @@ It is important to develop the habit of self-learning. A number of reading assig
 - /Reading from the book (B2)/: Chapter 10.
 ** Nov 05 - holiday (Guru Nanak Jayanti)
 ** [L21] Nov 07, Fri
-- Maximum normal stress failure theory (Mohr-Coulomb criteron)
-- General state of plane stress and equilibrium equations.
-- General state of plane strain and strain-displacement relations.
-- Mohr's circle for plane strain.
-- /Reading from the book (B2)/: Chapter 10.
+- General state of plane strain and strain-displacement relations. Strain rosette.
+- Moment-curvature relationship in beams. Elastic curve.
+- /Reading from the book (B2)/: Chapters 10 and 12.
 ** [L22] Nov 11, Tue
-- Thin-walled pressure vessels.
 - Moment-curvature relationship in beams. Elastic curve.
 - Deflections of beams.
-- /Reading from the book (B2)/: Chapters 8 and 12.
+- /Reading from the book (B2)/: Chapter 12.
 ** [T12] Nov 12, Wed
-- Strain-displacement relationship and thin-walled pressure vessels.
-- Strain and stress transformation in 2D, triaxial state of stress.
+- Failure theories, beam deflections.
 # - /Assignment 7/ given (due on 11 Nov).
 ** [L23] Nov 14, Fri
 - Deflections of beams.
-- Strain energy.
+- Strain energy and complimentary strain energy.
 - Conservation of energy.
 - Castigliano's theorems.
 - Deflections of indeterminate problems.
