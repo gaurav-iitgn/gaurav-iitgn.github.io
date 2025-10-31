@@ -221,31 +221,34 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Triaxial state of stress.
 - Mohr's circle for triaxial state of stress.
 - Absolute maximum shear stress.
-- Dilatation vs. distortion. Definition of bulk modulus and its relation with Young's modulus.
 - /Reading from the book (B2)/: Chapter 9.
 # - /In-class submission C3/
 ** [T11] Oct 29, Wed
 - Mohr's circle for stress transformation.
 ** [L19] Oct 31, Fri
-- General state of plane stress and equilibrium equations.
-- General state of plane strain and strain-displacement relations.
-- Mohr's circle for plane strain.
+- Mohr's circle for 2D strain transformation.
 - Generalized Hooke's law for triaxial loading and thermal effects.
+- Young's modulus, Shear modulus, Bulk modulus and their relationship.
+- Dilatation vs. distortion.
 - Theoretical limits for Poisson's ratio.
 - Introduction to failure theories
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
-  - Maximum normal stress theory (Mohr-Coulomb criteron)
-- /Reading from the book (B2)/: Chapters 9 and 10.
+- /Reading from the book (B2)/: Chapter 10.
 ** [L20] Nov 04, Tue
 - Failure theories
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
+  - Maximum normal stress theory (Mohr-Coulomb criteron)
+- Failure envelopes in principal stress space
+- Useful video on failure theories: https://www.youtube.com/watch?v=xkbQnBAOFEg
 - /Reading from the book (B2)/: Chapter 10.
 ** Nov 05 - holiday (Guru Nanak Jayanti)
 ** [L21] Nov 07, Fri
 - Maximum normal stress failure theory (Mohr-Coulomb criteron)
-- Useful video on failure theories: https://www.youtube.com/watch?v=xkbQnBAOFEg
+- General state of plane stress and equilibrium equations.
+- General state of plane strain and strain-displacement relations.
+- Mohr's circle for plane strain.
 - /Reading from the book (B2)/: Chapter 10.
 ** [L22] Nov 11, Tue
 - Thin-walled pressure vessels.
