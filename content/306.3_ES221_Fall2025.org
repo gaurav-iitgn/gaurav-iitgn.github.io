@@ -222,6 +222,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Mohr's circle for triaxial state of stress.
 - Absolute maximum shear stress.
 - /Reading from the book (B2)/: Chapter 9.
+- /Assignment 7/ given (due on 4 Nov).
 # - /In-class submission C3/
 ** [T11] Oct 29, Wed
 - Mohr's circle for stress transformation.
@@ -236,43 +237,39 @@ It is important to develop the habit of self-learning. A number of reading assig
   - Maximum distortion energy theory (Mises-Huber criterion)
 - /Reading from the book (B2)/: Chapter 10.
 ** [L20] Nov 04, Tue
+- No class.
+** Nov 05 - holiday (Guru Nanak Jayanti)
+** [L21] Nov 07, Fri
+- No class.
+** [L22] Nov 11, Tue
 - Failure theories
   - Maximum shear stress theory (Tresca criteron)
   - Maximum distortion energy theory (Mises-Huber criterion)
-  - Maximum normal stress theory (Mohr-Coulomb criteron)
+  - Maximum normal stress theory (Rankine theory, Mohr-Coulomb criteron)
 - Failure envelopes in principal stress space
 - Useful video on failure theories: https://www.youtube.com/watch?v=xkbQnBAOFEg
 - /Reading from the book (B2)/: Chapter 10.
-** Nov 05 - holiday (Guru Nanak Jayanti)
-** [L21] Nov 07, Fri
-- General state of plane strain and strain-displacement relations. Strain rosette.
 - Moment-curvature relationship in beams. Elastic curve.
-- /Reading from the book (B2)/: Chapters 10 and 12.
-** [L22] Nov 11, Tue
-- Moment-curvature relationship in beams. Elastic curve.
-- Deflections of beams.
+- Deflections of beams by double integration method.
 - /Reading from the book (B2)/: Chapter 12.
+- /Assignment 8/ given (due on 18 Nov).
 ** [T12] Nov 12, Wed
 - Failure theories, beam deflections.
-# - /Assignment 7/ given (due on 11 Nov).
 ** [L23] Nov 14, Fri
 - Deflections of beams.
+- Macaulay functions / singularity functions.
 - Strain energy and complimentary strain energy.
 - Conservation of energy.
 - Castigliano's theorems.
 - Deflections of indeterminate problems.
-- /Reading from the book (B2)/: Chapter 14.
+- /Reading from the book (B2)/: Chapters 12 and 14.
 ** [L24] Nov 18, Tue
-- Deflections of beams.
-- Macaulay functions / singularity functions.
 - Stability of equilibrium.
 - Buckling of slender members.
-- /Reading from the book (B2)/: Chapter 12.
-- Singularity method and Energy methods.
-# - /Assignment 9/ given (due on 22 Nov).
+- General state of plane strain and strain-displacement relations. Strain rosette.
+- /Reading from the book (B2)/: Chapters 10 and 13.
 ** [T13] Nov 19, Wed
 - Deflections of beams. Strain energy, stability.
-# - /Assignment 8/ given (due on 18 Nov).
 ** Nov 21 - 28: End semester exam week
 # *** Nov 23, Sat, 14:00-16:30 -- End Semester Exam -- AB 10/202
 # Marks out of 100: Maximum: 91, Average: 50.83, Standard Deviation: 21.50
