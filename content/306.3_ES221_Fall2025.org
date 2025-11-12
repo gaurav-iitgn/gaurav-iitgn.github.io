@@ -1,6 +1,7 @@
 #+TITLE: ES 221: Mechanics of Solids - Fall 2025
 # #+OPTIONS: 
 #+OPTIONS: toc:1
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Basic Information
 |-------------------+------------------------------------------|
@@ -273,3 +274,6 @@ Marks out of 100: Maximum: 95, Average: 54.26, Standard Deviation: 29.10
 ** Nov 21 - 28: End semester exam week
 *** Nov 22, Sat, 14:00-16:00 -- End Semester Exam -- AB 11/102
 # Marks out of 100: Maximum: 91, Average: 50.83, Standard Deviation: 21.50
+
+
+(Last updated: {{{mtime}}})

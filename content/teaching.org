@@ -1,5 +1,6 @@
 #+TITLE: Teaching
 #+OPTIONS: toc:nil title:nil
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Full-time semester courses at IITGN
 Courses taught at IIT Gandhinagar at undergraduate and postgraduate levels.
@@ -24,3 +25,6 @@ Courses taught at IIT Gandhinagar at undergraduate and postgraduate levels.
 * Short-term courses and workshops
 Details of short-term courses, training programs and workshops at IIT Gandhinagar.
 Coming soon.
+
+
+(Last updated: {{{mtime}}})

@@ -1,6 +1,7 @@
 #+TITLE: Students
 #+OPTIONS: toc:nil title:nil
 #+PROPERTY: HEADER-ARGS+ :eval no-export
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Doctoral Students
 #+BEGIN_SRC emacs-lisp :results raw :exports results
@@ -21,14 +22,17 @@
 
 #+RESULTS:
 ** Completed
+1. Vikash Kumar Singh. February 2024. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
 1. Patnayakuni Ravi Prakash. September 2018. /Fully coupled multi-physics nonlinear analysis of structural systems subjected to fire/.
 1. Nasar Ahmad Khan. September 2021. /Uncertainty quantification and design optimization of steel plate shear walls/.
 1. Dharmit Nakrani. June 2024. /Material characterization and full-scale performance assessment of facade systems subjected to fire/.
-1. Vikash Kumar Singh. February 2024. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
 1. Dravesh Yadav. April 2025. /Thermo-mechanical analysis and design of aluminium structural systems subjected to fire/.
 ** Ongoing
 1. Sheikh Mayesser Mushtaq. ongoing. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
 1. Yajat Sharma. ongoing. /Fire egress modeling/.
+1. Kritika Rai. ongoing. /TBD/.
+1. Venkata Valligatla. ongoing. /TBD/.
+1. Sujeet Kumar. ongoing. /TBD/.
 
 
 * Masters Students
@@ -90,6 +94,9 @@
 1. Vikas Yadav. ongoing. /Thesis work TBD/.
 1. Jeelkumar Tabiyar. ongoing. /Thesis work TBD/.
 1. Samar Jyoti Deka. ongoing. /Thesis work TBD/.
+1. Gokhulan AP. ongoing. /Thesis work TBD/.
+1. Lokesh Kumbala. ongoing. /Thesis work TBD/.
 
 
-(Last updated: {{{time(%d-%B-%Y)}}})
+# (Last updated: {{{time(%d-%B-%Y)}}})
+(Last updated: {{{mtime}}})

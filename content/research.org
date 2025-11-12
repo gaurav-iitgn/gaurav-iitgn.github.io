@@ -1,6 +1,7 @@
 #+TITLE: Research and Development
 #+OPTIONS: toc:nil title:nil
 #+PROPERTY: HEADER-ARGS+ :eval no-export
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Major Areas of Work and Projects
 - Fire resistance rating of passive fire protection elements ([[https://labs.iitgn.ac.in/ferl/][Fire Engineering and Research Laboratory]], FERL)
@@ -166,4 +167,5 @@
 :end:
 
 
-(Last updated: {{{time(%d-%B-%Y)}}})
+# (Last updated: {{{time(%d-%B-%Y)}}})
+(Last updated: {{{mtime}}})
