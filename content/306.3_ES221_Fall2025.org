@@ -172,7 +172,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Axial deformations and torsion in bars.
 ** Sep 19 - 26: Mid semester exam week
 *** Sep 25, Thu, 14:00-16:00 -- Mid Semester Exam -- AB 11/102
-# Marks out of 100: Maximum: 90, Average: 60.67, Standard Deviation: 21.15
+Marks out of 100: Maximum: 95, Average: 54.26, Standard Deviation: 29.10
 ** Sep 27 - Oct 05: Mid semester recess
 ** [L12] Oct 07, Tue
 - Refresher on SFD and BMD: https://www.youtube.com/watch?v=C-FEVzI8oe8
@@ -271,5 +271,5 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T13] Nov 19, Wed
 - Deflections of beams. Strain energy, stability.
 ** Nov 21 - 28: End semester exam week
-# *** Nov 23, Sat, 14:00-16:30 -- End Semester Exam -- AB 10/202
+*** Nov 22, Sat, 14:00-16:00 -- End Semester Exam -- AB 11/102
 # Marks out of 100: Maximum: 91, Average: 50.83, Standard Deviation: 21.50
