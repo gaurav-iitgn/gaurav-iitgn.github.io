@@ -90,7 +90,7 @@ Cheating cases (assignments/codes/exams/project) will be dealt with in accordanc
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
 * Calendar (tentative)
-See [[309.1_CE311_Spring2025.org][previous year's website for details of the covered topics]].
+See [[./309.1_CE311_Spring2025.org][previous year's website for details of the covered topics]].
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})

@@ -78,7 +78,7 @@ Following will be the weightage of different components of assessment
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
 * Calendar (tentative)
-See [[308.6_CE615_Spring2026.org][previous year's website for details of the covered topics]].
+See [[./308.6_CE615_Spring2026.org][previous year's website for details of the covered topics]].
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
