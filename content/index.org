@@ -28,4 +28,6 @@
 Hello and welcome to my personal website. Hope you find some useful things here apart from my whereabouts. Presently, my main research interests lie in the area of fire engineering and development of new sustainable building materials. Particularly, efficient analysis of structures under fire to enable more comprehensive performance-based design procedures and assessment of building facade systems in fire conditions. I also have interest in development of analytical and algorithmic tools for solving problems related to structural dynamics and uncertainty quantification problems.
 
 
+#+HTML: <small>
 (Last updated: {{{mtime}}})
+#+HTML: </small>

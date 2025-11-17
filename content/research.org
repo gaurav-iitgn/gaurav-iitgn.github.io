@@ -168,4 +168,6 @@
 
 
 # (Last updated: {{{time(%d-%B-%Y)}}})
+#+HTML: <small>
 (Last updated: {{{mtime}}})
+#+HTML: </small>

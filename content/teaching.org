@@ -27,4 +27,6 @@ Details of short-term courses, training programs and workshops at IIT Gandhinaga
 Coming soon.
 
 
+#+HTML: <small>
 (Last updated: {{{mtime}}})
+#+HTML: </small>
