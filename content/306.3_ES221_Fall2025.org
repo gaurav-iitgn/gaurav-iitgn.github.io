@@ -261,19 +261,20 @@ Marks out of 100: Maximum: 95, Average: 54.26, Standard Deviation: 29.10
 - Macaulay functions / singularity functions.
 - Strain energy and complimentary strain energy.
 - Conservation of energy.
-- Castigliano's theorems.
-- Deflections of indeterminate problems.
 - /Reading from the book (B2)/: Chapters 12 and 14.
 ** [L24] Nov 18, Tue
+- Castigliano's theorems.
+- Deflections of indeterminate problems.
 - Stability of equilibrium.
 - Buckling of slender members.
 - General state of plane strain and strain-displacement relations. Strain rosette.
-- /Reading from the book (B2)/: Chapters 10 and 13.
+- /Reading from the book (B2)/: Chapters 10, 12, 13 and 14.
 ** [T13] Nov 19, Wed
 - Deflections of beams. Strain energy, stability.
 ** Nov 21 - 28: End semester exam week
 *** Nov 22, Sat, 14:00-16:00 -- End Semester Exam -- AB 11/102
 # Marks out of 100: Maximum: 91, Average: 50.83, Standard Deviation: 21.50
 
-
+#+HTML: <small>
 (Last updated: {{{mtime}}})
+#+HTML: </small>
