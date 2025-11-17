@@ -1,0 +1,84 @@
+#+TITLE: CE 615: Structural Design for Fire - Spring 2026
+# #+OPTIONS: 
+#+OPTIONS: toc:1
+
+
+
+* Basic Information
+|----------------+-----------------------------------------|
+| Class timings  | Wednesday, Friday, 15:30-16:50 hrs      |
+| Class location | AB 7/107                                |
+|----------------+-----------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in) |
+|----------------+-----------------------------------------|
+
+
+* Course objectives, syllabus, books, pre-requisites
+** Objectives
+- To learn about the effects of fire on reinforced concrete and steel structures.
+- To learn about the behavior and characterization of fires of different kinds.
+- To be able to design reinforced concrete and steel structures under fire conditions.
+	
+** Syllabus
+- Fire characteristics (combustion, ignition, flammability limits, etc.)
+- Properties of steel and concrete at high temperatures.
+- Heat transfer mechanisms: conduction, convection and radiation. Mathematical modeling of the heat transfer problem.
+- Fire as a hazard; development of a fire in the open and in a compartment.
+- Stages of a compartment fire: pre-flashover, flashover and post-flashover.
+- Characterization of a fire through time-temperature and time-HRR; t^2 fire model.
+- Estimation of fire curves through fire load energy density and compartment characteristics. Ventilation factor; fuel vs. ventilation controlled fire.
+- Design and parametric fire curves.
+- Heat transfer within concrete structures (semi-infinite idealization) and steel structures (lumped capacity idealization).
+- Empirical and code-based methods to compute temperature within structural systems.
+- Design of steel structures under fire.
+- Design of reinforced concrete structures under fire; 500 isotherm method, zone method.
+- Equivalent fire severity.
+		
+** Textbook
+- Fire-resistant Design of Structures by S. Chandrasekaran and G. Srivastava, CRC Press.
+# comment
+	
+** Reference Books
+- Fundamentals of Heat and Mass Transfer by T.L. Bergman, A.S. Lavine, F.P. Incropera and D.P. Dewitt, John Wiley & Sons.
+- An Introduction to Fire Dynamics by D. Drysdale, Wiley.
+- Temperature calculation in Fire Safety Engineering by U. Wickstrom, Springer.
+  
+** Codes and Standards
+- National Building Code (NBC) 2016 of India.
+- IS 800 (steel) and IS 456 (reinforced concrete)
+- Eurocode EN 1990:2002 (basis of structural design)
+- Eurocode EN 1991-1-1 and EN 1991-1-2 (actions)
+- Eurocode EN 1992-1-1 and EN 1992-1-2 (reinforced concrete)
+- Eurocode EN 1993-1-1 and EN 1993-1-2 (steel)
+- Eurocode EN 1996-1-1 and EN 1996-1-2 (masonry)
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE615" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 615)
+
+** Cheating
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       30% |
+| Group projects       |       30% |
+| Exams (two)          |  20% each |
+
+** Modes of formal assessment
+- Assignments will entail analysis/practical problems, coding, reports, etc. and may be individual or group.
+- Group projects will involve more aggregating tasks including coding, use of a software, or design of larger systems.
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Calendar (tentative)
+See [[308.6_CE615_Spring2026.org][previous year's website for details of the covered topics]].
+
+#+HTML: <small>
+(Last updated: {{{mtime}}})
+#+HTML: </small>
