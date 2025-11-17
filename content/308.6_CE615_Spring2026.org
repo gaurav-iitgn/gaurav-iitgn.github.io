@@ -1,6 +1,7 @@
 #+TITLE: CE 615: Structural Design for Fire - Spring 2026
 # #+OPTIONS: 
 #+OPTIONS: toc:1
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 
 
