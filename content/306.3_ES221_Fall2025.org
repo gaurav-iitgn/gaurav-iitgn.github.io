@@ -261,6 +261,7 @@ Marks out of 100: Maximum: 95, Average: 54.26, Standard Deviation: 29.10
 - Macaulay functions / singularity functions.
 - Strain energy and complimentary strain energy.
 - Conservation of energy.
+- Useful video on Macaulay's method / Singularity functions: https://www.youtube.com/watch?v=m5-iJGY7k_8&list=PLKg8NoX0BvK3NuUsHHFGsEV4bZ2UkPFa7&index=7
 - /Reading from the book (B2)/: Chapters 12 and 14.
 ** [L24] Nov 18, Tue
 - Castigliano's theorems.
