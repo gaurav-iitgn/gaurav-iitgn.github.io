@@ -274,7 +274,7 @@ Marks out of 100: Maximum: 95, Average: 54.26, Standard Deviation: 29.10
 - Deflections of beams. Strain energy, stability.
 ** Nov 21 - 28: End semester exam week
 *** Nov 22, Sat, 14:00-16:00 -- End Semester Exam -- AB 11/102
-# Marks out of 100: Maximum: 91, Average: 50.83, Standard Deviation: 21.50
+Marks out of 100: Maximum: 94, Average: 60.75, Standard Deviation: 26.53
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
