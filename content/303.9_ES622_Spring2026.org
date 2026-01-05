@@ -1,5 +1,6 @@
 #+TITLE: ES 622: Finite Element Methods - Spring 2026
-# #+OPTIONS: 
+#+OPTIONS: toc:nil title:nil
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Basic Information
 |----------------+--------------------------------------------|
