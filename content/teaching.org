@@ -5,11 +5,13 @@
 * Full-time semester courses at IITGN
 Courses taught at IIT Gandhinagar at undergraduate and postgraduate levels.
 ** Upcoming courses
+- 
+** Active courses
+1. [[./303.9_ES622_Spring2026.org][ES 622: Finite Element Methods]] (Spring 2026)
 1. [[./308.6_CE615_Spring2026.org][CE 615: Structural Design for Fire]] (Spring 2026)
 1. [[./309.2_CE311_Spring2026.org][CE 311: Design of Reinforced Concrete Structures]] (Spring 2026)
-** Active courses
-1. [[./306.3_ES221_Fall2025.org][ES 221: Mechanics of Solids]] (Fall 2025)
 ** Past Courses
+1. [[./306.3_ES221_Fall2025.org][ES 221: Mechanics of Solids]] (Fall 2025)
 1. [[./308.5_CE615_Spring2025.org][CE 615: Structural Design for Fire]] (Spring 2025)
 1. [[./309.1_CE311_Spring2025.org][CE 311: Design of Reinforced Concrete Structures]] (Spring 2025)
 1. [[./306.2_ES221_Fall2024.org][ES 221: Mechanics of Solids]] (Fall 2024)
