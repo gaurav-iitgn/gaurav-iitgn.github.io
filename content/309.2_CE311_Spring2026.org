@@ -4,24 +4,25 @@
 #+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Basic Information
-|-------------------+-------------------------------------------------------+-----------------------------------------------------|
-|                   | Theory                                                | Laboratory                                          |
-|-------------------+-------------------------------------------------------+-----------------------------------------------------|
-| Class time        | Tuesday, Friday, 11:30-12:50 hrs                      | Thursday, 17:00-18:20 hrs                           |
-| Class location    | AB 7/103                                              | AB 6/102                                            |
-|-------------------+-------------------------------------------------------+-----------------------------------------------------|
-| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)               | Siva Chopperla (siva.chopperla@iitgn.ac.in)         |
-|-------------------+-------------------------------------------------------+-----------------------------------------------------|
-| Tutorial time     | Thursday, 15:30-16:50 hrs                             | Thursday, 15:30-16:50 hrs                           |
-| Tutorial location | AB 7/206                                              | AB 7/206                                            |
-|-------------------+-------------------------------------------------------+-----------------------------------------------------|
-| TAs               | Kritika Rai (kritika.rai@iitgn.ac.in@iitgn.ac.in)     | Venkata Valligatla (venkata.valligatla@iitgn.ac.in) |
-|                   | Shivam Gautam (shivam.gautam@iitgn.ac.in@iitgn.ac.in) | Faizan Yousuf Bhat (24350009@iitgn.ac.in)           |
-|-------------------+-------------------------------------------------------+-----------------------------------------------------|
+|-------------------+-------------------------------------------+-----------------------------------------------------|
+|                   | Theory                                    | Laboratory                                          |
+|-------------------+-------------------------------------------+-----------------------------------------------------|
+| Class time        | Tuesday, Friday, 11:30-12:50 hrs          | Thursday, 17:00-18:20 hrs                           |
+| Class location    | AB 7/103                                  | AB 6/102                                            |
+|-------------------+-------------------------------------------+-----------------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)   | Siva Chopperla (siva.chopperla@iitgn.ac.in)         |
+|-------------------+-------------------------------------------+-----------------------------------------------------|
+| Tutorial time     | Thursday, 15:30-16:50 hrs                 | Thursday, 15:30-16:50 hrs                           |
+| Tutorial location | AB 7/206                                  | AB 7/206                                            |
+|-------------------+-------------------------------------------+-----------------------------------------------------|
+| TAs               | Kritika Rai (kritika.rai@iitgn.ac.in)     | Venkata Valligatla (venkata.valligatla@iitgn.ac.in) |
+|                   | Shivam Gautam (shivam.gautam@iitgn.ac.in) | Faizan Yousuf Bhat (24350009@iitgn.ac.in)           |
+|                   |                                           | Shaivi Sargam Chanekar (24250084@iitgn.ac.in)       |
+|-------------------+-------------------------------------------+-----------------------------------------------------|
 *Note*:
 1. Tutorial hours will be used for problem-solving, covering theoretical aspects of the laboratory, and hands-on laboratory experiments, as relevant for the topics being covered.
 2. The remainder of this website has information pertaining to the theory part of the course.
-3. The laboratory part of the course will use a Google Classroom (Code: wg7cn6k). More information is available here ([[https://iitgnacin-my.sharepoint.com/:b:/g/personal/siva_chopperla_iitgn_ac_in/EXN5nsZQEQxGm6IeGD7rpGwBHYBSjKF5czc9GGqBC9-T4A?e=yZQSkb][link to PDF]]).
+3. The laboratory part of the course will use a Google Classroom (Code: jcomhstt). More information is available here ([[https://drive.google.com/file/d/1jkhLhwoGvPd5Ji0L_EWncFiR8o-EfzSa/view?usp=sharing][link to PDF]]).
 
 * Course objectives, syllabus, books, pre-requisites
 ** Objectives
@@ -81,8 +82,9 @@ Cheating cases (assignments/codes/exams/project) will be dealt with in accordanc
 
 ** Modes of formal assessment
 - Assignments will involve two types of problems:
-	- Set A: to be submitted for grading
-	- Set B: to be practiced and will not be graded (this is treated as tutorial; help will be available from the TAs/instructor for solving, if needed)
+  - Set A: to be submitted for grading
+  - Set B: to be practiced and will not be graded (this is treated as tutorial; help will be available from the TAs/instructor for solving, if needed)
+- In-class submissions entail submitting solutions to small problems given in the class (submission days will not be announced)
 - Exams will involve take home type analysis/design problems along with viva/presentations.
 - Expect one assignment per week.
 	
@@ -90,7 +92,8 @@ Cheating cases (assignments/codes/exams/project) will be dealt with in accordanc
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
 * Calendar (tentative)
-See [[./309.1_CE311_Spring2025.org][previous year's website for details of the covered topics]].
+- Will be updated soon
+- See [[./309.1_CE311_Spring2025.org][previous year's website for details of the covered topics]].
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})

@@ -6,12 +6,14 @@
 
 
 * Basic Information
-|----------------+-----------------------------------------|
-| Class timings  | Wednesday, Friday, 15:30-16:50 hrs      |
-| Class location | AB 7/107                                |
-|----------------+-----------------------------------------|
-| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in) |
-|----------------+-----------------------------------------|
+|----------------+------------------------------------------|
+| Class timings  | Wednesday, Friday, 15:30-16:50 hrs       |
+| Class location | AB 7/107                                 |
+|----------------+------------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)  |
+|----------------+------------------------------------------|
+| Instructor     | S Chandrasekaran (drsekaran@iitgn.ac.in) |
+|----------------+------------------------------------------|
 
 
 * Course objectives, syllabus, books, pre-requisites
@@ -67,18 +69,20 @@ Following will be the weightage of different components of assessment
 | Component            | Weightage |
 |----------------------+-----------|
 | Homework assignments |       30% |
-| Group projects       |       30% |
-| Exams (two)          |  20% each |
+| Group projects       |       20% |
+| Exams (two)          |  25% each |
 
 ** Modes of formal assessment
 - Assignments will entail analysis/practical problems, coding, reports, etc. and may be individual or group.
 - Group projects will involve more aggregating tasks including coding, use of a software, or design of larger systems.
+- Exams may be in-class or take-home.
 	
 ** Emphasis on self-learning
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
 * Calendar (tentative)
-See [[./308.6_CE615_Spring2026.org][previous year's website for details of the covered topics]].
+- Will be updated soon
+- See [[./308.6_CE615_Spring2026.org][previous year's website for details of the covered topics]].
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
