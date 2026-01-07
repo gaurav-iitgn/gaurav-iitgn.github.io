@@ -6,14 +6,16 @@
 
 
 * Basic Information
-|----------------+------------------------------------------|
-| Class timings  | Wednesday, Friday, 15:30-16:50 hrs       |
-| Class location | AB 7/107                                 |
-|----------------+------------------------------------------|
-| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)  |
-|----------------+------------------------------------------|
-| Instructor     | S Chandrasekaran (drsekaran@iitgn.ac.in) |
-|----------------+------------------------------------------|
+|----------------+-------------------------------------------|
+| Class timings  | Wednesday, Friday, 15:30-16:50 hrs        |
+| Class location | AB 7/107                                  |
+|----------------+-------------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)   |
+|----------------+-------------------------------------------|
+| Instructor     | S Chandrasekaran (drsekaran@iitgn.ac.in)  |
+|----------------+-------------------------------------------|
+| Co-Instructor  | Dravesh Yadav (dravesh.yadav@iitgn.ac.in) |
+|----------------+-------------------------------------------|
 
 
 * Course objectives, syllabus, books, pre-requisites
