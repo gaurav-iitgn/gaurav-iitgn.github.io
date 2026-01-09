@@ -3,15 +3,15 @@
 #+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
 
 * Basic Information
-|----------------+--------------------------------------------|
-| Class timings  | Monday, Thursday, 11:30-12:50 hrs (F1, F2) |
-| Class location | AB 7/202                                   |
-|----------------+--------------------------------------------|
-| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)    |
-|----------------+--------------------------------------------|
-| TAs            | Yajat Sharma (yajat.sharma@iitgn.ac.in)    |
-|                | Samar Jyoti Deka (samar.deka@iitgn.ac.in)  |
-|----------------+--------------------------------------------|
+|----------------+-------------------------------------------|
+| Class timings  | Tuesday, Thursday, 18:30 - 19:50 hrs      |
+| Class location | AB 7/202                                  |
+|----------------+-------------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)   |
+|----------------+-------------------------------------------|
+| TAs            | Yajat Sharma (yajat.sharma@iitgn.ac.in)   |
+|                | Samar Jyoti Deka (samar.deka@iitgn.ac.in) |
+|----------------+-------------------------------------------|
 
 
 * Course objectives, syllabus, books, pre-requisites
