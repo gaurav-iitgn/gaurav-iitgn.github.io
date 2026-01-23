@@ -168,23 +168,23 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Design of structural systems.
 ** Mar 31, Tue - no class
 - Mahavir Jayanti
-** [L20] Apr 02, Thu
+** [T5] Apr 02, Thu
 - Design of structural systems.
 ** Apr 03, Fri - no class
 - Good Friday
-** [L21] Apr 07, Tue
+** [L20] Apr 07, Tue
 - Ductile detailing and construction practices.
-** [L22] Apr 10, Fri
+** [L21] Apr 10, Fri
 - Ductile detailing and construction practices.
-** [L23] Apr 14, Tue
+** [L22] Apr 14, Tue
 - Ductile detailing and construction practices.
-** [T5] Apr 16, Thu
+** [T6] Apr 16, Thu
 - Design of structural systems.
-** [L24] Apr 17, Fri
+** [L23] Apr 17, Fri
 - Ductile detailing and construction practices.
-** [L25] Apr 21, Tue
+** [L24] Apr 21, Tue
 - Ductile detailing and construction practices.
-** [T6] Apr 23, Thu
+** [T7] Apr 23, Thu
 - Ductile detailing and construction practices.
 
 
