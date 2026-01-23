@@ -23,6 +23,7 @@
 1. Tutorial hours will be used for problem-solving, covering theoretical aspects of the laboratory, and hands-on laboratory experiments, as relevant for the topics being covered.
 2. The remainder of this website has information pertaining to the theory part of the course.
 3. The laboratory part of the course will use a Google Classroom (Code: jcomhstt). More information is available here ([[https://drive.google.com/file/d/1jkhLhwoGvPd5Ji0L_EWncFiR8o-EfzSa/view?usp=sharing][link to PDF]]).
+4. Assignments and tutorials will be posted in this [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][Google folder]].
 
 * Course objectives, syllabus, books, pre-requisites
 ** Objectives
@@ -87,6 +88,7 @@ Cheating cases (assignments/codes/exams/project) will be dealt with in accordanc
 - In-class submissions entail submitting solutions to small problems given in the class (submission days will not be announced)
 - Exams will involve take home type analysis/design problems along with viva/presentations.
 - Expect one assignment per week.
+- Assignments and tutorials will be posted in this [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][Google folder]].
 	
 ** Emphasis on self-learning
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
@@ -94,6 +96,101 @@ It is important to develop the habit of self-learning. A number of reading assig
 * Calendar (tentative)
 - Will be updated soon
 - See [[./309.1_CE311_Spring2025.org][previous year's website for details of the covered topics]].
+
+** [L1] Jan 06, Tue
+- Introduction to design. Components of building. Load path.
+- Design variables, economics, and such considerations.
+- Introduction to codes that will be used.
+- Refer to Chapter 1 of the textbook.
+** [L2] Jan 09, Fri
+- Consideration of loads. Discussion of IS 875 (parts 1, 2 and 3).
+** [L3] Jan 13, Tue
+- Visit to housing construction site, IITGN.
+** [L4] Jan 16, Fri
+- Material properties of concrete and steel.
+- Methods of design (WSM, ULM, LSM).
+- Idea of reliability-based design. Characteristic load and strength.
+- Partial safety factors.
+- Limit states of collapse and serviceability.
+- Refer to Chapters 2 and 3 of the textbook.
+** [L5] Jan 20, Tue
+- Limit state of collapse in flexure.
+- Assumptions in flexural analysis and design. Design strength curves for concrete and steel.
+- Consideration of singly-reinforced RCC section under flexure.
+  - Idea of balanced failure. 
+  - Derivation of expressions for $x_u$, $x_{u,max}/d$, $M_{uR}$, $M_{u,lim}$, $M_u/bd^2$, $p_{t,lim}$.
+  - Under-reinforced and over-reinforced sections.
+- Design of rectangular, singly-reinforced beams.
+  - Choosing grade of concrete and cover
+  - Sizing (b, D) and determination of tension steel to be provided
+- Refer to Chapters 4 and 5 of the textbook.
+** [L6] Jan 23, Fri
+- Design of rectangular, singly-reinforced beams.
+  - design for strength (limit state of collapse)
+  - consideration of serviceability (deflections, crack width)
+  - $l/d$ ratios and their limits
+- Analysis and design of doubly-reinforced beams
+  - additional tension steel and corresponding compression steel
+- Refer to Chapters 4 and 5 of the textbook.
+** [L7] Jan 27, Tue
+- Design of beams for shear and bond.
+- Consideration of flanged-beams (T and L)
+** [L8] Jan 30, Fri
+- Design of columns.
+** [L9] Feb 03, Tue
+- Design of columns.
+** [T1] Feb 05, Thu
+- Design of beams and columns.
+** [L10] Feb 06, Fri
+- Design of columns.
+** [L11] Feb 10, Tue
+- Design of slabs.
+** [T2] Feb 12, Thu
+- Design of columns and slabs.
+** [L12] Feb 13, Fri
+- Design of slabs.
+** [L13] Feb 17, Tue
+- Design of slabs.
+** Feb 20 - 27: Mid semester exam week
+** Feb 28 - Mar 8: Mid semester recess
+** [L14] Mar 10, Tue
+- Design of shallow foundations.
+- Types of footings, eccentricity, failure modes and design considerations.
+** [L15] Mar 13, Fri
+- Design of shallow foundations.
+** [L16] Mar 17, Tue
+- Design of staircases.
+** [T3] Mar 19, Thu
+- Design of foundations.
+** [L17] Mar 20, Fri
+- Design of staircases.
+** [L18] Mar 24, Tue
+- Design of structural systems.
+** [T4] Mar 26, Thu
+- Design of staircases.
+** [L19] Mar 30, Mon
+- Design of structural systems.
+** Mar 31, Tue - no class
+- Mahavir Jayanti
+** [L20] Apr 02, Thu
+- Design of structural systems.
+** Apr 03, Fri - no class
+- Good Friday
+** [L21] Apr 07, Tue
+- Ductile detailing and construction practices.
+** [L22] Apr 10, Fri
+- Ductile detailing and construction practices.
+** [L23] Apr 14, Tue
+- Ductile detailing and construction practices.
+** [T5] Apr 16, Thu
+- Design of structural systems.
+** [L24] Apr 17, Fri
+- Ductile detailing and construction practices.
+** [L25] Apr 21, Tue
+- Ductile detailing and construction practices.
+** [T6] Apr 23, Thu
+- Ductile detailing and construction practices.
+
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
