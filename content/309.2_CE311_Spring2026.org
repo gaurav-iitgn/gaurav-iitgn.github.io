@@ -16,8 +16,7 @@
 | Tutorial location | AB 7/206                                  | AB 7/206                                            |
 |-------------------+-------------------------------------------+-----------------------------------------------------|
 | TAs               | Kritika Rai (kritika.rai@iitgn.ac.in)     | Venkata Valligatla (venkata.valligatla@iitgn.ac.in) |
-|                   | Shivam Gautam (shivam.gautam@iitgn.ac.in) | Faizan Yousuf Bhat (24350009@iitgn.ac.in)           |
-|                   |                                           | Shaivi Sargam Chanekar (24250084@iitgn.ac.in)       |
+|                   | Shivam Gautam (shivam.gautam@iitgn.ac.in) | Shaivi Sargam Chanekar (24250084@iitgn.ac.in)       |
 |-------------------+-------------------------------------------+-----------------------------------------------------|
 *Note*:
 1. Tutorial hours will be used for problem-solving, covering theoretical aspects of the laboratory, and hands-on laboratory experiments, as relevant for the topics being covered.
