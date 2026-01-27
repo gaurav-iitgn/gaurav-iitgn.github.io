@@ -129,20 +129,22 @@ It is important to develop the habit of self-learning. A number of reading assig
   - additional tension steel and corresponding compression steel
 - Refer to Chapters 4 and 5 of the textbook.
 ** [L7] Jan 27, Tue
-- Design of beams for shear and bond.
-- Consideration of flanged-beams (T and L)
+- Design of doubly-reinforced beams
+  - additional tension steel and corresponding compression steel
+- Limits on bar spacing and their impact on crack width
+- Refer to Chapters 4 and 5 of the textbook.
 ** [L8] Jan 30, Fri
-- Design of columns.
+- Design of beams for shear and bond.
 ** [L9] Feb 03, Tue
-- Design of columns.
+- Consideration of flanged-beams (T and L)
 ** [T1] Feb 05, Thu
-- Design of beams and columns.
+- Design of beams.
 ** [L10] Feb 06, Fri
 - Design of columns.
 ** [L11] Feb 10, Tue
-- Design of slabs.
+- Design of columns.
 ** [T2] Feb 12, Thu
-- Design of columns and slabs.
+- Design of columns.
 ** [L12] Feb 13, Fri
 - Design of slabs.
 ** [L13] Feb 17, Tue
@@ -186,6 +188,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Ductile detailing and construction practices.
 ** [T7] Apr 23, Thu
 - Ductile detailing and construction practices.
+** Apr 24 - May 01: End semester exam week
 
 
 #+HTML: <small>

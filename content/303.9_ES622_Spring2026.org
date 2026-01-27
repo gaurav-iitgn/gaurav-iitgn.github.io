@@ -133,8 +133,92 @@ The report should be organized as follows:
 
 
 * Calendar (tentative)
-** Will be updated soon
-Here is the calendar from 2022 as a reference: https://gauravs.people.iitgn.ac.in/303.8_ES622_Spring2022.html#org0b6bc99
+** [L1] Jan 05, Mon
+- Introduction to FEM
+- Different formulations of the same physical problem
+- Stretching of 1D bar - force equilibrium, virtual work method, total potential energy
+- Notion of strong and weak forms
+** Jan 08, Thu - no class
+- Class times rescheduled.
+** [L2] Jan 13, Tue
+- Matlab session.
+** [L3] Jan 15, Thu
+- Matlab session.
+** [L4] Jan 20, Tue
+- Stretching of 1D bar
+  - Equivalence of virtual work and force equilibrium
+- Function vs. functional
+- Notion of dot product
+- Fundamental lemma of calculus of variations
+- Properties of virtual / weight functions
+- Nomenclature of boundary conditions
+** [L5] Jan 22, Thu
+- Ritz method of solving weak form
+- Ritz-Galerkin method
+  - Sub-division of physical domain and domain integrals
+  - Element-wise view vs. global view
+- Shape functions / interpolation functions
+  - global functions
+  - piece-wise linear functions
+  - Properties: Kronecker delta; partition of unity; localized nature
+** [L6] Jan 27, Tue
+- FE approach of solving the 1D weak form / virtual work formulation
+- Approaches to enforce essential boundary conditions
+- General process for utilizing FEM
+- Reference element for element-level formulations
+- Coordinate transformation jacobian and global formulation
+- Gauss quadrature
+** [L7] Jan 29, Thu
+- Construction of 1D shape functions
+- Error computations and convergence
+- Computer implementation of 1D FEM
+** [L8] Feb 03, Tue
+- Computing weak form of 2D Poisson equation
+** [L9] Feb 05, Thu
+- Isoparametric bilinear element
+** [L10] Feb 10, Tue
+- Treatment of boundary integral in 2D problems
+- Consideration of vector fields in 2D problems
+** [L11] Feb 12, Thu
+- Consideration of vector fields in 2D problems
+** [L12] Feb 17, Tue
+- Weak form for time-dependent problems
+** [L13] Feb 19, Thu
+- Weak form for time-dependent problems
+** Feb 20 - 27: Mid semester exam week
+** Feb 28 - Mar 8: Mid semester recess
+** [L14] Mar 10, Tue
+- Time-marching methods
+** [L15] Mar 12, Thu
+- 1D functionals and considering the energy formulations
+- Minimization of functionals
+** [L16] Mar 17, Tue
+- 2D functionals
+** [L17] Mar 19, Thu
+- Locking behavior and issues with incompressible materials
+- B-bar method
+** [L18] Mar 24, Tue
+- Variational principles
+- Hu-Washizu variational principle
+** [L19] Mar 26, Thu
+- Shear locking in elasticity problems
+** Mar 31, Tue - no class
+- Maharvir Jayanti
+** [L20] Apr 02, Thu
+- Numerical artifacts in different FE elements
+** [L21] Apr 07, Tue
+- Method of manufactured solutions for code verification
+** [L22] Apr 09, Thu
+- Calculation of secondary quantities like strain, stress, flux, etc.
+** [L23] Apr 14, Tue
+- Consideration of 3D problems
+** [L24] Apr 16, Thu
+- Nonlinear FE methods
+** [L25] Apr 21, Tue
+- Nonlinear FE methods
+** [L26] Apr 23, Thu
+- Nonlinear FE methods
+** Apr 24 - May 01: End semester exam week
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
