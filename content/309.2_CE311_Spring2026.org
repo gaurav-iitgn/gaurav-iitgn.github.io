@@ -134,7 +134,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Limits on bar spacing and their impact on crack width
 - Refer to Chapters 4 and 5 of the textbook.
 ** [L8] Jan 30, Fri
-- *Assignment 1* given (due 6 Feb)
+- *Assignment 1* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][given here]] (due 6 Feb)
 - Design of beams for shear.
 ** [L9] Feb 03, Tue
 - Consideration of flanged-beams (T and L)

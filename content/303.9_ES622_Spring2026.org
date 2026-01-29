@@ -12,6 +12,7 @@
 | TAs            | Yajat Sharma (yajat.sharma@iitgn.ac.in)   |
 |                | Samar Jyoti Deka (samar.deka@iitgn.ac.in) |
 |----------------+-------------------------------------------|
+- Assignments can be [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][downloaded from here]].
 
 
 * Course objectives, syllabus, books, pre-requisites
@@ -169,6 +170,7 @@ The report should be organized as follows:
 - Coordinate transformation jacobian and global formulation
 - Gauss quadrature
 ** [L7] Jan 29, Thu
+- *Assignment 1* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][given here]] (due 5 Feb)
 - Construction of 1D shape functions
 - Error computations and convergence
 - Computer implementation of 1D FEM
