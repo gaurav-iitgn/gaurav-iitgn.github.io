@@ -16,6 +16,7 @@
 |----------------+-------------------------------------------|
 | Co-Instructor  | Dravesh Yadav (dravesh.yadav@iitgn.ac.in) |
 |----------------+-------------------------------------------|
+- Assignments can be [[https://drive.google.com/drive/folders/1db0YBHTID7TIAGE91E49uuHP_Ej6htHg?usp=drive_link][downloaded from here]].
 
 
 * Course objectives, syllabus, books, pre-requisites
@@ -84,7 +85,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 
 * Calendar (tentative)
 - Will be updated soon
-- See [[./308.6_CE615_Spring2026.org][previous year's website for details of the covered topics]].
+- See [[./308.5_CE615_Spring2025.org][previous year's website for details of the covered topics]].
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
