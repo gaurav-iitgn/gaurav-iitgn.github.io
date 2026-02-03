@@ -175,8 +175,11 @@ The report should be organized as follows:
 - Error computations and convergence
 - Computer implementation of 1D FEM
 ** [L8] Feb 03, Tue
-- Computing weak form of 2D Poisson equation
+- Discussion of 1D FEM code ([[https://drive.google.com/file/d/1wyo4cMIerxot89Bswj2Cl2YgpTR8OQL4/view?usp=sharing][download here]])
+- Error computation and convergence behavior
+- Importance of mesh convergence studies
 ** [L9] Feb 05, Thu
+- Computing weak form of 2D Poisson equation
 - Isoparametric bilinear element
 ** [L10] Feb 10, Tue
 - Treatment of boundary integral in 2D problems
