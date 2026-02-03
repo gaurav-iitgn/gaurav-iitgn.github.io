@@ -135,9 +135,12 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Refer to Chapters 4 and 5 of the textbook.
 ** [L8] Jan 30, Fri
 - *Assignment 1* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][given here]] (due 6 Feb)
-- Design of beams for shear.
+- Design of beams for shear
+- Refer to Chapter 6 of the textbook.
 ** [L9] Feb 03, Tue
+- Critical sections for moment and shear
 - Consideration of flanged-beams (T and L)
+- Refer to Chapters 4 and 5 of the textbook.
 ** [T1] Feb 05, Thu
 - Design of beams.
 ** [L10] Feb 06, Fri
