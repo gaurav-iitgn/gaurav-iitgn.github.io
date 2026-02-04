@@ -6,16 +6,16 @@
 
 
 * Basic Information
-|----------------+-------------------------------------------|
-| Class timings  | Wednesday, Friday, 15:30-16:50 hrs        |
-| Class location | AB 7/107                                  |
-|----------------+-------------------------------------------|
-| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)   |
-|----------------+-------------------------------------------|
-| Instructor     | S Chandrasekaran (drsekaran@iitgn.ac.in)  |
-|----------------+-------------------------------------------|
-| Co-Instructor  | Dravesh Yadav (dravesh.yadav@iitgn.ac.in) |
-|----------------+-------------------------------------------|
+|----------------+---------------------------------------------|
+| Class timings  | Wednesday, Friday, 15:30-16:50 hrs          |
+| Class location | AB 7/107                                    |
+|----------------+---------------------------------------------|
+| Instructor     | S Chandrasekaran (srinivasan.c@iitgn.ac.in) |
+|----------------+---------------------------------------------|
+| Instructor     | Gaurav Srivastava (gauravs@iitgn.ac.in)     |
+|----------------+---------------------------------------------|
+| Co-Instructor  | Dravesh Yadav (dravesh.yadav@iitgn.ac.in)   |
+|----------------+---------------------------------------------|
 - Assignments can be [[https://drive.google.com/drive/folders/1db0YBHTID7TIAGE91E49uuHP_Ej6htHg?usp=drive_link][downloaded from here]].
 
 
@@ -84,8 +84,59 @@ Following will be the weightage of different components of assessment
 It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
 
 * Calendar (tentative)
-- Will be updated soon
+- Will be updated regularly
 - See [[./308.5_CE615_Spring2025.org][previous year's website for details of the covered topics]].
+** [L1] Jan 07, Wed
+- Introduction to the course and effects of fire on structures.
+** [L2] Jan 09, Fri
+- Modes of heat transfer. Fourier's law, Newton's law of cooling, and Stefan's law of radiation
+- Boundary conditions in fire engineering
+- Electrical circuit analogy for heat transfer
+- Derivation of the transient heat equation.
+** Jan 14, Wed - no class
+- Makar Sankranti
+** [L3] Jan 16, Fri
+- Lumped heat capacity approach for idealizing heat transfer in conductive materials
+- Introduction to natural fire curve and standard fire curve
+** [L4] Jan 21, Wed
+- Semi-infinite idealization for idealizing heat transfer in insulating materials
+- Fire load calculation
+- HRR-time models for fire (t^2 model)
+** [L5] Jan 23, Fri
+- Behavior of compartment fires and flashover
+- Fuel-controlled and ventilation-controlled fire
+- Thomas correlation for critical heat flux for flashover of single compartments
+** [L6] Jan 28, Wed
+- Parametric time-temperature fire curves - EN approach
+** [L7] Jan 30, Fri
+- Thermal and mechanical properties of steel and concrete at elevated temperatures
+- Equivalent fire severity
+- Visit to the fire lab
+- *Assignment 1* given - [[https://drive.google.com/drive/folders/1db0YBHTID7TIAGE91E49uuHP_Ej6htHg?usp=drive_link][download from here]] (due on 11 Feb)
+** [L8] Feb 04, Wed
+- Overview of heat-transfer calculations
+- Use of Eurocodes for determining material properties (thermal and mechanical) and temperature calculations
+** [L9] Feb 06, Fri
+** [L10] Feb 11, Wed
+** [L11] Feb 13, Fri
+** [L12] Feb 18, Wed
+** Feb 20 - 27: Mid semester exam week
+** Feb 28 - Mar 8: Mid semester recess
+** [L13] Mar 11, Wed
+** [L14] Mar 13, Fri
+** [L15] Mar 18, Wed
+** [L16] Mar 20, Fri
+** [L17] Mar 25, Wed
+** [L18] Mar 27, Fri
+** [L19] Apr 01, Wed
+** Apr 03, Fri - no class
+- Good Friday
+** [L20] Apr 08, Wed
+** [L21] Apr 10, Fri
+** [L22] Apr 15, Wed
+** [L23] Apr 17, Fri
+** [L24] Apr 23, Thu
+** Apr 24 - May 01: End semester exam week
 
 #+HTML: <small>
 (Last updated: {{{mtime}}})
