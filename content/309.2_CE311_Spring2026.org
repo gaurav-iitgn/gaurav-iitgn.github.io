@@ -142,7 +142,8 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Consideration of flanged-beams (T and L)
 - Refer to Chapters 4 and 5 of the textbook.
 ** [T1] Feb 05, Thu
-- Design of beams.
+- Analysis and design of beams.
+- [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][Download from here]]
 ** [L10] Feb 06, Fri
 - Design of columns.
 ** [L11] Feb 10, Tue
