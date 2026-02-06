@@ -170,7 +170,7 @@ The report should be organized as follows:
 - Coordinate transformation jacobian and global formulation
 - Gauss quadrature
 ** [L7] Jan 29, Thu
-- *Assignment 1* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][given here]] (due 5 Feb)
+- *Assignment 1* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][download here]] (due 5 Feb)
 - Construction of 1D shape functions
 - Error computations and convergence
 - Computer implementation of 1D FEM
@@ -179,8 +179,9 @@ The report should be organized as follows:
 - Error computation and convergence behavior
 - Importance of mesh convergence studies
 ** [L9] Feb 05, Thu
+- *Assignment 2* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][download here]] (due 12 Feb)
+- Isoparametric elements
 - Computing weak form of 2D Poisson equation
-- Isoparametric bilinear element
 ** [L10] Feb 10, Tue
 - Treatment of boundary integral in 2D problems
 - Consideration of vector fields in 2D problems
