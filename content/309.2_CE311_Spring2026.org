@@ -134,7 +134,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Limits on bar spacing and their impact on crack width
 - Refer to Chapters 4 and 5 of the textbook.
 ** [L8] Jan 30, Fri
-- *Assignment 1* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][given here]] (due 6 Feb)
+- *Assignment 1* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][download here]] (due +6+ 10 Feb)
 - Design of beams for shear
 - Refer to Chapter 6 of the textbook.
 ** [L9] Feb 03, Tue
@@ -144,8 +144,9 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** [T1] Feb 05, Thu
 - Analysis and design of beams.
 - [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][Download from here]]
-** [L10] Feb 06, Fri
-- Design of columns.
+** [L10] Feb 06, Fri - no class
+- *Assignment 2* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][download here]] (due 13 Feb)
+- Due to Blithchron
 ** [L11] Feb 10, Tue
 - Design of columns.
 ** [T2] Feb 12, Thu
