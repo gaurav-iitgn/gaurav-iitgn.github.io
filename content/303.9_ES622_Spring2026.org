@@ -183,12 +183,16 @@ The report should be organized as follows:
 - Isoparametric elements
 - Computing weak form of 2D Poisson equation
 ** [L10] Feb 10, Tue
+- Isoparametric elements
+- Computing weak form of 2D Poisson equation
 - Treatment of boundary integral in 2D problems
-- Consideration of vector fields in 2D problems
 ** [L11] Feb 12, Thu
-- Consideration of vector fields in 2D problems
+- *Assignment 3* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][download here]] (due 19 Feb)
+- Treatment of boundary integral in 2D problems
 ** [L12] Feb 17, Tue
 - Weak form for time-dependent problems
+- Consideration of vector fields in 2D problems
+- Consideration of vector fields in 2D problems
 ** [L13] Feb 19, Thu
 - Weak form for time-dependent problems
 ** Feb 20 - 27: Mid semester exam week
