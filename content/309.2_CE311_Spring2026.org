@@ -148,16 +148,21 @@ It is important to develop the habit of self-learning. A number of reading assig
 - *Assignment 2* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][download here]] (due 13 Feb)
 - Due to Blithchron
 ** [L11] Feb 10, Tue
+- Limit state of collapse in compression.
+- Classification of columns. P, P-M and P-M-M interaction considerations.
+- Limiting cases of eccentricity.
+** [L12] Feb 12, Thu
+- Design of columns - consideration of short, axially loaded columns.
+** [L13] Feb 13, Fri
+- *Assignment 3* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][download here]] (due 17 Feb)
+- Design of columns - consideration of short, axially loaded columns.
+** [T2] Feb 17, Tue
 - Design of columns.
-** [T2] Feb 12, Thu
-- Design of columns.
-** [L12] Feb 13, Fri
-- Design of slabs.
-** [L13] Feb 17, Tue
-- Design of slabs.
+- [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][Download from here]]
 ** Feb 20 - 27: Mid semester exam week
 ** Feb 28 - Mar 8: Mid semester recess
 ** [L14] Mar 10, Tue
+- Design of slabs.
 - Design of shallow foundations.
 - Types of footings, eccentricity, failure modes and design considerations.
 ** [L15] Mar 13, Fri
