@@ -162,43 +162,44 @@ It is important to develop the habit of self-learning. A number of reading assig
 ** Feb 20 - 27: Mid semester exam week
 ** Feb 28 - Mar 8: Mid semester recess
 ** [L14] Mar 10, Tue
-- Design of slabs.
-- Design of shallow foundations.
-- Types of footings, eccentricity, failure modes and design considerations.
+- Analysis and design of slabs.
+- Discussion on loads and types of slab systems.
+- One-way vs. two-way action.
 ** [L15] Mar 13, Fri
-- Design of shallow foundations.
+- Design of slabs.
 ** [L16] Mar 17, Tue
-- Design of staircases.
+- Design of slabs.
 ** [T3] Mar 19, Thu
-- Design of foundations.
+- Design of slabs.
 ** [L17] Mar 20, Fri
 - Design of staircases.
 ** [L18] Mar 24, Tue
-- Design of structural systems.
+- Design of staircases.
 ** [T4] Mar 26, Thu
 - Design of staircases.
 ** [L19] Mar 30, Mon
-- Design of structural systems.
+- Design of shallow foundations.
+- Types of footings, eccentricity, failure modes and design considerations.
 ** Mar 31, Tue - no class
 - Mahavir Jayanti
 ** [T5] Apr 02, Thu
-- Design of structural systems.
+- Design of shallow foundations.
 ** Apr 03, Fri - no class
 - Good Friday
 ** [L20] Apr 07, Tue
-- Ductile detailing and construction practices.
+- Design of structural systems.
 ** [L21] Apr 10, Fri
-- Ductile detailing and construction practices.
+- Design of structural systems.
 ** [L22] Apr 14, Tue
-- Ductile detailing and construction practices.
+- Design of structural systems.
 ** [T6] Apr 16, Thu
 - Design of structural systems.
 ** [L23] Apr 17, Fri
-- Ductile detailing and construction practices.
+- Detailing and construction practices.
 ** [L24] Apr 21, Tue
-- Ductile detailing and construction practices.
+- Detailing and construction practices.
 ** [T7] Apr 23, Thu
-- Ductile detailing and construction practices.
+- Detailing and construction practices.
 ** Apr 24 - May 01: End semester exam week
 
 
