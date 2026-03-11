@@ -165,6 +165,7 @@ It is important to develop the habit of self-learning. A number of reading assig
 - Analysis and design of slabs.
 - Discussion on loads and types of slab systems.
 - One-way vs. two-way action.
+- Torsion at the corners of slabs.
 ** [L15] Mar 13, Fri
 - Design of slabs.
 ** [L16] Mar 17, Tue
