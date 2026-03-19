@@ -167,10 +167,11 @@ It is important to develop the habit of self-learning. A number of reading assig
 - One-way vs. two-way action.
 - Torsion at the corners of slabs.
 ** [L15] Mar 13, Fri
-- Design of slabs.
+- Design of slabs using moment coefficients.
 ** [L16] Mar 17, Tue
-- Design of slabs.
+- Design of slabs using moment coefficients.
 ** [T3] Mar 19, Thu
+- *Assignment 4* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][download here]] (due 27 Mar)
 - Design of slabs.
 ** [L17] Mar 20, Fri
 - Design of staircases.
