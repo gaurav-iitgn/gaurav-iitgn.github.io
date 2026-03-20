@@ -174,7 +174,10 @@ It is important to develop the habit of self-learning. A number of reading assig
 - *Assignment 4* [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][download here]] (due 27 Mar)
 - Design of slabs.
 ** [L17] Mar 20, Fri
-- Design of staircases.
+- Visualizing detailing of slab reinforcements and stages of building construction.
+- Useful videos (please view them in light of the discussions in the class; knowing limitations and inaccuracies)
+  - Slab reinforcement: https://www.youtube.com/watch?v=NCh9e9Vjh7A
+  - Building construction stages: https://www.youtube.com/watch?v=r-thd4PJKBw
 ** [L18] Mar 24, Tue
 - Design of staircases.
 ** [T4] Mar 26, Thu
