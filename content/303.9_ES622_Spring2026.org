@@ -198,26 +198,32 @@ The report should be organized as follows:
 ** Feb 20 - 27: Mid semester exam week
 ** Feb 28 - Mar 8: Mid semester recess
 ** [L14] Mar 10, Tue
-- Time-marching methods
+- Solution of mid-semester exam.
 ** [L15] Mar 12, Thu
+- Time-marching methods for parabolic and hyperbolic equations.
+** [L16] Mar 17, Tue
+- Time-marching methods for parabolic and hyperbolic equations.
+- Generalized eigenvalue problem associated with the FE matrices. Stability and convergence criteria.
+** [L17] Mar 19, Thu
 - 1D functionals and considering the energy formulations
 - Minimization of functionals
-** [L16] Mar 17, Tue
-- 2D functionals
-** [L17] Mar 19, Thu
-- Locking behavior and issues with incompressible materials
-- B-bar method
 ** [L18] Mar 24, Tue
-- Variational principles
-- Hu-Washizu variational principle
+- 1D functionals and considering the energy formulations
+- Minimization of functionals
 ** [L19] Mar 26, Thu
-- Shear locking in elasticity problems
+- *Assignment 4* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][download here]] (due 02 Apr)
+- 1D functionals and considering the energy formulations
+- 2D functionals
 ** Mar 31, Tue - no class
 - Maharvir Jayanti
 ** [L20] Apr 02, Thu
-- Numerical artifacts in different FE elements
-** [L21] Apr 07, Tue
 - Method of manufactured solutions for code verification
+- Variational principles
+- Hu-Washizu variational principle
+** [L21] Apr 07, Tue
+- Locking behavior and issues with incompressible materials
+- B-bar method
+- Numerical artifacts in different FE elements
 ** [L22] Apr 09, Thu
 - Calculation of secondary quantities like strain, stress, flux, etc.
 ** [L23] Apr 14, Tue
