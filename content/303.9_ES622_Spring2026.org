@@ -103,7 +103,7 @@ Project is to be done in groups of not more than 3. Following timeline must be a
 |--------+-------------------------------------------------------------------------------------------------------+-------|
 | Feb 19 | Feedback from instructor about project topics                                                         |  -10* |
 |--------+-------------------------------------------------------------------------------------------------------+-------|
-| Mar 19 | SUBMIT 2-3 page detailed report discussing overall approach, idealizations, etc. required for project |    20 |
+| Mar 31 | SUBMIT 2-3 page detailed report discussing overall approach, idealizations, etc. required for project |    20 |
 |--------+-------------------------------------------------------------------------------------------------------+-------|
 | Apr 16 | Project presentations (one per group)                                                                 |    30 |
 |--------+-------------------------------------------------------------------------------------------------------+-------|
@@ -217,23 +217,33 @@ The report should be organized as follows:
 ** Mar 31, Tue - no class
 - Maharvir Jayanti
 ** [L20] Apr 02, Thu
-- Method of manufactured solutions for code verification
-- Variational principles
-- Hu-Washizu variational principle
+- Continuum vs. structural elements
+- Matrix stiffness method as a special case of FEM
+- A different view of creating shape functions
+- Higher degree elements.
 ** [L21] Apr 07, Tue
-- Locking behavior and issues with incompressible materials
-- B-bar method
-- Numerical artifacts in different FE elements
+- A different view of creating shape functions
+- Creating higher degree elements with selective edges being nonlinear
+- 2D triangular element (CST, LST); creating triangle element as a degenerate quad element
+- 3D shape functions and elements (hexahederal, tetrahederal, others)
+- Limitations of single field methods (incompressible materials in elasticity formulation)
 ** [L22] Apr 09, Thu
-- Calculation of secondary quantities like strain, stress, flux, etc.
+- *Assignment 5* [[https://drive.google.com/drive/folders/1ePNIzgNZoYzgIcgj61yzIj67bbo3sGJ9?usp=drive_link][download here]] (due 16 Apr)
+- 3D elasticity and 2D idealizations.
+- Variational principles (Hellinger-Reissner and Hu-Washizu) for multi-field formulations
+- Proof for natural BCs arising out of minimization of functionals
 ** [L23] Apr 14, Tue
-- Consideration of 3D problems
+- Calculation of secondary quantities like strain, stress, flux, etc.
+- Method of manufactured solutions for code verification
+- Locking behavior and issues with incompressible materials
 ** [L24] Apr 16, Thu
-- Nonlinear FE methods
+- Project presentations (8 minutes per group)
 ** [L25] Apr 21, Tue
-- Nonlinear FE methods
+- Numerical artifacts in different FE elements; modes of elements, rigid body modes
+- Locking behavior and issues with incompressible materials; B-bar method
 ** [L26] Apr 23, Thu
-- Nonlinear FE methods
+- Numerical artifacts in different FE elements; modes of elements, rigid body modes
+- Locking behavior and issues with incompressible materials; B-bar method
 ** Apr 24 - May 01: End semester exam week
 
 #+HTML: <small>
