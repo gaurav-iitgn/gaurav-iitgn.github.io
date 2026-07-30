@@ -1,0 +1,118 @@
+#+TITLE: CE 312: Design of Steel Structures - Fall 2026
+# #+OPTIONS: 
+#+OPTIONS: toc:1
+#+MACRO: mtime (eval (format-time-string "%d-%B-%Y" (nth 5 (file-attributes buffer-file-name))))
+
+* Basic Information
+|-------------------+------------------------------------------------------------------------------------|
+| Class timings     | Tuesday and Thursday, 10:00 - 11:20                                                |
+| Class location    | AB 7/101                                                                           |
+|-------------------+------------------------------------------------------------------------------------|
+| Tutorial timings  | Friday, 8:30 - 9:50                                                                |
+| Tutorial location | AB 7/210                                                                           |
+|-------------------+------------------------------------------------------------------------------------|
+| Instructor        | Gaurav Srivastava (gauravs@iitgn.ac.in)                                            |
+|-------------------+------------------------------------------------------------------------------------|
+| TAs               | Yajat Sharma (yajat.sharma@iitgn.ac.in) and Kritika Rai (kritika.rai@iitgn.ac.in). |
+|-------------------+------------------------------------------------------------------------------------|
+
+- Assignments and tutorials will be posted in this [[https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk?usp=sharing][Google folder]]
+
+* Course objectives, syllabus, books, pre-requisites
+** Objective
+- To learn the basics of analysis and design of steel structures.
+	
+** Syllabus
+- Review of Design Philosophy: Working stress (WS), Ultimate load (UL), Load resistant factor design (LRFD), and Limit state (LS); characteristics load vs. strength; Load combinations; and Partial safety factors
+- Elementary Plastic Analysis: Moment-curvature relationship; Plastic hinges; and Collapse load and Mechanism
+- Design of Pure Tension and Pure Compression Members: Bolted vs welded members; Theory of elastic buckling with and without imperfection; Long and short column effects; and P-Delta effect
+- Design of Beams and Plate Girders: Kirchhoff's plate bending theory; Plate buckling; Torsional and Lateral-torsional buckling; Design of laterally supported and unsupported beams; and Rolled steel vs built-up sections
+- Design of Beam-Columns: Combined effect of axial and flexure (P-M interaction), Design of columns subjected to axial force and uniaxial / biaxial moment; and Rolled steel vs built-up sections
+- Design of Beam-Column Joints: Strong vs weaker axis connections; Moment-shear connection, Torsion-shear connection; and Bolted vs welded connections
+- Design of Column-Base Plate Connections: Bolted vs welded connections; Axial force and uniaxial / biaxial moment; and Uplift and Anchor bolts. 
+
+** Text Books
+- Design of Steel Structures by N. Subramanian. (primary)
+- Structural Steel Design by McCormac and Csernak. (secondary)
+
+** Relevant Codes
+- IS 800:2007 (main design code)
+- IS 875 (specification of design loads)
+- IS 808:1989, 1732:1989, 1173:1978 (dimensions of hot rolled sections)
+- IS 2062:2011 (specifications of hot rolled structural steel)
+Codes can be downloaded free of charge from the BIS website: https://standardsbis.bsbedge.com/.
+- Please ensure that you have a copy of all of these codes BEFORE the first class.
+- During the exams, only clean hard copies of the codes will be allowed.
+
+** Analysis and Design Software
+SAP2000 will be utilized for analysis and design during the course.
+
+* Course Policies
+** Etiquette
+- Please be considerate about everyone's time.
+- In all emails pertaining to this course, please have "CE312" in the subject line.
+	- (note that there is no space or hyphen or anything between CE and 312)
+
+** Cheating and Plagiarism
+Cheating cases (assignments/codes/exams/project) will be dealt with in accordance with the Institute norms. It is expected that everyone will uphold the honor code.
+
+** Late submissions
+Late submissions will not be considered towards grades.
+
+** Attendance
+- It is expected that students will attend all the lectures and tutorials. Leave will be granted only in genuine cases with appropriate documentation, when sought ahead of time.
+- Attendance will be recorded in all the sessions and the present percentage will be multiplied to the total marks before calculation of the final marks for grading.
+- For example, if the total marks are 90/100 and the attendance is 85%, the final marks considered for grading will be $90\times 85\% = 76.5/100$.
+
+** Grading
+Following will be the weightage of different components of assessment
+| Component            | Weightage |
+|----------------------+-----------|
+| Homework assignments |       20% |
+| Exam 1               |       20% |
+| Exam 2               |       20% |
+| Project 1            |       25% |
+| Project 2            |       15% |
+
+- Assignments and tutorials will be posted in this [[https://drive.google.com/drive/folders/1FFy2mhmzlJjk1cDJ6ZzLTR_JR9H3c3Tv?usp=sharing][Google folder]].
+	
+** Emphasis on self-learning
+It is important to develop the habit of self-learning. A number of reading assignments and self-exercises will be given during the course. These will not be formally graded and it will be expected that students will go through them on a regular basis on their own.
+
+* Projects
+There will be two projects in this course that are to be done in groups.
+
+** Project 1 - design and build a portable cabin
+- The project entails designing and building a portable cabin as per the schematic and requirements mentioned [[https://drive.google.com/file/d/1JQVniTTRtjY1xVj0pmJTRHAVW6blZKlP/view?usp=drive_link][here]].
+- The project will be carried out in groups of 9-10 students.
+- A break-up of the tasks for Project 1 are as follows:
+  - Task 1: survey to obtain user requirements
+  - Task 2: geometrical/space design
+  - Task 3: load estimation and preliminary structural analysis
+  - Task 4: design of structural members
+  - Task 5: design of connections
+  - Task 6: preparation of fabrication drawings
+  - Task 7: preparation of BOQ and cost estimate
+  - Task 8: fabrication of the cabin
+  - Task 9: putting the cabin to use and collecting feedback
+  - Task 10: submission of final report
+
+** Project 2 - design of industrial shed
+- The project entails designing of an industrial shed of plan dimensions 10m width and 50m length and a height of 6m.
+- The project will be carried out in groups of 5-6 students.
+- A break-up of the tasks for Project 2 are as follows:
+  - Task 1: load estimation and preliminary structural analysis
+  - Task 2: design of structural members
+  - Task 3: design of connections
+  - Task 4: design of foundation
+  - Task 5: revision of structural analysis model
+  - Task 6: preparation of structural drawings
+  - Task 7: submission of final report
+
+
+* Calendar (tentative)
+coming soon
+
+#+HTML: <small>
+(Last updated: {{{mtime}}})
+#+HTML: </small>
