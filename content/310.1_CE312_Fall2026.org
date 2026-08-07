@@ -112,13 +112,13 @@ There will be two projects in this course that are to be done in groups.
 
 * Calendar (tentative)
 |---+---+---+---|
-| *Date* | *Lec/Tut* | *Activity* | *Assgn/Proj* |
+| *Date* | *Lec/Tut* | *Activity* | *Resources* |
 |---+---+---+---|
 | Aug 04, Tue| Lec 1| Introduction to steel structures. Introduction to design. Probabilistic nature of load and resistance.|   |
 |---+---+---+---|
-| Aug 06, Thu| Lec 2| |   |
+| Aug 06, Thu| Lec 2| Characteristic load and resistance. Limit state function. Normal distribution (pdf, cdf). Different measures of reliability indices and their relation with probability of failure. Process of manufacturing steel from iron ore.|   |
 |---+---+---+---|
-| Aug 07, Fri| Tut 1| |   |
+| Aug 07, Fri| Tut 1| Characteristic vs. Design load and resistance. LRFD format. Partial safety factors. Limit state method of design. Partial factors for load and resistance as per IS 800. Grades of steel as per IS 800 and IS 2062. UTS of steel specimens. Mechanical properties of steel. Chemical composition and weldability.|   |
 |---+---+---+---|
 | Aug 11, Tue| Lec 3| |   |
 |---+---+---+---|
