@@ -114,89 +114,89 @@ There will be two projects in this course that are to be done in groups.
 |---+---+---+---|
 | *Date* | *Lec/Tut* | *Activity* | *Resources* |
 |---+---+---+---|
-| Aug 04, Tue| Lec 1| Introduction to steel structures. Introduction to design. Probabilistic nature of load and resistance.|   |
+| Aug 04, Tue| L 1| Introduction to steel structures. Introduction to design. Probabilistic nature of load and resistance.|   |
 |---+---+---+---|
-| Aug 06, Thu| Lec 2| Characteristic load and resistance. Limit state function. Normal distribution (pdf, cdf). Different measures of reliability indices and their relation with probability of failure. Process of manufacturing steel from iron ore.|   |
+| Aug 06, Thu| L 2| Characteristic load and resistance. Limit state function. Normal distribution (pdf, cdf). Different measures of reliability indices and their relation with probability of failure. Process of manufacturing steel from iron ore.|   |
 |---+---+---+---|
-| Aug 07, Fri| Tut 1| Characteristic vs. Design load and resistance. LRFD format. Partial safety factors. Limit state method of design. Partial factors for load and resistance as per IS 800. Grades of steel as per IS 800 and IS 2062. UTS of steel specimens. Mechanical properties of steel. Chemical composition and weldability.|   |
+| Aug 07, Fri| T 1| Characteristic vs. Design load and resistance. LRFD format. Partial safety factors. Limit state method of design. Partial factors for load and resistance as per IS 800. Grades of steel as per IS 800 and IS 2062. UTS of steel specimens. Mechanical properties of steel. Chemical composition and weldability.|   |
 |---+---+---+---|
-| Aug 11, Tue| Lec 3| |   |
+| Aug 11, Tue| L 3| Structural steel products in India. Hot rolling process. Major and minor axes. Section classes properties from IS 808. General process of design leading to the selection of appropriate section class. Load specifications in IS 875.|   |
 |---+---+---+---|
-| Aug 13, Thu| Lec 4| |   |
+| Aug 13, Thu| L 4| Loads and load combinations. Limit state of gross-section yielding and net-section rupture for tension members. Stress concentration factor.|   |
 |---+---+---+---|
-| Aug 14, Fri| Tut 2| |   |
+| Aug 14, Fri| T 2| [[https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk][T-1]] | [[https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk][A-1]] (due 21 Aug)  |
 |---+---+---+---|
-| Aug 18, Tue| Lec 5| |   |
+| Aug 18, Tue| L 5| |   |
 |---+---+---+---|
-| Aug 20, Thu| Lec 6| |   |
+| Aug 20, Thu| L 6| |   |
 |---+---+---+---|
-| Aug 21, Fri| Tut 3| |   |
+| Aug 21, Fri| T 3| |   |
 |---+---+---+---|
-| Aug 25, Tue| Lec 7| |   |
+| Aug 25, Tue| L 7| |   |
 |---+---+---+---|
-| Aug 27, Thu| Lec 8| |   |
+| Aug 27, Thu| L 8| |   |
 |---+---+---+---|
-| Aug 28, Fri| Tut 4| |   |
+| Aug 28, Fri| T 4| |   |
 |---+---+---+---|
-| Sep 01, Tue| Lec 9| |   |
+| Sep 01, Tue| L 9| |   |
 |---+---+---+---|
-| Sep 03, Thu| Lec 10| |   |
+| Sep 03, Thu| L 10| |   |
 |---+---+---+---|
 | Sep 04, Fri| | Janmashtami|   |
 |---+---+---+---|
-| Sep 08, Tue| Lec 11| |   |
+| Sep 08, Tue| L 11| |   |
 |---+---+---+---|
-| Sep 10, Thu| Lec 12| |   |
+| Sep 10, Thu| L 12| |   |
 |---+---+---+---|
-| Sep 11, Fri| Tut 5| |   |
+| Sep 11, Fri| T 5| |   |
 |---+---+---+---|
-| Sep 15, Tue| Lec 13| |   |
+| Sep 15, Tue| L 13| |   |
 |---+---+---+---|
-| Sep 17, Thu| Lec 14| |   |
+| Sep 17, Thu| L 14| |   |
 |---+---+---+---|
 | | | Sep 18 to 23: Exam 1 window|   |
 |---+---+---+---|
-| Sep 24, Thu| Lec 15| |   |
+| Sep 24, Thu| L 15| |   |
 |---+---+---+---|
-| Sep 25, Fri| Tut 6| |   |
+| Sep 25, Fri| T 6| |   |
 |---+---+---+---|
-| Sep 29, Tue| Lec 16| |   |
+| Sep 29, Tue| L 16| |   |
 |---+---+---+---|
-| Oct 01, Thu| Lec 17| |   |
+| Oct 01, Thu| L 17| |   |
 |---+---+---+---|
 | Oct 02, Fri| | Gandhi Jayanti|   |
 |---+---+---+---|
-| Oct 06, Tue| Lec 18| |   |
+| Oct 06, Tue| L 18| |   |
 |---+---+---+---|
-| Oct 08, Thu| Lec 19| |   |
+| Oct 08, Thu| L 19| |   |
 |---+---+---+---|
-| Oct 09, Fri| Tut 7| |   |
+| Oct 09, Fri| T 7| |   |
 |---+---+---+---|
-| Oct 13, Tue| Lec 20| |   |
+| Oct 13, Tue| L 20| |   |
 |---+---+---+---|
-| Oct 15, Thu| Lec 21| |   |
+| Oct 15, Thu| L 21| |   |
 |---+---+---+---|
-| Oct 16, Fri| Tut 8| |   |
+| Oct 16, Fri| T 8| |   |
 |---+---+---+---|
 | | | Oct 17 to 25: Mid Semeseter Recess|   |
 |---+---+---+---|
-| Oct 27, Tue| Lec 22| |   |
+| Oct 27, Tue| L 22| |   |
 |---+---+---+---|
-| Oct 29, Thu| Lec 23| |   |
+| Oct 29, Thu| L 23| |   |
 |---+---+---+---|
-| Oct 30, Fri| Tut 9| |   |
+| Oct 30, Fri| T 9| |   |
 |---+---+---+---|
-| Nov 03, Tue| Lec 24| |   |
+| Nov 03, Tue| L 24| |   |
 |---+---+---+---|
-| Nov 05, Thu| Lec 25| |   |
+| Nov 05, Thu| L 25| |   |
 |---+---+---+---|
-| Nov 06, Fri| Tut 10| |   |
+| Nov 06, Fri| T 10| |   |
 |---+---+---+---|
-| Nov 10, Tue| Lec 26| |   |
+| Nov 10, Tue| L 26| |   |
 |---+---+---+---|
-| Nov 12, Thu| Lec 27| |   |
+| Nov 12, Thu| L 27| |   |
 |---+---+---+---|
-| Nov 13, Fri| Tut 11| |   |
+| Nov 13, Fri| T 11| |   |
 |---+---+---+---|
 | | | Nov 20 to 28: Exam 2 window|   |
 |---+---+---+---|
