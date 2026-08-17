@@ -111,95 +111,362 @@ There will be two projects in this course that are to be done in groups.
 
 
 * Calendar (tentative)
-|---+---+---+---|
-| *Date* | *Lec/Tut* | *Activity* | *Resources* |
-|---+---+---+---|
-| Aug 04, Tue| L 1| Introduction to steel structures. Introduction to design. Probabilistic nature of load and resistance.|   |
-|---+---+---+---|
-| Aug 06, Thu| L 2| Characteristic load and resistance. Limit state function. Normal distribution (pdf, cdf). Different measures of reliability indices and their relation with probability of failure. Process of manufacturing steel from iron ore.|   |
-|---+---+---+---|
-| Aug 07, Fri| T 1| Characteristic vs. Design load and resistance. LRFD format. Partial safety factors. Limit state method of design. Partial factors for load and resistance as per IS 800. Grades of steel as per IS 800 and IS 2062. UTS of steel specimens. Mechanical properties of steel. Chemical composition and weldability.|   |
-|---+---+---+---|
-| Aug 11, Tue| L 3| Structural steel products in India. Hot rolling process. Major and minor axes. Section classes properties from IS 808. General process of design leading to the selection of appropriate section class. Load specifications in IS 875.|   |
-|---+---+---+---|
-| Aug 13, Thu| L 4| Loads and load combinations. Limit state of gross-section yielding and net-section rupture for tension members. Stress concentration factor.|   |
-|---+---+---+---|
-| Aug 14, Fri| T 2| [[https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk][T-1]] | [[https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk][A-1]] (due 21 Aug)  |
-|---+---+---+---|
-| Aug 18, Tue| L 5| |   |
-|---+---+---+---|
-| Aug 20, Thu| L 6| |   |
-|---+---+---+---|
-| Aug 21, Fri| T 3| |   |
-|---+---+---+---|
-| Aug 25, Tue| L 7| |   |
-|---+---+---+---|
-| Aug 27, Thu| L 8| |   |
-|---+---+---+---|
-| Aug 28, Fri| T 4| |   |
-|---+---+---+---|
-| Sep 01, Tue| L 9| |   |
-|---+---+---+---|
-| Sep 03, Thu| L 10| |   |
-|---+---+---+---|
-| Sep 04, Fri| | Janmashtami|   |
-|---+---+---+---|
-| Sep 08, Tue| L 11| |   |
-|---+---+---+---|
-| Sep 10, Thu| L 12| |   |
-|---+---+---+---|
-| Sep 11, Fri| T 5| |   |
-|---+---+---+---|
-| Sep 15, Tue| L 13| |   |
-|---+---+---+---|
-| Sep 17, Thu| L 14| |   |
-|---+---+---+---|
-| | | Sep 18 to 23: Exam 1 window|   |
-|---+---+---+---|
-| Sep 24, Thu| L 15| |   |
-|---+---+---+---|
-| Sep 25, Fri| T 6| |   |
-|---+---+---+---|
-| Sep 29, Tue| L 16| |   |
-|---+---+---+---|
-| Oct 01, Thu| L 17| |   |
-|---+---+---+---|
-| Oct 02, Fri| | Gandhi Jayanti|   |
-|---+---+---+---|
-| Oct 06, Tue| L 18| |   |
-|---+---+---+---|
-| Oct 08, Thu| L 19| |   |
-|---+---+---+---|
-| Oct 09, Fri| T 7| |   |
-|---+---+---+---|
-| Oct 13, Tue| L 20| |   |
-|---+---+---+---|
-| Oct 15, Thu| L 21| |   |
-|---+---+---+---|
-| Oct 16, Fri| T 8| |   |
-|---+---+---+---|
-| | | Oct 17 to 25: Mid Semeseter Recess|   |
-|---+---+---+---|
-| Oct 27, Tue| L 22| |   |
-|---+---+---+---|
-| Oct 29, Thu| L 23| |   |
-|---+---+---+---|
-| Oct 30, Fri| T 9| |   |
-|---+---+---+---|
-| Nov 03, Tue| L 24| |   |
-|---+---+---+---|
-| Nov 05, Thu| L 25| |   |
-|---+---+---+---|
-| Nov 06, Fri| T 10| |   |
-|---+---+---+---|
-| Nov 10, Tue| L 26| |   |
-|---+---+---+---|
-| Nov 12, Thu| L 27| |   |
-|---+---+---+---|
-| Nov 13, Fri| T 11| |   |
-|---+---+---+---|
-| | | Nov 20 to 28: Exam 2 window|   |
-|---+---+---+---|
+#+BEGIN_EXPORT HTML
+<style>
+table {border-collapse: collapse; width: 100%;}
+th, td {border: 1px solid black; padding: 8px; text-align: left;}
+th {background-color: #f2f2f2;}
+</style>
+<table>
+<tr><th>Date</th><th>Lec/Tut</th><th>Activities</th></tr>
+<tr><td>Aug 04, Tue</td><td>L1</td><td>
+Topics
+<ul>
+<li>Introduction to steel structures. </li>
+<li>Introduction to design. </li>
+<li>Probabilistic nature of load and resistance.</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 06, Thu</td><td>L2</td><td>
+Topics
+<ul>
+<li>Characteristic load and resistance. </li>
+<li>Limit state function. </li>
+<li>Normal distribution (pdf, cdf). </li>
+<li>Different measures of reliability indices and their relation with probability of failure. </li>
+<li>Process of manufacturing steel from iron ore.</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 07, Fri</td><td>L3</td><td>
+Topics
+<ul>
+<li>Characteristic vs. Design load and resistance. </li>
+<li>LRFD format. Partial safety factors. </li>
+<li>Limit state method of design. </li>
+<li>Partial factors for load and resistance as per IS 800. </li>
+<li>Grades of steel as per IS 800 and IS 2062. </li>
+<li>UTS of steel specimens. Mechanical properties of steel. </li>
+<li>Chemical composition and weldability.</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 11, Tue</td><td>L4</td><td>
+Topics
+<ul>
+<li>Structural steel products in India. </li>
+<li>Hot rolling process. </li>
+<li>Major and minor axes. Section classes properties from IS 808. </li>
+<li>General process of design leading to the selection of appropriate section class. </li>
+<li>Load specifications in IS 875.</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 13, Thu</td><td>L5</td><td>
+Topics
+<ul>
+<li>Loads and load combinations. </li>
+<li>Limit state of gross-section yielding and net-section rupture for tension members. </li>
+<li>Stress concentration factor.</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 14, Fri</td><td>T1</td><td>
+
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-1</a> <br>
+Assignment:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-1</a> (due 21 Aug)<br>
+</td></tr>
+<tr><td>Aug 18, Tue</td><td>L6</td><td>
+Topics
+<ul>
+<li>Shear lag effect.</li>
+<li>Limit state of block shear failure and bearing.</li>
+<li>Design of tension members.</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 20, Thu</td><td>L7</td><td>
+Topics
+<ul>
+<li>Plastic and local buckling analysis</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 1</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 21, Fri</td><td>T2</td><td>
+
+</td></tr>
+<tr><td>Aug 25, Tue</td><td>L8</td><td>
+Topics
+<ul>
+<li>Plastic and local buckling analysis</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 2</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 27, Thu</td><td>L9</td><td>
+Topics
+<ul>
+<li>Plastic and local buckling analysis</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 2, Task 1</li>
+</ul>
+
+</td></tr>
+<tr><td>Aug 28, Fri</td><td>T3</td><td>
+
+</td></tr>
+<tr><td>Sep 01, Tue</td><td>L10</td><td>
+Topics
+<ul>
+<li>Design of compression members</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 3</li>
+</ul>
+
+</td></tr>
+<tr><td>Sep 03, Thu</td><td>L11</td><td>
+Topics
+<ul>
+<li>Design of compression members</li>
+</ul>
+
+</td></tr>
+<tr><td>Sep 04, Fri</td><td></td><td>
+Janmashtami
+</td></tr>
+<tr><td>Sep 08, Tue</td><td>L12</td><td>
+Topics
+<ul>
+<li>Design of compression members</li>
+</ul>
+
+</td></tr>
+<tr><td>Sep 10, Thu</td><td>L13</td><td>
+Topics
+<ul>
+<li>Design of compression members</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 2, Task 2</li>
+</ul>
+
+</td></tr>
+<tr><td>Sep 11, Fri</td><td>T4</td><td>
+
+</td></tr>
+<tr><td>Sep 15, Tue</td><td>L14</td><td>
+Topics
+<ul>
+<li>Design of beams</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 4</li>
+</ul>
+
+</td></tr>
+<tr><td>Sep 17, Thu</td><td>L15</td><td>
+Topics
+<ul>
+<li>Design of beams</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 2, Task 3</li>
+</ul>
+
+</td></tr>
+<tr><td></td><td></td><td>
+Sep 18 to 23: Exam 1 window
+</td></tr>
+<tr><td>Sep 24, Thu</td><td>L16</td><td>
+Topics
+<ul>
+<li>Design of beams</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 5</li>
+</ul>
+
+</td></tr>
+<tr><td>Sep 25, Fri</td><td>T5</td><td>
+
+</td></tr>
+<tr><td>Sep 29, Tue</td><td>L17</td><td>
+Topics
+<ul>
+<li>Design of beams</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 6</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 01, Thu</td><td>L18</td><td>
+Topics
+<ul>
+<li>Design of beams</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 7</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 02, Fri</td><td></td><td>
+Gandhi Jayanti
+</td></tr>
+<tr><td>Oct 06, Tue</td><td>L19</td><td>
+Topics
+<ul>
+<li>Bolted connections</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 08, Thu</td><td>L20</td><td>
+Topics
+<ul>
+<li>Bolted connections</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 2, Task 4</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 09, Fri</td><td>T6</td><td>
+
+</td></tr>
+<tr><td>Oct 13, Tue</td><td>L21</td><td>
+Topics
+<ul>
+<li>Bolted connections</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 2, Task 5</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 15, Thu</td><td>L22</td><td>
+Topics
+<ul>
+<li>Bolted connections</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 16, Fri</td><td>T7</td><td>
+
+</td></tr>
+<tr><td></td><td></td><td>
+Oct 17 to 25: Mid Semeseter Recess
+</td></tr>
+<tr><td>Oct 27, Tue</td><td>L23</td><td>
+Topics
+<ul>
+<li>Welded connections</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 8 begins</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 29, Thu</td><td>L24</td><td>
+Topics
+<ul>
+<li>Welded connections</li>
+</ul>
+
+</td></tr>
+<tr><td>Oct 30, Fri</td><td>T8</td><td>
+
+</td></tr>
+<tr><td>Nov 03, Tue</td><td>L25</td><td>
+Topics
+<ul>
+<li>Welded connections</li>
+</ul>
+
+</td></tr>
+<tr><td>Nov 05, Thu</td><td>L26</td><td>
+Topics
+<ul>
+<li>Welded connections</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 2, Task 6</li>
+</ul>
+
+</td></tr>
+<tr><td>Nov 06, Fri</td><td>T9</td><td>
+
+</td></tr>
+<tr><td>Nov 10, Tue</td><td>L27</td><td>
+Topics
+<ul>
+<li>Connections</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 9</li>
+</ul>
+
+</td></tr>
+<tr><td>Nov 12, Thu</td><td>L28</td><td>
+Topics
+<ul>
+<li>Connections</li>
+</ul>
+
+Project Tasks
+<ul>
+<li>Project 1, Task 10</li>
+<li>Project 2, Task 7</li>
+</ul>
+
+</td></tr>
+<tr><td>Nov 13, Fri</td><td>T10</td><td>
+
+</td></tr>
+<tr><td></td><td></td><td>
+Nov 20 to 28: Exam 2 window
+</td></tr>
+</table>
+#+END_EXPORT
 #+HTML: <small>
 (Last updated: {{{mtime}}})
 #+HTML: </small>
