@@ -8,10 +8,10 @@
   <div class="column left">
 	  <b>Gaurav Srivastava</b>
 		<br>
-		Professor and Dr. Vilas Mujumdar Chair
+		Professor and Head
 		<br>
 		<small>
-		Civil Engineering, IIT Gandhinagar
+		Department of Civil Engineering, IIT Gandhinagar
 		<br>
 		Email: <code>gauravs@iitgn.ac.in</code>
 		<br>
