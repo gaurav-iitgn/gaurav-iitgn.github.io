@@ -183,35 +183,38 @@ Assignment:
 Topics
 <ul>
 <li>Shear lag effect.</li>
-<li>Limit state of block shear failure and bearing.</li>
-<li>Design of tension members.</li>
+<li>Limit state of block shear failure.</li>
+<li>Other modes of failure of tension members – bearing, tearing, etc.</li>
 </ul>
 
 </td></tr>
 <tr><td>Aug 20, Thu</td><td>L7</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
-</ul>
-
-Project Tasks
-<ul>
-<li>Project 1, Task 1</li>
+<li>Deflections and slenderness requirements for tension members.</li>
+<li>Lug angles, splices, gusset plates and alignment of line of action forces for trusses.</li>
+<li>Design of tension members.</li>
+<li>Types of bolts, bolt actions, preload, load transfer mechanisms in bolted connections.</li>
 </ul>
 
 </td></tr>
 <tr><td>Aug 21, Fri</td><td>T2</td><td>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-2</a> <br>
+Assignment:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-2</a> (due 28 Aug)<br>
 </td></tr>
 <tr><td>Aug 25, Tue</td><td>L8</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Design of bolted connections under tension.</li>
+<li>Design of welded connections under tension.</li>
 </ul>
 
 Project Tasks
 <ul>
-<li>Project 1, Task 2</li>
+<li>Project 1, Tasks 1 & 2</li>
 </ul>
 
 </td></tr>
