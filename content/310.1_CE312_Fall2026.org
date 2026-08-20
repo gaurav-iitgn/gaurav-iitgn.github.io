@@ -135,7 +135,7 @@ Topics
 <li>Limit state function. </li>
 <li>Normal distribution (pdf, cdf). </li>
 <li>Different measures of reliability indices and their relation with probability of failure. </li>
-<li>Process of manufacturing steel from iron ore.</li>
+<li>Process of manufacturing steel from iron ore (<a href="https://www.youtube.com/watch?v=OjWWcsocnJk" target=\"_blank\">video on steel manufacturing</a>).</li>
 </ul>
 
 </td></tr>
@@ -147,7 +147,7 @@ Topics
 <li>Limit state method of design. </li>
 <li>Partial factors for load and resistance as per IS 800. </li>
 <li>Grades of steel as per IS 800 and IS 2062. </li>
-<li>UTS of steel specimens. Mechanical properties of steel. </li>
+<li>UTS of steel specimens. Mechanical properties of steel (<a href="https://www.youtube.com/watch?v=D8U4G5kcpcM" target=\"_blank\">video on UTS</a>).</li>
 <li>Chemical composition and weldability.</li>
 </ul>
 
@@ -156,7 +156,7 @@ Topics
 Topics
 <ul>
 <li>Structural steel products in India. </li>
-<li>Hot rolling process. </li>
+<li>Hot rolling process (<a href="https://www.youtube.com/watch?v=6xnKmt_gsLs" target=\"_blank\">video on hot rolling process</a>).</li>
 <li>Major and minor axes. Section classes properties from IS 808. </li>
 <li>General process of design leading to the selection of appropriate section class. </li>
 <li>Load specifications in IS 875.</li>
@@ -195,6 +195,7 @@ Topics
 <li>Lug angles, splices, gusset plates and alignment of line of action forces for trusses.</li>
 <li>Design of tension members.</li>
 <li>Types of bolts, bolt actions, preload, load transfer mechanisms in bolted connections.</li>
+<li><a href="https://www.youtube.com/watch?v=XLzTB4KLCxU&t=747s" target=\"_blank\">video on bolted connections</a></li>
 </ul>
 
 </td></tr>
@@ -221,7 +222,7 @@ Project Tasks
 <tr><td>Aug 27, Thu</td><td>L9</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Design of welded connections under tension.</li>
 </ul>
 
 Project Tasks
@@ -236,7 +237,7 @@ Project Tasks
 <tr><td>Sep 01, Tue</td><td>L10</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Plastic and local buckling analysis</li>
 </ul>
 
 Project Tasks
@@ -248,7 +249,7 @@ Project Tasks
 <tr><td>Sep 03, Thu</td><td>L11</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Plastic and local buckling analysis</li>
 </ul>
 
 </td></tr>
@@ -280,7 +281,7 @@ Project Tasks
 <tr><td>Sep 15, Tue</td><td>L14</td><td>
 Topics
 <ul>
-<li>Design of beams</li>
+<li>Design of compression members</li>
 </ul>
 
 Project Tasks
@@ -292,7 +293,7 @@ Project Tasks
 <tr><td>Sep 17, Thu</td><td>L15</td><td>
 Topics
 <ul>
-<li>Design of beams</li>
+<li>Design of compression members</li>
 </ul>
 
 Project Tasks
@@ -322,7 +323,7 @@ Project Tasks
 <tr><td>Sep 29, Tue</td><td>L17</td><td>
 Topics
 <ul>
-<li>Design of beams</li>
+<li>Design of compression members</li>
 </ul>
 
 Project Tasks
@@ -334,7 +335,7 @@ Project Tasks
 <tr><td>Oct 01, Thu</td><td>L18</td><td>
 Topics
 <ul>
-<li>Design of beams</li>
+<li>Design of compression members</li>
 </ul>
 
 Project Tasks
@@ -349,14 +350,14 @@ Gandhi Jayanti
 <tr><td>Oct 06, Tue</td><td>L19</td><td>
 Topics
 <ul>
-<li>Bolted connections</li>
+<li>Design of beams</li>
 </ul>
 
 </td></tr>
 <tr><td>Oct 08, Thu</td><td>L20</td><td>
 Topics
 <ul>
-<li>Bolted connections</li>
+<li>Design of beams</li>
 </ul>
 
 Project Tasks
