@@ -209,8 +209,10 @@ Assignment:
 <tr><td>Aug 25, Tue</td><td>L8</td><td>
 Topics
 <ul>
-<li>Design of bolted connections under tension.</li>
-<li>Design of welded connections under tension.</li>
+<li>Design of bolted connections tension for tension members.</li>
+<li>Shear failure, tension failure and bearing failure limit states of bolts.</li>
+<li>Lap and butt joints. Cover and packing plates.</li>
+<li>Prying action.</li>
 </ul>
 
 Project Tasks
@@ -222,7 +224,8 @@ Project Tasks
 <tr><td>Aug 27, Thu</td><td>L9</td><td>
 Topics
 <ul>
-<li>Design of welded connections under tension.</li>
+<li>Design of bolted connections for prying action.</li>
+<li>Welded connections; types of welds, weld defects and inspection.</li>
 </ul>
 
 Project Tasks
@@ -233,11 +236,15 @@ Project Tasks
 </td></tr>
 <tr><td>Aug 28, Fri</td><td>T3</td><td>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-3</a> <br>
+Assignment:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-3</a> (due 3 Sep)<br>
 </td></tr>
 <tr><td>Sep 01, Tue</td><td>L10</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Design of welded connections for tension members.</li>
 </ul>
 
 Project Tasks
@@ -249,7 +256,7 @@ Project Tasks
 <tr><td>Sep 03, Thu</td><td>L11</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Design of welded connections for tension members.</li>
 </ul>
 
 </td></tr>
@@ -259,14 +266,14 @@ Janmashtami
 <tr><td>Sep 08, Tue</td><td>L12</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Plastic and local buckling analysis</li>
 </ul>
 
 </td></tr>
 <tr><td>Sep 10, Thu</td><td>L13</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Plastic and local buckling analysis</li>
 </ul>
 
 Project Tasks
