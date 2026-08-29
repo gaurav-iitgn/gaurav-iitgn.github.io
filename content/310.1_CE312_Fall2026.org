@@ -45,7 +45,12 @@ Codes can be downloaded free of charge from the BIS website: https://standardsbi
 - During the exams, only clean hard copies of the codes will be allowed.
 
 ** Analysis and Design Software
-SAP2000 will be utilized for analysis and design during the course.
+SAP2000 will be utilized for analysis and design during the course. Following are some useful videos on youtube to learn analysis in SAP2000:
+- Modeling and analysis of trusses
+  - https://www.youtube.com/watch?v=pOEV-sm2Owk
+  - https://www.youtube.com/watch?v=sTeiPkhfNPU
+  - https://www.youtube.com/watch?v=eGhfhR7zVgM
+- Building design playlist: https://www.youtube.com/playlist?list=PLHTVTvUaTtbDwDkxji2CkU_nhI3zEKMLB
 
 * Course Policies
 ** Etiquette
@@ -111,6 +116,7 @@ There will be two projects in this course that are to be done in groups.
 
 
 * Calendar (tentative)
+
 #+BEGIN_EXPORT HTML
 <style>
 table {border-collapse: collapse; width: 100%;}
@@ -226,6 +232,8 @@ Topics
 <ul>
 <li>Design of bolted connections for prying action.</li>
 <li>Welded connections; types of welds, weld defects and inspection.</li>
+<li><a href="https://www.youtube.com/watch?v=p_0duihxmW4</li>
+" target=\"_blank\">video on welded connections</a>
 </ul>
 
 Project Tasks
