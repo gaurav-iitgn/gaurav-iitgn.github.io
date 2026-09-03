@@ -264,7 +264,9 @@ Project Tasks
 <tr><td>Sep 03, Thu</td><td>L11</td><td>
 Topics
 <ul>
-<li>Design of welded connections for tension members.</li>
+<li>Behaviour of members in compression and their modes of failure.</li>
+<li>Euler’s buckling analysis. Concept of generalized slenderness.</li>
+<li>Development of the ideal column curve.</li>
 </ul>
 
 </td></tr>
@@ -274,14 +276,14 @@ Janmashtami
 <tr><td>Sep 08, Tue</td><td>L12</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Design of compression members</li>
 </ul>
 
 </td></tr>
 <tr><td>Sep 10, Thu</td><td>L13</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Design of compression members</li>
 </ul>
 
 Project Tasks
@@ -338,7 +340,7 @@ Project Tasks
 <tr><td>Sep 29, Tue</td><td>L17</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Plastic and local buckling analysis</li>
 </ul>
 
 Project Tasks
@@ -350,7 +352,7 @@ Project Tasks
 <tr><td>Oct 01, Thu</td><td>L18</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Plastic and local buckling analysis</li>
 </ul>
 
 Project Tasks
