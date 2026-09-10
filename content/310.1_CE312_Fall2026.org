@@ -267,6 +267,8 @@ Topics
 <li>Behaviour of members in compression and their modes of failure.</li>
 <li>Euler’s buckling analysis. Concept of generalized slenderness.</li>
 <li>Development of the ideal column curve.</li>
+<li><a href="https://www.youtube.com/watch?v=21G7LA2DcGQ</li>
+" target=\"_blank\">video on column buckling</a>
 </ul>
 
 </td></tr>
@@ -276,14 +278,19 @@ Janmashtami
 <tr><td>Sep 08, Tue</td><td>L12</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Behaviour of real columns. Generalized slenderness.</li>
+<li>Effects of initial imperfection. Perry-Robertson formula.</li>
+<li>Development of real column curves.</li>
 </ul>
 
 </td></tr>
 <tr><td>Sep 10, Thu</td><td>L13</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Effects of load eccentricity, residual stresses and strain hardening on column behaviour.</li>
+<li>Local buckling of steel sections.</li>
+<li>Column curves of IS 800. Buckling class of columns.</li>
+<li>Design strength calculation of compression members</li>
 </ul>
 
 Project Tasks
@@ -294,6 +301,10 @@ Project Tasks
 </td></tr>
 <tr><td>Sep 11, Fri</td><td>T4</td><td>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-4</a> <br>
+Assignment:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-4</a> (due 25 Sep)<br>
 </td></tr>
 <tr><td>Sep 15, Tue</td><td>L14</td><td>
 Topics
@@ -331,6 +342,7 @@ Topics
 Project Tasks
 <ul>
 <li>Project 1, Task 5</li>
+<li>Midterm report of Projects 1 and 2 (with details of all the completed tasks) due.</li>
 </ul>
 
 </td></tr>
