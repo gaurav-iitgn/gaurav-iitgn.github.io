@@ -5,7 +5,7 @@
 
 * Doctoral Students
 #+BEGIN_SRC emacs-lisp :results raw :exports results
-  (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/notes/elisp/cv.org")))
+  (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/code/python/gs-gen-cv-org/cv.org")))
 
   (with-current-buffer cv-buffer
     (goto-char (point-min))
@@ -22,22 +22,23 @@
 
 #+RESULTS:
 ** Completed
-1. Vikash Kumar Singh. February 2024. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
 1. Patnayakuni Ravi Prakash. September 2018. /Fully coupled multi-physics nonlinear analysis of structural systems subjected to fire/.
 1. Nasar Ahmad Khan. September 2021. /Uncertainty quantification and design optimization of steel plate shear walls/.
 1. Dharmit Nakrani. June 2024. /Material characterization and full-scale performance assessment of facade systems subjected to fire/.
+1. Vikash Kumar Singh. February 2024. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
 1. Dravesh Yadav. April 2025. /Thermo-mechanical analysis and design of aluminium structural systems subjected to fire/.
 ** Ongoing
-1. Sheikh Mayesser Mushtaq. ongoing. /Enhancing properties of cement, mortar and concrete through polymeric and nano additives/.
+1. Sheikh Mayesser Mushtaq. ongoing. /Performance Evaluation of LiOH as an Alkaline Activaor in Alkali-Activated Slag/.
 1. Yajat Sharma. ongoing. /Fire egress modeling/.
-1. Kritika Rai. ongoing. /TBD/.
-1. Venkata Valligatla. ongoing. /TBD/.
+1. Kritika Rai. ongoing. /Analytical solutions for multi-physics problems in fire engineering/.
+1. Venkata Valligatla. ongoing. /ML-based models for fire dynamics/.
+1. Shivam Gautam. ongoing. /PINN models for analysis of structures under fire/.
 1. Sujeet Kumar. ongoing. /TBD/.
 
 
 * Masters Students
 #+BEGIN_SRC emacs-lisp :results raw :exports results
-  (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/notes/elisp/cv.org")))
+  (setq cv-buffer (find-file-noselect (concat gs-gscloud-d "/code/python/gs-gen-cv-org/cv.org")))
 
   (with-current-buffer cv-buffer
     (goto-char (point-min))
@@ -87,18 +88,15 @@
 1. Krishna Chaitanya Golamari. June 2025. /Reaction Mechanism and Micro-Structural Analysis of Ground Granulated Blast Furnace Slag Activated with Lithium Hydroxide/.
 1. Venkata Valligatla. June 2025. /Microstructural Evolution and Hydration Mechanisms of GGBS activated with 5M Sodium Hydroxide/.
 1. Choden Tamang. June 2025. /Effect of Titanium Diboride nanosheets on cement hydration and strength of cement mortar/.
+1. Samar Jyoti Deka. July 2026. /Performance assessment of existing RC building with vertical expansion and seismic retrofitting/.
 ** Ongoing
-1. Darshan Dolas. ongoing. /Thesis work TBD/.
-1. Ayush Kashyap. ongoing. /Thesis work TBD/.
-1. Jaswant Rao. ongoing. /Thesis work TBD/.
-1. Vikas Yadav. ongoing. /Thesis work TBD/.
-1. Jeelkumar Tabiyar. ongoing. /Thesis work TBD/.
-1. Samar Jyoti Deka. ongoing. /Thesis work TBD/.
+1. Darshan Dolas. ongoing. /Measurement of water requirement and water quality for dousing fires in modern materials/.
+1. Ayush Kashyap. ongoing. /Assessment of slip resistance in tiles/.
+1. Jaswant Rao. ongoing. /Assessment of slip resistance in tiles/.
+1. Vikas Yadav. ongoing. /Assessment of slip resistance in tiles/.
+1. Jeelkumar Tabiyar. ongoing. /Assessment of slip resistance in tiles/.
 1. Gokhulan AP. ongoing. /Thesis work TBD/.
-1. Lokesh Kumbala. ongoing. /Thesis work TBD/.
-
-
-# (Last updated: {{{time(%d-%B-%Y)}}})
-#+HTML: <small>
-(Last updated: {{{mtime}}})
-#+HTML: </small>
+1. Lokesh Kumbala. ongoing. /Structural health monitoring of bridges/.
+1. Manas Parmar. ongoing. /Thesis work TBD/.
+1. Jaykumar. ongoing. /Thesis work TBD/.
+1. Vanshil Jagdishbhai Golakiya. ongoing. /Thesis work TBD/.
