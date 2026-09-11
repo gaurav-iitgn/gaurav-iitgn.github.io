@@ -100,3 +100,9 @@
 1. Manas Parmar. ongoing. /Thesis work TBD/.
 1. Jaykumar. ongoing. /Thesis work TBD/.
 1. Vanshil Jagdishbhai Golakiya. ongoing. /Thesis work TBD/.
+
+
+# (Last updated: {{{time(%d-%B-%Y)}}})
+#+HTML: <small>
+(Last updated: {{{mtime}}})
+#+HTML: </small>
