@@ -309,7 +309,8 @@ Assignment:
 <tr><td>Sep 15, Tue</td><td>L14</td><td>
 Topics
 <ul>
-<li>Design of compression members</li>
+<li>Effective length of columns in case of braced and unbraced frames.</li>
+<li>Wood’s curve related to effective length factors.</li>
 </ul>
 
 Project Tasks
@@ -330,8 +331,9 @@ Project Tasks
 </ul>
 
 </td></tr>
-<tr><td></td><td></td><td>
-Sep 18 to 23: Exam 1 window
+<tr><td>Sep 18, Fri</td><td></td><td>
+(Sep 18 to 23: Exam 1 window)
+- Sep 18, 17:00 – 18:30 hrs - Exam 1 (AB 11/102)
 </td></tr>
 <tr><td>Sep 24, Thu</td><td>L16</td><td>
 Topics
