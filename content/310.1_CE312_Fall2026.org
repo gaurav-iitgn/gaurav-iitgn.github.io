@@ -350,6 +350,8 @@ Project Tasks
 </td></tr>
 <tr><td>Sep 25, Fri</td><td>T5</td><td>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-5</a> <br>
 </td></tr>
 <tr><td>Sep 29, Tue</td><td>L17</td><td>
 Topics
