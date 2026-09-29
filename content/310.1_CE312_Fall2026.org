@@ -344,7 +344,6 @@ Topics
 Project Tasks
 <ul>
 <li>Project 1, Task 5</li>
-<li>Midterm report of Projects 1 and 2 (with details of all the completed tasks) due.</li>
 </ul>
 
 </td></tr>
@@ -356,7 +355,13 @@ Tutorial:
 <tr><td>Sep 29, Tue</td><td>L17</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Plastic hinge formation and analysis of beams till collapse.</li>
+<li>Collapse load and mechanisms.</li>
+<li>Lateral torsional buckling.</li>
+<li><a href="https://www.youtube.com/watch?v=eiSlahyM5s8</li>
+" target=\"_blank\">video on beam behavior</a>
+<li><a href="https://www.youtube.com/watch?v=bcIrDoL6WSA</li>
+" target=\"_blank\">video on lateral torsional buckling</a>
 </ul>
 
 Project Tasks
@@ -379,6 +384,11 @@ Project Tasks
 </td></tr>
 <tr><td>Oct 02, Fri</td><td></td><td>
 Gandhi Jayanti
+Project Tasks
+<ul>
+<li>Midterm report of Projects 1 and 2 (with details of all the completed tasks) due.</li>
+</ul>
+
 </td></tr>
 <tr><td>Oct 06, Tue</td><td>L19</td><td>
 Topics
