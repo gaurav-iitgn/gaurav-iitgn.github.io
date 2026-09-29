@@ -379,16 +379,12 @@ Topics
 Project Tasks
 <ul>
 <li>Project 1, Task 7</li>
+<li>Midterm report of Projects 1 and 2 (with details of all the completed tasks) due.</li>
 </ul>
 
 </td></tr>
 <tr><td>Oct 02, Fri</td><td></td><td>
 Gandhi Jayanti
-Project Tasks
-<ul>
-<li>Midterm report of Projects 1 and 2 (with details of all the completed tasks) due.</li>
-</ul>
-
 </td></tr>
 <tr><td>Oct 06, Tue</td><td>L19</td><td>
 Topics
