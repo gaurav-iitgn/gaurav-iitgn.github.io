@@ -373,7 +373,13 @@ Project Tasks
 <tr><td>Oct 01, Thu</td><td>L18</td><td>
 Topics
 <ul>
-<li>Plastic and local buckling analysis</li>
+<li>Length of plastic hinge.</li>
+<li>Effects of local flange and web buckling.</li>
+<li>Classification of section based on moment-rotation characteristics.</li>
+<li><a href="https://www.youtube.com/watch?v=QimlY0XCa08</li>
+" target=\"_blank\">video on local flange buckling</a>
+<li><a href="https://www.youtube.com/watch?v=cM1mVXSFnq0</li>
+" target=\"_blank\">video on local web buckling</a>
 </ul>
 
 Project Tasks
