@@ -59,7 +59,8 @@ fi
 if [ $SEND_TO_SSH ]; then
     echo "Transmitting via SSH."
     cd public
-    sshpass -p $(cat ~/.authinfo | grep ftp.gauravs.people.iitgn.ac.in | awk '{print $8}') scp -r * gauravs@gauravs.people.iitgn.ac.in:/home/gauravs/public_html
+    sshpass -p $(cat ~/.authinfo | grep 10.0.137.153 | awk '{print $8}') scp -r * gaurav-ssh@10.0.137.153:/home/gaurav-ssh/htdocs/gauravs.people.iitgn.ac.in
+    #sshpass -p $(cat ~/.authinfo | grep ftp.gauravs.people.iitgn.ac.in | awk '{print $8}') scp -r * gauravs@gauravs.people.iitgn.ac.in:/home/gauravs/public_html
     cd ..
 else
     echo "Not transmitting via SSH."
