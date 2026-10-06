@@ -332,10 +332,14 @@ Project Tasks
 
 </td></tr>
 <tr><td>Sep 18, Fri</td><td></td><td>
-(Sep 18 to 23: Exam 1 window)
-- Sep 18, 17:00 – 18:30 hrs - Exam 1 (AB 11/102)
-- <a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">Mid Sem Exam Solutions</a> 
-- Mid Sem Exam scores: average: 33, median: 28, maximum: 85
+Topics
+<ul>
+<li>Sep 18 to 23: Exam 1 window</li>
+<li>Sep 18, 17:00 – 18:30 hrs - Exam 1 (AB 11/102)</li>
+<li><a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">Mid Sem Exam Solutions</a> </li>
+<li>Mid Sem Exam scores: average: 33, median: 28, maximum: 85</li>
+</ul>
+
 </td></tr>
 <tr><td>Sep 24, Thu</td><td>L16</td><td>
 Topics
