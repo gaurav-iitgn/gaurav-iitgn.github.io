@@ -426,6 +426,10 @@ Project Tasks
 </td></tr>
 <tr><td>Oct 09, Fri</td><td>T6</td><td>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-6</a> <br>
+Assignment:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-5</a> (due 16 Oct)<br>
 </td></tr>
 <tr><td>Oct 13, Tue</td><td>L21</td><td>
 Topics
