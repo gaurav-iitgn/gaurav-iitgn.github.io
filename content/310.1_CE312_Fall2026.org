@@ -408,7 +408,14 @@ Topics
 <tr><td>Oct 08, Thu</td><td>L20</td><td>
 Topics
 <ul>
-<li>Design of beams</li>
+<li>Design of laterally unsupported beams</li>
+<li>Critical buckling moment.</li>
+<li>Warping and torsional constants. Shear centre.</li>
+<li>Effect of length, end-restraints and section type on critical buckilng moment.</li>
+<li><a href="https://www.youtube.com/watch?v=eiSlahyM5s8</li>
+" target=\"_blank\">video on beam behaviour</a>
+<li><a href="https://www.youtube.com/watch?v=0nXEtan7JQE</li>
+" target=\"_blank\">video on shear center</a>
 </ul>
 
 Project Tasks
@@ -440,6 +447,11 @@ Topics
 
 </td></tr>
 <tr><td>Oct 16, Fri</td><td>T7</td><td>
+
+Project Tasks
+<ul>
+<li>Interim report – 2 of Projects 1 and 2 (with details of all the completed tasks) due.</li>
+</ul>
 
 </td></tr>
 <tr><td></td><td></td><td>
