@@ -434,7 +434,10 @@ Assignment:
 <tr><td>Oct 13, Tue</td><td>L21</td><td>
 Topics
 <ul>
-<li>Bolted connections</li>
+<li>Design under combined action of bending moment and axial force.</li>
+<li>P-M and P-M-M interaction diagrams.</li>
+<li>Design under combined action of bending moment and shear force.</li>
+<li>Web buckling and web crippling.</li>
 </ul>
 
 Project Tasks
