@@ -449,17 +449,16 @@ Project Tasks
 <tr><td>Oct 15, Thu</td><td>L22</td><td>
 Topics
 <ul>
-<li>Bolted connections</li>
+<li>Beam-column, beam-beam and base plate connections.</li>
+<li>Classification of connections based on rigidity: simple, rigid and semi-rigid connections.</li>
+<li>Detailed drawing of structural frames from line drawings.</li>
 </ul>
 
 </td></tr>
 <tr><td>Oct 16, Fri</td><td>T7</td><td>
 
-Project Tasks
-<ul>
-<li>Interim report – 2 of Projects 1 and 2 (with details of all the completed tasks) due.</li>
-</ul>
-
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-7</a> <br>
 </td></tr>
 <tr><td></td><td></td><td>
 Oct 17 to 25: Mid Semeseter Recess
@@ -473,6 +472,7 @@ Topics
 Project Tasks
 <ul>
 <li>Project 1, Task 8 begins</li>
+<li>Interim report – 2 of Projects 1 and 2 (with details of all the completed tasks) due.</li>
 </ul>
 
 </td></tr>
