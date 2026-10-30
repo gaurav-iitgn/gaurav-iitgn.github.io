@@ -484,6 +484,8 @@ Topics
 </td></tr>
 <tr><td>Oct 30, Fri</td><td>T8</td><td>
 
+Assignment:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-6</a> (due 10 Nov)<br>
 </td></tr>
 <tr><td>Nov 03, Tue</td><td>L25</td><td>
 
