@@ -466,12 +466,11 @@ Oct 17 to 25: Mid Semeseter Recess
 <tr><td>Oct 27, Tue</td><td>L23</td><td>
 Topics
 <ul>
-<li>Welded connections</li>
+<li>Design calculations for beam-column connections.</li>
 </ul>
 
 Project Tasks
 <ul>
-<li>Project 1, Task 8 begins</li>
 <li>Interim report – 2 of Projects 1 and 2 (with details of all the completed tasks) due.</li>
 </ul>
 
@@ -479,7 +478,7 @@ Project Tasks
 <tr><td>Oct 29, Thu</td><td>L24</td><td>
 Topics
 <ul>
-<li>Welded connections</li>
+<li>Design of simple steel building.</li>
 </ul>
 
 </td></tr>
@@ -487,11 +486,9 @@ Topics
 
 </td></tr>
 <tr><td>Nov 03, Tue</td><td>L25</td><td>
-Topics
-<ul>
-<li>Welded connections</li>
-</ul>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-8</a> <br>
 </td></tr>
 <tr><td>Nov 05, Thu</td><td>L26</td><td>
 Topics
@@ -512,11 +509,6 @@ Project Tasks
 Topics
 <ul>
 <li>Connections</li>
-</ul>
-
-Project Tasks
-<ul>
-<li>Project 1, Task 9</li>
 </ul>
 
 </td></tr>
