@@ -505,11 +505,8 @@ Project Tasks
 
 </td></tr>
 <tr><td>Nov 06, Fri</td><td>T9</td><td>
-Topics
-<ul>
-<li>Calculation of wind loads as per IS 875-3.</li>
-</ul>
-
+'- Calculation of wind loads as per IS 875-3.
+- <a href="https://skyciv.com/docs/tech-notes/loading/is-875-3-wind-load-calculation-example/" target=\"_blank\">Design calculation example</a>
 </td></tr>
 <tr><td>Nov 10, Tue</td><td>L27</td><td>
 Topics
