@@ -461,7 +461,7 @@ Tutorial:
 <a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-7</a> <br>
 </td></tr>
 <tr><td></td><td></td><td>
-Oct 17 to 25: Mid Semeseter Recess
+Oct 17 to 25: Mid Semester Recess
 </td></tr>
 <tr><td>Oct 27, Tue</td><td>L23</td><td>
 Topics
@@ -483,7 +483,7 @@ Topics
 
 </td></tr>
 <tr><td>Oct 30, Fri</td><td>T8</td><td>
-
+/No tutorial due to Amalthea/
 Assignment:
 <a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">A-6</a> (due 10 Nov)<br>
 </td></tr>
@@ -495,7 +495,7 @@ Tutorial:
 <tr><td>Nov 05, Thu</td><td>L26</td><td>
 Topics
 <ul>
-<li>Welded connections</li>
+<li>Calculation of wind loads as per IS 875-3.</li>
 </ul>
 
 Project Tasks
@@ -505,19 +505,23 @@ Project Tasks
 
 </td></tr>
 <tr><td>Nov 06, Fri</td><td>T9</td><td>
+Topics
+<ul>
+<li>Calculation of wind loads as per IS 875-3.</li>
+</ul>
 
 </td></tr>
 <tr><td>Nov 10, Tue</td><td>L27</td><td>
 Topics
 <ul>
-<li>Connections</li>
+<li>Calculation of earthquake loads as per IS 1893.</li>
 </ul>
 
 </td></tr>
 <tr><td>Nov 12, Thu</td><td>L28</td><td>
 Topics
 <ul>
-<li>Connections</li>
+<li>Calculation of earthquake loads as per IS 1893.</li>
 </ul>
 
 Project Tasks
@@ -528,6 +532,20 @@ Project Tasks
 
 </td></tr>
 <tr><td>Nov 13, Fri</td><td>T10</td><td>
+
+</td></tr>
+<tr><td>Nov 17, Tue</td><td>L29</td><td>
+Topics
+<ul>
+<li>Design example / case study.</li>
+</ul>
+
+</td></tr>
+<tr><td>Nov 19, Thu</td><td>L30</td><td>
+Topics
+<ul>
+<li>Design example / case study.</li>
+</ul>
 
 </td></tr>
 <tr><td></td><td></td><td>
