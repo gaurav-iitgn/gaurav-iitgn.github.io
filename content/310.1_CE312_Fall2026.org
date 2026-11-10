@@ -505,13 +505,18 @@ Project Tasks
 
 </td></tr>
 <tr><td>Nov 06, Fri</td><td>T9</td><td>
-'- Calculation of wind loads as per IS 875-3.
+
+- Calculation of wind loads as per IS 875-3.
 - <a href="https://skyciv.com/docs/tech-notes/loading/is-875-3-wind-load-calculation-example/" target=\"_blank\">Design calculation example</a>
 </td></tr>
 <tr><td>Nov 10, Tue</td><td>L27</td><td>
 Topics
 <ul>
-<li>Calculation of earthquake loads as per IS 1893.</li>
+<li>Behavior of single degree of freedom dynamical system. </li>
+<li>Damped and undamped response. </li>
+<li>Free and forced vibration. </li>
+<li>Damping, resonance, and amplification factors. </li>
+<li>Response spectrum for displacement, velocity and acceleration.</li>
 </ul>
 
 </td></tr>
@@ -530,6 +535,8 @@ Project Tasks
 </td></tr>
 <tr><td>Nov 13, Fri</td><td>T10</td><td>
 
+Tutorial:
+<a href="https://drive.google.com/drive/folders/1ybyPiNYI5DZvWuvHqebnKAR2_mrrkjlk" target=\"_blank\">T-9</a> <br>
 </td></tr>
 <tr><td>Nov 17, Tue</td><td>L29</td><td>
 Topics
